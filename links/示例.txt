@@ -1,9 +1,0 @@
-links: 
-  - url:  #博客链接
-    avatar:  #头像图片链接
-    name:  #怎么称呼？
-    blog:  #站点名称
-    desc:  #一句话描述
-    color:  #代表色，默认是灰色 gray
-	email: # 非必须
-placeholder:  # 默认对友链的描述
