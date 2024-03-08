@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /about/
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /link/
+Disallow: /live2d-widget/
+Disallow: /tags/
+Disallow: /transparent/
+Disallow: /greenosupdata.txt
+Disallow:/files/
+Allow: /
+Sitemap: https://www.ligaogreat.top/sitemap.txt
