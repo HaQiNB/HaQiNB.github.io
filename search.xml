@@ -35,8 +35,9 @@
 <p>在开始安装 Windows10 前需要准备一块 <strong>8GB U盘</strong> 尽量使用非缩水盘<br>如果没有U盘请参考下文 <strong>方案二: WinPE + Win10 ISO</strong><br>这里我介绍获取 ISO 文件的两种不同的方法</p>
 <h1 id="下载教学"><a href="#下载教学" class="headerlink" title="下载教学"></a>下载教学</h1><h2 id="方法一-微软官方安装工具获取ISO"><a href="#方法一-微软官方安装工具获取ISO" class="headerlink" title="方法一: 微软官方安装工具获取ISO"></a>方法一: 微软官方安装工具获取ISO</h2><p><strong>注意，这种方法下载的速度比较慢(不止慢一点点),不推荐</strong><br>进入 <a href="https://www.microsoft.com/zh-cn/software-download/windows10"><strong>Windows10下载链接</strong></a><br>下拉找到 <strong><code>立即下载工具</code></strong></p>
 <p>你也可以点击下方按钮 <mark class="hl-label blue">直接下载</mark>   </p>
-<a class="btn-beautify outline blue larger" href="https://go.microsoft.com/fwlink/?LinkID=799445" 
+<a class="btn-beautify blue larger" href="https://go.microsoft.com/fwlink/?LinkID=799445" 
   title="立即下载"><i class="fas fa-download"></i><span>立即下载</span></a>
+
 <p><img src="https://image.ligaogreat.top/Image/blog/02/002.png"><br>下载完成后运行程序<br>接受许可条款<br>选择<code>为另一条电脑创建安装介质(U盘、DVD或ISO文件)</code><br><img src="https://image.ligaogreat.top/Image/blog/02/003.png"><br>如果你想安装win10专业版的话就取消勾选<code>对这台电脑使用推荐的选项</code>，如果只是想进行重装或升级就勾选<code>对这台电脑使用推荐的选项</code>，下面介绍取消勾选<code>对这台电脑使用推荐的选项</code>后该怎么做</p>
 <blockquote>
 <p><strong>语言</strong> 默认中文(简体)就行<br><strong>版本</strong> 如果想安装专业版就选<code>Windows 10</code>，如果想安装家庭版就安装<code>Windows 10 家庭中文版</code><br><strong>体系结构</strong> 在计算机属性里的系统类型一栏能查看，如果不知道的话就选”两者”</p>
@@ -102,7 +103,10 @@
     <title>超级傻瓜版安装 Windows 10</title>
     <url>/2021080810.html</url>
     <content><![CDATA[<p>时隔那么长时间，我又回来了。<br>至上次那篇Windows 10 安装教程文章之后，有人找我说：我根本就看不明白啊！<br>于是，今天的文章就诞生了，教大家超简单安装Win10，真的超级超级超级简单哦</p>
-<h1 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h1><p>今天我们用到的软件就一个EasyRC一键重装，先放下载链接。<br>怕引起不必要的麻烦，这里就只放官网链接。<br><a href="https://firpe.cn/page-196"><strong>官网链接</strong></a></p>
+<h1 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h1><p>今天我们用到的软件就一个EasyRC一键重装，先放下载链接。<br>怕引起不必要的麻烦，这里就只放官网链接。</p>
+<a class="btn-beautify blue larger" href="https://firpe.cn/page-196" 
+  title="官网链接"><i class="far fa-server"></i><span>官网链接</span></a>
+
 <p>首先下载软件本体，解压文件运行 <code>EasyRCV2.exe</code> (你可能需要将“EasyRCV2.wim”放在软件根目录)<br>选择在线重装 </p>
 <blockquote>
 <p>如果出现防火墙窗口，记得选择“允许通过防火墙”，这有利于提高网速</p>
@@ -515,7 +519,11 @@
 <p>而███是如何将这款Gucci夹克发挥到极致的呢？首先，他选择了与夹克色调相呼应的黑色墨镜，这样的搭配使得整体形象更加和谐统一。此外，他还选择了一款简约的项链作为装饰，不仅增添了几分时尚感，还为整体形象增添了几分华丽的元素。</p>
 <p><img src="https://image.ligaogreat.top/Image/blog/12/05.jpeg"></p>
 <p>███的形象完美地诠释了Gucci夹克的时尚价值。他通过精心的搭配技巧，将这款夹克展现得淋漓尽致。而Gucci夹克的独特魅力和时尚价值，也在他的搭配下得到了充分的体现。无论是在日常生活中还是出行旅游时，我们都可以从███的形象中得到一些搭配灵感。</p>
-]]></content>
+<hr>
+<a class="btn-beautify outline blue larger" href="https://ligao.lanzouj.com/iyJyx1s147vi" 
+  title="下载 PDF"><i class="fas fa-file-pdf"></i><span>下载 PDF</span></a>
+<a class="btn-beautify outline larger" href="https://ligao.lanzouj.com/idTJE1s147tg" 
+  title="下载 DOC"><i class="fas fa-file-word"></i><span>下载 DOC</span></a>]]></content>
       <categories>
         <category>人工智障</category>
       </categories>
