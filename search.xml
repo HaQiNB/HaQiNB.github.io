@@ -168,6 +168,130 @@
       </tags>
   </entry>
   <entry>
+    <title>Ubuntu 21.04 安装教程</title>
+    <url>/2021082112.html</url>
+    <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-triangle-exclamation"></i><p>先声明一下，本文是基于UEFI启动方式制作的教程，可能会和BIOS启动方式有点不同</p>
+</div>
+
+<h2 id="制作启动盘"><a href="#制作启动盘" class="headerlink" title="制作启动盘"></a>制作启动盘</h2><p>老样子，安装系统肯定需要安装镜像的</p>
+<a class="btn-beautify outline blue larger" href="https://cn.ubuntu.com/download/desktop" 
+  title="下载入口"><i class="fas fa-download"></i><span>下载入口</span></a>
+<p>这次用的写入软件算是老伙计了 <a href="https://rufus.ie/">rufuns</a>，不会用 rufuns 的也可以使用 <a href="https://www.balena.io/etcher/">balenaEtcher</a></p>
+<h2 id="开机引导"><a href="#开机引导" class="headerlink" title="开机引导"></a>开机引导</h2><p>网上教程挺多的，反正引导选择通用的都是 <strong><code>F12</code></strong><br>如果你实在不会的话可以 <a href="https://www.baidu.com/s?wd=BIOS+%E5%90%AF%E5%8A%A8%E9%A1%BA%E5%BA%8F">点击这里</a></p>
+<h2 id="关闭安全启动（可选）"><a href="#关闭安全启动（可选）" class="headerlink" title="关闭安全启动（可选）"></a>关闭安全启动（可选）</h2><p>进入主板 BIOS，找到 <strong><code>Secure Boot (安全启动)</code></strong> 设置为 <strong><code>Disabled (禁用/关闭)</code></strong></p>
+<blockquote>
+<p>一般厂商默认都开启了安全引导，主要是为了安全考虑。我们可以关闭安全启动，以防遇到一些奇怪的问题。</p>
+</blockquote>
+<h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><p>开机后引导U盘，在 grub 启动菜单中选择 <strong>Ubuntu</strong></p>
+<p><img src="https://image.ligaogreat.top/Image/blog/04/01.png"></p>
+<p>等待加载完成后进入安装页面</p>
+<h3 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h3><p>进入LiveCD后在左面下拉选择 <strong><code>中文(简体)</code></strong> 然后选择 <strong><code>安装 Ubuntu</code></strong></p>
+<p><img src="https://image.ligaogreat.top/Image/blog/04/02.png"></p>
+<p>接下来就是 <strong>键盘布局</strong> 以及 <strong>更新和其他软件</strong></p>
+<h3 id="键盘布局"><a href="#键盘布局" class="headerlink" title="键盘布局"></a>键盘布局</h3><p>根据自己的喜好修改，<strong>默认不用改</strong></p>
+<h3 id="更新和其他软件"><a href="#更新和其他软件" class="headerlink" title="更新和其他软件"></a>更新和其他软件</h3><p>一般选择 <strong><code>正常安装</code></strong> 就行<br>如果你已经连接网络，还是推荐勾选 <strong><code>安装 Ubuntu 时下载更新</code></strong></p>
+<h3 id="安装类型"><a href="#安装类型" class="headerlink" title="安装类型"></a>安装类型</h3><p>如果是全盘清空安装就选择 <strong><code>清除整个磁盘并安装 Ubuntu</code></strong><br>如果电脑内有重要资料或者要双系统的选择 <strong><code>其他选项</code></strong></p>
+<blockquote>
+<p>如果选择清除磁盘，会使电脑内<strong>重要的资料丢失</strong></p>
+</blockquote>
+<h3 id="磁盘分区"><a href="#磁盘分区" class="headerlink" title="磁盘分区"></a>磁盘分区</h3><p>Ubuntu 磁盘分区比较简单，但没有 Windows 那样简单</p>
+<p>必须创建一个 <strong>Ext4 格式</strong> 的分区挂载到 <strong>&#x2F;</strong> ，这个分区是用来安装系统的<br>先来讲解一下每个挂载点的作用</p>
+<table>
+<thead>
+<tr>
+<th>挂载点</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x2F;</td>
+<td>根目录</td>
+</tr>
+<tr>
+<td>&#x2F;boot</td>
+<td>Linux 的内核及引导系统程序所需要的文件</td>
+</tr>
+<tr>
+<td>&#x2F;home</td>
+<td>用户主目录；用户配置文件；用户环境变量等</td>
+</tr>
+<tr>
+<td>&#x2F;tmp</td>
+<td>临时文件</td>
+</tr>
+<tr>
+<td>&#x2F;usr</td>
+<td>保存了非系统关键的可执行文件和共享资源</td>
+</tr>
+<tr>
+<td>&#x2F;var</td>
+<td>这代表变量，是处于可变状态的文件的放置位置</td>
+</tr>
+<tr>
+<td>&#x2F;srv</td>
+<td>服务器数据，此数据是系统提供的服务的数据</td>
+</tr>
+<tr>
+<td>&#x2F;opt</td>
+<td>主要存放可选程序</td>
+</tr>
+<tr>
+<td>&#x2F;usr&#x2F;local</td>
+<td>主要存放那些手动安装的软件</td>
+</tr>
+<tr>
+<td>&#x2F;swap</td>
+<td>交换分区，相当于 Windows 的虚拟内存</td>
+</tr>
+</tbody></table>
+<p>我在下面列出了常见的分区方案<br>如果你不知道该如何分区，可以直接使用下面表格的方案。直接拿去用，没问题的。</p>
+<blockquote>
+<p><strong>UEFI 启动要预留近 300MB 的空间创建 EFI 分区</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>挂载点</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x2F;</td>
+<td>推荐第一个创建此分区，至少 20G</td>
+</tr>
+<tr>
+<td>&#x2F;boot</td>
+<td>250 MB</td>
+</tr>
+<tr>
+<td>&#x2F;swap</td>
+<td>运行内存低于 8G 的推荐是运行内存的 2 倍 (此项不在挂载点中，而是在<strong>用于</strong>中，名字叫<strong>交换分区</strong>)</td>
+</tr>
+<tr>
+<td>&#x2F;home</td>
+<td>没有固定要求，推荐将剩下的容量全部使用</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>部分内容来自Dell支持文档中的 <a href="https://www.dell.com/support/kbdoc/zh-cn/000131456/ubuntu-linux%e5%88%86%e5%8c%ba%e5%92%8c%e7%9b%ae%e5%bd%95%e7%9a%84%e7%b1%bb%e5%9e%8b%e5%8f%8a%e5%ae%9a%e4%b9%89%e8%af%b4%e6%98%8e">Ubuntu Linux 分区和目录的类型及定义说明</a></p>
+</blockquote>
+<h3 id="用户配置"><a href="#用户配置" class="headerlink" title="用户配置"></a>用户配置</h3><p>按要求来呗，该不会这个也不会吧？</p>
+<hr>
+<p>用户配置结束后就直接安装了，安装后就没有了</p>
+<hr>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>由于 Ubuntu 的安装纠错能力没有那么强，报错都是很正常的事情 (和 MacOS 比起来还是差远了)，网上一般都有解决方案的。<br>最后祝你安装顺利！</p>
+]]></content>
+      <categories>
+        <category>操作系统安装教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>系统安装</tag>
+        <tag>Linux</tag>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>汐月和杨希的激情夜晚 (AI创作)</title>
     <url>/2022101019.html</url>
     <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章内容由 <a href="https://if.caiyunai.com/">彩云小梦</a> 生成。如有雷同，纯属巧合。</p>
@@ -405,130 +529,6 @@
       </categories>
       <tags>
         <tag>AI创作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ubuntu 21.04 安装教程</title>
-    <url>/2021082112.html</url>
-    <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-triangle-exclamation"></i><p>先声明一下，本文是基于UEFI启动方式制作的教程，可能会和BIOS启动方式有点不同</p>
-</div>
-
-<h2 id="制作启动盘"><a href="#制作启动盘" class="headerlink" title="制作启动盘"></a>制作启动盘</h2><p>老样子，安装系统肯定需要安装镜像的</p>
-<a class="btn-beautify outline blue larger" href="https://cn.ubuntu.com/download/desktop" 
-  title="下载入口"><i class="fas fa-download"></i><span>下载入口</span></a>
-<p>这次用的写入软件算是老伙计了 <a href="https://rufus.ie/">rufuns</a>，不会用 rufuns 的也可以使用 <a href="https://www.balena.io/etcher/">balenaEtcher</a></p>
-<h2 id="开机引导"><a href="#开机引导" class="headerlink" title="开机引导"></a>开机引导</h2><p>网上教程挺多的，反正引导选择通用的都是 <strong><code>F12</code></strong><br>如果你实在不会的话可以 <a href="https://www.baidu.com/s?wd=BIOS+%E5%90%AF%E5%8A%A8%E9%A1%BA%E5%BA%8F">点击这里</a></p>
-<h2 id="关闭安全启动（可选）"><a href="#关闭安全启动（可选）" class="headerlink" title="关闭安全启动（可选）"></a>关闭安全启动（可选）</h2><p>进入主板 BIOS，找到 <strong><code>Secure Boot (安全启动)</code></strong> 设置为 <strong><code>Disabled (禁用/关闭)</code></strong></p>
-<blockquote>
-<p>一般厂商默认都开启了安全引导，主要是为了安全考虑。我们可以关闭安全启动，以防遇到一些奇怪的问题。</p>
-</blockquote>
-<h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><p>开机后引导U盘，在 grub 启动菜单中选择 <strong>Ubuntu</strong></p>
-<p><img src="https://image.ligaogreat.top/Image/blog/04/01.png"></p>
-<p>等待加载完成后进入安装页面</p>
-<h3 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h3><p>进入LiveCD后在左面下拉选择 <strong><code>中文(简体)</code></strong> 然后选择 <strong><code>安装 Ubuntu</code></strong></p>
-<p><img src="https://image.ligaogreat.top/Image/blog/04/02.png"></p>
-<p>接下来就是 <strong>键盘布局</strong> 以及 <strong>更新和其他软件</strong></p>
-<h3 id="键盘布局"><a href="#键盘布局" class="headerlink" title="键盘布局"></a>键盘布局</h3><p>根据自己的喜好修改，<strong>默认不用改</strong></p>
-<h3 id="更新和其他软件"><a href="#更新和其他软件" class="headerlink" title="更新和其他软件"></a>更新和其他软件</h3><p>一般选择 <strong><code>正常安装</code></strong> 就行<br>如果你已经连接网络，还是推荐勾选 <strong><code>安装 Ubuntu 时下载更新</code></strong></p>
-<h3 id="安装类型"><a href="#安装类型" class="headerlink" title="安装类型"></a>安装类型</h3><p>如果是全盘清空安装就选择 <strong><code>清除整个磁盘并安装 Ubuntu</code></strong><br>如果电脑内有重要资料或者要双系统的选择 <strong><code>其他选项</code></strong></p>
-<blockquote>
-<p>如果选择清除磁盘，会使电脑内<strong>重要的资料丢失</strong></p>
-</blockquote>
-<h3 id="磁盘分区"><a href="#磁盘分区" class="headerlink" title="磁盘分区"></a>磁盘分区</h3><p>Ubuntu 磁盘分区比较简单，但没有 Windows 那样简单</p>
-<p>必须创建一个 <strong>Ext4 格式</strong> 的分区挂载到 <strong>&#x2F;</strong> ，这个分区是用来安装系统的<br>先来讲解一下每个挂载点的作用</p>
-<table>
-<thead>
-<tr>
-<th>挂载点</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&#x2F;</td>
-<td>根目录</td>
-</tr>
-<tr>
-<td>&#x2F;boot</td>
-<td>Linux 的内核及引导系统程序所需要的文件</td>
-</tr>
-<tr>
-<td>&#x2F;home</td>
-<td>用户主目录；用户配置文件；用户环境变量等</td>
-</tr>
-<tr>
-<td>&#x2F;tmp</td>
-<td>临时文件</td>
-</tr>
-<tr>
-<td>&#x2F;usr</td>
-<td>保存了非系统关键的可执行文件和共享资源</td>
-</tr>
-<tr>
-<td>&#x2F;var</td>
-<td>这代表变量，是处于可变状态的文件的放置位置</td>
-</tr>
-<tr>
-<td>&#x2F;srv</td>
-<td>服务器数据，此数据是系统提供的服务的数据</td>
-</tr>
-<tr>
-<td>&#x2F;opt</td>
-<td>主要存放可选程序</td>
-</tr>
-<tr>
-<td>&#x2F;usr&#x2F;local</td>
-<td>主要存放那些手动安装的软件</td>
-</tr>
-<tr>
-<td>&#x2F;swap</td>
-<td>交换分区，相当于 Windows 的虚拟内存</td>
-</tr>
-</tbody></table>
-<p>我在下面列出了常见的分区方案<br>如果你不知道该如何分区，可以直接使用下面表格的方案。直接拿去用，没问题的。</p>
-<blockquote>
-<p><strong>UEFI 启动要预留近 300MB 的空间创建 EFI 分区</strong></p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>挂载点</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&#x2F;</td>
-<td>推荐第一个创建此分区，至少 20G</td>
-</tr>
-<tr>
-<td>&#x2F;boot</td>
-<td>250 MB</td>
-</tr>
-<tr>
-<td>&#x2F;swap</td>
-<td>运行内存低于 8G 的推荐是运行内存的 2 倍 (此项不在挂载点中，而是在<strong>用于</strong>中，名字叫<strong>交换分区</strong>)</td>
-</tr>
-<tr>
-<td>&#x2F;home</td>
-<td>没有固定要求，推荐将剩下的容量全部使用</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>部分内容来自Dell支持文档中的 <a href="https://www.dell.com/support/kbdoc/zh-cn/000131456/ubuntu-linux%e5%88%86%e5%8c%ba%e5%92%8c%e7%9b%ae%e5%bd%95%e7%9a%84%e7%b1%bb%e5%9e%8b%e5%8f%8a%e5%ae%9a%e4%b9%89%e8%af%b4%e6%98%8e">Ubuntu Linux 分区和目录的类型及定义说明</a></p>
-</blockquote>
-<h3 id="用户配置"><a href="#用户配置" class="headerlink" title="用户配置"></a>用户配置</h3><p>按要求来呗，该不会这个也不会吧？</p>
-<hr>
-<p>用户配置结束后就直接安装了，安装后就没有了</p>
-<hr>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>由于 Ubuntu 的安装纠错能力没有那么强，报错都是很正常的事情 (和 MacOS 比起来还是差远了)，网上一般都有解决方案的。<br>最后祝你安装顺利！</p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>系统安装</tag>
-        <tag>Linux</tag>
-        <tag>Ubuntu</tag>
       </tags>
   </entry>
 </search>

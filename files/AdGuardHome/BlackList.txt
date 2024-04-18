@@ -1,6 +1,7 @@
 ! Title: AdGuardHome LiGao Black
 ! Homepage: https://www.ligaogreat.top
 ! Download: https://www.ligaogreat.top/files/adguardhome/blacklist.txt
+! Description: 自用黑名单
 
 # 番茄小说
 ||polaris3-normal-lq.zijieapi.com^$app=com.dragon.read

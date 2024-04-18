@@ -1,7 +1,7 @@
 ! Title: AdGuardHome LiGao White
 ! Homepage:https://www.ligaogreat.top
 ! Download: https://www.ligaogreat.top/files/adguardhome/whitelist.txt
-
+! Description: 自用白名单
 
 # 微信
 @@||szaxshort.weixin.qq.com^$important
