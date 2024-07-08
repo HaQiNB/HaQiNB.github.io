@@ -126,48 +126,6 @@
       </tags>
   </entry>
   <entry>
-    <title>超简单升级 Win10 方法</title>
-    <url>/2022051221.html</url>
-    <content><![CDATA[<h1 id="升级教程"><a href="#升级教程" class="headerlink" title="升级教程"></a>升级教程</h1><p>升级win10还是比较简单的，但是有个通病，磁盘占用要比全新安装大，还可能存在莫名其妙的BUG。如果电脑里没有重要资料，我推荐你还是选择全新安装比较好，教程可以参考 <a href="https://www.ligaogreat.top/2021051612">这篇文章</a> 和上面的安装教程<br>下面就是升级教程，首先打开 <a href="https://www.microsoft.com/zh-cn/software-download/windows10">Windows10下载页</a><br>点击 <strong><code>立即更新</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/01.png"><br>此时网页会自动下载一个程序，等待程序下载完成后运行</p>
-<div class="note info flat"><p>升级程序可能会出现未知BUG导致无法继续安装，如遇BUG，请下载安装镜像进行离线安装离线安装</p>
-</div>
-
-<p>在”适用的声明和许可条款”界面中选择 <strong><code>接受</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/02.png"></p>
-<p>在“你想执行什么操作?”中选择 <strong><code>立即升级这台计算机</code></strong> 并点击 <strong><code>下一步</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/03.png"></p>
-<p>然后等待下载安装即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/04.png"></p>
-<h1 id="升级后显示“激活Windows”的解决方案"><a href="#升级后显示“激活Windows”的解决方案" class="headerlink" title="升级后显示“激活Windows”的解决方案"></a>升级后显示“激活Windows”的解决方案</h1><p>这里推荐的激活工具是HEU KMS Activator</p>
-<div class="note info flat"><p>此程序无毒但可能会被杀毒软件误报。如不信任此软件，请将软件删除并关闭此篇文章</p>
-</div>
-
-<blockquote>
-<p><a href="https://ligao.lanzouu.com/ikkbn04q1k4b">下载链接</a> （访问密码：2278）</p>
-</blockquote>
-<p>下载后运行，点击最醒目的 <strong><code>开始</code></strong> 即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/05.png"></p>
-<p>等待运行完成后即可激活</p>
-<blockquote>
-<p>激活软件不止有<a href="https://ligao.lanzouu.com/ikkbn04q1k4b">HEU KMS Activator</a> ，例如 <a href="https://www.lanzoui.com/iHs7ngzc8wd">KMS神龙版</a> <a href="https://ligao.lanzouu.com/iiCKj04q1kda">MAS</a> 等</p>
-</blockquote>
-<hr>
-<h2 id="高级教程"><a href="#高级教程" class="headerlink" title="高级教程"></a>高级教程</h2><p>对于是Win10系统且已通过Microsoft在线登录的账号选择 <strong><code>数字激活</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/06.png"></p>
-<p>对于Win7用户，这里推荐使用 <strong><code>OEM激活</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/07.png"></p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>教程</tag>
-        <tag>系统升级</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>汐月和杨希的激情夜晚 (AI创作)</title>
     <url>/2022101019.html</url>
     <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章内容由 <a href="https://if.caiyunai.com/">彩云小梦</a> 生成。如有雷同，纯属巧合。</p>
@@ -529,6 +487,48 @@
       </categories>
       <tags>
         <tag>AI创作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超简单升级 Win10 方法</title>
+    <url>/2022051221.html</url>
+    <content><![CDATA[<h1 id="升级教程"><a href="#升级教程" class="headerlink" title="升级教程"></a>升级教程</h1><p>升级win10还是比较简单的，但是有个通病，磁盘占用要比全新安装大，还可能存在莫名其妙的BUG。如果电脑里没有重要资料，我推荐你还是选择全新安装比较好，教程可以参考 <a href="https://www.ligaogreat.top/2021051612">这篇文章</a> 和上面的安装教程<br>下面就是升级教程，首先打开 <a href="https://www.microsoft.com/zh-cn/software-download/windows10">Windows10下载页</a><br>点击 <strong><code>立即更新</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/01.png"><br>此时网页会自动下载一个程序，等待程序下载完成后运行</p>
+<div class="note info flat"><p>升级程序可能会出现未知BUG导致无法继续安装，如遇BUG，请下载安装镜像进行离线安装离线安装</p>
+</div>
+
+<p>在”适用的声明和许可条款”界面中选择 <strong><code>接受</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/02.png"></p>
+<p>在“你想执行什么操作?”中选择 <strong><code>立即升级这台计算机</code></strong> 并点击 <strong><code>下一步</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/03.png"></p>
+<p>然后等待下载安装即可</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/04.png"></p>
+<h1 id="升级后显示“激活Windows”的解决方案"><a href="#升级后显示“激活Windows”的解决方案" class="headerlink" title="升级后显示“激活Windows”的解决方案"></a>升级后显示“激活Windows”的解决方案</h1><p>这里推荐的激活工具是HEU KMS Activator</p>
+<div class="note info flat"><p>此程序无毒但可能会被杀毒软件误报。如不信任此软件，请将软件删除并关闭此篇文章</p>
+</div>
+
+<blockquote>
+<p><a href="https://ligao.lanzouu.com/ikkbn04q1k4b">下载链接</a> （访问密码：2278）</p>
+</blockquote>
+<p>下载后运行，点击最醒目的 <strong><code>开始</code></strong> 即可</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/05.png"></p>
+<p>等待运行完成后即可激活</p>
+<blockquote>
+<p>激活软件不止有<a href="https://ligao.lanzouu.com/ikkbn04q1k4b">HEU KMS Activator</a> ，例如 <a href="https://www.lanzoui.com/iHs7ngzc8wd">KMS神龙版</a> <a href="https://ligao.lanzouu.com/iiCKj04q1kda">MAS</a> 等</p>
+</blockquote>
+<hr>
+<h2 id="高级教程"><a href="#高级教程" class="headerlink" title="高级教程"></a>高级教程</h2><p>对于是Win10系统且已通过Microsoft在线登录的账号选择 <strong><code>数字激活</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/06.png"></p>
+<p>对于Win7用户，这里推荐使用 <strong><code>OEM激活</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/07.png"></p>
+]]></content>
+      <categories>
+        <category>操作系统安装教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>教程</tag>
+        <tag>系统升级</tag>
       </tags>
   </entry>
 </search>
