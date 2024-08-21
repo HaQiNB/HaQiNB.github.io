@@ -38,12 +38,12 @@
 <a class="btn-beautify blue larger" href="https://go.microsoft.com/fwlink/?LinkID=799445" 
   title="立即下载"><i class="fas fa-download"></i><span>立即下载</span></a>
 
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/002.png"><br>下载完成后运行程序<br>接受许可条款<br>选择<code>为另一条电脑创建安装介质(U盘、DVD或ISO文件)</code><br><img src="https://image.ligaogreat.top/image/blog/2021051612/003.png"><br>如果你想安装win10专业版的话就取消勾选<code>对这台电脑使用推荐的选项</code>，如果只是想进行重装或升级就勾选<code>对这台电脑使用推荐的选项</code>，下面介绍取消勾选<code>对这台电脑使用推荐的选项</code>后该怎么做</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/002.png" alt="点击立即下载工具"><br>下载完成后运行程序<br>接受许可条款<br>选择<code>为另一条电脑创建安装介质(U盘、DVD或ISO文件)</code><br><img src="https://image.ligaogreat.top/image/blog/2021051612/003.png" alt="MSDN 中 Windows 安装程序类型"><br>如果你想安装win10专业版的话就取消勾选<code>对这台电脑使用推荐的选项</code>，如果只是想进行重装或升级就勾选<code>对这台电脑使用推荐的选项</code>，下面介绍取消勾选<code>对这台电脑使用推荐的选项</code>后该怎么做</p>
 <blockquote>
 <p><strong>语言</strong> 默认中文(简体)就行<br><strong>版本</strong> 如果想安装专业版就选<code>Windows 10</code>，如果想安装家庭版就安装<code>Windows 10 家庭中文版</code><br><strong>体系结构</strong> 在计算机属性里的系统类型一栏能查看，如果不知道的话就选”两者”</p>
 </blockquote>
-<p>选择好后就下一步。注意，安装介质要选择ISO文件<br><img src="https://image.ligaogreat.top/image/blog/2021051612/004.png"><br>选择路径就随便保存一个地方<br>下载完成后我们就获得了一份微软官方的安装映像</p>
-<h2 id="方法二-MSDN下载"><a href="#方法二-MSDN下载" class="headerlink" title="方法二: MSDN下载"></a>方法二: MSDN下载</h2><p>打开 <a href="https://next.itellyou.cn/Original/Index"><strong>Next,itellyou</strong></a><br>注册一个账号登录<br>在首页找到Windows 10<br>下拉找到<strong>建议使用</strong>一栏<br><img src="https://image.ligaogreat.top/image/blog/2021051612/005.png"></p>
+<p>选择好后就下一步。注意，安装介质要选择ISO文件<br><img src="https://image.ligaogreat.top/image/blog/2021051612/004.png" alt="为另一台电脑创建安装介质（U 盘、DVD 或 IS0 文件）"><br>选择路径就随便保存一个地方<br>下载完成后我们就获得了一份微软官方的安装映像</p>
+<h2 id="方法二-MSDN-下载"><a href="#方法二-MSDN-下载" class="headerlink" title="方法二: MSDN 下载"></a>方法二: MSDN 下载</h2><p>打开 <a href="https://next.itellyou.cn/Original/Index"><strong>Next,itellyou</strong></a><br>注册一个账号登录<br>在首页找到Windows 10<br>下拉找到<strong>建议使用</strong>一栏<br><img src="https://image.ligaogreat.top/image/blog/2021051612/005.png" alt="选择 ISO 文件"></p>
 <blockquote>
 <p>Business editions 和 Consumer editions 的区别<br>consumer editions 为 <strong>零售版</strong>，business editions 为 VL版</p>
 </blockquote>
@@ -58,7 +58,7 @@
 <p>这时肯定有人问 为什么你不使用 <a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a> 而是使用 <a href="https://next.itellyou.cn/Original/Index">https://next.itellyou.cn/Original/Index</a><br>因为 msdn 老网站已经不再提供最新的 Windows10 系统，要想下载 Windows10 21H1 就要使用新网站</p>
 </blockquote>
 <h1 id="安装教学"><a href="#安装教学" class="headerlink" title="安装教学"></a>安装教学</h1><p>接下来就开始安装教学<br>这里也是，同样提供两种不同方案</p>
-<h2 id="方案一-U盘刻录"><a href="#方案一-U盘刻录" class="headerlink" title="方案一: U盘刻录"></a>方案一: U盘刻录</h2><p>这里推荐使用 <strong>balenaEtcher</strong><br><a href="https://www.balena.io/etcher/"><strong>官网链接</strong></a><br>打开软件 选择左边的<code>Flash from dile</code>，找到刚刚下载完成的ISO映像<br><img src="https://image.ligaogreat.top/image/blog/2021051612/006.png"><br>中间的就选择自己的U盘，最后点击 <code>Flash!</code> 开始写入</p>
+<h2 id="方案一-U盘刻录"><a href="#方案一-U盘刻录" class="headerlink" title="方案一: U盘刻录"></a>方案一: U盘刻录</h2><p>这里推荐使用 <strong>balenaEtcher</strong><br><a href="https://www.balena.io/etcher/"><strong>官网链接</strong></a><br>打开软件 选择左边的<code>Flash from file</code>，找到刚刚下载完成的ISO映像<br><img src="https://image.ligaogreat.top/image/blog/2021051612/006.png" alt="选择 Flash from file"><br>中间的就选择自己的U盘，最后点击 <code>Flash!</code> 开始写入</p>
 <h3 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h3><blockquote>
 <p>开始前先记住自己系统盘的容量大小</p>
 </blockquote>
@@ -72,9 +72,9 @@
 <ol>
 <li>打开软件 在下面的<strong>其他安装方式</strong>中点击像U盘一样的图标</li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/007.png"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/007.png" alt="选择下面的 U 盘标志"></p>
 <ol start="2">
-<li><p>选择U盘然后点击 <strong><code>立即安装进U盘</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2021051612/008.png"></p>
+<li><p>选择U盘然后点击 <strong><code>立即安装进U盘</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2021051612/008.png" alt="修改待写入 U 盘，点击立即安装进 U 盘"></p>
 <p>安装完成后找到U盘，将下载好的ISO文件复制到U盘跟目录里</p>
 </li>
 </ol>
@@ -88,7 +88,7 @@
 <blockquote>
 <p>黑色：<br>(1) 右键，选择 <code>新建简单卷(1)...</code><br>(2) 点击两次“下一步”到格式化分区这一步<br>(3) 将文件系统改成 FAT32 或 exFAT<br>(4) 下一步，完成<br>蓝色：<br>(1) 右键，选择 <code>格式化(F)...</code><br>(2) 将文件系统改成 FAT32 或 exFAT<br>(3) 完成</p>
 </blockquote>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/009.png"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/009.png" alt="磁盘管理界面"></p>
 ]]></content>
       <categories>
         <category>操作系统安装教程</category>
@@ -547,13 +547,13 @@
 <p>大部分第三方客户端都支持直连Pixiv，但是大部分都无法提供账号注册。这时，我们就需要自建反代直连了。</p>
 <h1 id="通过-Nginx-直连-Pixiv"><a href="#通过-Nginx-直连-Pixiv" class="headerlink" title="通过 Nginx 直连 Pixiv"></a>通过 Nginx 直连 Pixiv</h1><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><p>开始前，我们需要下载 <a href="https://github.com/mashirozx/Pixiv-Nginx">Pixiv-Nginx</a> 这个项目<br>国内镜像：<a href="https://git.moezx.cc/mirrors/Pixiv-Nginx">https://git.moezx.cc/mirrors/Pixiv-Nginx</a><br>下载后解压至<strong>没有中文等特殊符号的目录</strong>中</p>
 <h3 id="安装-CA-证书"><a href="#安装-CA-证书" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><p>安装目录中的 ca.cer 证书，以下是常用浏览器的安装方式</p>
-<div class="tabs" id="ca1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="ca1-1">Chrome</button><button type="button" class="tab " data-href="ca1-2">Edge</button><button type="button" class="tab " data-href="ca1-3">FireFox</button></ul><div class="tab-contents"><div class="tab-item-content active" id="ca1-1"><p>打开 Chrome ，依次点击 <strong><code>设置 - 隐私和安全 - 安全</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-17-24.png"></p>
+<div class="tabs" id="ca1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="ca1-1">Chrome</button><button type="button" class="tab " data-href="ca1-2">Edge</button><button type="button" class="tab " data-href="ca1-3">FireFox</button></ul><div class="tab-contents"><div class="tab-item-content active" id="ca1-1"><p>打开 Chrome ，依次点击 <strong><code>设置 - 隐私和安全 - 安全</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-17-24.png" alt="打开 Chrome ，依次 点击设置 - 隐私和安全 - 安全"></p>
 <p>下拉，选择 <strong><code>管理证书</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-18-19.png"></p>
-<p>在弹出的窗口中，依次选择 <strong><code>受信任的根证书颁发机构 - 导入</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-19-45.png"></p>
-<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步<br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-04.png"></p>
-<p>保持<strong>默认</strong>，点击 <strong><code>下一步</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-24.png"></p>
-<p>最后，选择 <strong>是</strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-45.png"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-18-19.png" alt="下拉，选择管理证书"></p>
+<p>在弹出的窗口中，依次选择 <strong><code>受信任的根证书颁发机构 - 导入</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-19-45.png" alt="弹出的窗口中，依次选择 受信任的根证书颁发机构 - 导入"></p>
+<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步<br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-04.png" alt="在证书导入向导中，选择 ca.cer 文件路径，点击下一步"></p>
+<p>保持<strong>默认</strong>，点击 <strong><code>下一步</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-24.png" alt="保存默认，点击下一步"></p>
+<p>最后，选择 <strong>是</strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-45.png" alt="最后，选择是"></p>
 <p>安装完成</p></div><div class="tab-item-content" id="ca1-2"><p>打开 Edge ，依次选择 <strong><code>设置 - 隐私、搜索和服务</code></strong> ，在 <strong><code>安全性</code></strong> 中，选择 <strong><code>管理证书</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-36-02.png"></p>
 <p>在弹出的窗口中，依次选择 <strong><code>受信任的根证书颁发机构 - 导入</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-19-45.png"></p>
 <p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步<br><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-04.png"></p>
