@@ -100,6 +100,32 @@
       </tags>
   </entry>
   <entry>
+    <title>超级傻瓜版安装 Windows 10</title>
+    <url>/2021080810.html</url>
+    <content><![CDATA[<p>时隔那么长时间，我又回来了。<br>至上次那篇Windows 10 安装教程文章之后，有人找我说：我根本就看不明白啊！<br>于是，今天的文章就诞生了，教大家超简单安装Win10，真的超级超级超级简单哦</p>
+<h1 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h1><p>今天我们用到的软件就一个EasyRC一键重装，先放下载链接。<br>怕引起不必要的麻烦，这里就只放官网链接。</p>
+<a class="btn-beautify blue larger" href="https://firpe.cn/page-196" 
+  title="官网链接"><i class="far fa-server"></i><span>官网链接</span></a>
+
+<p>首先下载软件本体，解压文件运行 <code>EasyRCV2.exe</code> (你可能需要将“EasyRCV2.wim”放在软件根目录)<br>选择在线重装 </p>
+<blockquote>
+<p>如果出现防火墙窗口，记得选择“允许通过防火墙”，这有利于提高网速</p>
+</blockquote>
+<p><img src="https://image.ligaogreat.top/image/blog/2021080810/02.png"></p>
+<p>选择 <code>Windows10_64位 - Windsys</code> 右边的安装此系统<br>注意：这会删除整个系统盘，请注意备份重要资料</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021080810/03.png"></p>
+<p>等待下载完成。文件有点大，下载快慢由网速决定<br>下载完成就进入恢复阶段，全程无人值守</p>
+]]></content>
+      <categories>
+        <category>操作系统安装教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>教程</tag>
+        <tag>系统安装</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ubuntu 21.04 安装教程</title>
     <url>/2021082112.html</url>
     <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-triangle-exclamation"></i><p>先声明一下，本文是基于UEFI启动方式制作的教程，可能会和BIOS启动方式有点不同</p>
@@ -688,32 +714,6 @@
         <tag>教程</tag>
         <tag>反代</tag>
         <tag>Pixiv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超级傻瓜版安装 Windows 10</title>
-    <url>/2021080810.html</url>
-    <content><![CDATA[<p>时隔那么长时间，我又回来了。<br>至上次那篇Windows 10 安装教程文章之后，有人找我说：我根本就看不明白啊！<br>于是，今天的文章就诞生了，教大家超简单安装Win10，真的超级超级超级简单哦</p>
-<h1 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h1><p>今天我们用到的软件就一个EasyRC一键重装，先放下载链接。<br>怕引起不必要的麻烦，这里就只放官网链接。</p>
-<a class="btn-beautify blue larger" href="https://firpe.cn/page-196" 
-  title="官网链接"><i class="far fa-server"></i><span>官网链接</span></a>
-
-<p>首先下载软件本体，解压文件运行 <code>EasyRCV2.exe</code> (你可能需要将“EasyRCV2.wim”放在软件根目录)<br>选择在线重装 </p>
-<blockquote>
-<p>如果出现防火墙窗口，记得选择“允许通过防火墙”，这有利于提高网速</p>
-</blockquote>
-<p><img src="https://image.ligaogreat.top/image/blog/2021080810/02.png"></p>
-<p>选择 <code>Windows10_64位 - Windsys</code> 右边的安装此系统<br>注意：这会删除整个系统盘，请注意备份重要资料</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2021080810/03.png"></p>
-<p>等待下载完成。文件有点大，下载快慢由网速决定<br>下载完成就进入恢复阶段，全程无人值守</p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>教程</tag>
-        <tag>系统安装</tag>
       </tags>
   </entry>
 </search>
