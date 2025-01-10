@@ -28,6 +28,81 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows 10 安装教程</title>
+    <url>/2021051612.html</url>
+    <content><![CDATA[<p>在阅读这篇文章前肯定有不少人问: 啊? Windows 安装?都1202年了谁还不会安装 Windows 啊?没错 1202 年了，其实还有不少人不会安装 Windows。你去电脑城重装还要 30~50 元的费用，电脑师傅还给你安装个带捆绑的 Windows 卡的要死也不好受。所以今天就由我教大家如何安装官方原版的 Windows 10 (以下简称 Win10)</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/001.jpg"></p>
+<p>在开始安装 Windows10 前需要准备一块 <strong>8GB U盘</strong> 尽量使用非缩水盘<br>如果没有U盘请参考下文 <strong>方案二: WinPE + Win10 ISO</strong><br>这里我介绍获取 ISO 文件的两种不同的方法</p>
+<h1 id="下载教学"><a href="#下载教学" class="headerlink" title="下载教学"></a>下载教学</h1><h2 id="方法一-微软官方安装工具获取ISO"><a href="#方法一-微软官方安装工具获取ISO" class="headerlink" title="方法一: 微软官方安装工具获取ISO"></a>方法一: 微软官方安装工具获取ISO</h2><p><strong>注意，这种方法下载的速度比较慢(不止慢一点点),不推荐</strong><br>进入 <a href="https://www.microsoft.com/zh-cn/software-download/windows10"><strong>Windows10下载链接</strong></a><br>下拉找到 <strong><code>立即下载工具</code></strong></p>
+<p>你也可以点击下方按钮 <mark class="hl-label blue">直接下载</mark>  </p>
+<a class="btn-beautify blue larger" href="https://go.microsoft.com/fwlink/?LinkID=799445" title="立即下载"><i class="fas fa-download"></i><span>立即下载</span></a>
+
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/002.png" alt="点击立即下载工具"></p>
+<p>下载完成后运行程序<br>接受许可条款<br>选择<code>为另一条电脑创建安装介质(U盘、DVD或ISO文件)</code></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/005.png" alt="选择 ISO 文件"></p>
+<p>如果你想安装win10专业版的话就取消勾选<code>对这台电脑使用推荐的选项</code>，如果只是想进行重装或升级就勾选<code>对这台电脑使用推荐的选项</code>，下面介绍取消勾选<code>对这台电脑使用推荐的选项</code>后该怎么做</p>
+<blockquote>
+<p><strong>语言</strong> 默认中文(简体)就行<br><strong>版本</strong> 如果想安装专业版就选<code>Windows 10</code>，如果想安装家庭版就安装<code>Windows 10 家庭中文版</code><br><strong>体系结构</strong> 在计算机属性里的系统类型一栏能查看，如果不知道的话就选”两者”</p>
+</blockquote>
+<p>选择好后就下一步。注意，安装介质要选择ISO文件<br><img src="https://image.ligaogreat.top/image/blog/2021051612/004.png" alt="为另一台电脑创建安装介质（U 盘、DVD 或 IS0 文件）"><br>选择路径就随便保存一个地方<br>下载完成后我们就获得了一份微软官方的安装映像</p>
+<h2 id="方法二-MSDN-下载"><a href="#方法二-MSDN-下载" class="headerlink" title="方法二: MSDN 下载"></a>方法二: MSDN 下载</h2><p>打开 <a href="https://next.itellyou.cn/Original/Index"><strong>Next,itellyou</strong></a><br>注册一个账号登录<br>在首页找到Windows 10<br>下拉找到<strong>建议使用</strong>一栏<br><img src="https://image.ligaogreat.top/image/blog/2021051612/003.png" alt="Windows 安装文件类型"></p>
+<blockquote>
+<p>Business editions 和 Consumer editions 的区别<br>consumer editions 为 <strong>零售版</strong>，business editions 为 <strong>VL 版</strong></p>
+</blockquote>
+<blockquote>
+<p>Business editions 包括：<strong>企业版、教育版、专业版</strong><br>(ISO 镜像包括<strong>专业版、企业版、教育版、专业工作站版、专业教育版</strong>)</p>
+</blockquote>
+<blockquote>
+<p>Consumer editions 包括：<strong>家庭版、教育版、专业版</strong><br>(ISO 镜像包括<strong>家庭版、专业版、教育版、家庭单语言版、专业工作站版、专业教育版</strong>)  </p>
+</blockquote>
+<p>这里提供 ED2K 和 BT 两种下载方式<br>这样你就获得了一份官方原版的 ISO 文件  </p>
+<blockquote>
+<p>这时肯定有人问 为什么你不使用 <a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a> 而是使用 <a href="https://next.itellyou.cn/Original/Index">https://next.itellyou.cn/Original/Index</a><br>因为 msdn 老网站已经不再提供最新的 Windows10 系统，要想下载 Windows10 21H1 就要使用新网站</p>
+</blockquote>
+<h1 id="安装教学"><a href="#安装教学" class="headerlink" title="安装教学"></a>安装教学</h1><p>接下来就开始安装教学<br>这里也是，同样提供两种不同方案</p>
+<h2 id="方案一-U盘刻录"><a href="#方案一-U盘刻录" class="headerlink" title="方案一: U盘刻录"></a>方案一: U盘刻录</h2><p>这里推荐使用 <strong>balenaEtcher</strong><br><a href="https://www.balena.io/etcher/"><strong>官网链接</strong></a><br>打开软件 选择左边的<code>Flash from file</code>，找到刚刚下载完成的ISO映像<br><img src="https://image.ligaogreat.top/image/blog/2021051612/006.png" alt="选择 Flash from file"><br>中间的就选择自己的U盘，最后点击 <code>Flash!</code> 开始写入</p>
+<h3 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h3><blockquote>
+<p>开始前先记住自己系统盘的容量大小</p>
+</blockquote>
+<p>插入U盘，电脑开机按 <strong><code>F12</code></strong> ，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>选择U盘后便进入了引导界面，待加载完成后可以开始安装了。</p>
+<p>1.开机后第一个窗口点击 <strong><code>下一步</code></strong> ，别的不用管<br>2.点击屏幕中央的 <strong><code>现在安装</code></strong><br>3.在版本选择中选择Windows 10 <strong>专业版</strong> 或者 <strong>家庭版</strong>，后点击 <code>下一步</code><br>4.接受许可条款<br>5.选择 <code>自定义：仅安装 Windows (高级)</code><br>6.选择要安装的驱动器，选择与你系统盘名称及大小相同的分区即可</p>
+<p>然后便开始自动安装，直到完成为止<br>如遇到错误可以上网自行解决</p>
+<h2 id="方案二-WinPE-Win10-ISO"><a href="#方案二-WinPE-Win10-ISO" class="headerlink" title="方案二: WinPE + Win10 ISO"></a>方案二: WinPE + Win10 ISO</h2><p>先说说我为什么要推荐这一套方案<br>首先U盘刻录的映像不包含任何工具，如果安装时出现问题很难进行排查错误。而目前市面上的WinPE是自带维护工具，方便我们排查错误。不管是哪种方案，安装的效果是相同的。<br>这里我推荐<strong>微PE工具箱</strong>。就一点：干净。自带的工具也足够用。如果你想在PE环境里联网可以选择<strong>优启通</strong> (优启通最新版已经对非VIP版本提供联网支持)</p>
+<blockquote>
+<p><strong>下载地址：</strong> <a href="https://share.weiyun.com/iV7Hy54v"><strong>64位</strong></a>    <a href="https://share.weiyun.com/WqdJX5Mn"><strong>32位</strong></a></p>
+</blockquote>
+<ol>
+<li>打开软件 在下面的<strong>其他安装方式</strong>中点击像U盘一样的图标</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/007.png" alt="选择下面的 U 盘标志"></p>
+<ol start="2">
+<li><p>选择U盘然后点击 <strong><code>立即安装进U盘</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2021051612/008.png" alt="修改待写入 U 盘，点击立即安装进 U 盘"></p>
+</li>
+<li><p>安装完成后找到U盘，将下载好的ISO文件复制到U盘跟目录里</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>注:请将U盘格式化为 NTFS 或 exFAT 格式。(NTFS 格式非常费U盘，如果安装后还想继续使用U盘请格式化成 FAT32 或 exFAT 格式)</strong></p>
+</blockquote>
+<h3 id="安装方法-1"><a href="#安装方法-1" class="headerlink" title="安装方法"></a>安装方法</h3><p>开机后与上面一样<br>插入U盘电脑开机按F12，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>等待加载完成后就是我们熟悉的Windows桌面了</p>
+<p>1.和Windows一样，在<strong>此电脑</strong>中找到U盘根目录下的<strong>ISO文件</strong> (图标是光盘的样子)<br>2.运行ISO文件中的 <strong><code>Setup.exe</code></strong><br>3.<strong>和方案一的安装步骤相同</strong>，为了缩短内容就不重复了</p>
+<p>这样Windows就安装完成了</p>
+<h1 id="安装后恢复U盘"><a href="#安装后恢复U盘" class="headerlink" title="安装后恢复U盘"></a>安装后恢复U盘</h1><p>1.右键 <strong><code>此电脑</code></strong> 选择 <strong><code>管理(G)</code></strong><br>2.在左侧选择 <strong><code>磁盘管理</code></strong><br>3.在<strong>磁盘列表</strong>中找到磁盘，注意磁盘下有<strong>可移动</strong>字样<br>4.右键<strong>蓝色的分区</strong>，选择 <strong><code>删除卷(D)...</code></strong><br>5.到最后他会变成一个大分区，可能是黑色也可能是蓝色</p>
+<blockquote>
+<p>黑色：<br>(1) 右键，选择 <code>新建简单卷(1)...</code><br>(2) 点击两次“下一步”到格式化分区这一步<br>(3) 将文件系统改成 FAT32 或 exFAT<br>(4) 下一步，完成<br>蓝色：<br>(1) 右键，选择 <code>格式化(F)...</code><br>(2) 将文件系统改成 FAT32 或 exFAT<br>(3) 完成</p>
+</blockquote>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/009.png" alt="磁盘管理界面"></p>
+]]></content>
+      <categories>
+        <category>操作系统安装教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>教程</tag>
+        <tag>系统安装</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>超级傻瓜版安装 Windows 10</title>
     <url>/2021080810.html</url>
     <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-code"></i><p>此文章内容可能过时，已无法确定文章内容是否有效</p>
@@ -53,6 +128,48 @@
         <tag>Windows</tag>
         <tag>教程</tag>
         <tag>系统安装</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超简单升级 Win10 方法</title>
+    <url>/2022051221.html</url>
+    <content><![CDATA[<h1 id="升级教程"><a href="#升级教程" class="headerlink" title="升级教程"></a>升级教程</h1><p>升级win10还是比较简单的，但是有个通病，磁盘占用要比全新安装大，还可能存在莫名其妙的BUG。如果电脑里没有重要资料，我推荐你还是选择全新安装比较好，教程可以参考 <a href="https://www.ligaogreat.top/2021051612">这篇文章</a> 和上面的安装教程<br>下面就是升级教程，首先打开 <a href="https://www.microsoft.com/zh-cn/software-download/windows10">Windows10下载页</a><br>点击 <strong><code>立即更新</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/01.png" alt="点击 立即下载工具"><br>此时网页会自动下载一个程序，等待程序下载完成后运行</p>
+<div class="note info flat"><p>升级程序可能会出现未知BUG导致无法继续安装，如遇BUG，请下载安装镜像进行离线安装离线安装</p>
+</div>
+
+<p>在”适用的声明和许可条款”界面中选择 <strong><code>接受</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/02.png" alt="许可条款选择接受"></p>
+<p>在“你想执行什么操作?”中选择 <strong><code>立即升级这台计算机</code></strong> 并点击 <strong><code>下一步</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/03.png" alt="立即升级这台电脑"></p>
+<p>然后等待下载安装即可</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/04.png" alt="下载界面"></p>
+<h1 id="升级后显示“激活Windows”的解决方案"><a href="#升级后显示“激活Windows”的解决方案" class="headerlink" title="升级后显示“激活Windows”的解决方案"></a>升级后显示“激活Windows”的解决方案</h1><p>这里推荐的激活工具是HEU KMS Activator</p>
+<div class="note info flat"><p>此程序无毒但可能会被杀毒软件误报。如不信任此软件，请将软件删除并关闭此篇文章</p>
+</div>
+
+<blockquote>
+<p><a href="https://ligao.lanzouu.com/ikkbn04q1k4b">下载链接</a> （访问密码：2278）</p>
+</blockquote>
+<p>下载后运行，点击最醒目的 <strong><code>开始</code></strong> 即可</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/05.png" alt="HEU KMS Activator 界面，选择开始"></p>
+<p>等待运行完成后即可激活</p>
+<blockquote>
+<p>激活软件不止有<a href="https://ligao.lanzouu.com/ikkbn04q1k4b">HEU KMS Activator</a> ，例如 <a href="https://www.lanzoui.com/iHs7ngzc8wd">KMS神龙版</a> <a href="https://ligao.lanzouu.com/iiCKj04q1kda">MAS</a> 等</p>
+</blockquote>
+<hr>
+<h2 id="高级教程"><a href="#高级教程" class="headerlink" title="高级教程"></a>高级教程</h2><p>对于是Win10系统且已通过Microsoft在线登录的账号选择 <strong><code>数字激活</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/06.png" alt="数字许可证激活"></p>
+<p>对于Win7用户，这里推荐使用 <strong><code>OEM激活</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/07.png" alt="OEM 激活"></p>
+]]></content>
+      <categories>
+        <category>操作系统安装教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>教程</tag>
+        <tag>系统升级</tag>
       </tags>
   </entry>
   <entry>
@@ -179,205 +296,206 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows 10 安装教程</title>
-    <url>/2021051612.html</url>
-    <content><![CDATA[<p>在阅读这篇文章前肯定有不少人问: 啊? Windows 安装?都1202年了谁还不会安装 Windows 啊?没错 1202 年了，其实还有不少人不会安装 Windows。你去电脑城重装还要 30~50 元的费用，电脑师傅还给你安装个带捆绑的 Windows 卡的要死也不好受。所以今天就由我教大家如何安装官方原版的 Windows 10 (以下简称 Win10)</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/001.jpg"></p>
-<p>在开始安装 Windows10 前需要准备一块 <strong>8GB U盘</strong> 尽量使用非缩水盘<br>如果没有U盘请参考下文 <strong>方案二: WinPE + Win10 ISO</strong><br>这里我介绍获取 ISO 文件的两种不同的方法</p>
-<h1 id="下载教学"><a href="#下载教学" class="headerlink" title="下载教学"></a>下载教学</h1><h2 id="方法一-微软官方安装工具获取ISO"><a href="#方法一-微软官方安装工具获取ISO" class="headerlink" title="方法一: 微软官方安装工具获取ISO"></a>方法一: 微软官方安装工具获取ISO</h2><p><strong>注意，这种方法下载的速度比较慢(不止慢一点点),不推荐</strong><br>进入 <a href="https://www.microsoft.com/zh-cn/software-download/windows10"><strong>Windows10下载链接</strong></a><br>下拉找到 <strong><code>立即下载工具</code></strong></p>
-<p>你也可以点击下方按钮 <mark class="hl-label blue">直接下载</mark>  </p>
-<a class="btn-beautify blue larger" href="https://go.microsoft.com/fwlink/?LinkID=799445" title="立即下载"><i class="fas fa-download"></i><span>立即下载</span></a>
+    <title>hexo 教程，搭建一个属于自己的博客</title>
+    <url>/2022101222.html</url>
+    <content><![CDATA[<div class="note info flat"><p>文章部分内容来自 <a href="https://hexo.io/zh-cn/docs/">Hexo 帮助文档</a></p>
+</div>
 
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/002.png" alt="点击立即下载工具"></p>
-<p>下载完成后运行程序<br>接受许可条款<br>选择<code>为另一条电脑创建安装介质(U盘、DVD或ISO文件)</code></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/005.png" alt="选择 ISO 文件"></p>
-<p>如果你想安装win10专业版的话就取消勾选<code>对这台电脑使用推荐的选项</code>，如果只是想进行重装或升级就勾选<code>对这台电脑使用推荐的选项</code>，下面介绍取消勾选<code>对这台电脑使用推荐的选项</code>后该怎么做</p>
-<blockquote>
-<p><strong>语言</strong> 默认中文(简体)就行<br><strong>版本</strong> 如果想安装专业版就选<code>Windows 10</code>，如果想安装家庭版就安装<code>Windows 10 家庭中文版</code><br><strong>体系结构</strong> 在计算机属性里的系统类型一栏能查看，如果不知道的话就选”两者”</p>
-</blockquote>
-<p>选择好后就下一步。注意，安装介质要选择ISO文件<br><img src="https://image.ligaogreat.top/image/blog/2021051612/004.png" alt="为另一台电脑创建安装介质（U 盘、DVD 或 IS0 文件）"><br>选择路径就随便保存一个地方<br>下载完成后我们就获得了一份微软官方的安装映像</p>
-<h2 id="方法二-MSDN-下载"><a href="#方法二-MSDN-下载" class="headerlink" title="方法二: MSDN 下载"></a>方法二: MSDN 下载</h2><p>打开 <a href="https://next.itellyou.cn/Original/Index"><strong>Next,itellyou</strong></a><br>注册一个账号登录<br>在首页找到Windows 10<br>下拉找到<strong>建议使用</strong>一栏<br><img src="https://image.ligaogreat.top/image/blog/2021051612/003.png" alt="Windows 安装文件类型"></p>
-<blockquote>
-<p>Business editions 和 Consumer editions 的区别<br>consumer editions 为 <strong>零售版</strong>，business editions 为 <strong>VL 版</strong></p>
-</blockquote>
-<blockquote>
-<p>Business editions 包括：<strong>企业版、教育版、专业版</strong><br>(ISO 镜像包括<strong>专业版、企业版、教育版、专业工作站版、专业教育版</strong>)</p>
-</blockquote>
-<blockquote>
-<p>Consumer editions 包括：<strong>家庭版、教育版、专业版</strong><br>(ISO 镜像包括<strong>家庭版、专业版、教育版、家庭单语言版、专业工作站版、专业教育版</strong>)  </p>
-</blockquote>
-<p>这里提供 ED2K 和 BT 两种下载方式<br>这样你就获得了一份官方原版的 ISO 文件  </p>
-<blockquote>
-<p>这时肯定有人问 为什么你不使用 <a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a> 而是使用 <a href="https://next.itellyou.cn/Original/Index">https://next.itellyou.cn/Original/Index</a><br>因为 msdn 老网站已经不再提供最新的 Windows10 系统，要想下载 Windows10 21H1 就要使用新网站</p>
-</blockquote>
-<h1 id="安装教学"><a href="#安装教学" class="headerlink" title="安装教学"></a>安装教学</h1><p>接下来就开始安装教学<br>这里也是，同样提供两种不同方案</p>
-<h2 id="方案一-U盘刻录"><a href="#方案一-U盘刻录" class="headerlink" title="方案一: U盘刻录"></a>方案一: U盘刻录</h2><p>这里推荐使用 <strong>balenaEtcher</strong><br><a href="https://www.balena.io/etcher/"><strong>官网链接</strong></a><br>打开软件 选择左边的<code>Flash from file</code>，找到刚刚下载完成的ISO映像<br><img src="https://image.ligaogreat.top/image/blog/2021051612/006.png" alt="选择 Flash from file"><br>中间的就选择自己的U盘，最后点击 <code>Flash!</code> 开始写入</p>
-<h3 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h3><blockquote>
-<p>开始前先记住自己系统盘的容量大小</p>
-</blockquote>
-<p>插入U盘，电脑开机按 <strong><code>F12</code></strong> ，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>选择U盘后便进入了引导界面，待加载完成后可以开始安装了。</p>
-<p>1.开机后第一个窗口点击 <strong><code>下一步</code></strong> ，别的不用管<br>2.点击屏幕中央的 <strong><code>现在安装</code></strong><br>3.在版本选择中选择Windows 10 <strong>专业版</strong> 或者 <strong>家庭版</strong>，后点击 <code>下一步</code><br>4.接受许可条款<br>5.选择 <code>自定义：仅安装 Windows (高级)</code><br>6.选择要安装的驱动器，选择与你系统盘名称及大小相同的分区即可</p>
-<p>然后便开始自动安装，直到完成为止<br>如遇到错误可以上网自行解决</p>
-<h2 id="方案二-WinPE-Win10-ISO"><a href="#方案二-WinPE-Win10-ISO" class="headerlink" title="方案二: WinPE + Win10 ISO"></a>方案二: WinPE + Win10 ISO</h2><p>先说说我为什么要推荐这一套方案<br>首先U盘刻录的映像不包含任何工具，如果安装时出现问题很难进行排查错误。而目前市面上的WinPE是自带维护工具，方便我们排查错误。不管是哪种方案，安装的效果是相同的。<br>这里我推荐<strong>微PE工具箱</strong>。就一点：干净。自带的工具也足够用。如果你想在PE环境里联网可以选择<strong>优启通</strong> (优启通最新版已经对非VIP版本提供联网支持)</p>
-<blockquote>
-<p><strong>下载地址：</strong> <a href="https://share.weiyun.com/iV7Hy54v"><strong>64位</strong></a>    <a href="https://share.weiyun.com/WqdJX5Mn"><strong>32位</strong></a></p>
-</blockquote>
+<h1 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h1><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<hr>
+<h1 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h1><div class="note success flat"><p>文章使用 Windows 10 22H2 作为演示系统</p>
+</div>
+
+<h2 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h2><p>安装 Hexo 需要再电脑中安装 <a href="https://nodejs.org/zh-cn/">node.js </a>和 <a href="https://git-scm.com/">git</a></p>
+<h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><div class="note info flat"><p>其他系统可以参考 <a href="https://git-scm.com/downloads">Git 下载页面</a></p>
+</div>
+
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-35-33.png" alt="Git 下载界面"></p>
+<hr>
+<div class="note primary flat"><p>安装大致略过，下面只展示一些带有选项的窗口</p>
+</div>
+
+<details class="toggle" ><summary class="toggle-button" style="">点击显示部分安装步骤</summary><div class="toggle-content"><p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-54-52.png" alt="保持默认即可"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-55-13.png" alt="选择 Use Vim as Git&#39;s default editor"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-55-23.png" alt="选择 Let Git decide"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-56-21.png" alt="选择 Git from the command line and also from 3rd-party software"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-57-13.png" alt="选择 Use the OpenSSL Library"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-57-54.png" alt="选择 Checkout Windows-style, commit Unix-style line endings"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-58-17.png" alt="选择 Use MinTTY"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-58-42.png" alt="选择 Fast-forward of merge"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-59-27.png" alt="选择 Git Credential Manager"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-59-47.png" alt="勾选 Enable file system caching"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-00-04.png" alt="保持默认，选择 Install"></p>
+</div></details>
+
+<hr>
+<h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><div class="note info flat"><p>其他系统可以参考 <a href="https://nodejs.org/zh-cn/download/prebuilt-binaries">Node.js 下载页面</a></p>
+</div>
+
 <ol>
-<li>打开软件 在下面的<strong>其他安装方式</strong>中点击像U盘一样的图标</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/007.png" alt="选择下面的 U 盘标志"></p>
-<ol start="2">
-<li><p>选择U盘然后点击 <strong><code>立即安装进U盘</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2021051612/008.png" alt="修改待写入 U 盘，点击立即安装进 U 盘"></p>
+<li><p>进入 <a href="https://nodejs.org/zh-cn/download/prebuilt-binaries">Node.js</a> 官网，选择下载。</p>
 </li>
-<li><p>安装完成后找到U盘，将下载好的ISO文件复制到U盘跟目录里</p>
+<li><p>选择 <strong>预构建二进制文件</strong> ，选择 我需要用于 <strong>Windows x64</strong> ，版本选择默认的 LTS 版本即可</p>
+</li>
+<li><p>点击 <strong>下载 Node.js</strong></p>
 </li>
 </ol>
-<blockquote>
-<p><strong>注:请将U盘格式化为 NTFS 或 exFAT 格式。(NTFS 格式非常费U盘，如果安装后还想继续使用U盘请格式化成 FAT32 或 exFAT 格式)</strong></p>
-</blockquote>
-<h3 id="安装方法-1"><a href="#安装方法-1" class="headerlink" title="安装方法"></a>安装方法</h3><p>开机后与上面一样<br>插入U盘电脑开机按F12，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>等待加载完成后就是我们熟悉的Windows桌面了</p>
-<p>1.和Windows一样，在<strong>此电脑</strong>中找到U盘根目录下的<strong>ISO文件</strong> (图标是光盘的样子)<br>2.运行ISO文件中的 <strong><code>Setup.exe</code></strong><br>3.<strong>和方案一的安装步骤相同</strong>，为了缩短内容就不重复了</p>
-<p>这样Windows就安装完成了</p>
-<h1 id="安装后恢复U盘"><a href="#安装后恢复U盘" class="headerlink" title="安装后恢复U盘"></a>安装后恢复U盘</h1><p>1.右键 <strong><code>此电脑</code></strong> 选择 <strong><code>管理(G)</code></strong><br>2.在左侧选择 <strong><code>磁盘管理</code></strong><br>3.在<strong>磁盘列表</strong>中找到磁盘，注意磁盘下有<strong>可移动</strong>字样<br>4.右键<strong>蓝色的分区</strong>，选择 <strong><code>删除卷(D)...</code></strong><br>5.到最后他会变成一个大分区，可能是黑色也可能是蓝色</p>
-<blockquote>
-<p>黑色：<br>(1) 右键，选择 <code>新建简单卷(1)...</code><br>(2) 点击两次“下一步”到格式化分区这一步<br>(3) 将文件系统改成 FAT32 或 exFAT<br>(4) 下一步，完成<br>蓝色：<br>(1) 右键，选择 <code>格式化(F)...</code><br>(2) 将文件系统改成 FAT32 或 exFAT<br>(3) 完成</p>
-</blockquote>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/009.png" alt="磁盘管理界面"></p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>教程</tag>
-        <tag>系统安装</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超简单升级 Win10 方法</title>
-    <url>/2022051221.html</url>
-    <content><![CDATA[<h1 id="升级教程"><a href="#升级教程" class="headerlink" title="升级教程"></a>升级教程</h1><p>升级win10还是比较简单的，但是有个通病，磁盘占用要比全新安装大，还可能存在莫名其妙的BUG。如果电脑里没有重要资料，我推荐你还是选择全新安装比较好，教程可以参考 <a href="https://www.ligaogreat.top/2021051612">这篇文章</a> 和上面的安装教程<br>下面就是升级教程，首先打开 <a href="https://www.microsoft.com/zh-cn/software-download/windows10">Windows10下载页</a><br>点击 <strong><code>立即更新</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/01.png" alt="点击 立即下载工具"><br>此时网页会自动下载一个程序，等待程序下载完成后运行</p>
-<div class="note info flat"><p>升级程序可能会出现未知BUG导致无法继续安装，如遇BUG，请下载安装镜像进行离线安装离线安装</p>
-</div>
-
-<p>在”适用的声明和许可条款”界面中选择 <strong><code>接受</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/02.png" alt="许可条款选择接受"></p>
-<p>在“你想执行什么操作?”中选择 <strong><code>立即升级这台计算机</code></strong> 并点击 <strong><code>下一步</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/03.png" alt="立即升级这台电脑"></p>
-<p>然后等待下载安装即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/04.png" alt="下载界面"></p>
-<h1 id="升级后显示“激活Windows”的解决方案"><a href="#升级后显示“激活Windows”的解决方案" class="headerlink" title="升级后显示“激活Windows”的解决方案"></a>升级后显示“激活Windows”的解决方案</h1><p>这里推荐的激活工具是HEU KMS Activator</p>
-<div class="note info flat"><p>此程序无毒但可能会被杀毒软件误报。如不信任此软件，请将软件删除并关闭此篇文章</p>
-</div>
-
-<blockquote>
-<p><a href="https://ligao.lanzouu.com/ikkbn04q1k4b">下载链接</a> （访问密码：2278）</p>
-</blockquote>
-<p>下载后运行，点击最醒目的 <strong><code>开始</code></strong> 即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/05.png" alt="HEU KMS Activator 界面，选择开始"></p>
-<p>等待运行完成后即可激活</p>
-<blockquote>
-<p>激活软件不止有<a href="https://ligao.lanzouu.com/ikkbn04q1k4b">HEU KMS Activator</a> ，例如 <a href="https://www.lanzoui.com/iHs7ngzc8wd">KMS神龙版</a> <a href="https://ligao.lanzouu.com/iiCKj04q1kda">MAS</a> 等</p>
-</blockquote>
-<hr>
-<h2 id="高级教程"><a href="#高级教程" class="headerlink" title="高级教程"></a>高级教程</h2><p>对于是Win10系统且已通过Microsoft在线登录的账号选择 <strong><code>数字激活</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/06.png" alt="数字许可证激活"></p>
-<p>对于Win7用户，这里推荐使用 <strong><code>OEM激活</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/07.png" alt="OEM 激活"></p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>教程</tag>
-        <tag>系统升级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何创建一个无管理员权限的普通账户</title>
-    <url>/2022113022.html</url>
-    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>本教程适应于 Windows 7 及以上的<strong>非家庭版</strong>系统</p>
-</div>
-
-<h1 id="如何创建一个无管理员权限的普通账户"><a href="#如何创建一个无管理员权限的普通账户" class="headerlink" title="如何创建一个无管理员权限的普通账户"></a>如何创建一个无管理员权限的普通账户</h1><h2 id="普通方法"><a href="#普通方法" class="headerlink" title="普通方法"></a>普通方法</h2><ol>
-<li>按 Win+R 输入<code>compmgmt.msc</code></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/01.png" alt="compmgmt.msc"></p>
-<ol start="2">
-<li>在 计算机管理 窗口中找到 <strong><code>本地用户和组 - 用户</code></strong></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/02.png" alt="在计算机管理窗口中找到 本地用户和组 - 用户"></p>
-<blockquote>
-<p>什么，你跟我说没有这个东西？那你肯定是<strong>家庭版</strong>，我帮不到你</p>
-</blockquote>
-<ol start="3">
-<li>找到你的用户，右键选择 <strong><code>设置密码</code></strong></li>
-</ol>
-<blockquote>
-<p>不知道自己用户名的找到没有箭头角标的用户(或Adminstrator)</p>
-</blockquote>
-<p> <img src="https://image.ligaogreat.top/image/blog/2022113022/03.png" alt="点击设置密码"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-34-13.png" alt="Node.js 下载界面"></p>
 <ol start="4">
-<li>如图所示，设置密码</li>
+<li>对于国内用户，可以选择更换软件源来提高连接速度和稳定性</li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/05.png" alt="单击继续"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/04.png" alt="创建密码窗口"></p>
-<ol start="5">
-<li>右击空白处，选择 <strong><code>新用户</code></strong></li>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 淘宝镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com/</span><br><span class="line"><span class="comment"># 官方镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org/</span><br></pre></td></tr></table></figure>
+<hr>
+<div class="note primary flat"><p>安装大致略过，下面只展示一些带有选项的窗口</p>
+</div>
+
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-18-32.png" alt="保持默认即可"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-18-48.png" alt="同样保持默认"></p>
+<hr>
+<h2 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h2><p>首先我们打开 <strong>终端 (Windows需用户打开CMD)</strong> ，执行以下命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>然后我们要初始化Hexo</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># blog 是要创建的文件夹名称，可以随意替换，下面同理</span></span><br><span class="line">md blog</span><br><span class="line"><span class="comment"># hexo 会在 blog 文件夹中释放所需的文件</span></span><br><span class="line">hexo init blog</span><br><span class="line"><span class="comment"># 此命令是进入刚刚创建的文件夹</span></span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<p>执行完成后会在文件夹内看到创建的文件</p>
+<p>你可以执行以下代码，然后访问 <a href="http://localhost:4000/">http://localhost:4000/</a> 就可以预览网页了</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<p>没出错的话应该是下面这个样子 ↓</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2022-10-12_01.png" alt="Hexo 基础界面"></p>
+<h2 id="创建-Github-仓库"><a href="#创建-Github-仓库" class="headerlink" title="创建 Github 仓库"></a>创建 Github 仓库</h2><ul>
+<li>首先你需要创建 <a href="https://github.com/">Github</a> 账号</li>
+</ul>
+<p>如果你进入不了 <a href="https://github.com/">Github</a> 的话我推荐你下载 <a href="https://steampp.net/">Watt Toolkit</a><br><strong>设置步骤如图所示</strong>: 1.下拉找到Github并勾选  2.点击一键加速 ( 如果提示启动失败之类的把右边的 <strong>Hosts 代理模式</strong> 换成 <strong>系统代理模式</strong> )</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2022-10-12_02.png" alt="Watt Toolkit 软件界面"></p>
+<ol>
+<li>打开 <a href="https://github.com/">Github</a> ，点击右上角 <strong>Sign up</strong></li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/07.png" alt="选择新用户"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-08-52.png" alt="点击右上角 Sign up"></p>
+<ol start="2">
+<li>在中间输入电子邮箱，按照要求完成注册即可</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-11-58.png" alt="输入电子邮箱后按照要求完成注册"></p>
+<ol start="3">
+<li><p>注册后进入主页</p>
+</li>
+<li><p>找到右上角的 <strong>加号</strong>，选择 <strong>New repository</strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_23-04-47.png" alt="选择 New repository"></p>
+</li>
+<li><p>在右边的 Repository name 中，写上 <strong>你的用户名 + .github.io</strong> </p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_23-06-03.png" alt="输入名称"></p>
+</li>
+</ol>
+<div class="note warning flat"><p>仓库的名字一定要是 <strong>你的用户名 (也就是左边那个名字) + .github.io</strong> </p>
+</div>
+
 <ol start="6">
-<li>像我这样填写</li>
+<li>下拉，点击 <strong>Create repository</strong> 创建仓库</li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/06.png" alt="用户配置界面"></p>
-<blockquote>
-<p><strong>省流：</strong><br>用户名  &#x2F;&#x2F; 推荐英文名<br>全名  &#x2F;&#x2F; 这里的名称为显示名称 (可以为空)<br><strong>勾选</strong>  <strong><code>用户不能更改密码</code><strong>和</strong><code>密码永不过期</code></strong></p>
-</blockquote>
-<ol start="7">
-<li>返回桌面，按下 “Ctrl+Alt+Del”，选择 <strong><code>切换用户</code></strong></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/08.png" alt="点击切换用户"></p>
-<ol start="8">
-<li>在左下角找到刚刚创建的账户，点击 <code>登录</code></li>
-</ol>
-<p><img src="https://s1.ax1x.com/2022/11/30/zwO4Rs.png" alt="在登陆界面选择用户"></p>
-<ol start="9">
-<li>完成设置界面后进入用户</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/09.png" alt="点击下一页"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/10.png" alt="进入桌面"></p>
-<hr>
-<h2 id="命令行创建新用户-推荐"><a href="#命令行创建新用户-推荐" class="headerlink" title="命令行创建新用户 (推荐)"></a>命令行创建新用户 (推荐)</h2><ol>
-<li>右键Windows徽标，选择 <code>命令提示符 (管理员)</code> 或 <code>PowerShell (管理员)</code></li>
-</ol>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">net user [用户名] [密码] /add /passwordchg:no</span><br><span class="line"><span class="comment"># [用户名]: 要创建的用户名</span></span><br><span class="line"><span class="comment"># [密码]: 创建用户的密码</span></span><br><span class="line"><span class="comment"># passwordchg:no 为禁止用户更改密码，将 no 改为 yes 则允许用户更改密码</span></span><br></pre></td></tr></table></figure>
+<h2 id="部署至-Github"><a href="#部署至-Github" class="headerlink" title="部署至 Github"></a>部署至 Github</h2><h3 id="配置-Git"><a href="#配置-Git" class="headerlink" title="配置 Git"></a>配置 Git</h3><p>打开终端，输入下面以下命令配置 git</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;Github 用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;注册 Github 的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>例如：创建一个名叫 <strong>User123</strong> 密码为 <strong>6666</strong> 的账户，并且 <strong>禁止用户更改密码</strong></p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">net user User123 <span class="number">6666</span> /add /passwordchg:no</span><br></pre></td></tr></table></figure>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-05-57.png" alt="配置 Git"></p>
+<h3 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h3><h4 id="生成-SSH-key"><a href="#生成-SSH-key" class="headerlink" title="生成 SSH key"></a>生成 SSH key</h4><p>打开终端，输入下面命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -C <span class="string">&quot;注册 Github 的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>输入后按三下回车即可</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-13-16.png" alt="ssh 密钥"></p>
+<p>如果提示 <code>ssh-keygen 不是内部或外部命令，也不是可运行的程序或批处理文件</code> 可以使用 Git 附带的 <strong>Bash 仿真终端</strong> </p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-17-17.png" alt="在开始菜单中，可以找到 Git Bash"></p>
+<h4 id="配置-SSH-key-1"><a href="#配置-SSH-key-1" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h4><p>配置的文件生成的文件存放在 <strong><code>当前用户目录/.ssh</code></strong> 下，而我们需要的 <strong>公钥文件</strong> 在 <code>当前用户目录/.ssh/id_rsa.pub</code> 中</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-41-28.png" alt="SSH key 目录"></p>
+<ul>
+<li>你可以使用记事本打开，也可以用下面的命令直接访问公钥（可以用 Git Bash 仿真终端打开）</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~./ssh</span><br><span class="line"><span class="built_in">cat</span> id_rsa.pub</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/12.png" alt="PowerShell 界面"></p>
-<ol start="2">
-<li>返回桌面，按下 “Ctrl+Alt+Del”，选择 <strong><code>切换用户</code></strong></li>
+<ol>
+<li><p>打开 Github，选择 Setting</p>
+</li>
+<li><p>选择 <strong><code>SSH and GTPG keys</code></strong></p>
+</li>
+<li><p>点击 New SSH key</p>
+</li>
+<li><p>在 <strong><code>key</code></strong> 中输入刚才获取的公钥即可</p>
+</li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/08.png" alt="点击切换用户"></p>
-<ol start="3">
-<li>在左下角找到刚刚创建的账户，点击 <code>登录</code></li>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-42-25.png" alt="配置 SSH key"></p>
+<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>由于我们现在没法直接部署到 Github，我们需要修改 hexo 的配置文件</p>
+<ol>
+<li><p>首先，在 Github 上，打开刚刚创建好的仓库</p>
+</li>
+<li><p>在下面找到 SSH 链接，复制备用<br><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_10-15-36.png" alt="SSH 链接"></p>
+</li>
+<li><p>直接打开配置文件 <code>_config</code> 或输入下面的命令</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">notepad ./_config.yml</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>编辑 <strong><code>_config.yml</code></strong></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span>  </span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span>  </span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io  </span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>]  </span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure></li>
 </ol>
-<p><img src="https://s1.ax1x.com/2022/11/30/zwO4Rs.png" alt="在登陆界面选择用户"></p>
+<table>
+<thead>
+<tr>
+<th>选项</th>
+<th>描述</th>
+<th>默认</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>repo</td>
+<td>目标存储库的 URL</td>
+<td></td>
+</tr>
+<tr>
+<td>branch</td>
+<td>分支名称</td>
+<td><code>gh-pages</code> (GitHub)  <br><code>coding-pages</code> (Coding.net)  <br><code>master</code> (others)</td>
+</tr>
+<tr>
+<td>message</td>
+<td>自定义提交信息</td>
+<td>Site updated: <code>&#123;&#123; now('YYYY-MM-DD HH:mm:ss') &#125;&#125;</code></td>
+</tr>
+<tr>
+<td>token</td>
+<td>可选的令牌值，用于认证 repo。 用 <code>$</code> 作为前缀从而从环境变量中读取令牌</td>
+<td></td>
+</tr>
+</tbody></table>
+<pre><code>内容节选自 [一键部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
+</code></pre>
+<ol start="5">
+<li>将刚刚复制的链接粘贴到 <code>repo</code> 中</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-36-32.png" alt="将链接粘贴到 repo 中"></p>
+<h3 id="上传至-Github"><a href="#上传至-Github" class="headerlink" title="上传至 Github"></a>上传至 Github</h3><ol>
+<li><p>用 <code>cd</code> 命令进入 hexo 的跟目录</p>
+</li>
+<li><p>输入下面命令，安装必要组件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>输入 <code>hexo d</code> 将博客上传至 Github</p>
+</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_12-02-30.png"></p>
 <ol start="4">
-<li>完成设置界面后进入用户</li>
+<li><p>打开仓库，点击 <strong><code>Setting</code></strong> ，选择 <strong><code>Pages</code></strong></p>
+</li>
+<li><p>将 <code>Brance</code> 中的 None <strong>改为其他分支</strong>（例如 master），点击 Save</p>
+</li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/09.png" alt="点击下一页"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/10.png" alt="进入桌面"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_12-30-28.png" alt="更改分支"></p>
+<ol start="6">
+<li>通过访问仓库名称（例如 <a href="https://cuichene.github.io/">https://CuiCHenE.GitHub.io/</a> ），即可访问创建的博客</li>
+</ol>
 ]]></content>
       <categories>
-        <category>其他教程</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
         <tag>教程</tag>
+        <tag>hexo</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -514,6 +632,33 @@
         <tag>Windows</tag>
         <tag>教程</tag>
         <tag>系统安装</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>███：时尚黑骑士的 Gucci 夹克魅力 (AI创作)</title>
+    <url>/2023120611.html</url>
+    <content><![CDATA[<div class="note danger flat"><p>为保护个人隐私，本文章禁止转载</p>
+</div>
+<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>为保护个人隐私，部分内容已脱敏处理</p>
+</div>
+
+<h1 id="███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）"><a href="#███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）" class="headerlink" title="███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）"></a>███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）</h1><p>在时尚的世界中，Gucci一直以其独特的设计理念和精湛的工艺而备受瞩目。而在众多的时尚单品中，Gucci的夹克无疑是这个品牌的一大亮点。今天，我们将借助███这一形象，来深入探讨Gucci夹克的时尚价值以及███如何通过搭配技巧，将这一单品展现得淋漓尽致。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/01.jpeg"></p>
+<p>首先，让我们先来欣赏一下███的形象。他身着一件Gucci的夹克，简洁的设计风格和黑灰的色调使得这件夹克充满了神秘感。而最令人印象深刻的莫过于他搭配的黑色墨镜，完美地遮挡住了他的眼神，让人无法窥视他内心的世界。这样的搭配，无疑为他的形象增添了几分神秘和冷峻。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/02.jpeg"></p>
+<p>Gucci夹克的魅力在于其独特的设计和精湛的工艺。这款夹克采用了高品质的面料，手感柔软，穿起来舒适不束缚。同时，其经典的设计元素和精美的细节处理，使得这款夹克无论是在日常生活中还是出行旅游时，都能成为一道亮丽的风景线。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/03.jpeg"></p>
+<p>而███是如何将这款Gucci夹克发挥到极致的呢？首先，他选择了与夹克色调相呼应的黑色墨镜，这样的搭配使得整体形象更加和谐统一。此外，他还选择了一款简约的项链作为装饰，不仅增添了几分时尚感，还为整体形象增添了几分华丽的元素。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/05.jpeg"></p>
+<p>███的形象完美地诠释了Gucci夹克的时尚价值。他通过精心的搭配技巧，将这款夹克展现得淋漓尽致。而Gucci夹克的独特魅力和时尚价值，也在他的搭配下得到了充分的体现。无论是在日常生活中还是出行旅游时，我们都可以从███的形象中得到一些搭配灵感。</p>
+<hr>
+<a class="btn-beautify outline blue larger" href="https://ligao.lanzouj.com/iyJyx1s147vi" title="下载 PDF"><i class="fas fa-file-pdf"></i><span>下载 PDF</span></a>
+<a class="btn-beautify outline larger" href="https://ligao.lanzouj.com/idTJE1s147tg" title="下载 DOC"><i class="fas fa-file-word"></i><span>下载 DOC</span></a>]]></content>
+      <categories>
+        <category>人工智障</category>
+      </categories>
+      <tags>
+        <tag>AI创作</tag>
       </tags>
   </entry>
   <entry>
@@ -991,206 +1136,88 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo 教程，搭建一个属于自己的博客</title>
-    <url>/2022101222.html</url>
-    <content><![CDATA[<div class="note info flat"><p>文章部分内容来自 <a href="https://hexo.io/zh-cn/docs/">Hexo 帮助文档</a></p>
+    <title>如何创建一个无管理员权限的普通账户</title>
+    <url>/2022113022.html</url>
+    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>本教程适应于 Windows 7 及以上的<strong>非家庭版</strong>系统</p>
 </div>
 
-<h1 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h1><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-<hr>
-<h1 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h1><div class="note success flat"><p>文章使用 Windows 10 22H2 作为演示系统</p>
-</div>
-
-<h2 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h2><p>安装 Hexo 需要再电脑中安装 <a href="https://nodejs.org/zh-cn/">node.js </a>和 <a href="https://git-scm.com/">git</a></p>
-<h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><div class="note info flat"><p>其他系统可以参考 <a href="https://git-scm.com/downloads">Git 下载页面</a></p>
-</div>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-35-33.png" alt="Git 下载界面"></p>
-<hr>
-<div class="note primary flat"><p>安装大致略过，下面只展示一些带有选项的窗口</p>
-</div>
-
-<details class="toggle" ><summary class="toggle-button" style="">点击显示部分安装步骤</summary><div class="toggle-content"><p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-54-52.png" alt="保持默认即可"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-55-13.png" alt="选择 Use Vim as Git&#39;s default editor"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-55-23.png" alt="选择 Let Git decide"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-56-21.png" alt="选择 Git from the command line and also from 3rd-party software"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-57-13.png" alt="选择 Use the OpenSSL Library"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-57-54.png" alt="选择 Checkout Windows-style, commit Unix-style line endings"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-58-17.png" alt="选择 Use MinTTY"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-58-42.png" alt="选择 Fast-forward of merge"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-59-27.png" alt="选择 Git Credential Manager"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-59-47.png" alt="勾选 Enable file system caching"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-00-04.png" alt="保持默认，选择 Install"></p>
-</div></details>
-
-<hr>
-<h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><div class="note info flat"><p>其他系统可以参考 <a href="https://nodejs.org/zh-cn/download/prebuilt-binaries">Node.js 下载页面</a></p>
-</div>
-
-<ol>
-<li><p>进入 <a href="https://nodejs.org/zh-cn/download/prebuilt-binaries">Node.js</a> 官网，选择下载。</p>
-</li>
-<li><p>选择 <strong>预构建二进制文件</strong> ，选择 我需要用于 <strong>Windows x64</strong> ，版本选择默认的 LTS 版本即可</p>
-</li>
-<li><p>点击 <strong>下载 Node.js</strong></p>
-</li>
+<h1 id="如何创建一个无管理员权限的普通账户"><a href="#如何创建一个无管理员权限的普通账户" class="headerlink" title="如何创建一个无管理员权限的普通账户"></a>如何创建一个无管理员权限的普通账户</h1><h2 id="普通方法"><a href="#普通方法" class="headerlink" title="普通方法"></a>普通方法</h2><ol>
+<li>按 Win+R 输入<code>compmgmt.msc</code></li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-34-13.png" alt="Node.js 下载界面"></p>
-<ol start="4">
-<li>对于国内用户，可以选择更换软件源来提高连接速度和稳定性</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 淘宝镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com/</span><br><span class="line"><span class="comment"># 官方镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org/</span><br></pre></td></tr></table></figure>
-<hr>
-<div class="note primary flat"><p>安装大致略过，下面只展示一些带有选项的窗口</p>
-</div>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-18-32.png" alt="保持默认即可"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-18-48.png" alt="同样保持默认"></p>
-<hr>
-<h2 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h2><p>首先我们打开 <strong>终端 (Windows需用户打开CMD)</strong> ，执行以下命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<p>然后我们要初始化Hexo</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># blog 是要创建的文件夹名称，可以随意替换，下面同理</span></span><br><span class="line">md blog</span><br><span class="line"><span class="comment"># hexo 会在 blog 文件夹中释放所需的文件</span></span><br><span class="line">hexo init blog</span><br><span class="line"><span class="comment"># 此命令是进入刚刚创建的文件夹</span></span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<p>执行完成后会在文件夹内看到创建的文件</p>
-<p>你可以执行以下代码，然后访问 <a href="http://localhost:4000/">http://localhost:4000/</a> 就可以预览网页了</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-
-<p>没出错的话应该是下面这个样子 ↓</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2022-10-12_01.png" alt="Hexo 基础界面"></p>
-<h2 id="创建-Github-仓库"><a href="#创建-Github-仓库" class="headerlink" title="创建 Github 仓库"></a>创建 Github 仓库</h2><ul>
-<li>首先你需要创建 <a href="https://github.com/">Github</a> 账号</li>
-</ul>
-<p>如果你进入不了 <a href="https://github.com/">Github</a> 的话我推荐你下载 <a href="https://steampp.net/">Watt Toolkit</a><br><strong>设置步骤如图所示</strong>: 1.下拉找到Github并勾选  2.点击一键加速 ( 如果提示启动失败之类的把右边的 <strong>Hosts 代理模式</strong> 换成 <strong>系统代理模式</strong> )</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2022-10-12_02.png" alt="Watt Toolkit 软件界面"></p>
-<ol>
-<li>打开 <a href="https://github.com/">Github</a> ，点击右上角 <strong>Sign up</strong></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-08-52.png" alt="点击右上角 Sign up"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/01.png" alt="compmgmt.msc"></p>
 <ol start="2">
-<li>在中间输入电子邮箱，按照要求完成注册即可</li>
+<li>在 计算机管理 窗口中找到 <strong><code>本地用户和组 - 用户</code></strong></li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-11-58.png" alt="输入电子邮箱后按照要求完成注册"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/02.png" alt="在计算机管理窗口中找到 本地用户和组 - 用户"></p>
+<blockquote>
+<p>什么，你跟我说没有这个东西？那你肯定是<strong>家庭版</strong>，我帮不到你</p>
+</blockquote>
 <ol start="3">
-<li><p>注册后进入主页</p>
-</li>
-<li><p>找到右上角的 <strong>加号</strong>，选择 <strong>New repository</strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_23-04-47.png" alt="选择 New repository"></p>
-</li>
-<li><p>在右边的 Repository name 中，写上 <strong>你的用户名 + .github.io</strong> </p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_23-06-03.png" alt="输入名称"></p>
-</li>
+<li>找到你的用户，右键选择 <strong><code>设置密码</code></strong></li>
 </ol>
-<div class="note warning flat"><p>仓库的名字一定要是 <strong>你的用户名 (也就是左边那个名字) + .github.io</strong> </p>
-</div>
-
-<ol start="6">
-<li>下拉，点击 <strong>Create repository</strong> 创建仓库</li>
-</ol>
-<h2 id="部署至-Github"><a href="#部署至-Github" class="headerlink" title="部署至 Github"></a>部署至 Github</h2><h3 id="配置-Git"><a href="#配置-Git" class="headerlink" title="配置 Git"></a>配置 Git</h3><p>打开终端，输入下面以下命令配置 git</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;Github 用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;注册 Github 的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-05-57.png" alt="配置 Git"></p>
-<h3 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h3><h4 id="生成-SSH-key"><a href="#生成-SSH-key" class="headerlink" title="生成 SSH key"></a>生成 SSH key</h4><p>打开终端，输入下面命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -C <span class="string">&quot;注册 Github 的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>输入后按三下回车即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-13-16.png" alt="ssh 密钥"></p>
-<p>如果提示 <code>ssh-keygen 不是内部或外部命令，也不是可运行的程序或批处理文件</code> 可以使用 Git 附带的 <strong>Bash 仿真终端</strong> </p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-17-17.png" alt="在开始菜单中，可以找到 Git Bash"></p>
-<h4 id="配置-SSH-key-1"><a href="#配置-SSH-key-1" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h4><p>配置的文件生成的文件存放在 <strong><code>当前用户目录/.ssh</code></strong> 下，而我们需要的 <strong>公钥文件</strong> 在 <code>当前用户目录/.ssh/id_rsa.pub</code> 中</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-41-28.png" alt="SSH key 目录"></p>
-<ul>
-<li>你可以使用记事本打开，也可以用下面的命令直接访问公钥（可以用 Git Bash 仿真终端打开）</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~./ssh</span><br><span class="line"><span class="built_in">cat</span> id_rsa.pub</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li><p>打开 Github，选择 Setting</p>
-</li>
-<li><p>选择 <strong><code>SSH and GTPG keys</code></strong></p>
-</li>
-<li><p>点击 New SSH key</p>
-</li>
-<li><p>在 <strong><code>key</code></strong> 中输入刚才获取的公钥即可</p>
-</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-42-25.png" alt="配置 SSH key"></p>
-<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>由于我们现在没法直接部署到 Github，我们需要修改 hexo 的配置文件</p>
-<ol>
-<li><p>首先，在 Github 上，打开刚刚创建好的仓库</p>
-</li>
-<li><p>在下面找到 SSH 链接，复制备用<br><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_10-15-36.png" alt="SSH 链接"></p>
-</li>
-<li><p>直接打开配置文件 <code>_config</code> 或输入下面的命令</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">notepad ./_config.yml</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>编辑 <strong><code>_config.yml</code></strong></p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span>  </span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span>  </span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io  </span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>]  </span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure></li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>选项</th>
-<th>描述</th>
-<th>默认</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>repo</td>
-<td>目标存储库的 URL</td>
-<td></td>
-</tr>
-<tr>
-<td>branch</td>
-<td>分支名称</td>
-<td><code>gh-pages</code> (GitHub)  <br><code>coding-pages</code> (Coding.net)  <br><code>master</code> (others)</td>
-</tr>
-<tr>
-<td>message</td>
-<td>自定义提交信息</td>
-<td>Site updated: <code>&#123;&#123; now('YYYY-MM-DD HH:mm:ss') &#125;&#125;</code></td>
-</tr>
-<tr>
-<td>token</td>
-<td>可选的令牌值，用于认证 repo。 用 <code>$</code> 作为前缀从而从环境变量中读取令牌</td>
-<td></td>
-</tr>
-</tbody></table>
-<pre><code>内容节选自 [一键部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
-</code></pre>
-<ol start="5">
-<li>将刚刚复制的链接粘贴到 <code>repo</code> 中</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-36-32.png" alt="将链接粘贴到 repo 中"></p>
-<h3 id="上传至-Github"><a href="#上传至-Github" class="headerlink" title="上传至 Github"></a>上传至 Github</h3><ol>
-<li><p>用 <code>cd</code> 命令进入 hexo 的跟目录</p>
-</li>
-<li><p>输入下面命令，安装必要组件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>输入 <code>hexo d</code> 将博客上传至 Github</p>
-</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_12-02-30.png"></p>
+<blockquote>
+<p>不知道自己用户名的找到没有箭头角标的用户(或Adminstrator)</p>
+</blockquote>
+<p> <img src="https://image.ligaogreat.top/image/blog/2022113022/03.png" alt="点击设置密码"></p>
 <ol start="4">
-<li><p>打开仓库，点击 <strong><code>Setting</code></strong> ，选择 <strong><code>Pages</code></strong></p>
-</li>
-<li><p>将 <code>Brance</code> 中的 None <strong>改为其他分支</strong>（例如 master），点击 Save</p>
-</li>
+<li>如图所示，设置密码</li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_12-30-28.png" alt="更改分支"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/05.png" alt="单击继续"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/04.png" alt="创建密码窗口"></p>
+<ol start="5">
+<li>右击空白处，选择 <strong><code>新用户</code></strong></li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/07.png" alt="选择新用户"></p>
 <ol start="6">
-<li>通过访问仓库名称（例如 <a href="https://cuichene.github.io/">https://CuiCHenE.GitHub.io/</a> ），即可访问创建的博客</li>
+<li>像我这样填写</li>
 </ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/06.png" alt="用户配置界面"></p>
+<blockquote>
+<p><strong>省流：</strong><br>用户名  &#x2F;&#x2F; 推荐英文名<br>全名  &#x2F;&#x2F; 这里的名称为显示名称 (可以为空)<br><strong>勾选</strong>  <strong><code>用户不能更改密码</code><strong>和</strong><code>密码永不过期</code></strong></p>
+</blockquote>
+<ol start="7">
+<li>返回桌面，按下 “Ctrl+Alt+Del”，选择 <strong><code>切换用户</code></strong></li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/08.png" alt="点击切换用户"></p>
+<ol start="8">
+<li>在左下角找到刚刚创建的账户，点击 <code>登录</code></li>
+</ol>
+<p><img src="https://s1.ax1x.com/2022/11/30/zwO4Rs.png" alt="在登陆界面选择用户"></p>
+<ol start="9">
+<li>完成设置界面后进入用户</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/09.png" alt="点击下一页"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/10.png" alt="进入桌面"></p>
+<hr>
+<h2 id="命令行创建新用户-推荐"><a href="#命令行创建新用户-推荐" class="headerlink" title="命令行创建新用户 (推荐)"></a>命令行创建新用户 (推荐)</h2><ol>
+<li>右键Windows徽标，选择 <code>命令提示符 (管理员)</code> 或 <code>PowerShell (管理员)</code></li>
+</ol>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">net user [用户名] [密码] /add /passwordchg:no</span><br><span class="line"><span class="comment"># [用户名]: 要创建的用户名</span></span><br><span class="line"><span class="comment"># [密码]: 创建用户的密码</span></span><br><span class="line"><span class="comment"># passwordchg:no 为禁止用户更改密码，将 no 改为 yes 则允许用户更改密码</span></span><br></pre></td></tr></table></figure>
+
+<p>例如：创建一个名叫 <strong>User123</strong> 密码为 <strong>6666</strong> 的账户，并且 <strong>禁止用户更改密码</strong></p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">net user User123 <span class="number">6666</span> /add /passwordchg:no</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/12.png" alt="PowerShell 界面"></p>
+<ol start="2">
+<li>返回桌面，按下 “Ctrl+Alt+Del”，选择 <strong><code>切换用户</code></strong></li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/08.png" alt="点击切换用户"></p>
+<ol start="3">
+<li>在左下角找到刚刚创建的账户，点击 <code>登录</code></li>
+</ol>
+<p><img src="https://s1.ax1x.com/2022/11/30/zwO4Rs.png" alt="在登陆界面选择用户"></p>
+<ol start="4">
+<li>完成设置界面后进入用户</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/09.png" alt="点击下一页"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/10.png" alt="进入桌面"></p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>其他教程</category>
       </categories>
       <tags>
+        <tag>Windows</tag>
         <tag>教程</tag>
-        <tag>hexo</tag>
-        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -1277,33 +1304,6 @@
       <tags>
         <tag>教程</tag>
         <tag>Alist</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>███：时尚黑骑士的 Gucci 夹克魅力 (AI创作)</title>
-    <url>/2023120611.html</url>
-    <content><![CDATA[<div class="note danger flat"><p>为保护个人隐私，本文章禁止转载</p>
-</div>
-<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>为保护个人隐私，部分内容已脱敏处理</p>
-</div>
-
-<h1 id="███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）"><a href="#███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）" class="headerlink" title="███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）"></a>███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）</h1><p>在时尚的世界中，Gucci一直以其独特的设计理念和精湛的工艺而备受瞩目。而在众多的时尚单品中，Gucci的夹克无疑是这个品牌的一大亮点。今天，我们将借助███这一形象，来深入探讨Gucci夹克的时尚价值以及███如何通过搭配技巧，将这一单品展现得淋漓尽致。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/01.jpeg"></p>
-<p>首先，让我们先来欣赏一下███的形象。他身着一件Gucci的夹克，简洁的设计风格和黑灰的色调使得这件夹克充满了神秘感。而最令人印象深刻的莫过于他搭配的黑色墨镜，完美地遮挡住了他的眼神，让人无法窥视他内心的世界。这样的搭配，无疑为他的形象增添了几分神秘和冷峻。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/02.jpeg"></p>
-<p>Gucci夹克的魅力在于其独特的设计和精湛的工艺。这款夹克采用了高品质的面料，手感柔软，穿起来舒适不束缚。同时，其经典的设计元素和精美的细节处理，使得这款夹克无论是在日常生活中还是出行旅游时，都能成为一道亮丽的风景线。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/03.jpeg"></p>
-<p>而███是如何将这款Gucci夹克发挥到极致的呢？首先，他选择了与夹克色调相呼应的黑色墨镜，这样的搭配使得整体形象更加和谐统一。此外，他还选择了一款简约的项链作为装饰，不仅增添了几分时尚感，还为整体形象增添了几分华丽的元素。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/05.jpeg"></p>
-<p>███的形象完美地诠释了Gucci夹克的时尚价值。他通过精心的搭配技巧，将这款夹克展现得淋漓尽致。而Gucci夹克的独特魅力和时尚价值，也在他的搭配下得到了充分的体现。无论是在日常生活中还是出行旅游时，我们都可以从███的形象中得到一些搭配灵感。</p>
-<hr>
-<a class="btn-beautify outline blue larger" href="https://ligao.lanzouj.com/iyJyx1s147vi" title="下载 PDF"><i class="fas fa-file-pdf"></i><span>下载 PDF</span></a>
-<a class="btn-beautify outline larger" href="https://ligao.lanzouj.com/idTJE1s147tg" title="下载 DOC"><i class="fas fa-file-word"></i><span>下载 DOC</span></a>]]></content>
-      <categories>
-        <category>人工智障</category>
-      </categories>
-      <tags>
-        <tag>AI创作</tag>
       </tags>
   </entry>
 </search>
