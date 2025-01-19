@@ -131,129 +131,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Ubuntu 21.04 安装教程</title>
-    <url>/2021082112.html</url>
-    <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-triangle-exclamation"></i><p>先声明一下，本文是基于UEFI启动方式制作的教程，可能会和BIOS启动方式有点不同</p>
-</div>
-
-<h2 id="制作启动盘"><a href="#制作启动盘" class="headerlink" title="制作启动盘"></a>制作启动盘</h2><p>老样子，安装系统肯定需要安装镜像的</p>
-<a class="btn-beautify outline blue larger" href="https://cn.ubuntu.com/download/desktop" title="下载入口"><i class="fas fa-download"></i><span>下载入口</span></a>
-<p>这次用的写入软件算是老伙计了 <a href="https://rufus.ie/">rufuns</a>，不会用 rufuns 的也可以使用 <a href="https://www.balena.io/etcher/">balenaEtcher</a></p>
-<h2 id="开机引导"><a href="#开机引导" class="headerlink" title="开机引导"></a>开机引导</h2><p>网上教程挺多的，反正引导选择通用的都是 <strong><code>F12</code></strong><br>如果你实在不会的话可以 <a href="https://www.baidu.com/s?wd=BIOS+%E5%90%AF%E5%8A%A8%E9%A1%BA%E5%BA%8F">点击这里</a></p>
-<h2 id="关闭安全启动（可选）"><a href="#关闭安全启动（可选）" class="headerlink" title="关闭安全启动（可选）"></a>关闭安全启动（可选）</h2><p>进入主板 BIOS，找到 <strong><code>Secure Boot (安全启动)</code></strong> 设置为 <strong><code>Disabled (禁用/关闭)</code></strong></p>
-<blockquote>
-<p>一般厂商默认都开启了安全引导，主要是为了安全考虑。我们可以关闭安全启动，以防遇到一些奇怪的问题。</p>
-</blockquote>
-<h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><p>开机后引导U盘，在 grub 启动菜单中选择 <strong>Ubuntu</strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2021082112/01.png" alt="GRUB 引导菜单"></p>
-<p>等待加载完成后进入安装页面</p>
-<h3 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h3><p>进入LiveCD后在左面下拉选择 <strong><code>中文(简体)</code></strong> 然后选择 <strong><code>安装 Ubuntu</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2021082112/02.png" alt="选择安装 Ubuntu"></p>
-<p>接下来就是 <strong>键盘布局</strong> 以及 <strong>更新和其他软件</strong></p>
-<h3 id="键盘布局"><a href="#键盘布局" class="headerlink" title="键盘布局"></a>键盘布局</h3><p>根据自己的喜好修改，<strong>默认不用改</strong></p>
-<h3 id="更新和其他软件"><a href="#更新和其他软件" class="headerlink" title="更新和其他软件"></a>更新和其他软件</h3><p>一般选择 <strong><code>正常安装</code></strong> 就行<br>如果你已经连接网络，还是推荐勾选 <strong><code>安装 Ubuntu 时下载更新</code></strong></p>
-<h3 id="安装类型"><a href="#安装类型" class="headerlink" title="安装类型"></a>安装类型</h3><p>如果是全盘清空安装就选择 <strong><code>清除整个磁盘并安装 Ubuntu</code></strong><br>如果电脑内有重要资料或者要双系统的选择 <strong><code>其他选项</code></strong></p>
-<blockquote>
-<p>如果选择清除磁盘，会使电脑内<strong>重要的资料丢失</strong></p>
-</blockquote>
-<h3 id="磁盘分区"><a href="#磁盘分区" class="headerlink" title="磁盘分区"></a>磁盘分区</h3><p>Ubuntu 磁盘分区比较简单，但没有 Windows 那样简单</p>
-<p>必须创建一个 <strong>Ext4 格式</strong> 的分区挂载到 <strong>&#x2F;</strong> ，这个分区是用来安装系统的<br>先来讲解一下每个挂载点的作用</p>
-<table>
-<thead>
-<tr>
-<th>挂载点</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&#x2F;</td>
-<td>根目录</td>
-</tr>
-<tr>
-<td>&#x2F;boot</td>
-<td>Linux 的内核及引导系统程序所需要的文件</td>
-</tr>
-<tr>
-<td>&#x2F;home</td>
-<td>用户主目录；用户配置文件；用户环境变量等</td>
-</tr>
-<tr>
-<td>&#x2F;tmp</td>
-<td>临时文件</td>
-</tr>
-<tr>
-<td>&#x2F;usr</td>
-<td>保存了非系统关键的可执行文件和共享资源</td>
-</tr>
-<tr>
-<td>&#x2F;var</td>
-<td>这代表变量，是处于可变状态的文件的放置位置</td>
-</tr>
-<tr>
-<td>&#x2F;srv</td>
-<td>服务器数据，此数据是系统提供的服务的数据</td>
-</tr>
-<tr>
-<td>&#x2F;opt</td>
-<td>主要存放可选程序</td>
-</tr>
-<tr>
-<td>&#x2F;usr&#x2F;local</td>
-<td>主要存放那些手动安装的软件</td>
-</tr>
-<tr>
-<td>&#x2F;swap</td>
-<td>交换分区，相当于 Windows 的虚拟内存</td>
-</tr>
-</tbody></table>
-<p>我在下面列出了常见的分区方案<br>如果你不知道该如何分区，可以直接使用下面表格的方案。直接拿去用，没问题的。</p>
-<blockquote>
-<p><strong>UEFI 启动要预留近 300MB 的空间创建 EFI 分区</strong></p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>挂载点</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&#x2F;</td>
-<td>推荐第一个创建此分区，至少 20G</td>
-</tr>
-<tr>
-<td>&#x2F;boot</td>
-<td>250 MB</td>
-</tr>
-<tr>
-<td>&#x2F;swap</td>
-<td>运行内存低于 8G 的推荐是运行内存的 2 倍 (此项不在挂载点中，而是在<strong>用于</strong>中，名字叫<strong>交换分区</strong>)</td>
-</tr>
-<tr>
-<td>&#x2F;home</td>
-<td>没有固定要求，推荐将剩下的容量全部使用</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>部分内容来自Dell支持文档中的 <a href="https://www.dell.com/support/kbdoc/zh-cn/000131456/ubuntu-linux%e5%88%86%e5%8c%ba%e5%92%8c%e7%9b%ae%e5%bd%95%e7%9a%84%e7%b1%bb%e5%9e%8b%e5%8f%8a%e5%ae%9a%e4%b9%89%e8%af%b4%e6%98%8e">Ubuntu Linux 分区和目录的类型及定义说明</a></p>
-</blockquote>
-<h3 id="用户配置"><a href="#用户配置" class="headerlink" title="用户配置"></a>用户配置</h3><p>按要求来呗，该不会这个也不会吧？</p>
-<hr>
-<p>用户配置结束后就直接安装了，安装后就没有了</p>
-<hr>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>由于 Ubuntu 的安装纠错能力没有那么强，报错都是很正常的事情 (和 MacOS 比起来还是差远了)，网上一般都有解决方案的。<br>最后祝你安装顺利！</p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>系统安装</tag>
-        <tag>Linux</tag>
-        <tag>Ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>超简单升级 Win10 方法</title>
     <url>/2022051221.html</url>
     <content><![CDATA[<h1 id="升级教程"><a href="#升级教程" class="headerlink" title="升级教程"></a>升级教程</h1><p>升级win10还是比较简单的，但是有个通病，磁盘占用要比全新安装大，还可能存在莫名其妙的BUG。如果电脑里没有重要资料，我推荐你还是选择全新安装比较好，教程可以参考 <a href="https://www.ligaogreat.top/2021051612">这篇文章</a> 和上面的安装教程<br>下面就是升级教程，首先打开 <a href="https://www.microsoft.com/zh-cn/software-download/windows10">Windows10下载页</a><br>点击 <strong><code>立即更新</code></strong></p>
@@ -293,6 +170,23 @@
         <tag>Windows</tag>
         <tag>教程</tag>
         <tag>系统升级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>汐月和杨希的激情夜晚 (AI创作)</title>
+    <url>/2022101019.html</url>
+    <content><![CDATA[<div class="note danger flat"><p>本文章禁止转载！！！</p>
+</div>
+<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章内容由 <a href="https://if.caiyunai.com/">彩云小梦</a> 生成。如有雷同，纯属巧合。</p>
+</div>
+
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>  我的名字叫汐月。就在昨日，我和我的道友老八成功连成了“铁山腚”，这个技能可以用屁崩死敌人。在此之前，我一直都在寻找一种叫做”水银炮”的物品，我一直都在寻找，终于在我寻觅到这种物品的时候，我和道友老八成功连上，并且使用了这个技能，现在我们的实力已经达到了金丹中期。<br>   但是我一直都在寻求更高等级的物品，那就是”水元气炮”，只有将水元素和草元素提升到一定程度才能够发挥它应该具备的力量。而这个技能，也只是其中一样物品而已。<br>   在我和道友老八的帮助下，我的修炼速度快到了极致，这次我们成功连通成功，我们已经是金丹后期的修士。但是由于我们的修行速度太快，使得我们的身体已经承受不住这样的力量，如果继续增长下去的话，就会使我们的身体爆炸而亡。我们决定停止修炼，我们知道我们还需要更强大的力量，所以我们离开了这里。我们回到了我们的洞府。<br>  我的道侣名叫杨希。她是一位火属性的修行者。修炼火元素法术。杨希是一位很美丽的女子，她的脸庞很白皙，很好看，我曾经看过杨希洗澡，她洗澡的时候我突然冲了进去，把她按在地上。我看着她白净的皮肤，和火辣的身材，下面的小兄弟开始按耐不住了。我的手在杨希身上游走，我的嘴巴亲吻着杨希。杨希的眼睛紧闭着，我的心中一阵狂躁。我忍不住了，我要占据她的全身，我要让她成为我的女人。我的身体在这个时候已经控制不住自己了，我的小兄弟开始攻击杨希的身体。杨希感觉到了疼痛，她睁开眼睛看着我。我看到了杨希那迷茫的目光，还有她眼角滑落的泪水。她是一位非常温柔的女子。<br>  这是我第一次和一个女人做，我的身体已经完全失控了。我的小兄弟在疯狂的冲撞着杨希的下身。<br>  “啊！”<br>  杨希娇羞的喊道，她的双腿已经被我分开。我在杨希的双腿间进进出出，杨希的身体不断的扭曲着，发出诱人的声音。<br>  我的欲望越来越强烈，我的身体在不断的颤抖着。杨希已经完全沉醉在了我的进攻之中，她不断的迎合着我。<br>  “杨希，我爱你，我要你成为我的女人。”<br>  “恩……啊。”<br>  随即，我们一起共赴巫山云雨。<br>  这个夜晚，注定是难熬的。我们不停的运动着，杨希在不停的喊着我的名字，在我身下发出令人陶醉的呻吟声。我在她身体里疯狂的冲刺着，杨希的身体不断的颤栗着，随后便是剧烈的颤抖，她的头发散乱开来，脸色潮红，嘴唇微张，她不断的喘息着，她感到了一股强烈的快感袭击着她。<br>  我的身体也在不停的冲击着。她不停的尖叫着。<br>  我的小兄弟在杨希的体内肆意横扫着，杨希的双腿夹住了我的腰身，她的手紧紧抱住了我的肩膀，她的身体不停的扭动着，嘴里发出阵阵低吟，她的呻吟声在空旷的房屋中不断的徘徊。她的表情非常享受，我的动作也越来越激烈，我的双手紧紧的搂住她的身体。我和杨希互相索取着，不停的发生着肉体的碰撞。<br>  我的动作非常快，几乎每秒钟就要进攻几百下，杨希的嘴里发出阵阵娇媚的呻吟。<br>  我的欲望越来越膨胀。我的身体越来越快。我们互相纠缠着，我们在彼此的身体上不断冲击着，发出阵阵令人血脉喷张的声响。<br>  终于，我们的身体达到了最高点。我们的身体一同颤抖着。杨希的身体软绵绵的躺倒在浴室的地上，一副无比满足的样子。<br>  我看着她的样子，心中非常的兴奋。我轻抚着她的身躯，杨希闭上眼睛，嘴角微微翘起，显示出她此刻的幸福。我和她躺在床上，我把头枕在杨希的胸口。我的双手环绕着杨希的小蛮腰，我在她的身边不停的蹭着。杨希的身体微微动了动。她的身体又动了动，我能感觉到杨希在我怀里轻轻扭动着，她的呼吸变得急促起来。 杨希的身体在不停的摩擦着，我感觉到了，她在不停的向我挑逗着。 我的手指在她的肌肤上划过。她的身体又颤抖了一下，我知道杨希是想要了，但是我还没有完全满足她，我不想这么早要了她，我想再多陪陪她，我还想再尝试一次，我要把自己的精华释放出来。我把自己的小兄弟送进杨希的身体中，杨希的身体顿时僵硬起来。我在杨希身体里慢慢的蠕动着，我的双腿在杨希的身体里面不停的抽搐着。我的小兄弟在她的体内进进出出，不停的进退着，杨希发出一声惊天动地的呻吟声，我的身体更加剧烈的动作起来。<br>我在杨希体内冲锋陷阵。杨希的身体不停的颤抖，她的小手紧紧抓住我的后背，我的额头不停的流汗，身体里面的精华不停的释放着。杨希的身体在不断的痉挛着，她的嘴里发出阵阵娇喘声，她的脸颊通红，浑身上下都泛着粉嫩的光泽。<br>我的动作越来越快，我在她的身体里面进进出出，不停的释放着我的精华，不停的进攻着，我的身体越来越强壮，我的小兄弟已经进入到了杨希的体内。<br>杨希的呻吟声越来越大，她的身体已经开始颤抖了。杨希的嘴里开始发出阵阵娇喘声，她的小腹部已经湿润了。我知道，杨希已经准备好了。我再次冲进了杨希的身体，不断的进出，我们在彼此的身体上不停的运动着，不停的进攻着。我们的身体在不停的颤抖着。<br>我们的战斗越来越激烈。我的小兄弟越来越粗壮，越来越坚挺。我们的战斗越来越猛烈，我们不停的发出阵阵呻吟，不断的释放着精华。终于，杨希的身体颤抖着，她的双腿在不停的收缩着，我的小兄弟进出的更加迅速，越来越用力。我和杨希的战斗已经到了最激烈的阶段，我的小兄弟不停的撞击着她的小腹，杨希的身体在不停的收缩，她的身体已经到了崩溃的边缘。我的小兄弟在不停的深入、深入……。<br>我和杨希的战斗越来越激烈。我们的战斗越来越凶猛，我们的呻吟声越来越大，不停的在彼此的身体里面撞击着。杨希的身体不停的收缩着。<br>我们的战斗越来越激烈。我和杨希的战斗越来越频繁，杨希的呻吟声越来越大，我们的动作越来越快。我的小兄弟不停的进出，不停的释放出精华。杨希的身体在不停的颤抖着，我们的呻吟声越来越大。终于，我的小兄弟冲破了阻碍，进入到了杨希的身体里面。<br>我们两个人不停的喘息着，身体依然紧密的结合着。我感觉到杨希的身体已经到了极限。她已经到了极限，我也快到了极限，我们的身体都在颤抖。<br>我和杨希的身体依然紧密结合着。<br>“希儿，我真的快要死了。”我的声音里充满了浓郁的疲倦。<br>“嗯，你快点儿出去吧，不要压坏我的肚子。”<br>“嗯，希儿，我先洗澡，一会儿就来找你。”我说。<br>我走进了浴室，打开淋浴，任由热水从头顶冲刷下来。<br>我坐在浴缸里，我闭上眼睛。<br>热气弥漫了整个浴室，我的思绪飘飞着。<br>我想起了杨希刚才的那番话，她在告诉我：”我喜欢上你了，我喜欢上你了。”<br>我的心里涌上一阵甜蜜，我的脑海里出现杨希的模样。杨希的模样是那么的美丽，那么的迷人。<br>我站起身，打算穿衣服出去。<br>这时候，我听见外面传来一阵敲门声。<br>“谁啊？”我问道。<br>“是我，你睡了吗？”门外传来杨希的声音。<br>我连忙跑了出去。<br>我打开了门，杨希穿着睡裙，她正站在外面。<br>杨希穿着睡裙的时候看起来像个小女孩一般可爱。<br>我的心跳得很厉害。<br>我的身体在微微颤抖着。<br>“我想找你谈谈。”<br>我把杨希拉到了卧室里，杨希的脸色有些潮红。<br>“你怎么穿成这样就出来啦。”我说。<br>“我不舒服。”杨希低下了头。<br>“我……我……我好像有了。”杨希小声地说到。<br>“什么！”我的脑袋轰的一声炸裂了，我的小兄弟居然在这个时候射出了。<br>我的眼前出现了杨希穿着睡裙的身影。<br>我和杨希之间的距离是那么近，那么近，我的鼻尖几乎要触摸到她的鼻尖了。<br>我的心跳得很厉害，我的呼吸也开始变得急促。<br>“怎么办？”我问杨希。<br>杨希低着头。<br>“我们先做措施。”我说。<br>“我……我不行……”杨希摇摇头，我看见她的身体不停的颤抖着。<br>我的身体也开始颤抖。<br>“我不是说让你吃药吗？你怎么还乱吃啊。”<br>“我……我没有吃……”<br>“那你为什么会怀孕呢？”我问她。<br>“我也不知道。”杨希抬起头，脸上写满了疑惑。<br>我看见她眼眶里含满了泪水，一副委屈的表情。<br>我伸手抚摸着她的脸蛋儿，我的心里一片柔软。<br>“希儿，对不起。”<br>杨希的眼泪扑簌簌的掉落了下来。<br>“我不是故意的……我……”我慌张的说。<br>“你别哭了……”我说。<br>“我……我不是故意的，你原谅我好不好。”我说。<br>杨希摇着头，不说话。<br>我伸手抱住她，轻声安慰着她。<br>杨希哭了一会儿之后，她擦干眼角的泪水。<br>“你别哭了，你看你都哭花了。”我笑着对她说。<br>“你欺负我。”杨希嘟囔着。<br>我把杨希搂在怀里，我不知道该说什么了。<br>我和杨希的身体还紧紧的结合在一起，我们都能够感受到对方的体温。<br>“我们不能这样，你会难过的。”我说。<br>“可是我真的好难受。”杨希说。<br>“我给你揉揉。”我说着就要脱下自己的裤衩。<br>杨希连忙躲开，我愣住了。<br>“我不能这样，我不能这样，你别碰我。”杨希捂住胸口，一副很痛苦的样子。<br>“可是你……”我看着杨希，我不知所措。<br>“我想一个人静一静，求求你，让我一个人呆一会儿，你不要管我。”杨希说着挣扎着从我的怀里站起身，向房门口走去。<br>“希儿，我……”我想叫住她。<br>但杨希并不理睬我，只顾向房间门口走去。<br>她刚刚走到门口，我就追了上去。<br>她转身看着我，脸上带着哀怨的神情。<br>我的心被狠狠的刺伤了。<br>我的手握住了杨希的肩膀。<br>“你别这样。”<br>“你放手啊！”杨希大喊着，”你别碰我！你是个混蛋！”<br>“我是混蛋，是我混蛋，你不要哭了好不好？”我看着杨希，我真的不知道该如何是好。<br>“你走！你走啊！你不要管我！”杨希吼着。<br>“你别生气嘛，好不好？我错了还不行吗？”我说。<br>“我讨厌你，我讨厌你，你走！走啊！”杨希哭着说。<br>“你别这样好不好？”我说。<br>“你走，我不想看到你，我一看到你我就会想起你对我做过的那些事。”杨希大声的哭喊着，声音里全是悲愤。<br>“对不起，我错了，我错了还不行吗？你原谅我好不好？”我说。<br>“滚！我再也不想看见你，你滚！”杨希用力的推了我一下。<br>我被她推倒在地上，我的膝盖撞在地板上，疼得我眼泪直流。<br>杨希转身向房间里面走去。<br>我连忙爬起来，却只是傻傻的站在那看杨希离开。<br>我的心里很痛苦。<br>这种滋味儿让我无法忍受，我真恨自己为什么要来招惹杨希。<br>我真的是混蛋。<br>我真的是罪该万死。<br>我不应该这样做的。<br>我真的不应该这样对待杨希。<br>我的心里充满了愧疚。<br>我想跟杨希解释清楚，我不能失去她，更不能失去她腹中的孩子。<br>我不能让这个孩子出生在我的错误的家庭中。<br>我必须和杨希说清楚。<br>我想立马上去跟杨希道歉，但是我的双腿发软，根本站不起来，直到我看到杨希从阳台跳了下去。<br>“希儿！”我惊恐的叫了起来。<br>“希儿！”我大喊着，但杨希已经从阳台上跳了下去。<br>杨希的身体摔落在地面上，我的心里像针扎一般，我觉得我的心脏被抽空了似的。<br>我冲到窗边，看到杨希躺在楼底下。<br>楼层虽高，但也不至于让她受伤吧？<br>我赶紧跑下楼，来到杨希身边，她的脸色苍白。<br>我扶起她，她的身体冰冷，就像死尸一般。<br>“希儿……希儿……”我使劲儿摇晃着她，希望她能醒过来。<br>她依旧昏迷着。<br>我抱起她，冲到了医院。<br>她被送进了手术室。<br>我坐在走廊上，双手捂着脸，心里十分难受。<br>我知道这次的事情，我真的错了，而且还错得非常严重。<br>我的心里很内疚。<br>“希儿……你别怪我，你原谅我好不好？你一定不会有事的，你一定不会有事的。”我喃喃着，眼睛里含满了泪水。<br>手术进行了整整两个多小时，终于在凌晨四点钟的时候结束了。<br>医生从病房里走了出来。<br>“医生……医生……”我拉住了医生的衣袖，焦急的问：”她怎么样了？”<br>医生摘下口罩，叹了口气：”病人的身体太虚弱了，又受到了强烈的刺激，加上长期的压抑，精神处于崩溃的边缘。我们已经尽最大努力了。”<br>医生的这句话像是一记闷棍打在我的头上，我的身体顿时瘫坐在地上。<br>“她怎么会这样？她不应该这样啊……”我哭着说。<br>“这位先生，您请节哀顺变。”医生拍拍我的肩膀说。<br>我的眼前顿时一黑，身体一软，晕了过去。<br>医生说的没错，这个女人确实不适合怀孕。<br>我不应该这么做的，这样做会害死她的。<br>我怎么可以让她受到这么大的刺激呢？<br>“对不起，对不起……我……我不应该这么做的……”我哭着说。<br>我的心里充满了悔恨与后悔，我真的不能再继续错下去了。<br>我真的不能失去杨希……<br>“对不起……对不起……”我喃喃着，眼睛里全是眼泪。<br>不知过了多久，我萌生了一个念头，既然上天没法给我一个完美的结局，那么我只好亲手毁掉这个结局。<br>我决定，亲手杀死自己的骨肉，亲手结束自己的性命。<br>我不想再活下去了，我宁愿去死。<br>我不会再爱任何人，因为我爱的人已经离开人世。<br>我要陪着杨希，永远的陪着她。<br>我想到了这里，我立马跑上楼顶，准备与世长辞。<br>于是我紧闭双眼，向下跳去。<br>当我睁开眼的时候，我的双脚悬挂在半空中，我的身体已经坠入了万丈深渊之中。<br>我的眼前一片漆黑。<br>我的脑海里忽然想到了杨希。<br>她的模样在我的眼前越来越清晰。<br>我感觉自己好像快死了一样，我感觉不到疼，但我能感觉到身体正在一点一点的变凉。<br>我不敢去看自己的身体，我害怕看到我身体的变化。<br>我感觉我正在一点一点的消失。<br>我感觉到了一丝不舍。<br>我想，我的身体已经快不属于我了，我要去找杨希。<br>我的灵魂离体了，但我能感觉得到我的肉体还留在我的身体内。<br>我的灵魂离开身体，飘到了杨希身旁。<br>“希儿。”我轻轻唤她，她的眉头微皱。<br>我伸出手，轻抚着她的脸颊，她的眼皮动了一下，缓慢的睁开了眼睛。<br>我看到她眼睛里含满了泪花。<br>“对不起……对不起……希儿，都是我的错。”我低声说。<br>“你是谁？”杨希疑惑的看着我。<br>“我……是你老公。”我说。<br>我愣住了，杨希好像把我忘了。<br>“老婆……你……你忘了我吗？”我试探着说。<br>“你……你是我的老公吗？”杨希问我。<br>“是啊。”我点点头。<br>“那……那你怎么叫我老婆……你……你是谁？”杨希疑惑的问。<br>我听到杨希的话，心里有一阵失落。<br>“我是你老公，你不认识我了吗？”我问。<br>杨希摇摇头：”我……我……”<br>她一时想不起来我是谁了。<br>我看到她的眼里全是疑惑。</p>
+]]></content>
+      <categories>
+        <category>人工智障</category>
+      </categories>
+      <tags>
+        <tag>AI创作</tag>
       </tags>
   </entry>
   <entry>
@@ -499,6 +393,244 @@
       </tags>
   </entry>
   <entry>
+    <title>Ubuntu 21.04 安装教程</title>
+    <url>/2021082112.html</url>
+    <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-triangle-exclamation"></i><p>先声明一下，本文是基于UEFI启动方式制作的教程，可能会和BIOS启动方式有点不同</p>
+</div>
+
+<h2 id="制作启动盘"><a href="#制作启动盘" class="headerlink" title="制作启动盘"></a>制作启动盘</h2><p>老样子，安装系统肯定需要安装镜像的</p>
+<a class="btn-beautify outline blue larger" href="https://cn.ubuntu.com/download/desktop" title="下载入口"><i class="fas fa-download"></i><span>下载入口</span></a>
+<p>这次用的写入软件算是老伙计了 <a href="https://rufus.ie/">rufuns</a>，不会用 rufuns 的也可以使用 <a href="https://www.balena.io/etcher/">balenaEtcher</a></p>
+<h2 id="开机引导"><a href="#开机引导" class="headerlink" title="开机引导"></a>开机引导</h2><p>网上教程挺多的，反正引导选择通用的都是 <strong><code>F12</code></strong><br>如果你实在不会的话可以 <a href="https://www.baidu.com/s?wd=BIOS+%E5%90%AF%E5%8A%A8%E9%A1%BA%E5%BA%8F">点击这里</a></p>
+<h2 id="关闭安全启动（可选）"><a href="#关闭安全启动（可选）" class="headerlink" title="关闭安全启动（可选）"></a>关闭安全启动（可选）</h2><p>进入主板 BIOS，找到 <strong><code>Secure Boot (安全启动)</code></strong> 设置为 <strong><code>Disabled (禁用/关闭)</code></strong></p>
+<blockquote>
+<p>一般厂商默认都开启了安全引导，主要是为了安全考虑。我们可以关闭安全启动，以防遇到一些奇怪的问题。</p>
+</blockquote>
+<h2 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h2><p>开机后引导U盘，在 grub 启动菜单中选择 <strong>Ubuntu</strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021082112/01.png" alt="GRUB 引导菜单"></p>
+<p>等待加载完成后进入安装页面</p>
+<h3 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h3><p>进入LiveCD后在左面下拉选择 <strong><code>中文(简体)</code></strong> 然后选择 <strong><code>安装 Ubuntu</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021082112/02.png" alt="选择安装 Ubuntu"></p>
+<p>接下来就是 <strong>键盘布局</strong> 以及 <strong>更新和其他软件</strong></p>
+<h3 id="键盘布局"><a href="#键盘布局" class="headerlink" title="键盘布局"></a>键盘布局</h3><p>根据自己的喜好修改，<strong>默认不用改</strong></p>
+<h3 id="更新和其他软件"><a href="#更新和其他软件" class="headerlink" title="更新和其他软件"></a>更新和其他软件</h3><p>一般选择 <strong><code>正常安装</code></strong> 就行<br>如果你已经连接网络，还是推荐勾选 <strong><code>安装 Ubuntu 时下载更新</code></strong></p>
+<h3 id="安装类型"><a href="#安装类型" class="headerlink" title="安装类型"></a>安装类型</h3><p>如果是全盘清空安装就选择 <strong><code>清除整个磁盘并安装 Ubuntu</code></strong><br>如果电脑内有重要资料或者要双系统的选择 <strong><code>其他选项</code></strong></p>
+<blockquote>
+<p>如果选择清除磁盘，会使电脑内<strong>重要的资料丢失</strong></p>
+</blockquote>
+<h3 id="磁盘分区"><a href="#磁盘分区" class="headerlink" title="磁盘分区"></a>磁盘分区</h3><p>Ubuntu 磁盘分区比较简单，但没有 Windows 那样简单</p>
+<p>必须创建一个 <strong>Ext4 格式</strong> 的分区挂载到 <strong>&#x2F;</strong> ，这个分区是用来安装系统的<br>先来讲解一下每个挂载点的作用</p>
+<table>
+<thead>
+<tr>
+<th>挂载点</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x2F;</td>
+<td>根目录</td>
+</tr>
+<tr>
+<td>&#x2F;boot</td>
+<td>Linux 的内核及引导系统程序所需要的文件</td>
+</tr>
+<tr>
+<td>&#x2F;home</td>
+<td>用户主目录；用户配置文件；用户环境变量等</td>
+</tr>
+<tr>
+<td>&#x2F;tmp</td>
+<td>临时文件</td>
+</tr>
+<tr>
+<td>&#x2F;usr</td>
+<td>保存了非系统关键的可执行文件和共享资源</td>
+</tr>
+<tr>
+<td>&#x2F;var</td>
+<td>这代表变量，是处于可变状态的文件的放置位置</td>
+</tr>
+<tr>
+<td>&#x2F;srv</td>
+<td>服务器数据，此数据是系统提供的服务的数据</td>
+</tr>
+<tr>
+<td>&#x2F;opt</td>
+<td>主要存放可选程序</td>
+</tr>
+<tr>
+<td>&#x2F;usr&#x2F;local</td>
+<td>主要存放那些手动安装的软件</td>
+</tr>
+<tr>
+<td>&#x2F;swap</td>
+<td>交换分区，相当于 Windows 的虚拟内存</td>
+</tr>
+</tbody></table>
+<p>我在下面列出了常见的分区方案<br>如果你不知道该如何分区，可以直接使用下面表格的方案。直接拿去用，没问题的。</p>
+<blockquote>
+<p><strong>UEFI 启动要预留近 300MB 的空间创建 EFI 分区</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>挂载点</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x2F;</td>
+<td>推荐第一个创建此分区，至少 20G</td>
+</tr>
+<tr>
+<td>&#x2F;boot</td>
+<td>250 MB</td>
+</tr>
+<tr>
+<td>&#x2F;swap</td>
+<td>运行内存低于 8G 的推荐是运行内存的 2 倍 (此项不在挂载点中，而是在<strong>用于</strong>中，名字叫<strong>交换分区</strong>)</td>
+</tr>
+<tr>
+<td>&#x2F;home</td>
+<td>没有固定要求，推荐将剩下的容量全部使用</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>部分内容来自Dell支持文档中的 <a href="https://www.dell.com/support/kbdoc/zh-cn/000131456/ubuntu-linux%e5%88%86%e5%8c%ba%e5%92%8c%e7%9b%ae%e5%bd%95%e7%9a%84%e7%b1%bb%e5%9e%8b%e5%8f%8a%e5%ae%9a%e4%b9%89%e8%af%b4%e6%98%8e">Ubuntu Linux 分区和目录的类型及定义说明</a></p>
+</blockquote>
+<h3 id="用户配置"><a href="#用户配置" class="headerlink" title="用户配置"></a>用户配置</h3><p>按要求来呗，该不会这个也不会吧？</p>
+<hr>
+<p>用户配置结束后就直接安装了，安装后就没有了</p>
+<hr>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>由于 Ubuntu 的安装纠错能力没有那么强，报错都是很正常的事情 (和 MacOS 比起来还是差远了)，网上一般都有解决方案的。<br>最后祝你安装顺利！</p>
+]]></content>
+      <categories>
+        <category>操作系统安装教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>系统安装</tag>
+        <tag>Linux</tag>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何创建一个无管理员权限的普通账户</title>
+    <url>/2022113022.html</url>
+    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>本教程适用于 Windows 7 及其更高的版本</p>
+</div>
+<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>本篇教程 <strong><code>不适用于</code></strong> 家庭版</p>
+</div>
+
+
+<h1 id="如何创建一个无管理员权限的普通账户"><a href="#如何创建一个无管理员权限的普通账户" class="headerlink" title="如何创建一个无管理员权限的普通账户"></a>如何创建一个无管理员权限的普通账户</h1><h2 id="普通方法"><a href="#普通方法" class="headerlink" title="普通方法"></a>普通方法</h2><ol>
+<li>按 Win+R 输入<code>compmgmt.msc</code></li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/01.png" alt="compmgmt.msc"></p>
+<ol start="2">
+<li>在 计算机管理 窗口中找到 <strong><code>本地用户和组 - 用户</code></strong></li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/02.png" alt="在计算机管理窗口中找到 本地用户和组 - 用户"></p>
+<blockquote>
+<p>什么，你跟我说没有这个东西？那你肯定是<strong>家庭版</strong>，我帮不到你</p>
+</blockquote>
+<ol start="3">
+<li>找到你的用户，右键选择 <strong><code>设置密码</code></strong></li>
+</ol>
+<blockquote>
+<p>不知道自己用户名的找到没有箭头角标的用户(或Adminstrator)</p>
+</blockquote>
+<p> <img src="https://image.ligaogreat.top/image/blog/2022113022/03.png" alt="点击设置密码"></p>
+<ol start="4">
+<li>如图所示，设置密码</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/05.png" alt="单击继续"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/04.png" alt="创建密码窗口"></p>
+<ol start="5">
+<li>右击空白处，选择 <strong><code>新用户</code></strong></li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/07.png" alt="选择新用户"></p>
+<ol start="6">
+<li>像我这样填写</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/06.png" alt="用户配置界面"></p>
+<blockquote>
+<p><strong>省流：</strong><br>用户名  &#x2F;&#x2F; 推荐英文名<br>全名  &#x2F;&#x2F; 这里的名称为显示名称 (可以为空)<br><strong>勾选</strong>  <strong><code>用户不能更改密码</code><strong>和</strong><code>密码永不过期</code></strong></p>
+</blockquote>
+<ol start="7">
+<li>返回桌面，按下 “Ctrl+Alt+Del”，选择 <strong><code>切换用户</code></strong></li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/08.png" alt="点击切换用户"></p>
+<ol start="8">
+<li>在左下角找到刚刚创建的账户，点击 <code>登录</code></li>
+</ol>
+<p><img src="https://s1.ax1x.com/2022/11/30/zwO4Rs.png" alt="在登陆界面选择用户"></p>
+<ol start="9">
+<li>完成设置界面后进入用户</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/09.png" alt="点击下一页"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/10.png" alt="进入桌面"></p>
+<hr>
+<h2 id="命令行创建新用户-推荐"><a href="#命令行创建新用户-推荐" class="headerlink" title="命令行创建新用户 (推荐)"></a>命令行创建新用户 (推荐)</h2><ol>
+<li>右键Windows徽标，选择 <code>命令提示符 (管理员)</code> 或 <code>PowerShell (管理员)</code></li>
+</ol>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">net user [用户名] [密码] /add /passwordchg:no</span><br><span class="line"><span class="comment"># [用户名]: 要创建的用户名</span></span><br><span class="line"><span class="comment"># [密码]: 创建用户的密码</span></span><br><span class="line"><span class="comment"># passwordchg:no 为禁止用户更改密码，将 no 改为 yes 则允许用户更改密码</span></span><br></pre></td></tr></table></figure>
+
+<p>例如：创建一个名叫 <strong>User123</strong> 密码为 <strong>6666</strong> 的账户，并且 <strong>禁止用户更改密码</strong></p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">net user User123 <span class="number">6666</span> /add /passwordchg:no</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/12.png" alt="PowerShell 界面"></p>
+<ol start="2">
+<li>返回桌面，按下 “Ctrl+Alt+Del”，选择 <strong><code>切换用户</code></strong></li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/08.png" alt="点击切换用户"></p>
+<ol start="3">
+<li>在左下角找到刚刚创建的账户，点击 <code>登录</code></li>
+</ol>
+<p><img src="https://s1.ax1x.com/2022/11/30/zwO4Rs.png" alt="在登陆界面选择用户"></p>
+<ol start="4">
+<li>完成设置界面后进入用户</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/09.png" alt="点击下一页"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022113022/10.png" alt="进入桌面"></p>
+]]></content>
+      <categories>
+        <category>其他教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>███：时尚黑骑士的 Gucci 夹克魅力 (AI创作)</title>
+    <url>/2023120611.html</url>
+    <content><![CDATA[<div class="note danger flat"><p>为保护个人隐私，本文章禁止转载！！！</p>
+</div>
+<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>为保护个人隐私，部分内容已脱敏处理</p>
+</div>
+
+<h1 id="███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）"><a href="#███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）" class="headerlink" title="███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）"></a>███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）</h1><p>在时尚的世界中，Gucci一直以其独特的设计理念和精湛的工艺而备受瞩目。而在众多的时尚单品中，Gucci的夹克无疑是这个品牌的一大亮点。今天，我们将借助███这一形象，来深入探讨Gucci夹克的时尚价值以及███如何通过搭配技巧，将这一单品展现得淋漓尽致。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/01.jpeg"></p>
+<p>首先，让我们先来欣赏一下███的形象。他身着一件Gucci的夹克，简洁的设计风格和黑灰的色调使得这件夹克充满了神秘感。而最令人印象深刻的莫过于他搭配的黑色墨镜，完美地遮挡住了他的眼神，让人无法窥视他内心的世界。这样的搭配，无疑为他的形象增添了几分神秘和冷峻。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/02.jpeg"></p>
+<p>Gucci夹克的魅力在于其独特的设计和精湛的工艺。这款夹克采用了高品质的面料，手感柔软，穿起来舒适不束缚。同时，其经典的设计元素和精美的细节处理，使得这款夹克无论是在日常生活中还是出行旅游时，都能成为一道亮丽的风景线。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/03.jpeg"></p>
+<p>而███是如何将这款Gucci夹克发挥到极致的呢？首先，他选择了与夹克色调相呼应的黑色墨镜，这样的搭配使得整体形象更加和谐统一。此外，他还选择了一款简约的项链作为装饰，不仅增添了几分时尚感，还为整体形象增添了几分华丽的元素。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/05.jpeg"></p>
+<p>███的形象完美地诠释了Gucci夹克的时尚价值。他通过精心的搭配技巧，将这款夹克展现得淋漓尽致。而Gucci夹克的独特魅力和时尚价值，也在他的搭配下得到了充分的体现。无论是在日常生活中还是出行旅游时，我们都可以从███的形象中得到一些搭配灵感。</p>
+<hr>
+<a class="btn-beautify outline blue larger" href="https://ligao.lanzouj.com/iyJyx1s147vi" title="下载 PDF"><i class="fas fa-file-pdf"></i><span>下载 PDF</span></a>
+<a class="btn-beautify outline larger" href="https://ligao.lanzouj.com/idTJE1s147tg" title="下载 DOC"><i class="fas fa-file-word"></i><span>下载 DOC</span></a>]]></content>
+      <categories>
+        <category>人工智障</category>
+      </categories>
+      <tags>
+        <tag>AI创作</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>安装 MS-DOS 6.22</title>
     <url>/2023042111.html</url>
     <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章使用的虚拟机软件为 VMware Workstation Pro 15.5.7</p>
@@ -607,111 +739,6 @@
       <tags>
         <tag>教程</tag>
         <tag>系统安装</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>汐月和杨希的激情夜晚 (AI创作)</title>
-    <url>/2022101019.html</url>
-    <content><![CDATA[<div class="note danger flat"><p>本文章禁止转载！！！</p>
-</div>
-<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章内容由 <a href="https://if.caiyunai.com/">彩云小梦</a> 生成。如有雷同，纯属巧合。</p>
-</div>
-
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>  我的名字叫汐月。就在昨日，我和我的道友老八成功连成了“铁山腚”，这个技能可以用屁崩死敌人。在此之前，我一直都在寻找一种叫做”水银炮”的物品，我一直都在寻找，终于在我寻觅到这种物品的时候，我和道友老八成功连上，并且使用了这个技能，现在我们的实力已经达到了金丹中期。<br>   但是我一直都在寻求更高等级的物品，那就是”水元气炮”，只有将水元素和草元素提升到一定程度才能够发挥它应该具备的力量。而这个技能，也只是其中一样物品而已。<br>   在我和道友老八的帮助下，我的修炼速度快到了极致，这次我们成功连通成功，我们已经是金丹后期的修士。但是由于我们的修行速度太快，使得我们的身体已经承受不住这样的力量，如果继续增长下去的话，就会使我们的身体爆炸而亡。我们决定停止修炼，我们知道我们还需要更强大的力量，所以我们离开了这里。我们回到了我们的洞府。<br>  我的道侣名叫杨希。她是一位火属性的修行者。修炼火元素法术。杨希是一位很美丽的女子，她的脸庞很白皙，很好看，我曾经看过杨希洗澡，她洗澡的时候我突然冲了进去，把她按在地上。我看着她白净的皮肤，和火辣的身材，下面的小兄弟开始按耐不住了。我的手在杨希身上游走，我的嘴巴亲吻着杨希。杨希的眼睛紧闭着，我的心中一阵狂躁。我忍不住了，我要占据她的全身，我要让她成为我的女人。我的身体在这个时候已经控制不住自己了，我的小兄弟开始攻击杨希的身体。杨希感觉到了疼痛，她睁开眼睛看着我。我看到了杨希那迷茫的目光，还有她眼角滑落的泪水。她是一位非常温柔的女子。<br>  这是我第一次和一个女人做，我的身体已经完全失控了。我的小兄弟在疯狂的冲撞着杨希的下身。<br>  “啊！”<br>  杨希娇羞的喊道，她的双腿已经被我分开。我在杨希的双腿间进进出出，杨希的身体不断的扭曲着，发出诱人的声音。<br>  我的欲望越来越强烈，我的身体在不断的颤抖着。杨希已经完全沉醉在了我的进攻之中，她不断的迎合着我。<br>  “杨希，我爱你，我要你成为我的女人。”<br>  “恩……啊。”<br>  随即，我们一起共赴巫山云雨。<br>  这个夜晚，注定是难熬的。我们不停的运动着，杨希在不停的喊着我的名字，在我身下发出令人陶醉的呻吟声。我在她身体里疯狂的冲刺着，杨希的身体不断的颤栗着，随后便是剧烈的颤抖，她的头发散乱开来，脸色潮红，嘴唇微张，她不断的喘息着，她感到了一股强烈的快感袭击着她。<br>  我的身体也在不停的冲击着。她不停的尖叫着。<br>  我的小兄弟在杨希的体内肆意横扫着，杨希的双腿夹住了我的腰身，她的手紧紧抱住了我的肩膀，她的身体不停的扭动着，嘴里发出阵阵低吟，她的呻吟声在空旷的房屋中不断的徘徊。她的表情非常享受，我的动作也越来越激烈，我的双手紧紧的搂住她的身体。我和杨希互相索取着，不停的发生着肉体的碰撞。<br>  我的动作非常快，几乎每秒钟就要进攻几百下，杨希的嘴里发出阵阵娇媚的呻吟。<br>  我的欲望越来越膨胀。我的身体越来越快。我们互相纠缠着，我们在彼此的身体上不断冲击着，发出阵阵令人血脉喷张的声响。<br>  终于，我们的身体达到了最高点。我们的身体一同颤抖着。杨希的身体软绵绵的躺倒在浴室的地上，一副无比满足的样子。<br>  我看着她的样子，心中非常的兴奋。我轻抚着她的身躯，杨希闭上眼睛，嘴角微微翘起，显示出她此刻的幸福。我和她躺在床上，我把头枕在杨希的胸口。我的双手环绕着杨希的小蛮腰，我在她的身边不停的蹭着。杨希的身体微微动了动。她的身体又动了动，我能感觉到杨希在我怀里轻轻扭动着，她的呼吸变得急促起来。 杨希的身体在不停的摩擦着，我感觉到了，她在不停的向我挑逗着。 我的手指在她的肌肤上划过。她的身体又颤抖了一下，我知道杨希是想要了，但是我还没有完全满足她，我不想这么早要了她，我想再多陪陪她，我还想再尝试一次，我要把自己的精华释放出来。我把自己的小兄弟送进杨希的身体中，杨希的身体顿时僵硬起来。我在杨希身体里慢慢的蠕动着，我的双腿在杨希的身体里面不停的抽搐着。我的小兄弟在她的体内进进出出，不停的进退着，杨希发出一声惊天动地的呻吟声，我的身体更加剧烈的动作起来。<br>我在杨希体内冲锋陷阵。杨希的身体不停的颤抖，她的小手紧紧抓住我的后背，我的额头不停的流汗，身体里面的精华不停的释放着。杨希的身体在不断的痉挛着，她的嘴里发出阵阵娇喘声，她的脸颊通红，浑身上下都泛着粉嫩的光泽。<br>我的动作越来越快，我在她的身体里面进进出出，不停的释放着我的精华，不停的进攻着，我的身体越来越强壮，我的小兄弟已经进入到了杨希的体内。<br>杨希的呻吟声越来越大，她的身体已经开始颤抖了。杨希的嘴里开始发出阵阵娇喘声，她的小腹部已经湿润了。我知道，杨希已经准备好了。我再次冲进了杨希的身体，不断的进出，我们在彼此的身体上不停的运动着，不停的进攻着。我们的身体在不停的颤抖着。<br>我们的战斗越来越激烈。我的小兄弟越来越粗壮，越来越坚挺。我们的战斗越来越猛烈，我们不停的发出阵阵呻吟，不断的释放着精华。终于，杨希的身体颤抖着，她的双腿在不停的收缩着，我的小兄弟进出的更加迅速，越来越用力。我和杨希的战斗已经到了最激烈的阶段，我的小兄弟不停的撞击着她的小腹，杨希的身体在不停的收缩，她的身体已经到了崩溃的边缘。我的小兄弟在不停的深入、深入……。<br>我和杨希的战斗越来越激烈。我们的战斗越来越凶猛，我们的呻吟声越来越大，不停的在彼此的身体里面撞击着。杨希的身体不停的收缩着。<br>我们的战斗越来越激烈。我和杨希的战斗越来越频繁，杨希的呻吟声越来越大，我们的动作越来越快。我的小兄弟不停的进出，不停的释放出精华。杨希的身体在不停的颤抖着，我们的呻吟声越来越大。终于，我的小兄弟冲破了阻碍，进入到了杨希的身体里面。<br>我们两个人不停的喘息着，身体依然紧密的结合着。我感觉到杨希的身体已经到了极限。她已经到了极限，我也快到了极限，我们的身体都在颤抖。<br>我和杨希的身体依然紧密结合着。<br>“希儿，我真的快要死了。”我的声音里充满了浓郁的疲倦。<br>“嗯，你快点儿出去吧，不要压坏我的肚子。”<br>“嗯，希儿，我先洗澡，一会儿就来找你。”我说。<br>我走进了浴室，打开淋浴，任由热水从头顶冲刷下来。<br>我坐在浴缸里，我闭上眼睛。<br>热气弥漫了整个浴室，我的思绪飘飞着。<br>我想起了杨希刚才的那番话，她在告诉我：”我喜欢上你了，我喜欢上你了。”<br>我的心里涌上一阵甜蜜，我的脑海里出现杨希的模样。杨希的模样是那么的美丽，那么的迷人。<br>我站起身，打算穿衣服出去。<br>这时候，我听见外面传来一阵敲门声。<br>“谁啊？”我问道。<br>“是我，你睡了吗？”门外传来杨希的声音。<br>我连忙跑了出去。<br>我打开了门，杨希穿着睡裙，她正站在外面。<br>杨希穿着睡裙的时候看起来像个小女孩一般可爱。<br>我的心跳得很厉害。<br>我的身体在微微颤抖着。<br>“我想找你谈谈。”<br>我把杨希拉到了卧室里，杨希的脸色有些潮红。<br>“你怎么穿成这样就出来啦。”我说。<br>“我不舒服。”杨希低下了头。<br>“我……我……我好像有了。”杨希小声地说到。<br>“什么！”我的脑袋轰的一声炸裂了，我的小兄弟居然在这个时候射出了。<br>我的眼前出现了杨希穿着睡裙的身影。<br>我和杨希之间的距离是那么近，那么近，我的鼻尖几乎要触摸到她的鼻尖了。<br>我的心跳得很厉害，我的呼吸也开始变得急促。<br>“怎么办？”我问杨希。<br>杨希低着头。<br>“我们先做措施。”我说。<br>“我……我不行……”杨希摇摇头，我看见她的身体不停的颤抖着。<br>我的身体也开始颤抖。<br>“我不是说让你吃药吗？你怎么还乱吃啊。”<br>“我……我没有吃……”<br>“那你为什么会怀孕呢？”我问她。<br>“我也不知道。”杨希抬起头，脸上写满了疑惑。<br>我看见她眼眶里含满了泪水，一副委屈的表情。<br>我伸手抚摸着她的脸蛋儿，我的心里一片柔软。<br>“希儿，对不起。”<br>杨希的眼泪扑簌簌的掉落了下来。<br>“我不是故意的……我……”我慌张的说。<br>“你别哭了……”我说。<br>“我……我不是故意的，你原谅我好不好。”我说。<br>杨希摇着头，不说话。<br>我伸手抱住她，轻声安慰着她。<br>杨希哭了一会儿之后，她擦干眼角的泪水。<br>“你别哭了，你看你都哭花了。”我笑着对她说。<br>“你欺负我。”杨希嘟囔着。<br>我把杨希搂在怀里，我不知道该说什么了。<br>我和杨希的身体还紧紧的结合在一起，我们都能够感受到对方的体温。<br>“我们不能这样，你会难过的。”我说。<br>“可是我真的好难受。”杨希说。<br>“我给你揉揉。”我说着就要脱下自己的裤衩。<br>杨希连忙躲开，我愣住了。<br>“我不能这样，我不能这样，你别碰我。”杨希捂住胸口，一副很痛苦的样子。<br>“可是你……”我看着杨希，我不知所措。<br>“我想一个人静一静，求求你，让我一个人呆一会儿，你不要管我。”杨希说着挣扎着从我的怀里站起身，向房门口走去。<br>“希儿，我……”我想叫住她。<br>但杨希并不理睬我，只顾向房间门口走去。<br>她刚刚走到门口，我就追了上去。<br>她转身看着我，脸上带着哀怨的神情。<br>我的心被狠狠的刺伤了。<br>我的手握住了杨希的肩膀。<br>“你别这样。”<br>“你放手啊！”杨希大喊着，”你别碰我！你是个混蛋！”<br>“我是混蛋，是我混蛋，你不要哭了好不好？”我看着杨希，我真的不知道该如何是好。<br>“你走！你走啊！你不要管我！”杨希吼着。<br>“你别生气嘛，好不好？我错了还不行吗？”我说。<br>“我讨厌你，我讨厌你，你走！走啊！”杨希哭着说。<br>“你别这样好不好？”我说。<br>“你走，我不想看到你，我一看到你我就会想起你对我做过的那些事。”杨希大声的哭喊着，声音里全是悲愤。<br>“对不起，我错了，我错了还不行吗？你原谅我好不好？”我说。<br>“滚！我再也不想看见你，你滚！”杨希用力的推了我一下。<br>我被她推倒在地上，我的膝盖撞在地板上，疼得我眼泪直流。<br>杨希转身向房间里面走去。<br>我连忙爬起来，却只是傻傻的站在那看杨希离开。<br>我的心里很痛苦。<br>这种滋味儿让我无法忍受，我真恨自己为什么要来招惹杨希。<br>我真的是混蛋。<br>我真的是罪该万死。<br>我不应该这样做的。<br>我真的不应该这样对待杨希。<br>我的心里充满了愧疚。<br>我想跟杨希解释清楚，我不能失去她，更不能失去她腹中的孩子。<br>我不能让这个孩子出生在我的错误的家庭中。<br>我必须和杨希说清楚。<br>我想立马上去跟杨希道歉，但是我的双腿发软，根本站不起来，直到我看到杨希从阳台跳了下去。<br>“希儿！”我惊恐的叫了起来。<br>“希儿！”我大喊着，但杨希已经从阳台上跳了下去。<br>杨希的身体摔落在地面上，我的心里像针扎一般，我觉得我的心脏被抽空了似的。<br>我冲到窗边，看到杨希躺在楼底下。<br>楼层虽高，但也不至于让她受伤吧？<br>我赶紧跑下楼，来到杨希身边，她的脸色苍白。<br>我扶起她，她的身体冰冷，就像死尸一般。<br>“希儿……希儿……”我使劲儿摇晃着她，希望她能醒过来。<br>她依旧昏迷着。<br>我抱起她，冲到了医院。<br>她被送进了手术室。<br>我坐在走廊上，双手捂着脸，心里十分难受。<br>我知道这次的事情，我真的错了，而且还错得非常严重。<br>我的心里很内疚。<br>“希儿……你别怪我，你原谅我好不好？你一定不会有事的，你一定不会有事的。”我喃喃着，眼睛里含满了泪水。<br>手术进行了整整两个多小时，终于在凌晨四点钟的时候结束了。<br>医生从病房里走了出来。<br>“医生……医生……”我拉住了医生的衣袖，焦急的问：”她怎么样了？”<br>医生摘下口罩，叹了口气：”病人的身体太虚弱了，又受到了强烈的刺激，加上长期的压抑，精神处于崩溃的边缘。我们已经尽最大努力了。”<br>医生的这句话像是一记闷棍打在我的头上，我的身体顿时瘫坐在地上。<br>“她怎么会这样？她不应该这样啊……”我哭着说。<br>“这位先生，您请节哀顺变。”医生拍拍我的肩膀说。<br>我的眼前顿时一黑，身体一软，晕了过去。<br>医生说的没错，这个女人确实不适合怀孕。<br>我不应该这么做的，这样做会害死她的。<br>我怎么可以让她受到这么大的刺激呢？<br>“对不起，对不起……我……我不应该这么做的……”我哭着说。<br>我的心里充满了悔恨与后悔，我真的不能再继续错下去了。<br>我真的不能失去杨希……<br>“对不起……对不起……”我喃喃着，眼睛里全是眼泪。<br>不知过了多久，我萌生了一个念头，既然上天没法给我一个完美的结局，那么我只好亲手毁掉这个结局。<br>我决定，亲手杀死自己的骨肉，亲手结束自己的性命。<br>我不想再活下去了，我宁愿去死。<br>我不会再爱任何人，因为我爱的人已经离开人世。<br>我要陪着杨希，永远的陪着她。<br>我想到了这里，我立马跑上楼顶，准备与世长辞。<br>于是我紧闭双眼，向下跳去。<br>当我睁开眼的时候，我的双脚悬挂在半空中，我的身体已经坠入了万丈深渊之中。<br>我的眼前一片漆黑。<br>我的脑海里忽然想到了杨希。<br>她的模样在我的眼前越来越清晰。<br>我感觉自己好像快死了一样，我感觉不到疼，但我能感觉到身体正在一点一点的变凉。<br>我不敢去看自己的身体，我害怕看到我身体的变化。<br>我感觉我正在一点一点的消失。<br>我感觉到了一丝不舍。<br>我想，我的身体已经快不属于我了，我要去找杨希。<br>我的灵魂离体了，但我能感觉得到我的肉体还留在我的身体内。<br>我的灵魂离开身体，飘到了杨希身旁。<br>“希儿。”我轻轻唤她，她的眉头微皱。<br>我伸出手，轻抚着她的脸颊，她的眼皮动了一下，缓慢的睁开了眼睛。<br>我看到她眼睛里含满了泪花。<br>“对不起……对不起……希儿，都是我的错。”我低声说。<br>“你是谁？”杨希疑惑的看着我。<br>“我……是你老公。”我说。<br>我愣住了，杨希好像把我忘了。<br>“老婆……你……你忘了我吗？”我试探着说。<br>“你……你是我的老公吗？”杨希问我。<br>“是啊。”我点点头。<br>“那……那你怎么叫我老婆……你……你是谁？”杨希疑惑的问。<br>我听到杨希的话，心里有一阵失落。<br>“我是你老公，你不认识我了吗？”我问。<br>杨希摇摇头：”我……我……”<br>她一时想不起来我是谁了。<br>我看到她的眼里全是疑惑。</p>
-]]></content>
-      <categories>
-        <category>人工智障</category>
-      </categories>
-      <tags>
-        <tag>AI创作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何创建一个无管理员权限的普通账户</title>
-    <url>/2022113022.html</url>
-    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>本教程适用于 Windows 7 及其更高的版本</p>
-</div>
-<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>本篇教程 <strong><code>不适用于</code></strong> 家庭版</p>
-</div>
-
-
-<h1 id="如何创建一个无管理员权限的普通账户"><a href="#如何创建一个无管理员权限的普通账户" class="headerlink" title="如何创建一个无管理员权限的普通账户"></a>如何创建一个无管理员权限的普通账户</h1><h2 id="普通方法"><a href="#普通方法" class="headerlink" title="普通方法"></a>普通方法</h2><ol>
-<li>按 Win+R 输入<code>compmgmt.msc</code></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/01.png" alt="compmgmt.msc"></p>
-<ol start="2">
-<li>在 计算机管理 窗口中找到 <strong><code>本地用户和组 - 用户</code></strong></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/02.png" alt="在计算机管理窗口中找到 本地用户和组 - 用户"></p>
-<blockquote>
-<p>什么，你跟我说没有这个东西？那你肯定是<strong>家庭版</strong>，我帮不到你</p>
-</blockquote>
-<ol start="3">
-<li>找到你的用户，右键选择 <strong><code>设置密码</code></strong></li>
-</ol>
-<blockquote>
-<p>不知道自己用户名的找到没有箭头角标的用户(或Adminstrator)</p>
-</blockquote>
-<p> <img src="https://image.ligaogreat.top/image/blog/2022113022/03.png" alt="点击设置密码"></p>
-<ol start="4">
-<li>如图所示，设置密码</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/05.png" alt="单击继续"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/04.png" alt="创建密码窗口"></p>
-<ol start="5">
-<li>右击空白处，选择 <strong><code>新用户</code></strong></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/07.png" alt="选择新用户"></p>
-<ol start="6">
-<li>像我这样填写</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/06.png" alt="用户配置界面"></p>
-<blockquote>
-<p><strong>省流：</strong><br>用户名  &#x2F;&#x2F; 推荐英文名<br>全名  &#x2F;&#x2F; 这里的名称为显示名称 (可以为空)<br><strong>勾选</strong>  <strong><code>用户不能更改密码</code><strong>和</strong><code>密码永不过期</code></strong></p>
-</blockquote>
-<ol start="7">
-<li>返回桌面，按下 “Ctrl+Alt+Del”，选择 <strong><code>切换用户</code></strong></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/08.png" alt="点击切换用户"></p>
-<ol start="8">
-<li>在左下角找到刚刚创建的账户，点击 <code>登录</code></li>
-</ol>
-<p><img src="https://s1.ax1x.com/2022/11/30/zwO4Rs.png" alt="在登陆界面选择用户"></p>
-<ol start="9">
-<li>完成设置界面后进入用户</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/09.png" alt="点击下一页"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/10.png" alt="进入桌面"></p>
-<hr>
-<h2 id="命令行创建新用户-推荐"><a href="#命令行创建新用户-推荐" class="headerlink" title="命令行创建新用户 (推荐)"></a>命令行创建新用户 (推荐)</h2><ol>
-<li>右键Windows徽标，选择 <code>命令提示符 (管理员)</code> 或 <code>PowerShell (管理员)</code></li>
-</ol>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">net user [用户名] [密码] /add /passwordchg:no</span><br><span class="line"><span class="comment"># [用户名]: 要创建的用户名</span></span><br><span class="line"><span class="comment"># [密码]: 创建用户的密码</span></span><br><span class="line"><span class="comment"># passwordchg:no 为禁止用户更改密码，将 no 改为 yes 则允许用户更改密码</span></span><br></pre></td></tr></table></figure>
-
-<p>例如：创建一个名叫 <strong>User123</strong> 密码为 <strong>6666</strong> 的账户，并且 <strong>禁止用户更改密码</strong></p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">net user User123 <span class="number">6666</span> /add /passwordchg:no</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/12.png" alt="PowerShell 界面"></p>
-<ol start="2">
-<li>返回桌面，按下 “Ctrl+Alt+Del”，选择 <strong><code>切换用户</code></strong></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/08.png" alt="点击切换用户"></p>
-<ol start="3">
-<li>在左下角找到刚刚创建的账户，点击 <code>登录</code></li>
-</ol>
-<p><img src="https://s1.ax1x.com/2022/11/30/zwO4Rs.png" alt="在登陆界面选择用户"></p>
-<ol start="4">
-<li>完成设置界面后进入用户</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/09.png" alt="点击下一页"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022113022/10.png" alt="进入桌面"></p>
-]]></content>
-      <categories>
-        <category>其他教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -1045,33 +1072,6 @@
       </tags>
   </entry>
   <entry>
-    <title>███：时尚黑骑士的 Gucci 夹克魅力 (AI创作)</title>
-    <url>/2023120611.html</url>
-    <content><![CDATA[<div class="note danger flat"><p>为保护个人隐私，本文章禁止转载！！！</p>
-</div>
-<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>为保护个人隐私，部分内容已脱敏处理</p>
-</div>
-
-<h1 id="███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）"><a href="#███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）" class="headerlink" title="███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）"></a>███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）</h1><p>在时尚的世界中，Gucci一直以其独特的设计理念和精湛的工艺而备受瞩目。而在众多的时尚单品中，Gucci的夹克无疑是这个品牌的一大亮点。今天，我们将借助███这一形象，来深入探讨Gucci夹克的时尚价值以及███如何通过搭配技巧，将这一单品展现得淋漓尽致。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/01.jpeg"></p>
-<p>首先，让我们先来欣赏一下███的形象。他身着一件Gucci的夹克，简洁的设计风格和黑灰的色调使得这件夹克充满了神秘感。而最令人印象深刻的莫过于他搭配的黑色墨镜，完美地遮挡住了他的眼神，让人无法窥视他内心的世界。这样的搭配，无疑为他的形象增添了几分神秘和冷峻。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/02.jpeg"></p>
-<p>Gucci夹克的魅力在于其独特的设计和精湛的工艺。这款夹克采用了高品质的面料，手感柔软，穿起来舒适不束缚。同时，其经典的设计元素和精美的细节处理，使得这款夹克无论是在日常生活中还是出行旅游时，都能成为一道亮丽的风景线。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/03.jpeg"></p>
-<p>而███是如何将这款Gucci夹克发挥到极致的呢？首先，他选择了与夹克色调相呼应的黑色墨镜，这样的搭配使得整体形象更加和谐统一。此外，他还选择了一款简约的项链作为装饰，不仅增添了几分时尚感，还为整体形象增添了几分华丽的元素。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/05.jpeg"></p>
-<p>███的形象完美地诠释了Gucci夹克的时尚价值。他通过精心的搭配技巧，将这款夹克展现得淋漓尽致。而Gucci夹克的独特魅力和时尚价值，也在他的搭配下得到了充分的体现。无论是在日常生活中还是出行旅游时，我们都可以从███的形象中得到一些搭配灵感。</p>
-<hr>
-<a class="btn-beautify outline blue larger" href="https://ligao.lanzouj.com/iyJyx1s147vi" title="下载 PDF"><i class="fas fa-file-pdf"></i><span>下载 PDF</span></a>
-<a class="btn-beautify outline larger" href="https://ligao.lanzouj.com/idTJE1s147tg" title="下载 DOC"><i class="fas fa-file-word"></i><span>下载 DOC</span></a>]]></content>
-      <categories>
-        <category>人工智障</category>
-      </categories>
-      <tags>
-        <tag>AI创作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>安装并配置基于 WSL 的 Ubuntu</title>
     <url>/2024082812.html</url>
     <content><![CDATA[<p>最近稍微折腾了一下 WSL，所以出了一个 WSL 的教程</p>
@@ -1227,6 +1227,55 @@
       </tags>
   </entry>
   <entry>
+    <title>记一下在 LinuxMint 安装 Docker 遇到的坑</title>
+    <url>/2025011912.html</url>
+    <content><![CDATA[<h1 id="正常-Ubuntu-下安装-Docker-步骤"><a href="#正常-Ubuntu-下安装-Docker-步骤" class="headerlink" title="正常 Ubuntu 下安装 Docker 步骤"></a>正常 Ubuntu 下安装 Docker 步骤</h1><p>开始前，我们需要运行以下命令以卸载所有冲突的软件包</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> pkg <span class="keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="keyword">do</span> sudo apt-get remove <span class="variable">$pkg</span>; <span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><code>apt-get</code> 可能会报告您未安装这些软件包。</p>
+</blockquote>
+<h2 id="设置-Docker-的-apt-仓库"><a href="#设置-Docker-的-apt-仓库" class="headerlink" title="设置 Docker 的 apt 仓库"></a>设置 Docker 的 apt 仓库</h2><h3 id="官方源"><a href="#官方源" class="headerlink" title="官方源"></a>官方源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 添加 Docker 的 GPG key:</span></span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ca-certificates curl</span><br><span class="line">sudo install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc</span><br><span class="line">sudo <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.asc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line">  </span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
+<h3 id="阿里源"><a href="#阿里源" class="headerlink" title="阿里源"></a>阿里源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 安装必要的一些系统工具</span></span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ca-certificates curl gnupg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 信任 Docker 的 GPG 公钥</span></span><br><span class="line">sudo install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg</span><br><span class="line">sudo <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.gpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.gpg] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \</span></span><br><span class="line"><span class="string">  &quot;</span>$(. /etc/os-release &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)<span class="string">&quot; stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line"></span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h2><p>运行以下命令安装最新版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>安装特定版本的 Docker Engine，首先列出存储库中可用的版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 列出存储库中可用的版本:</span></span><br><span class="line">apt-cache madison docker-ce | awk <span class="string">&#x27;&#123; print $3 &#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">5:27.4.1-1~ubuntu.24.04~noble</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>选择所需版本并安装：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">VERSION_STRING=5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">sudo apt-get install docker-ce=<span class="variable">$VERSION_STRING</span> docker-ce-cli=<span class="variable">$VERSION_STRING</span> containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
+<h2 id="使用-hello-world-镜像验证是否成功安装"><a href="#使用-hello-world-镜像验证是否成功安装" class="headerlink" title="使用 hello-world 镜像验证是否成功安装"></a>使用 hello-world 镜像验证是否成功安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo docker run hello-world</span><br></pre></td></tr></table></figure>
+
+<p>此命令下载一个测试镜像并在容器中运行它。当容器运行时，它会输出一条确认消息然后退出。<br>安装结束。</p>
+<h1 id="Linux-Mint-下遇到的坑"><a href="#Linux-Mint-下遇到的坑" class="headerlink" title="Linux Mint 下遇到的坑"></a>Linux Mint 下遇到的坑</h1><p>安装正常的 Ubuntu 步骤，在 Linux Mint 下添加 Docker 软件源后，会在 <code>apt-get update</code> 步骤下报错，报错内容如下</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">忽略:1 https://download.docker.com/linux/ubuntu wilma InRelease</span><br><span class="line">错误:3 https://download.docker.com/linux/ubuntu wilma Release</span><br><span class="line">正在读取软件包列表... 完成</span><br><span class="line">E: 仓库 “https://download.docker.com/linux/ubuntu wilma Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
+
+<p>这是因为部分 Ubuntu 衍生发行版使用的并不是 <code>VERSION_CODENAME</code> 而是 <code>UBUNTU_CODENAME</code>，使用 <code>VERSION_CODENAME</code> 会导致添加<strong>错误的 Ubuntu 发行版代号</strong></p>
+<p>正常在 Ubuntu 下添加软件源的步骤是这么写的</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+
+<p>这就需要我们在添加软件源时将 <code>VERSION_CODENAME</code> 改成 <code>UBUNTU_CODENAME</code>，上面阿里源同理</p>
+<blockquote>
+<p>阿里源不能直接使用下面的内容</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$UBUNTU_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+
+<p>最后使用 <code>apt-get update</code> 就不会报错了</p>
+]]></content>
+      <categories>
+        <category>踩坑记录</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Ubuntu</tag>
+        <tag>Docker</tag>
+        <tag>LinuxMint</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>快速在本地搭建 Alist</title>
     <url>/2025011012.html</url>
     <content><![CDATA[<div class="note info flat"><p>文章部分内容出自 <a href="https://alist.nn.ci/zh/">AList帮助文档</a></p>
@@ -1307,55 +1356,6 @@
       <tags>
         <tag>教程</tag>
         <tag>Alist</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一下在 LinuxMint 安装 Docker 遇到的坑</title>
-    <url>/2025011912.html</url>
-    <content><![CDATA[<h1 id="正常-Ubuntu-下安装-Docker-步骤"><a href="#正常-Ubuntu-下安装-Docker-步骤" class="headerlink" title="正常 Ubuntu 下安装 Docker 步骤"></a>正常 Ubuntu 下安装 Docker 步骤</h1><p>开始前，我们需要运行以下命令以卸载所有冲突的软件包</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> pkg <span class="keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="keyword">do</span> sudo apt-get remove <span class="variable">$pkg</span>; <span class="keyword">done</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p><code>apt-get</code> 可能会报告您未安装这些软件包。</p>
-</blockquote>
-<h2 id="设置-Docker-的-apt-仓库"><a href="#设置-Docker-的-apt-仓库" class="headerlink" title="设置 Docker 的 apt 仓库"></a>设置 Docker 的 apt 仓库</h2><h3 id="官方源"><a href="#官方源" class="headerlink" title="官方源"></a>官方源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 添加 Docker 的 GPG key:</span></span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ca-certificates curl</span><br><span class="line">sudo install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc</span><br><span class="line">sudo <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.asc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line">  </span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
-<h3 id="阿里源"><a href="#阿里源" class="headerlink" title="阿里源"></a>阿里源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 安装必要的一些系统工具</span></span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ca-certificates curl gnupg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 信任 Docker 的 GPG 公钥</span></span><br><span class="line">sudo install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg</span><br><span class="line">sudo <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.gpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.gpg] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \</span></span><br><span class="line"><span class="string">  &quot;</span>$(. /etc/os-release &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)<span class="string">&quot; stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line"></span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h2><p>运行以下命令安装最新版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>安装特定版本的 Docker Engine，首先列出存储库中可用的版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 列出存储库中可用的版本:</span></span><br><span class="line">apt-cache madison docker-ce | awk <span class="string">&#x27;&#123; print $3 &#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">5:27.4.1-1~ubuntu.24.04~noble</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-<p>选择所需版本并安装：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">VERSION_STRING=5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">sudo apt-get install docker-ce=<span class="variable">$VERSION_STRING</span> docker-ce-cli=<span class="variable">$VERSION_STRING</span> containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
-<h2 id="使用-hello-world-镜像验证是否成功安装"><a href="#使用-hello-world-镜像验证是否成功安装" class="headerlink" title="使用 hello-world 镜像验证是否成功安装"></a>使用 hello-world 镜像验证是否成功安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo docker run hello-world</span><br></pre></td></tr></table></figure>
-
-<p>此命令下载一个测试镜像并在容器中运行它。当容器运行时，它会输出一条确认消息然后退出。<br>安装结束。</p>
-<h1 id="Linux-Mint-下遇到的坑"><a href="#Linux-Mint-下遇到的坑" class="headerlink" title="Linux Mint 下遇到的坑"></a>Linux Mint 下遇到的坑</h1><p>安装正常的 Ubuntu 步骤，在 Linux Mint 下添加 Docker 软件源后，会在 <code>apt-get update</code> 步骤下报错，报错内容如下</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">忽略:1 https://download.docker.com/linux/ubuntu wilma InRelease</span><br><span class="line">错误:3 https://download.docker.com/linux/ubuntu wilma Release</span><br><span class="line">正在读取软件包列表... 完成</span><br><span class="line">E: 仓库 “https://download.docker.com/linux/ubuntu wilma Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
-
-<p>这是因为部分 Ubuntu 衍生发行版使用的并不是 <code>VERSION_CODENAME</code> 而是 <code>UBUNTU_CODENAME</code>，使用 <code>VERSION_CODENAME</code> 会导致添加<strong>错误的 Ubuntu 发行版代号</strong></p>
-<p>正常在 Ubuntu 下添加软件源的步骤是这么写的</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
-
-<p>这就需要我们在添加软件源时将 <code>VERSION_CODENAME</code> 改成 <code>UBUNTU_CODENAME</code>，上面阿里源同理</p>
-<blockquote>
-<p>阿里源不能直接使用下面的内容</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$UBUNTU_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
-
-<p>最后使用 <code>apt-get update</code> 就不会报错了</p>
-]]></content>
-      <categories>
-        <category>踩坑记录</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Ubuntu</tag>
-        <tag>Docker</tag>
-        <tag>LinuxMint</tag>
       </tags>
   </entry>
 </search>
