@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Windows 10 安装教程</title>
+    <url>/2021051612.html</url>
+    <content><![CDATA[<p>在阅读这篇文章前肯定有不少人问: 啊? Windows 安装?都1202年了谁还不会安装 Windows 啊?没错 1202 年了，其实还有不少人不会安装 Windows。你去电脑城重装还要 30~50 元的费用，电脑师傅还给你安装个带捆绑的 Windows 卡的要死也不好受。所以今天就由我教大家如何安装官方原版的 Windows 10 (以下简称 Win10)</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/001.jpg"></p>
+<p>在开始安装 Windows10 前需要准备一块 <strong>8GB U盘</strong> 尽量使用非缩水盘<br>如果没有U盘请参考下文 <strong>方案二: WinPE + Win10 ISO</strong><br>这里我介绍获取 ISO 文件的两种不同的方法</p>
+<h1 id="下载教学"><a href="#下载教学" class="headerlink" title="下载教学"></a>下载教学</h1><h2 id="方法一-微软官方安装工具获取ISO"><a href="#方法一-微软官方安装工具获取ISO" class="headerlink" title="方法一: 微软官方安装工具获取ISO"></a>方法一: 微软官方安装工具获取ISO</h2><p><strong>注意，这种方法下载的速度比较慢(不止慢一点点),不推荐</strong><br>进入 <a href="https://www.microsoft.com/zh-cn/software-download/windows10"><strong>Windows10下载链接</strong></a><br>下拉找到 <strong><code>立即下载工具</code></strong></p>
+<p>你也可以点击下方按钮 <mark class="hl-label blue">直接下载</mark>  </p>
+<a class="btn-beautify blue larger" href="https://go.microsoft.com/fwlink/?LinkID=799445" title="立即下载"><i class="fas fa-download"></i><span>立即下载</span></a>
+
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/002.png" alt="点击立即下载工具"></p>
+<p>下载完成后运行程序<br>接受许可条款<br>选择<code>为另一条电脑创建安装介质(U盘、DVD或ISO文件)</code></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/005.png" alt="选择 ISO 文件"></p>
+<p>如果你想安装win10专业版的话就取消勾选<code>对这台电脑使用推荐的选项</code>，如果只是想进行重装或升级就勾选<code>对这台电脑使用推荐的选项</code>，下面介绍取消勾选<code>对这台电脑使用推荐的选项</code>后该怎么做</p>
+<blockquote>
+<p><strong>语言</strong> 默认中文(简体)就行<br><strong>版本</strong> 如果想安装专业版就选<code>Windows 10</code>，如果想安装家庭版就安装<code>Windows 10 家庭中文版</code><br><strong>体系结构</strong> 在计算机属性里的系统类型一栏能查看，如果不知道的话就选”两者”</p>
+</blockquote>
+<p>选择好后就下一步。注意，安装介质要选择ISO文件<br><img src="https://image.ligaogreat.top/image/blog/2021051612/004.png" alt="为另一台电脑创建安装介质（U 盘、DVD 或 IS0 文件）"><br>选择路径就随便保存一个地方<br>下载完成后我们就获得了一份微软官方的安装映像</p>
+<h2 id="方法二-MSDN-下载"><a href="#方法二-MSDN-下载" class="headerlink" title="方法二: MSDN 下载"></a>方法二: MSDN 下载</h2><p>打开 <a href="https://next.itellyou.cn/Original/Index"><strong>Next,itellyou</strong></a><br>注册一个账号登录<br>在首页找到Windows 10<br>下拉找到<strong>建议使用</strong>一栏<br><img src="https://image.ligaogreat.top/image/blog/2021051612/003.png" alt="Windows 安装文件类型"></p>
+<blockquote>
+<p>Business editions 和 Consumer editions 的区别<br>consumer editions 为 <strong>零售版</strong>，business editions 为 <strong>VL 版</strong></p>
+</blockquote>
+<blockquote>
+<p>Business editions 包括：<strong>企业版、教育版、专业版</strong><br>(ISO 镜像包括<strong>专业版、企业版、教育版、专业工作站版、专业教育版</strong>)</p>
+</blockquote>
+<blockquote>
+<p>Consumer editions 包括：<strong>家庭版、教育版、专业版</strong><br>(ISO 镜像包括<strong>家庭版、专业版、教育版、家庭单语言版、专业工作站版、专业教育版</strong>)  </p>
+</blockquote>
+<p>这里提供 ED2K 和 BT 两种下载方式<br>这样你就获得了一份官方原版的 ISO 文件  </p>
+<blockquote>
+<p>这时肯定有人问 为什么你不使用 <a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a> 而是使用 <a href="https://next.itellyou.cn/Original/Index">https://next.itellyou.cn/Original/Index</a><br>因为 msdn 老网站已经不再提供最新的 Windows10 系统，要想下载 Windows10 21H1 就要使用新网站</p>
+</blockquote>
+<h1 id="安装教学"><a href="#安装教学" class="headerlink" title="安装教学"></a>安装教学</h1><p>接下来就开始安装教学<br>这里也是，同样提供两种不同方案</p>
+<h2 id="方案一-U盘刻录"><a href="#方案一-U盘刻录" class="headerlink" title="方案一: U盘刻录"></a>方案一: U盘刻录</h2><p>这里推荐使用 <strong>balenaEtcher</strong><br><a href="https://www.balena.io/etcher/"><strong>官网链接</strong></a><br>打开软件 选择左边的<code>Flash from file</code>，找到刚刚下载完成的ISO映像<br><img src="https://image.ligaogreat.top/image/blog/2021051612/006.png" alt="选择 Flash from file"><br>中间的就选择自己的U盘，最后点击 <code>Flash!</code> 开始写入</p>
+<h3 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h3><blockquote>
+<p>开始前先记住自己系统盘的容量大小</p>
+</blockquote>
+<p>插入U盘，电脑开机按 <strong><code>F12</code></strong> ，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>选择U盘后便进入了引导界面，待加载完成后可以开始安装了。</p>
+<p>1.开机后第一个窗口点击 <strong><code>下一步</code></strong> ，别的不用管<br>2.点击屏幕中央的 <strong><code>现在安装</code></strong><br>3.在版本选择中选择Windows 10 <strong>专业版</strong> 或者 <strong>家庭版</strong>，后点击 <code>下一步</code><br>4.接受许可条款<br>5.选择 <code>自定义：仅安装 Windows (高级)</code><br>6.选择要安装的驱动器，选择与你系统盘名称及大小相同的分区即可</p>
+<p>然后便开始自动安装，直到完成为止<br>如遇到错误可以上网自行解决</p>
+<h2 id="方案二-WinPE-Win10-ISO"><a href="#方案二-WinPE-Win10-ISO" class="headerlink" title="方案二: WinPE + Win10 ISO"></a>方案二: WinPE + Win10 ISO</h2><p>先说说我为什么要推荐这一套方案<br>首先U盘刻录的映像不包含任何工具，如果安装时出现问题很难进行排查错误。而目前市面上的WinPE是自带维护工具，方便我们排查错误。不管是哪种方案，安装的效果是相同的。<br>这里我推荐<strong>微PE工具箱</strong>。就一点：干净。自带的工具也足够用。如果你想在PE环境里联网可以选择<strong>优启通</strong> (优启通最新版已经对非VIP版本提供联网支持)</p>
+<blockquote>
+<p><strong>下载地址：</strong> <a href="https://share.weiyun.com/iV7Hy54v"><strong>64位</strong></a>    <a href="https://share.weiyun.com/WqdJX5Mn"><strong>32位</strong></a></p>
+</blockquote>
+<ol>
+<li>打开软件 在下面的<strong>其他安装方式</strong>中点击像U盘一样的图标</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/007.png" alt="选择下面的 U 盘标志"></p>
+<ol start="2">
+<li><p>选择U盘然后点击 <strong><code>立即安装进U盘</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2021051612/008.png" alt="修改待写入 U 盘，点击立即安装进 U 盘"></p>
+</li>
+<li><p>安装完成后找到U盘，将下载好的ISO文件复制到U盘跟目录里</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>注:请将U盘格式化为 NTFS 或 exFAT 格式。(NTFS 格式非常费U盘，如果安装后还想继续使用U盘请格式化成 FAT32 或 exFAT 格式)</strong></p>
+</blockquote>
+<h3 id="安装方法-1"><a href="#安装方法-1" class="headerlink" title="安装方法"></a>安装方法</h3><p>开机后与上面一样<br>插入U盘电脑开机按F12，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>等待加载完成后就是我们熟悉的Windows桌面了</p>
+<p>1.和Windows一样，在<strong>此电脑</strong>中找到U盘根目录下的<strong>ISO文件</strong> (图标是光盘的样子)<br>2.运行ISO文件中的 <strong><code>Setup.exe</code></strong><br>3.<strong>和方案一的安装步骤相同</strong>，为了缩短内容就不重复了</p>
+<p>这样Windows就安装完成了</p>
+<h1 id="安装后恢复U盘"><a href="#安装后恢复U盘" class="headerlink" title="安装后恢复U盘"></a>安装后恢复U盘</h1><p>1.右键 <strong><code>此电脑</code></strong> 选择 <strong><code>管理(G)</code></strong><br>2.在左侧选择 <strong><code>磁盘管理</code></strong><br>3.在<strong>磁盘列表</strong>中找到磁盘，注意磁盘下有<strong>可移动</strong>字样<br>4.右键<strong>蓝色的分区</strong>，选择 <strong><code>删除卷(D)...</code></strong><br>5.到最后他会变成一个大分区，可能是黑色也可能是蓝色</p>
+<blockquote>
+<p>黑色：<br>(1) 右键，选择 <code>新建简单卷(1)...</code><br>(2) 点击两次“下一步”到格式化分区这一步<br>(3) 将文件系统改成 FAT32 或 exFAT<br>(4) 下一步，完成<br>蓝色：<br>(1) 右键，选择 <code>格式化(F)...</code><br>(2) 将文件系统改成 FAT32 或 exFAT<br>(3) 完成</p>
+</blockquote>
+<p><img src="https://image.ligaogreat.top/image/blog/2021051612/009.png" alt="磁盘管理界面"></p>
+]]></content>
+      <categories>
+        <category>操作系统安装教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>教程</tag>
+        <tag>系统安装</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>随机图片API分享</title>
     <url>/2021011911.html</url>
     <content><![CDATA[<h1 id="慢速API"><a href="#慢速API" class="headerlink" title="慢速API"></a>慢速API</h1><p>先是几个加载较慢的API（都是国外的api）</p>
@@ -53,6 +128,251 @@
         <tag>Windows</tag>
         <tag>教程</tag>
         <tag>系统安装</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超简单升级 Win10 方法</title>
+    <url>/2022051221.html</url>
+    <content><![CDATA[<h1 id="升级教程"><a href="#升级教程" class="headerlink" title="升级教程"></a>升级教程</h1><p>升级win10还是比较简单的，但是有个通病，磁盘占用要比全新安装大，还可能存在莫名其妙的BUG。如果电脑里没有重要资料，我推荐你还是选择全新安装比较好，教程可以参考 <a href="https://www.ligaogreat.top/2021051612">这篇文章</a> 和上面的安装教程<br>下面就是升级教程，首先打开 <a href="https://www.microsoft.com/zh-cn/software-download/windows10">Windows10下载页</a><br>点击 <strong><code>立即更新</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/01.png" alt="点击 立即下载工具"><br>此时网页会自动下载一个程序，等待程序下载完成后运行</p>
+<div class="note info flat"><p>升级程序可能会出现未知BUG导致无法继续安装，如遇BUG，请下载安装镜像进行离线安装离线安装</p>
+</div>
+
+<p>在”适用的声明和许可条款”界面中选择 <strong><code>接受</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/02.png" alt="许可条款选择接受"></p>
+<p>在“你想执行什么操作?”中选择 <strong><code>立即升级这台计算机</code></strong> 并点击 <strong><code>下一步</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/03.png" alt="立即升级这台电脑"></p>
+<p>然后等待下载安装即可</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/04.png" alt="下载界面"></p>
+<h1 id="升级后显示“激活Windows”的解决方案"><a href="#升级后显示“激活Windows”的解决方案" class="headerlink" title="升级后显示“激活Windows”的解决方案"></a>升级后显示“激活Windows”的解决方案</h1><p>这里推荐的激活工具是HEU KMS Activator</p>
+<div class="note info flat"><p>此程序无毒但可能会被杀毒软件误报。如不信任此软件，请将软件删除并关闭此篇文章</p>
+</div>
+
+<blockquote>
+<p><a href="https://ligao.lanzouu.com/ikkbn04q1k4b">下载链接</a> （访问密码：2278）</p>
+</blockquote>
+<p>下载后运行，点击最醒目的 <strong><code>开始</code></strong> 即可</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/05.png" alt="HEU KMS Activator 界面，选择开始"></p>
+<p>等待运行完成后即可激活</p>
+<blockquote>
+<p>激活软件不止有<a href="https://ligao.lanzouu.com/ikkbn04q1k4b">HEU KMS Activator</a> ，例如 <a href="https://www.lanzoui.com/iHs7ngzc8wd">KMS神龙版</a> <a href="https://ligao.lanzouu.com/iiCKj04q1kda">MAS</a> 等</p>
+</blockquote>
+<hr>
+<h2 id="高级教程"><a href="#高级教程" class="headerlink" title="高级教程"></a>高级教程</h2><p>对于是Win10系统且已通过Microsoft在线登录的账号选择 <strong><code>数字激活</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/06.png" alt="数字许可证激活"></p>
+<p>对于Win7用户，这里推荐使用 <strong><code>OEM激活</code></strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022051221/07.png" alt="OEM 激活"></p>
+]]></content>
+      <categories>
+        <category>操作系统安装教程</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>教程</tag>
+        <tag>系统升级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo 教程，搭建一个属于自己的博客</title>
+    <url>/2022101222.html</url>
+    <content><![CDATA[<div class="note info flat"><p>文章部分内容来自 <a href="https://hexo.io/zh-cn/docs/">Hexo 帮助文档</a></p>
+</div>
+
+<h1 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h1><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<hr>
+<h1 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h1><div class="note success flat"><p>文章使用 Windows 10 22H2 作为演示系统</p>
+</div>
+
+<h2 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h2><p>安装 Hexo 需要再电脑中安装 <a href="https://nodejs.org/zh-cn/">node.js </a>和 <a href="https://git-scm.com/">git</a></p>
+<h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><div class="note info flat"><p>其他系统可以参考 <a href="https://git-scm.com/downloads">Git 下载页面</a></p>
+</div>
+
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-35-33.png" alt="Git 下载界面"></p>
+<hr>
+<div class="note primary flat"><p>安装大致略过，下面只展示一些带有选项的窗口</p>
+</div>
+
+<details class="toggle" ><summary class="toggle-button" style="">点击显示部分安装步骤</summary><div class="toggle-content"><p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-54-52.png" alt="保持默认即可"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-55-13.png" alt="选择 Use Vim as Git&#39;s default editor"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-55-23.png" alt="选择 Let Git decide"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-56-21.png" alt="选择 Git from the command line and also from 3rd-party software"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-57-13.png" alt="选择 Use the OpenSSL Library"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-57-54.png" alt="选择 Checkout Windows-style, commit Unix-style line endings"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-58-17.png" alt="选择 Use MinTTY"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-58-42.png" alt="选择 Fast-forward of merge"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-59-27.png" alt="选择 Git Credential Manager"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-59-47.png" alt="勾选 Enable file system caching"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-00-04.png" alt="保持默认，选择 Install"></p>
+</div></details>
+
+<hr>
+<h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><div class="note info flat"><p>其他系统可以参考 <a href="https://nodejs.org/zh-cn/download/prebuilt-binaries">Node.js 下载页面</a></p>
+</div>
+
+<ol>
+<li><p>进入 <a href="https://nodejs.org/zh-cn/download/prebuilt-binaries">Node.js</a> 官网，选择下载。</p>
+</li>
+<li><p>选择 <strong>预构建二进制文件</strong> ，选择 我需要用于 <strong>Windows x64</strong> ，版本选择默认的 LTS 版本即可</p>
+</li>
+<li><p>点击 <strong>下载 Node.js</strong></p>
+</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-34-13.png" alt="Node.js 下载界面"></p>
+<ol start="4">
+<li>对于国内用户，可以选择更换软件源来提高连接速度和稳定性</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 淘宝镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com/</span><br><span class="line"><span class="comment"># 官方镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org/</span><br></pre></td></tr></table></figure>
+<hr>
+<div class="note primary flat"><p>安装大致略过，下面只展示一些带有选项的窗口</p>
+</div>
+
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-18-32.png" alt="保持默认即可"></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-18-48.png" alt="同样保持默认"></p>
+<hr>
+<h2 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h2><p>首先我们打开 <strong>终端 (Windows需用户打开CMD)</strong> ，执行以下命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>然后我们要初始化Hexo</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># blog 是要创建的文件夹名称，可以随意替换，下面同理</span></span><br><span class="line">md blog</span><br><span class="line"><span class="comment"># hexo 会在 blog 文件夹中释放所需的文件</span></span><br><span class="line">hexo init blog</span><br><span class="line"><span class="comment"># 此命令是进入刚刚创建的文件夹</span></span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<p>执行完成后会在文件夹内看到创建的文件</p>
+<p>你可以执行以下代码，然后访问 <a href="http://localhost:4000/">http://localhost:4000/</a> 就可以预览网页了</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<p>没出错的话应该是下面这个样子 ↓</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2022-10-12_01.png" alt="Hexo 基础界面"></p>
+<h2 id="创建-Github-仓库"><a href="#创建-Github-仓库" class="headerlink" title="创建 Github 仓库"></a>创建 Github 仓库</h2><ul>
+<li>首先你需要创建 <a href="https://github.com/">Github</a> 账号</li>
+</ul>
+<p>如果你进入不了 <a href="https://github.com/">Github</a> 的话我推荐你下载 <a href="https://steampp.net/">Watt Toolkit</a><br><strong>设置步骤如图所示</strong>: 1.下拉找到Github并勾选  2.点击一键加速 ( 如果提示启动失败之类的把右边的 <strong>Hosts 代理模式</strong> 换成 <strong>系统代理模式</strong> )</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2022-10-12_02.png" alt="Watt Toolkit 软件界面"></p>
+<ol>
+<li>打开 <a href="https://github.com/">Github</a> ，点击右上角 <strong>Sign up</strong></li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-08-52.png" alt="点击右上角 Sign up"></p>
+<ol start="2">
+<li>在中间输入电子邮箱，按照要求完成注册即可</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-11-58.png" alt="输入电子邮箱后按照要求完成注册"></p>
+<ol start="3">
+<li><p>注册后进入主页</p>
+</li>
+<li><p>找到右上角的 <strong>加号</strong>，选择 <strong>New repository</strong></p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_23-04-47.png" alt="选择 New repository"></p>
+</li>
+<li><p>在右边的 Repository name 中，写上 <strong>你的用户名 + .github.io</strong> </p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_23-06-03.png" alt="输入名称"></p>
+</li>
+</ol>
+<div class="note warning flat"><p>仓库的名字一定要是 <strong>你的用户名 (也就是左边那个名字) + .github.io</strong> </p>
+</div>
+
+<ol start="6">
+<li>下拉，点击 <strong>Create repository</strong> 创建仓库</li>
+</ol>
+<h2 id="部署至-Github"><a href="#部署至-Github" class="headerlink" title="部署至 Github"></a>部署至 Github</h2><h3 id="配置-Git"><a href="#配置-Git" class="headerlink" title="配置 Git"></a>配置 Git</h3><p>打开终端，输入下面以下命令配置 git</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;Github 用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;注册 Github 的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-05-57.png" alt="配置 Git"></p>
+<h3 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h3><h4 id="生成-SSH-key"><a href="#生成-SSH-key" class="headerlink" title="生成 SSH key"></a>生成 SSH key</h4><p>打开终端，输入下面命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -C <span class="string">&quot;注册 Github 的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<p>输入后按三下回车即可</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-13-16.png" alt="ssh 密钥"></p>
+<p>如果提示 <code>ssh-keygen 不是内部或外部命令，也不是可运行的程序或批处理文件</code> 可以使用 Git 附带的 <strong>Bash 仿真终端</strong> </p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-17-17.png" alt="在开始菜单中，可以找到 Git Bash"></p>
+<h4 id="配置-SSH-key-1"><a href="#配置-SSH-key-1" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h4><p>配置的文件生成的文件存放在 <strong><code>当前用户目录/.ssh</code></strong> 下，而我们需要的 <strong>公钥文件</strong> 在 <code>当前用户目录/.ssh/id_rsa.pub</code> 中</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-41-28.png" alt="SSH key 目录"></p>
+<ul>
+<li>你可以使用记事本打开，也可以用下面的命令直接访问公钥（可以用 Git Bash 仿真终端打开）</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~./ssh</span><br><span class="line"><span class="built_in">cat</span> id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><p>打开 Github，选择 Setting</p>
+</li>
+<li><p>选择 <strong><code>SSH and GTPG keys</code></strong></p>
+</li>
+<li><p>点击 New SSH key</p>
+</li>
+<li><p>在 <strong><code>key</code></strong> 中输入刚才获取的公钥即可</p>
+</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-42-25.png" alt="配置 SSH key"></p>
+<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>由于我们现在没法直接部署到 Github，我们需要修改 hexo 的配置文件</p>
+<ol>
+<li><p>首先，在 Github 上，打开刚刚创建好的仓库</p>
+</li>
+<li><p>在下面找到 SSH 链接，复制备用<br><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_10-15-36.png" alt="SSH 链接"></p>
+</li>
+<li><p>直接打开配置文件 <code>_config</code> 或输入下面的命令</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">notepad ./_config.yml</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>编辑 <strong><code>_config.yml</code></strong></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span>  </span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span>  </span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io  </span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>]  </span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure></li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>选项</th>
+<th>描述</th>
+<th>默认</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>repo</td>
+<td>目标存储库的 URL</td>
+<td></td>
+</tr>
+<tr>
+<td>branch</td>
+<td>分支名称</td>
+<td><code>gh-pages</code> (GitHub)  <br><code>coding-pages</code> (Coding.net)  <br><code>master</code> (others)</td>
+</tr>
+<tr>
+<td>message</td>
+<td>自定义提交信息</td>
+<td>Site updated: <code>&#123;&#123; now('YYYY-MM-DD HH:mm:ss') &#125;&#125;</code></td>
+</tr>
+<tr>
+<td>token</td>
+<td>可选的令牌值，用于认证 repo。 用 <code>$</code> 作为前缀从而从环境变量中读取令牌</td>
+<td></td>
+</tr>
+</tbody></table>
+<pre><code>内容节选自 [一键部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
+</code></pre>
+<ol start="5">
+<li>将刚刚复制的链接粘贴到 <code>repo</code> 中</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-36-32.png" alt="将链接粘贴到 repo 中"></p>
+<h3 id="上传至-Github"><a href="#上传至-Github" class="headerlink" title="上传至 Github"></a>上传至 Github</h3><ol>
+<li><p>用 <code>cd</code> 命令进入 hexo 的跟目录</p>
+</li>
+<li><p>输入下面命令，安装必要组件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>输入 <code>hexo d</code> 将博客上传至 Github</p>
+</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_12-02-30.png"></p>
+<ol start="4">
+<li><p>打开仓库，点击 <strong><code>Setting</code></strong> ，选择 <strong><code>Pages</code></strong></p>
+</li>
+<li><p>将 <code>Brance</code> 中的 None <strong>改为其他分支</strong>（例如 master），点击 Save</p>
+</li>
+</ol>
+<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_12-30-28.png" alt="更改分支"></p>
+<ol start="6">
+<li>通过访问仓库名称（例如 <a href="https://cuichene.github.io/">https://CuiCHenE.GitHub.io/</a> ），即可访问创建的博客</li>
+</ol>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>hexo</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -176,123 +496,6 @@
         <tag>系统安装</tag>
         <tag>Linux</tag>
         <tag>Ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows 10 安装教程</title>
-    <url>/2021051612.html</url>
-    <content><![CDATA[<p>在阅读这篇文章前肯定有不少人问: 啊? Windows 安装?都1202年了谁还不会安装 Windows 啊?没错 1202 年了，其实还有不少人不会安装 Windows。你去电脑城重装还要 30~50 元的费用，电脑师傅还给你安装个带捆绑的 Windows 卡的要死也不好受。所以今天就由我教大家如何安装官方原版的 Windows 10 (以下简称 Win10)</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/001.jpg"></p>
-<p>在开始安装 Windows10 前需要准备一块 <strong>8GB U盘</strong> 尽量使用非缩水盘<br>如果没有U盘请参考下文 <strong>方案二: WinPE + Win10 ISO</strong><br>这里我介绍获取 ISO 文件的两种不同的方法</p>
-<h1 id="下载教学"><a href="#下载教学" class="headerlink" title="下载教学"></a>下载教学</h1><h2 id="方法一-微软官方安装工具获取ISO"><a href="#方法一-微软官方安装工具获取ISO" class="headerlink" title="方法一: 微软官方安装工具获取ISO"></a>方法一: 微软官方安装工具获取ISO</h2><p><strong>注意，这种方法下载的速度比较慢(不止慢一点点),不推荐</strong><br>进入 <a href="https://www.microsoft.com/zh-cn/software-download/windows10"><strong>Windows10下载链接</strong></a><br>下拉找到 <strong><code>立即下载工具</code></strong></p>
-<p>你也可以点击下方按钮 <mark class="hl-label blue">直接下载</mark>  </p>
-<a class="btn-beautify blue larger" href="https://go.microsoft.com/fwlink/?LinkID=799445" title="立即下载"><i class="fas fa-download"></i><span>立即下载</span></a>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/002.png" alt="点击立即下载工具"></p>
-<p>下载完成后运行程序<br>接受许可条款<br>选择<code>为另一条电脑创建安装介质(U盘、DVD或ISO文件)</code></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/005.png" alt="选择 ISO 文件"></p>
-<p>如果你想安装win10专业版的话就取消勾选<code>对这台电脑使用推荐的选项</code>，如果只是想进行重装或升级就勾选<code>对这台电脑使用推荐的选项</code>，下面介绍取消勾选<code>对这台电脑使用推荐的选项</code>后该怎么做</p>
-<blockquote>
-<p><strong>语言</strong> 默认中文(简体)就行<br><strong>版本</strong> 如果想安装专业版就选<code>Windows 10</code>，如果想安装家庭版就安装<code>Windows 10 家庭中文版</code><br><strong>体系结构</strong> 在计算机属性里的系统类型一栏能查看，如果不知道的话就选”两者”</p>
-</blockquote>
-<p>选择好后就下一步。注意，安装介质要选择ISO文件<br><img src="https://image.ligaogreat.top/image/blog/2021051612/004.png" alt="为另一台电脑创建安装介质（U 盘、DVD 或 IS0 文件）"><br>选择路径就随便保存一个地方<br>下载完成后我们就获得了一份微软官方的安装映像</p>
-<h2 id="方法二-MSDN-下载"><a href="#方法二-MSDN-下载" class="headerlink" title="方法二: MSDN 下载"></a>方法二: MSDN 下载</h2><p>打开 <a href="https://next.itellyou.cn/Original/Index"><strong>Next,itellyou</strong></a><br>注册一个账号登录<br>在首页找到Windows 10<br>下拉找到<strong>建议使用</strong>一栏<br><img src="https://image.ligaogreat.top/image/blog/2021051612/003.png" alt="Windows 安装文件类型"></p>
-<blockquote>
-<p>Business editions 和 Consumer editions 的区别<br>consumer editions 为 <strong>零售版</strong>，business editions 为 <strong>VL 版</strong></p>
-</blockquote>
-<blockquote>
-<p>Business editions 包括：<strong>企业版、教育版、专业版</strong><br>(ISO 镜像包括<strong>专业版、企业版、教育版、专业工作站版、专业教育版</strong>)</p>
-</blockquote>
-<blockquote>
-<p>Consumer editions 包括：<strong>家庭版、教育版、专业版</strong><br>(ISO 镜像包括<strong>家庭版、专业版、教育版、家庭单语言版、专业工作站版、专业教育版</strong>)  </p>
-</blockquote>
-<p>这里提供 ED2K 和 BT 两种下载方式<br>这样你就获得了一份官方原版的 ISO 文件  </p>
-<blockquote>
-<p>这时肯定有人问 为什么你不使用 <a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a> 而是使用 <a href="https://next.itellyou.cn/Original/Index">https://next.itellyou.cn/Original/Index</a><br>因为 msdn 老网站已经不再提供最新的 Windows10 系统，要想下载 Windows10 21H1 就要使用新网站</p>
-</blockquote>
-<h1 id="安装教学"><a href="#安装教学" class="headerlink" title="安装教学"></a>安装教学</h1><p>接下来就开始安装教学<br>这里也是，同样提供两种不同方案</p>
-<h2 id="方案一-U盘刻录"><a href="#方案一-U盘刻录" class="headerlink" title="方案一: U盘刻录"></a>方案一: U盘刻录</h2><p>这里推荐使用 <strong>balenaEtcher</strong><br><a href="https://www.balena.io/etcher/"><strong>官网链接</strong></a><br>打开软件 选择左边的<code>Flash from file</code>，找到刚刚下载完成的ISO映像<br><img src="https://image.ligaogreat.top/image/blog/2021051612/006.png" alt="选择 Flash from file"><br>中间的就选择自己的U盘，最后点击 <code>Flash!</code> 开始写入</p>
-<h3 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h3><blockquote>
-<p>开始前先记住自己系统盘的容量大小</p>
-</blockquote>
-<p>插入U盘，电脑开机按 <strong><code>F12</code></strong> ，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>选择U盘后便进入了引导界面，待加载完成后可以开始安装了。</p>
-<p>1.开机后第一个窗口点击 <strong><code>下一步</code></strong> ，别的不用管<br>2.点击屏幕中央的 <strong><code>现在安装</code></strong><br>3.在版本选择中选择Windows 10 <strong>专业版</strong> 或者 <strong>家庭版</strong>，后点击 <code>下一步</code><br>4.接受许可条款<br>5.选择 <code>自定义：仅安装 Windows (高级)</code><br>6.选择要安装的驱动器，选择与你系统盘名称及大小相同的分区即可</p>
-<p>然后便开始自动安装，直到完成为止<br>如遇到错误可以上网自行解决</p>
-<h2 id="方案二-WinPE-Win10-ISO"><a href="#方案二-WinPE-Win10-ISO" class="headerlink" title="方案二: WinPE + Win10 ISO"></a>方案二: WinPE + Win10 ISO</h2><p>先说说我为什么要推荐这一套方案<br>首先U盘刻录的映像不包含任何工具，如果安装时出现问题很难进行排查错误。而目前市面上的WinPE是自带维护工具，方便我们排查错误。不管是哪种方案，安装的效果是相同的。<br>这里我推荐<strong>微PE工具箱</strong>。就一点：干净。自带的工具也足够用。如果你想在PE环境里联网可以选择<strong>优启通</strong> (优启通最新版已经对非VIP版本提供联网支持)</p>
-<blockquote>
-<p><strong>下载地址：</strong> <a href="https://share.weiyun.com/iV7Hy54v"><strong>64位</strong></a>    <a href="https://share.weiyun.com/WqdJX5Mn"><strong>32位</strong></a></p>
-</blockquote>
-<ol>
-<li>打开软件 在下面的<strong>其他安装方式</strong>中点击像U盘一样的图标</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/007.png" alt="选择下面的 U 盘标志"></p>
-<ol start="2">
-<li><p>选择U盘然后点击 <strong><code>立即安装进U盘</code></strong><br><img src="https://image.ligaogreat.top/image/blog/2021051612/008.png" alt="修改待写入 U 盘，点击立即安装进 U 盘"></p>
-</li>
-<li><p>安装完成后找到U盘，将下载好的ISO文件复制到U盘跟目录里</p>
-</li>
-</ol>
-<blockquote>
-<p><strong>注:请将U盘格式化为 NTFS 或 exFAT 格式。(NTFS 格式非常费U盘，如果安装后还想继续使用U盘请格式化成 FAT32 或 exFAT 格式)</strong></p>
-</blockquote>
-<h3 id="安装方法-1"><a href="#安装方法-1" class="headerlink" title="安装方法"></a>安装方法</h3><p>开机后与上面一样<br>插入U盘电脑开机按F12，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>等待加载完成后就是我们熟悉的Windows桌面了</p>
-<p>1.和Windows一样，在<strong>此电脑</strong>中找到U盘根目录下的<strong>ISO文件</strong> (图标是光盘的样子)<br>2.运行ISO文件中的 <strong><code>Setup.exe</code></strong><br>3.<strong>和方案一的安装步骤相同</strong>，为了缩短内容就不重复了</p>
-<p>这样Windows就安装完成了</p>
-<h1 id="安装后恢复U盘"><a href="#安装后恢复U盘" class="headerlink" title="安装后恢复U盘"></a>安装后恢复U盘</h1><p>1.右键 <strong><code>此电脑</code></strong> 选择 <strong><code>管理(G)</code></strong><br>2.在左侧选择 <strong><code>磁盘管理</code></strong><br>3.在<strong>磁盘列表</strong>中找到磁盘，注意磁盘下有<strong>可移动</strong>字样<br>4.右键<strong>蓝色的分区</strong>，选择 <strong><code>删除卷(D)...</code></strong><br>5.到最后他会变成一个大分区，可能是黑色也可能是蓝色</p>
-<blockquote>
-<p>黑色：<br>(1) 右键，选择 <code>新建简单卷(1)...</code><br>(2) 点击两次“下一步”到格式化分区这一步<br>(3) 将文件系统改成 FAT32 或 exFAT<br>(4) 下一步，完成<br>蓝色：<br>(1) 右键，选择 <code>格式化(F)...</code><br>(2) 将文件系统改成 FAT32 或 exFAT<br>(3) 完成</p>
-</blockquote>
-<p><img src="https://image.ligaogreat.top/image/blog/2021051612/009.png" alt="磁盘管理界面"></p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>教程</tag>
-        <tag>系统安装</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超简单升级 Win10 方法</title>
-    <url>/2022051221.html</url>
-    <content><![CDATA[<h1 id="升级教程"><a href="#升级教程" class="headerlink" title="升级教程"></a>升级教程</h1><p>升级win10还是比较简单的，但是有个通病，磁盘占用要比全新安装大，还可能存在莫名其妙的BUG。如果电脑里没有重要资料，我推荐你还是选择全新安装比较好，教程可以参考 <a href="https://www.ligaogreat.top/2021051612">这篇文章</a> 和上面的安装教程<br>下面就是升级教程，首先打开 <a href="https://www.microsoft.com/zh-cn/software-download/windows10">Windows10下载页</a><br>点击 <strong><code>立即更新</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/01.png" alt="点击 立即下载工具"><br>此时网页会自动下载一个程序，等待程序下载完成后运行</p>
-<div class="note info flat"><p>升级程序可能会出现未知BUG导致无法继续安装，如遇BUG，请下载安装镜像进行离线安装离线安装</p>
-</div>
-
-<p>在”适用的声明和许可条款”界面中选择 <strong><code>接受</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/02.png" alt="许可条款选择接受"></p>
-<p>在“你想执行什么操作?”中选择 <strong><code>立即升级这台计算机</code></strong> 并点击 <strong><code>下一步</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/03.png" alt="立即升级这台电脑"></p>
-<p>然后等待下载安装即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/04.png" alt="下载界面"></p>
-<h1 id="升级后显示“激活Windows”的解决方案"><a href="#升级后显示“激活Windows”的解决方案" class="headerlink" title="升级后显示“激活Windows”的解决方案"></a>升级后显示“激活Windows”的解决方案</h1><p>这里推荐的激活工具是HEU KMS Activator</p>
-<div class="note info flat"><p>此程序无毒但可能会被杀毒软件误报。如不信任此软件，请将软件删除并关闭此篇文章</p>
-</div>
-
-<blockquote>
-<p><a href="https://ligao.lanzouu.com/ikkbn04q1k4b">下载链接</a> （访问密码：2278）</p>
-</blockquote>
-<p>下载后运行，点击最醒目的 <strong><code>开始</code></strong> 即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/05.png" alt="HEU KMS Activator 界面，选择开始"></p>
-<p>等待运行完成后即可激活</p>
-<blockquote>
-<p>激活软件不止有<a href="https://ligao.lanzouu.com/ikkbn04q1k4b">HEU KMS Activator</a> ，例如 <a href="https://www.lanzoui.com/iHs7ngzc8wd">KMS神龙版</a> <a href="https://ligao.lanzouu.com/iiCKj04q1kda">MAS</a> 等</p>
-</blockquote>
-<hr>
-<h2 id="高级教程"><a href="#高级教程" class="headerlink" title="高级教程"></a>高级教程</h2><p>对于是Win10系统且已通过Microsoft在线登录的账号选择 <strong><code>数字激活</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/06.png" alt="数字许可证激活"></p>
-<p>对于Win7用户，这里推荐使用 <strong><code>OEM激活</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022051221/07.png" alt="OEM 激活"></p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>教程</tag>
-        <tag>系统升级</tag>
       </tags>
   </entry>
   <entry>
@@ -634,6 +837,55 @@
       </tags>
   </entry>
   <entry>
+    <title>记一下在 LinuxMint 安装 Docker 遇到的坑</title>
+    <url>/2025011912.html</url>
+    <content><![CDATA[<h1 id="正常-Ubuntu-下安装-Docker-步骤"><a href="#正常-Ubuntu-下安装-Docker-步骤" class="headerlink" title="正常 Ubuntu 下安装 Docker 步骤"></a>正常 Ubuntu 下安装 Docker 步骤</h1><p>开始前，我们需要运行以下命令以卸载所有冲突的软件包</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> pkg <span class="keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="keyword">do</span> sudo apt-get remove <span class="variable">$pkg</span>; <span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><code>apt-get</code> 可能会报告您未安装这些软件包。</p>
+</blockquote>
+<h2 id="设置-Docker-的-apt-仓库"><a href="#设置-Docker-的-apt-仓库" class="headerlink" title="设置 Docker 的 apt 仓库"></a>设置 Docker 的 apt 仓库</h2><h3 id="官方源"><a href="#官方源" class="headerlink" title="官方源"></a>官方源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 添加 Docker 的 GPG key:</span></span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ca-certificates curl</span><br><span class="line">sudo install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc</span><br><span class="line">sudo <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.asc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line">  </span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
+<h3 id="阿里源"><a href="#阿里源" class="headerlink" title="阿里源"></a>阿里源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 安装必要的一些系统工具</span></span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ca-certificates curl gnupg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 信任 Docker 的 GPG 公钥</span></span><br><span class="line">sudo install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg</span><br><span class="line">sudo <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.gpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.gpg] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \</span></span><br><span class="line"><span class="string">  &quot;</span>$(. /etc/os-release &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)<span class="string">&quot; stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line"></span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h2><p>运行以下命令安装最新版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>安装特定版本的 Docker Engine，首先列出存储库中可用的版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 列出存储库中可用的版本:</span></span><br><span class="line">apt-cache madison docker-ce | awk <span class="string">&#x27;&#123; print $3 &#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">5:27.4.1-1~ubuntu.24.04~noble</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>选择所需版本并安装：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">VERSION_STRING=5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">sudo apt-get install docker-ce=<span class="variable">$VERSION_STRING</span> docker-ce-cli=<span class="variable">$VERSION_STRING</span> containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
+<h2 id="使用-hello-world-镜像验证是否成功安装"><a href="#使用-hello-world-镜像验证是否成功安装" class="headerlink" title="使用 hello-world 镜像验证是否成功安装"></a>使用 hello-world 镜像验证是否成功安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo docker run hello-world</span><br></pre></td></tr></table></figure>
+
+<p>此命令下载一个测试镜像并在容器中运行它。当容器运行时，它会输出一条确认消息然后退出。<br>安装结束。</p>
+<h1 id="Linux-Mint-下遇到的坑"><a href="#Linux-Mint-下遇到的坑" class="headerlink" title="Linux Mint 下遇到的坑"></a>Linux Mint 下遇到的坑</h1><p>安装正常的 Ubuntu 步骤，在 Linux Mint 下添加 Docker 软件源后，会在 <code>apt-get update</code> 步骤下报错，报错内容如下</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">忽略:1 https://download.docker.com/linux/ubuntu wilma InRelease</span><br><span class="line">错误:3 https://download.docker.com/linux/ubuntu wilma Release</span><br><span class="line">正在读取软件包列表... 完成</span><br><span class="line">E: 仓库 “https://download.docker.com/linux/ubuntu wilma Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
+
+<p>这是因为部分 Ubuntu 衍生发行版使用的并不是 <code>VERSION_CODENAME</code> 而是 <code>UBUNTU_CODENAME</code>，使用 <code>VERSION_CODENAME</code> 会导致添加<strong>错误的 Ubuntu 发行版代号</strong></p>
+<p>正常在 Ubuntu 下添加软件源的步骤是这么写的</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+
+<p>这就需要我们在添加软件源时将 <code>VERSION_CODENAME</code> 改成 <code>UBUNTU_CODENAME</code>，上面阿里源同理</p>
+<blockquote>
+<p>阿里源不能直接使用下面的内容</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$UBUNTU_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+
+<p>最后使用 <code>apt-get update</code> 就不会报错了</p>
+]]></content>
+      <categories>
+        <category>踩坑记录</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Ubuntu</tag>
+        <tag>Docker</tag>
+        <tag>LinuxMint</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>███：时尚黑骑士的 Gucci 夹克魅力 (AI创作)</title>
     <url>/2023120611.html</url>
     <content><![CDATA[<div class="note danger flat"><p>为保护个人隐私，本文章禁止转载！！！</p>
@@ -661,6 +913,297 @@
       </tags>
   </entry>
   <entry>
+    <title>快速在本地搭建 Alist</title>
+    <url>/2025011012.html</url>
+    <content><![CDATA[<div class="note info flat"><p>文章部分内容出自 <a href="https://alist.nn.ci/zh/">AList帮助文档</a></p>
+</div>
+
+<h1 id="一键安装脚本"><a href="#一键安装脚本" class="headerlink" title="一键安装脚本"></a>一键安装脚本</h1><div class="note warning flat"><p>一键安装脚本仅适用于 <strong>Linux amd64&#x2F;arm64</strong> 平台</p>
+</div>
+
+<h2 id="标准安装"><a href="#标准安装" class="headerlink" title="标准安装"></a>标准安装</h2><p>首先是能不能连上全靠脸的一键安装脚本<br>如果安装脚本提示网络错误，请移至下面的 <code>手动安装</code>步骤</p>
+<p><strong>安装</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s install</span><br></pre></td></tr></table></figure>
+
+<p><strong>更新</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s update</span><br></pre></td></tr></table></figure>
+
+<h2 id="自定义路径"><a href="#自定义路径" class="headerlink" title="自定义路径"></a>自定义路径</h2><p>默认安装在 <code>/opt/alist</code> 中。 如果需要安装到指定路径，在末尾加上路径参数即可，如 安装到 <code>/root</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 安装到 /root 目录下</span><br><span class="line">curl -fsSL &quot;https://alist.nn.ci/v3.sh&quot; | bash -s install /root</span><br><span class="line"># 更新 /root 目录下的 Alist</span><br><span class="line">curl -fsSL &quot;https://alist.nn.ci/v3.sh&quot; | bash -s update /root</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>启动: <code>systemctl start alist</code></li>
+<li>关闭: <code>systemctl stop alist</code></li>
+<li>状态: <code>systemctl status alist</code></li>
+<li>重启: <code>systemctl restart alist</code></li>
+</ul>
+<h1 id="手动安装"><a href="#手动安装" class="headerlink" title="手动安装"></a>手动安装</h1><h2 id="获取二进制文件"><a href="#获取二进制文件" class="headerlink" title="获取二进制文件"></a>获取二进制文件</h2><p>打开 <a href="https://github.com/Xhofe/alist/releases">AList Release</a> 下载对应系统的文件。</p>
+<blockquote>
+<p>如 Linux 就下载 <code>alist-linux-xxx.tar.gz</code><br>macOS 为 <code>alist-darwin-xxx.tar.gz</code><br>Windows 为 <code>alist-windows-xxx.zip</code></p>
+</blockquote>
+<blockquote>
+<p>! <code>xxx</code> 指代 CPU 指令集</p>
+</blockquote>
+<h2 id="运行程序"><a href="#运行程序" class="headerlink" title="运行程序"></a>运行程序</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-ubuntu"></i>Linux</button><button type="button" class="tab"><i class="fa-brands fa-apple"></i>macOS</button><button type="button" class="tab"><i class="fa-brands fa-windows"></i>Windows</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件，得到可执行文件：</span></span><br><span class="line">tar -zxvf alist-linux-amd64.tar.gz</span><br><span class="line"><span class="comment"># 授予程序执行权限：</span></span><br><span class="line"><span class="built_in">chmod</span> +x alist</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">./alist server</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件，得到可执行文件：</span></span><br><span class="line">tar -zxvf alist-darwin-amd64.tar.gz</span><br><span class="line"><span class="comment"># 授予程序执行权限：</span></span><br><span class="line"><span class="built_in">chmod</span> +x alist</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">./alist server</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件</span></span><br><span class="line"><span class="comment"># 也可以执行下面命令，&quot;alist-xxxx.zip&quot; 是你下载的文件名</span></span><br><span class="line">unzip alist<span class="literal">-windows-amd64</span>.zip</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">.\alist.exe server</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h2 id="创建守护进程"><a href="#创建守护进程" class="headerlink" title="创建守护进程"></a>创建守护进程</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-ubuntu2"></i>Linux</button><button type="button" class="tab"><i class="fa-brands fa-apple"></i>macOS</button><button type="button" class="tab"><i class="fa-brands fa-windows"></i>Windows</button></div><div class="tab-contents"><div class="tab-item-content active"><p>使用下面命令来创建 <code>alist.service</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /usr/lib/systemd/system/alist.service</span><br></pre></td></tr></table></figure>
+
+<p>在文件中添加下列内容，其中 <code>{path_alist}</code> 为程序路径</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=alist</span><br><span class="line">After=network.target</span><br><span class="line"> </span><br><span class="line">[Service]</span><br><span class="line">Type=simple</span><br><span class="line">WorkingDirectory=&#123;path_alist&#125;</span><br><span class="line">ExecStart=&#123;path_alist&#125;/alist server</span><br><span class="line">Restart=on-failure</span><br><span class="line"> </span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
+<p>执行 <code>systemctl daemon-reload</code> 来重载配置</p>
+<p>然后就可以用 <code>systemctl</code> 命令来管理 Alist</p>
+<ul>
+<li>启动: <code>systemctl start alist</code></li>
+<li>关闭: <code>systemctl stop alist</code></li>
+<li>状态: <code>systemctl status alist</code></li>
+<li>重启: <code>systemctl restart alist</code></li>
+</ul></div><div class="tab-item-content"><p>使用下面命令来创建 <code>ci.nn.alist.plist</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano ~/Library/LaunchAgents/ci.nn.alist.plist</span><br></pre></td></tr></table></figure>
+
+<p>在文件中添加下列内容，其中 <code>{path_alist}</code> 可替换为程序路径，<code>path/to/working/dir</code> 为 AList的工作路径</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;UTF-8&quot;</span>?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">plist</span> <span class="keyword">PUBLIC</span> <span class="string">&quot;-//Apple//DTD PLIST 1.0//EN&quot;</span> <span class="string">&quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">plist</span> <span class="attr">version</span>=<span class="string">&quot;1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>Label<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>ci.nn.alist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>KeepAlive<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>ProcessType<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>Background<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>RunAtLoad<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>WorkingDirectory<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>path/to/working/dir<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>ProgramArguments<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">array</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>&#123;path_alist&#125;/alist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>server<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">array</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">plist</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>执行 <code>launchctl load ~/Library/LaunchAgents/ci.nn.alist.plist</code> 加载配置</p>
+<ul>
+<li>开启: <code>launchctl start ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
+<li>关闭: <code>launchctl stop ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
+<li>卸载配置: <code>launchctl unload ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
+</ul></div><div class="tab-item-content"><p>用 <strong><code>.VBS</code></strong> 脚本启动和停止，分别创建两个脚本 分别是 启动.vbs 和 停止.vbs</p>
+<p><strong>启动.vbs</strong></p>
+<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Dim</span> ws</span><br><span class="line"><span class="keyword">Set</span> ws = Wscript.<span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;alist.exe server&quot;</span>,vbhide</span><br><span class="line">Wscript.quit</span><br></pre></td></tr></table></figure>
+
+<p><strong>停止.vbs</strong></p>
+<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Dim</span> ws</span><br><span class="line"><span class="keyword">Set</span> ws = Wscript.<span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;taskkill /f /im alist.exe&quot;</span>,<span class="number">0</span></span><br><span class="line">Wscript.quit</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h1 id="创建管理员密码"><a href="#创建管理员密码" class="headerlink" title="创建管理员密码"></a>创建管理员密码</h1><p>对于 <strong>Linux&#x2F;macOS :</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 随机生成一个密码</span></span><br><span class="line">./alist admin random</span><br><span class="line"><span class="comment"># 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码</span></span><br><span class="line">./alist admin <span class="built_in">set</span> NEW_PASSWORD</span><br></pre></td></tr></table></figure>
+
+<p>对于 <strong>Windows :</strong></p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 随机生成一个密码</span></span><br><span class="line">./alist.exe admin random</span><br><span class="line"><span class="comment"># 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码</span></span><br><span class="line">./alist.exe admin <span class="built_in">set</span> NEW_PASSWORD</span><br></pre></td></tr></table></figure>
+
+<h2 id="获取端口"><a href="#获取端口" class="headerlink" title="获取端口"></a>获取端口</h2><p>使用命令 <code>.\alist.exe server</code> 可运行 Alist，在日志中可以看见端口，默认端口为 <code>5244</code></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025011012/SCR-20250110-symk.jpg"></p>
+<p>在浏览器中输入 <code>127.0.0.1:5244</code> 即可访问</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025011012/SCR-20250110-taej.jpg"></p>
+]]></content>
+      <categories>
+        <category>其他教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Alist</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>通过本地反代，直连 Pixix（含 Linux/macOS）</title>
+    <url>/2024081712.html</url>
+    <content><![CDATA[<p>Pixiv 目前已经被大陆封禁好几年了，最开始只是 DNS 污染，通过更换 hosts 文件即可解决。后期因为使用 SNI 阻断，更换 hosts 文件的方法已经不管用了。</p>
+<h1 id="第三方客户端"><a href="#第三方客户端" class="headerlink" title="第三方客户端"></a>第三方客户端</h1><p>如果有账号的话，可以用下面推荐的第三方客户端，基本不需要折腾。</p>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-solid fa-mobile"></i>Android/iOS</button><button type="button" class="tab"><i class="fa-brands fa-windows"></i>Windows</button></div><div class="tab-contents"><div class="tab-item-content active"><p><a href="https://github.com/Notsfsssf/pixez-flutter/releases/tag/0.9.45">PixEz Flutter </a></p>
+<blockquote>
+<p>iOS版需要登陆美区账号</p>
+</blockquote></div><div class="tab-item-content"><p><a href="https://github.com/Pixeval/Pixeval/releases">Pixeval</a></p>
+<blockquote>
+<p>目前仅支持 Windows10&#x2F;11</p>
+</blockquote></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<p>大部分第三方客户端都支持直连Pixiv，但是大部分都无法提供账号注册。这时，我们就需要自建反代直连了。</p>
+<h1 id="通过-Nginx-直连-Pixiv"><a href="#通过-Nginx-直连-Pixiv" class="headerlink" title="通过 Nginx 直连 Pixiv"></a>通过 Nginx 直连 Pixiv</h1><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><p>开始前，我们需要下载 <a href="https://github.com/mashirozx/Pixiv-Nginx">Pixiv-Nginx</a> 这个项目<br>国内镜像：<a href="https://git.moezx.cc/mirrors/Pixiv-Nginx">https://git.moezx.cc/mirrors/Pixiv-Nginx</a><br>下载后解压至<strong>没有中文等特殊符号的目录</strong>中</p>
+<h3 id="安装-CA-证书"><a href="#安装-CA-证书" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><p>安装目录中的 ca.cer 证书，以下是常用浏览器的安装方式</p>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-chrome"></i>Chrome</button><button type="button" class="tab"><i class="fa-brands fa-edge"></i>Edge</button><button type="button" class="tab"><i class="fa-brands fa-firefox"></i>FireFox</button></div><div class="tab-contents"><div class="tab-item-content active"><p>打开 Chrome ，依次点击 <strong><code>设置 - 隐私和安全 - 安全</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-17-24.jpg" alt="打开 Chrome ，依次 点击设置 - 隐私和安全 - 安全"></p>
+<p>下拉，选择 <strong><code>管理证书</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-18-19.jpg" alt="下拉，选择管理证书"></p>
+<p>在弹出的窗口中，依次选择 <strong><code>受信任的根证书颁发机构 - 导入</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-19-45.jpg" alt="弹出的窗口中，依次选择 受信任的根证书颁发机构 - 导入"></p>
+<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-04.jpg" alt="在证书导入向导中，选择 ca.cer 文件路径，点击下一步"></p>
+<p>保持<strong>默认</strong>，点击 <strong><code>下一步</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-24.jpg" alt="保持默认，点击下一步"></p>
+<p>最后，选择 <strong>是</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-45.jpg" alt="最后，选择是"></p>
+<p>安装完成</p></div><div class="tab-item-content"><p>打开 Edge ，依次选择 <strong><code>设置 - 隐私、搜索和服务</code></strong> ，在 <strong><code>安全性</code></strong> 中，选择 <strong><code>管理证书</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-36-02.jpg" alt="依次选择 设置 - 隐私、搜索和服务， 安全性中选择管理证书"></p>
+<p>在弹出的窗口中，依次选择 <strong><code>受信任的根证书颁发机构 - 导入</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-19-45.jpg" alt="弹出的窗口中，依次选择 受信任的根证书颁发机构 - 导入"></p>
+<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-04.jpg" alt="在证书导入向导中，选择 ca.cer 文件路径，点击下一步"></p>
+<p><strong>保持默认</strong>，点击 <strong><code>下一步</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-24.jpg" alt="保持默认，点击下一步"></p>
+<p>最后，选择 <strong>是</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-45.jpg" alt="最后，选择是"></p>
+<p>安装完成</p></div><div class="tab-item-content"><p>打开 FireFox 依次选择 <strong><code>设置 - 隐私与安全</code></strong> ，在 <strong>安全</strong> 中，选择 <strong><code>查看证书</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-49-44.jpg" alt="依次选择 设置 - 隐私与安全 ，在安全中，选择查看证书"></p>
+<p>在弹出的<strong>证书管理器窗口</strong>中，依次选择 <strong><code>证书颁发机构 - 导入</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-50-49.jpg" alt="选择 证书颁发机构 - 导入"></p>
+<p>在新弹出的窗口中，勾选 <strong><code>信任由此证书颁发机来标识网站</code></strong> ，点击 <strong>确定</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-51-54.jpg" alt="勾选信任由此证书颁发机来标识网站，点击确定"></p>
+<p>最后，点击 <strong>确定</strong> ，关闭即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-52-10.jpg" alt="点击确定"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h3 id="修改-hosts-文件"><a href="#修改-hosts-文件" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><p>用记事本打开目录 <strong><code>C:\Windows\System32\drivers\etc\hosts</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_17-08-11.jpg" alt="hosts 文件位置"></p>
+<p>在文本的末尾，添加软件目录下的 <strong><code>hosts</code></strong> 文件里的内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure>
+
+<p>添加后是这个效果</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_17-15-21.jpg" alt="修改后的效果"></p>
+<div class="note info flat"><p>直接替换 hosts 文件也是可以的</p>
+</div>
+
+<h3 id="运行-Nginx"><a href="#运行-Nginx" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><p>直接运行目录下的 <strong><code>4.可视化工具（这个操作简单）</code></strong>  和 <strong><code>5.调试工具（这个功能全）</code></strong> 即可</p>
+<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">可视化工具</button><button type="button" class="tab">调试工具</button></div><div class="tab-contents"><div class="tab-item-content active"><p>点击第一横 Nginx 旁边的 <strong>Start</strong> 开始运行，Runnng 代表运行状态</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_17-34-42.jpg" alt="可视化工具"></p></div><div class="tab-item-content"><div class="note warning flat"><p>在使用调试工具时，程序的运行状态需查看调试台输出的程序日志</p>
+</div>
+运行后输入 `1`  开始运行</div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><div class="note success flat"><p>Linux 教程使用 Ubuntu 举例。除安装 Nginx 方式，其他步骤基本一致。</p>
+</div>
+
+<p>Linux 用户需要使用的文件在 <strong><code>配置文件（非Windows用户使用）</code></strong> 中</p>
+<h3 id="安装-Nginx"><a href="#安装-Nginx" class="headerlink" title="安装 Nginx"></a>安装 Nginx</h3><p>打开终端，输入以下命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt install nginx</span><br></pre></td></tr></table></figure>
+<div class="note info flat"><p>其他发行版，可以在 <a href="https://nginx.org/en/linux_packages.html#Debian">Nginx</a> 官网找到安装方法</p>
+</div>
+
+<p>配置文件在 <code>/etc/nginx</code> 目录下<br>复制并替换 配置文件（非Windows用户使用）目录下的 <code>nginx.conf</code> 和 <code>ca文件夹</code> 到 <code>/etc/nginx</code> 目录</p>
+<h3 id="安装-CA-证书-1"><a href="#安装-CA-证书-1" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-chrome"></i>Chrome</button><button type="button" class="tab"><i class="fa-brands fa-firefox"></i>FireFox</button></div><div class="tab-contents"><div class="tab-item-content active"><p>打开 Chrome ，依次点击 <strong><code>设置 - 隐私和安全 - 安全</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-44-17.jpg" alt="依次点击 设置 - 隐私和安全 - 安全"></p>
+<p>下拉，选择 <strong><code>管理证书</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-44-37.jpg" alt="下拉，选择管理证书"></p>
+<p>在管理证书窗口中，依次选择 <strong><code>授权机构 - 导入</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-45-34.jpg" alt="依次选择 授权机构 - 导入"></p>
+<p>在文件选择界面，将文件类型改为 <strong>所有文件</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-47-51.jpg" alt="将文件类型改为所有文件"></p>
+<p>在新弹出的窗口中，勾选 <strong><code>信任该证书，以标识网站的身份</code></strong> ，点击 <strong>确定</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-52-35.jpg" alt="勾选信任该证书，以标识网站的身份"></p></div><div class="tab-item-content"><p>打开 FireFox 依次选择 <strong><code>设置 - 隐私与安全</code></strong> ，在 <strong>安全</strong> 中，选择 <strong><code>查看证书</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_21-28-19.jpg" alt="依次选择 设置 - 隐私与安全，在安全中，选择查看证书"></p>
+<p>在弹出的<strong>证书管理器窗口</strong>中，依次选择 <strong><code>证书颁发机构 - 导入</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-50-49.jpg" alt="依次选择 证书颁发机构 - 导入"></p>
+<p>在新弹出的窗口中，勾选 <strong><code>信任由此证书颁发机来标识网站</code></strong> ，点击 <strong>确定</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_21-29-46.jpg" alt="勾选信任由此证书颁发机来标识网站"></p>
+<p>最后，点击 <strong>确定</strong> ，关闭即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-52-10.jpg" alt="点击确定"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h3 id="修改-hosts-文件-1"><a href="#修改-hosts-文件-1" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-solid fa-copy"></i>替换大法</button><button type="button" class="tab"><i class="fa-solid fa-pen-to-square"></i>更新 hosts 文件</button></div><div class="tab-contents"><div class="tab-item-content active"><div class="note warning flat"><p>如果你使用的代理程序是使用端口进行代理，你可能需要查看 <strong>更新 hosts 文件</strong> 中的方法</p>
+</div>
+
+<p>复制 <strong>hosts</strong> 文件，到 <code>/etc/hosts</code></p></div><div class="tab-item-content"><div class="note info flat"><p>直接替换文件的话，可以略过此步骤</p>
+</div>
+
+<p>输入命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/hosts</span><br><span class="line"><span class="comment"># 如果提示没有 nano ，请执行以下命令</span></span><br><span class="line">sudo apt install nano</span><br></pre></td></tr></table></figure>
+<p>完成 hosts 文件编辑</p>
+<p>在 hosts 文件末尾添加以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure>
+
+<p>修改后是这个效果</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_19-46-06.jpg" alt="修改后的效果"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h3 id="运行-Nginx-1"><a href="#运行-Nginx-1" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><p>在终端输入以下命令即可运行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 运行命令</span></span><br><span class="line">nginx start</span><br><span class="line"><span class="comment"># 如果想停止，输入以下命令即可</span></span><br><span class="line">nginx stop</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_19-48-46.jpg" alt="运行 Nginx"></p>
+<h2 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h2><div class="note success flat"><p>本教程演示的系统版本为 macOS Sonoma 14.6.1</p>
+</div>
+<p>macOS 用户需要使用的文件同样在 <strong><code>配置文件（非Windows用户使用）</code></strong> 中</p>
+<h3 id="安装-brew"><a href="#安装-brew" class="headerlink" title="安装 brew"></a>安装 brew</h3><p>由于 macOS 没有原生的包管理器，所以我们需要安装 brew 来实现包管理功能<br>安装命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>或者使用 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/">清华大学开源软件镜像站</a> 提供的安装脚本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-install</span><br><span class="line">/bin/bash brew-install/install.sh</span><br><span class="line"><span class="built_in">rm</span> -rf brew-install</span><br></pre></td></tr></table></figure>
+
+<p>此时可能会询问是否下载 <strong>git 命令行开发者工具</strong> ，选择 <strong><code>安装</code></strong> 即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_22-05.jpg" alt="选择安装即可"></p>
+<p>在某些情况下 brew 无法注册到 <strong>PATH</strong> ，所以我们要运行下面的命令来注册到 <strong>PATH</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 下面的 用户名 为你电脑的用户名</span></span><br><span class="line">(<span class="built_in">echo</span>; <span class="built_in">echo</span> <span class="string">&#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27;</span>) &gt;&gt; /Users/用户名/.zprofile</span><br><span class="line"><span class="built_in">eval</span> <span class="string">&quot;<span class="subst">$(/opt/homebrew/bin/brew shellenv)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>当然，你也可以在安装日志中找到相关提示</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_22-47.jpg" alt="程序输出日志"></p>
+<h4 id="brew-更换软件源"><a href="#brew-更换软件源" class="headerlink" title="brew 更换软件源"></a>brew 更换软件源</h4><p>由于众所周知的原因，brew的默认软件源是非常不稳定的，所以我们可以替换为 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/">清华源</a></p>
+<p>4.0及以上版本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>4.0 及以下版本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> HOMEBREW_API_DOMAIN=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BOTTLE_DOMAIN=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BREW_GIT_REMOTE=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_CORE_GIT_REMOTE=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_PIP_INDEX_URL=<span class="string">&quot;https://pypi.tuna.tsinghua.edu.cn/simple&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="安装-Nginx-1"><a href="#安装-Nginx-1" class="headerlink" title="安装 Nginx"></a>安装 Nginx</h3><p>在 <strong>终端 App</strong> 中，输入下面命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install nginx</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_23-30.jpg" alt="安装 Nginx"></p>
+<div class="note info flat"><p>macOS 显示隐藏文件的快捷键是 ⌘ + ⇧ + .</p>
+</div>
+
+<h4 id="Intel芯片"><a href="#Intel芯片" class="headerlink" title="Intel芯片"></a>Intel芯片</h4><p>使用<strong>Intel芯片</strong>的Mac配置文件存放在 <code>/usr/local/etc/nginx/nginx.conf</code> 中</p>
+<p>复制并替换 配置文件（非Windows用户使用）目录下的 <code>nginx.conf</code> 和 <code>ca文件夹</code> 到  <code>/usr/local/etc/nginx/nginx.conf</code> 目录</p>
+<h4 id="Apple芯片"><a href="#Apple芯片" class="headerlink" title="Apple芯片"></a>Apple芯片</h4><p>使用<strong>Apple芯片</strong>的Mac，配置文件存放在 <code>/opt/homebrew/etc/nginx/nginx.conf</code> 中</p>
+<p>复制并替换 配置文件（非Windows用户使用）目录下的 <code>nginx.conf</code> 和 <code>ca文件夹</code> 到   <code>/opt/homebrew/etc/nginx/nginx.conf</code></p>
+<h3 id="安装-CA-证书-2"><a href="#安装-CA-证书-2" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-safari"></i>钥匙串</button><button type="button" class="tab"><i class="fa-brands fa-chrome"></i>Chrome/Edge</button><button type="button" class="tab"><i class="fa-brands fa-firefox"></i>FireFox</button></div><div class="tab-contents"><div class="tab-item-content active"><div class="note warning flat"><p>由于 macOS 的特殊性，几乎所有的浏览器，CA证书都需要由 <strong>钥匙串</strong> 来导入，所以我们只需要在 <strong>钥匙串</strong> 中导入证书即可</p>
+</div>
+
+<p>双击 <strong><code>ca.cer</code></strong> 证书文件 ，此时会弹出 <strong>添加证书</strong> 窗口，修改保存位置为 <strong>系统</strong> ，单击添加</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_19-49.jpg" alt="保存位置更改为系统，点击添加"></p>
+<p>按照系统要求，输入密码</p>
+<p>打开 <strong><code>钥匙串访问</code></strong> ，在<strong>系统</strong>中找到 <strong><code>Mashiro Internet Fake Authority CA</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_20-01.jpg" alt="找到 Mashiro Internet Fake Authority CA"></p>
+<p>将 <strong>使用系统默认</strong> 改为 <strong>始终信任</strong> ，并按照系统要求输入密码</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_20-03.jpg" alt="改为始终信任"></p></div><div class="tab-item-content"><div class="note warning flat"><p>由于 macOS 的特殊性，不止是 Safari ，几乎所有的浏览器，CA证书都需要由 <strong>钥匙串</strong> 来导入，所以我们只需要在 <strong>钥匙串</strong> 中导入证书即可</p>
+</div>
+
+<div class="note primary flat"><p>查看 Chrome&#x2F;Edge 的教程并无意义，请直接查看 <strong>钥匙串</strong> 的教程</p>
+</div>
+
+<p>如果执意在 Chrome&#x2F;Edge 选择 <strong>管理证书</strong> ，可能会弹出询问是 <strong><code>打开密码还是钥匙串</code></strong> ，选择 <strong><code>钥匙串</code></strong> 即可</p>
+<p>然后按照 <strong>钥匙串</strong> 的步骤添加证书即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_19-43.jpg" alt="打开钥匙串访问"></p></div><div class="tab-item-content"><div class="note warning flat"><p>由于 macOS 的特殊性，不止是 Safari ，几乎所有的浏览器，CA证书都需要由 <strong>钥匙串</strong> 来导入，所以我们只需要在 <strong>钥匙串</strong> 中导入证书即可</p>
+</div>
+
+<div class="note primary flat"><p>查看 FireFox 的教程并无意义，请直接查看 <strong>钥匙串</strong> 的教程</p>
+</div></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h3 id="修改-hosts-文件-2"><a href="#修改-hosts-文件-2" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-solid fa-copy"></i>替换大法</button><button type="button" class="tab"><i class="fa-solid fa-pen-to-square"></i>更新 hosts 文件</button></div><div class="tab-contents"><div class="tab-item-content active"><div class="note warning flat"><p>如果你使用的代理程序是使用端口进行代理，你可能需要查看 <strong>更新 hosts 文件</strong> 中的方法</p>
+</div>
+
+<p>复制 <strong>hosts</strong> 文件，到 <code>/etc/hosts</code></p></div><div class="tab-item-content"><div class="note info flat"><p>直接替换文件的话，可以略过此步骤</p>
+</div>
+
+<p>输入命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/hosts</span><br><span class="line"><span class="comment"># 如果提示没有 nano ，请执行以下命令</span></span><br><span class="line">sudo brew install nano</span><br></pre></td></tr></table></figure>
+<p>完成 hosts 文件编辑</p>
+<p>在 hosts 文件末尾添加以下内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
+
+<h3 id="运行-Nginx-2"><a href="#运行-Nginx-2" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在终端中输入下面命令开始运行</span></span><br><span class="line">brew services start nginx</span><br><span class="line"><span class="comment"># 关闭命令</span></span><br><span class="line">brew services stop nginx</span><br></pre></td></tr></table></figure>
+
+<h3 id="Safari-出现-此连接非私人连接-怎么办？"><a href="#Safari-出现-此连接非私人连接-怎么办？" class="headerlink" title="Safari 出现 此连接非私人连接 怎么办？"></a>Safari 出现 此连接非私人连接 怎么办？</h3><p>单击 <strong><code>显示详细信息</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_23-09.jpg" alt="单击显示详细信息"></p>
+<p>在下面选择 <strong><code>访问此网站</code></strong> 即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_23-10.jpg" alt="选择访问此网站"></p>
+<h2 id="（可选）将图片链接替换为-i-pixiv-re"><a href="#（可选）将图片链接替换为-i-pixiv-re" class="headerlink" title="（可选）将图片链接替换为 i.pixiv.re"></a>（可选）将图片链接替换为 i.pixiv.re</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">Windows</button><button type="button" class="tab">Linux</button><button type="button" class="tab">macOS</button></div><div class="tab-contents"><div class="tab-item-content active"><p>修改配置文件，文件在软件目录内 <code>/conf/pixiv.conf</code> 中</p>
+<p>删除第 117 行的注释即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div><div class="tab-item-content"><p>Linux 用户需要把软件目录内的 <code>/conf/nginx.conf</code> 和 <code>/conf/pixiv.conf</code> 复制到 Nginx 目录内</p>
+<p>配置文件在 <code>/etc/nginx</code> 目录下</p>
+<p>编辑 <code>pixiv.conf</code> 文件</p>
+<p>删除第 117 行的注释即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div><div class="tab-item-content"><p>macOS 用户需要把软件目录内的 <code>/conf/nginx.conf</code> 和 <code>/conf/pixiv.conf</code> 复制到 Nginx 目录内</p>
+<p>配置文件存放在 <code>/usr/local/etc/nginx/nginx.conf</code> 中</p>
+<blockquote>
+<p>使用Apple芯片的Mac，配置文件存放在 <code>/opt/homebrew/etc/nginx/nginx.conf</code> 中</p>
+</blockquote>
+<p>编辑 <code>pixiv.conf</code> 文件</p>
+<p>删除第 117 行的注释即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>]]></content>
+      <categories>
+        <category>其他教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>反代</tag>
+        <tag>Pixiv</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>安装并配置基于 WSL 的 Ubuntu</title>
     <url>/2024082812.html</url>
     <content><![CDATA[<p>最近稍微折腾了一下 WSL，所以出了一个 WSL 的教程</p>
@@ -668,8 +1211,8 @@
 </div>
 
 <p>在开始前，我们需要在 <code>控制面板 - 程序和功能 - 启用或关闭 Windows 功能</code> 中，打开 Windows 上的两项设置 <code>适用于 Linux 的 Windows 子系统</code> 和 <code>虚拟机平台</code></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024082812/2024-08-28_12-42-37.png" alt="点击 启用或关闭 Windows 功能"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024082812/2024-08-28_12-43-20.png" alt="打开 适用于 Linux 的 Windows 子系统 和 虚拟机平台"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024082812/2024-08-28_12-42-37.jpg" alt="点击 启用或关闭 Windows 功能"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024082812/2024-08-28_12-43-20.jpg" alt="打开 适用于 Linux 的 Windows 子系统 和 虚拟机平台"></p>
 <p>此外，你还需要安装 WSL 2 内核更新包</p>
 <ul>
 <li><a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">适用于 x64 计算机的 WSL 2 Linux 内核更新包</a>（绝大部分机器下载这个即可）</li>
@@ -752,7 +1295,7 @@
 <td>openSUSE Tumbleweed</td>
 </tr>
 </tbody></table>
-<p><img src="https://image.ligaogreat.top/image/blog/2024082812/2024-08-28_13-02-46.png" alt="Linux 发行版列表"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024082812/2024-08-28_13-02-46.jpg" alt="Linux 发行版列表"></p>
 <ol start="3">
 <li>安装后，可以在 <strong>Windows 终端</strong> 中访问 Linux，按照提示，输入 <strong>用户名</strong> 和 <strong>密码</strong> 即可</li>
 </ol>
@@ -769,11 +1312,11 @@
 <ol start="3">
 <li>下拉，找到 <strong><code>zh_CN.UTF-8 UTF-8</code></strong></li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2024082812/Snipaste_2024-08-28_17-13-21.png" alt="找到 zh_CN.UTF-8 UTF-8"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024082812/Snipaste_2024-08-28_17-13-21.jpg" alt="找到 zh_CN.UTF-8 UTF-8"></p>
 <ol start="4">
 <li>选择 <strong><code>zh_CN.UTF-8</code></strong></li>
 </ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2024082812/Snipaste_2024-08-28_17-13-32.png" alt="选择 zh_CN.UTF-8"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024082812/Snipaste_2024-08-28_17-13-32.jpg" alt="选择 zh_CN.UTF-8"></p>
 <ol start="5">
 <li>重启，验证是否设置成功</li>
 </ol>
@@ -813,549 +1356,6 @@
         <tag>Linux</tag>
         <tag>Ubuntu</tag>
         <tag>系统配置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo 教程，搭建一个属于自己的博客</title>
-    <url>/2022101222.html</url>
-    <content><![CDATA[<div class="note info flat"><p>文章部分内容来自 <a href="https://hexo.io/zh-cn/docs/">Hexo 帮助文档</a></p>
-</div>
-
-<h1 id="什么是-Hexo？"><a href="#什么是-Hexo？" class="headerlink" title="什么是 Hexo？"></a>什么是 Hexo？</h1><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-<hr>
-<h1 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h1><div class="note success flat"><p>文章使用 Windows 10 22H2 作为演示系统</p>
-</div>
-
-<h2 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h2><p>安装 Hexo 需要再电脑中安装 <a href="https://nodejs.org/zh-cn/">node.js </a>和 <a href="https://git-scm.com/">git</a></p>
-<h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><div class="note info flat"><p>其他系统可以参考 <a href="https://git-scm.com/downloads">Git 下载页面</a></p>
-</div>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-35-33.png" alt="Git 下载界面"></p>
-<hr>
-<div class="note primary flat"><p>安装大致略过，下面只展示一些带有选项的窗口</p>
-</div>
-
-<details class="toggle" ><summary class="toggle-button" style="">点击显示部分安装步骤</summary><div class="toggle-content"><p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-54-52.png" alt="保持默认即可"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-55-13.png" alt="选择 Use Vim as Git&#39;s default editor"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-55-23.png" alt="选择 Let Git decide"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-56-21.png" alt="选择 Git from the command line and also from 3rd-party software"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-57-13.png" alt="选择 Use the OpenSSL Library"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-57-54.png" alt="选择 Checkout Windows-style, commit Unix-style line endings"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-58-17.png" alt="选择 Use MinTTY"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-58-42.png" alt="选择 Fast-forward of merge"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-59-27.png" alt="选择 Git Credential Manager"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_20-59-47.png" alt="勾选 Enable file system caching"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-00-04.png" alt="保持默认，选择 Install"></p>
-</div></details>
-
-<hr>
-<h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><div class="note info flat"><p>其他系统可以参考 <a href="https://nodejs.org/zh-cn/download/prebuilt-binaries">Node.js 下载页面</a></p>
-</div>
-
-<ol>
-<li><p>进入 <a href="https://nodejs.org/zh-cn/download/prebuilt-binaries">Node.js</a> 官网，选择下载。</p>
-</li>
-<li><p>选择 <strong>预构建二进制文件</strong> ，选择 我需要用于 <strong>Windows x64</strong> ，版本选择默认的 LTS 版本即可</p>
-</li>
-<li><p>点击 <strong>下载 Node.js</strong></p>
-</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-34-13.png" alt="Node.js 下载界面"></p>
-<ol start="4">
-<li>对于国内用户，可以选择更换软件源来提高连接速度和稳定性</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 淘宝镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com/</span><br><span class="line"><span class="comment"># 官方镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org/</span><br></pre></td></tr></table></figure>
-<hr>
-<div class="note primary flat"><p>安装大致略过，下面只展示一些带有选项的窗口</p>
-</div>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-18-32.png" alt="保持默认即可"></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_21-18-48.png" alt="同样保持默认"></p>
-<hr>
-<h2 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h2><p>首先我们打开 <strong>终端 (Windows需用户打开CMD)</strong> ，执行以下命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<p>然后我们要初始化Hexo</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># blog 是要创建的文件夹名称，可以随意替换，下面同理</span></span><br><span class="line">md blog</span><br><span class="line"><span class="comment"># hexo 会在 blog 文件夹中释放所需的文件</span></span><br><span class="line">hexo init blog</span><br><span class="line"><span class="comment"># 此命令是进入刚刚创建的文件夹</span></span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<p>执行完成后会在文件夹内看到创建的文件</p>
-<p>你可以执行以下代码，然后访问 <a href="http://localhost:4000/">http://localhost:4000/</a> 就可以预览网页了</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-
-<p>没出错的话应该是下面这个样子 ↓</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2022-10-12_01.png" alt="Hexo 基础界面"></p>
-<h2 id="创建-Github-仓库"><a href="#创建-Github-仓库" class="headerlink" title="创建 Github 仓库"></a>创建 Github 仓库</h2><ul>
-<li>首先你需要创建 <a href="https://github.com/">Github</a> 账号</li>
-</ul>
-<p>如果你进入不了 <a href="https://github.com/">Github</a> 的话我推荐你下载 <a href="https://steampp.net/">Watt Toolkit</a><br><strong>设置步骤如图所示</strong>: 1.下拉找到Github并勾选  2.点击一键加速 ( 如果提示启动失败之类的把右边的 <strong>Hosts 代理模式</strong> 换成 <strong>系统代理模式</strong> )</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2022-10-12_02.png" alt="Watt Toolkit 软件界面"></p>
-<ol>
-<li>打开 <a href="https://github.com/">Github</a> ，点击右上角 <strong>Sign up</strong></li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-08-52.png" alt="点击右上角 Sign up"></p>
-<ol start="2">
-<li>在中间输入电子邮箱，按照要求完成注册即可</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_16-11-58.png" alt="输入电子邮箱后按照要求完成注册"></p>
-<ol start="3">
-<li><p>注册后进入主页</p>
-</li>
-<li><p>找到右上角的 <strong>加号</strong>，选择 <strong>New repository</strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_23-04-47.png" alt="选择 New repository"></p>
-</li>
-<li><p>在右边的 Repository name 中，写上 <strong>你的用户名 + .github.io</strong> </p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-24_23-06-03.png" alt="输入名称"></p>
-</li>
-</ol>
-<div class="note warning flat"><p>仓库的名字一定要是 <strong>你的用户名 (也就是左边那个名字) + .github.io</strong> </p>
-</div>
-
-<ol start="6">
-<li>下拉，点击 <strong>Create repository</strong> 创建仓库</li>
-</ol>
-<h2 id="部署至-Github"><a href="#部署至-Github" class="headerlink" title="部署至 Github"></a>部署至 Github</h2><h3 id="配置-Git"><a href="#配置-Git" class="headerlink" title="配置 Git"></a>配置 Git</h3><p>打开终端，输入下面以下命令配置 git</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;Github 用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;注册 Github 的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-05-57.png" alt="配置 Git"></p>
-<h3 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h3><h4 id="生成-SSH-key"><a href="#生成-SSH-key" class="headerlink" title="生成 SSH key"></a>生成 SSH key</h4><p>打开终端，输入下面命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -C <span class="string">&quot;注册 Github 的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-<p>输入后按三下回车即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-13-16.png" alt="ssh 密钥"></p>
-<p>如果提示 <code>ssh-keygen 不是内部或外部命令，也不是可运行的程序或批处理文件</code> 可以使用 Git 附带的 <strong>Bash 仿真终端</strong> </p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-25_21-17-17.png" alt="在开始菜单中，可以找到 Git Bash"></p>
-<h4 id="配置-SSH-key-1"><a href="#配置-SSH-key-1" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h4><p>配置的文件生成的文件存放在 <strong><code>当前用户目录/.ssh</code></strong> 下，而我们需要的 <strong>公钥文件</strong> 在 <code>当前用户目录/.ssh/id_rsa.pub</code> 中</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-41-28.png" alt="SSH key 目录"></p>
-<ul>
-<li>你可以使用记事本打开，也可以用下面的命令直接访问公钥（可以用 Git Bash 仿真终端打开）</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~./ssh</span><br><span class="line"><span class="built_in">cat</span> id_rsa.pub</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li><p>打开 Github，选择 Setting</p>
-</li>
-<li><p>选择 <strong><code>SSH and GTPG keys</code></strong></p>
-</li>
-<li><p>点击 New SSH key</p>
-</li>
-<li><p>在 <strong><code>key</code></strong> 中输入刚才获取的公钥即可</p>
-</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-42-25.png" alt="配置 SSH key"></p>
-<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>由于我们现在没法直接部署到 Github，我们需要修改 hexo 的配置文件</p>
-<ol>
-<li><p>首先，在 Github 上，打开刚刚创建好的仓库</p>
-</li>
-<li><p>在下面找到 SSH 链接，复制备用<br><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_10-15-36.png" alt="SSH 链接"></p>
-</li>
-<li><p>直接打开配置文件 <code>_config</code> 或输入下面的命令</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">notepad ./_config.yml</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>编辑 <strong><code>_config.yml</code></strong></p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span>  </span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span>  </span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io  </span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>]  </span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure></li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>选项</th>
-<th>描述</th>
-<th>默认</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>repo</td>
-<td>目标存储库的 URL</td>
-<td></td>
-</tr>
-<tr>
-<td>branch</td>
-<td>分支名称</td>
-<td><code>gh-pages</code> (GitHub)  <br><code>coding-pages</code> (Coding.net)  <br><code>master</code> (others)</td>
-</tr>
-<tr>
-<td>message</td>
-<td>自定义提交信息</td>
-<td>Site updated: <code>&#123;&#123; now('YYYY-MM-DD HH:mm:ss') &#125;&#125;</code></td>
-</tr>
-<tr>
-<td>token</td>
-<td>可选的令牌值，用于认证 repo。 用 <code>$</code> 作为前缀从而从环境变量中读取令牌</td>
-<td></td>
-</tr>
-</tbody></table>
-<pre><code>内容节选自 [一键部署 | Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)
-</code></pre>
-<ol start="5">
-<li>将刚刚复制的链接粘贴到 <code>repo</code> 中</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_11-36-32.png" alt="将链接粘贴到 repo 中"></p>
-<h3 id="上传至-Github"><a href="#上传至-Github" class="headerlink" title="上传至 Github"></a>上传至 Github</h3><ol>
-<li><p>用 <code>cd</code> 命令进入 hexo 的跟目录</p>
-</li>
-<li><p>输入下面命令，安装必要组件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>输入 <code>hexo d</code> 将博客上传至 Github</p>
-</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_12-02-30.png"></p>
-<ol start="4">
-<li><p>打开仓库，点击 <strong><code>Setting</code></strong> ，选择 <strong><code>Pages</code></strong></p>
-</li>
-<li><p>将 <code>Brance</code> 中的 None <strong>改为其他分支</strong>（例如 master），点击 Save</p>
-</li>
-</ol>
-<p><img src="https://image.ligaogreat.top/image/blog/2022101222/2024-08-31_12-30-28.png" alt="更改分支"></p>
-<ol start="6">
-<li>通过访问仓库名称（例如 <a href="https://cuichene.github.io/">https://CuiCHenE.GitHub.io/</a> ），即可访问创建的博客</li>
-</ol>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>hexo</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>通过本地反代，直连 Pixix（含 Linux/macOS）</title>
-    <url>/2024081712.html</url>
-    <content><![CDATA[<p>Pixiv 目前已经被大陆封禁好几年了，最开始只是 DNS 污染，通过更换 hosts 文件即可解决。后期因为使用 SNI 阻断，更换 hosts 文件的方法已经不管用了。</p>
-<h1 id="第三方客户端"><a href="#第三方客户端" class="headerlink" title="第三方客户端"></a>第三方客户端</h1><p>如果有账号的话，可以用下面推荐的第三方客户端，基本不需要折腾。</p>
-<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-solid fa-mobile"></i>Android/iOS</button><button type="button" class="tab"><i class="fa-brands fa-windows"></i>Windows</button></div><div class="tab-contents"><div class="tab-item-content active"><p><a href="https://github.com/Notsfsssf/pixez-flutter/releases/tag/0.9.45">PixEz Flutter </a></p>
-<blockquote>
-<p>iOS版需要登陆美区账号</p>
-</blockquote></div><div class="tab-item-content"><p><a href="https://github.com/Pixeval/Pixeval/releases">Pixeval</a></p>
-<blockquote>
-<p>目前仅支持 Windows10&#x2F;11</p>
-</blockquote></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<p>大部分第三方客户端都支持直连Pixiv，但是大部分都无法提供账号注册。这时，我们就需要自建反代直连了。</p>
-<h1 id="通过-Nginx-直连-Pixiv"><a href="#通过-Nginx-直连-Pixiv" class="headerlink" title="通过 Nginx 直连 Pixiv"></a>通过 Nginx 直连 Pixiv</h1><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><p>开始前，我们需要下载 <a href="https://github.com/mashirozx/Pixiv-Nginx">Pixiv-Nginx</a> 这个项目<br>国内镜像：<a href="https://git.moezx.cc/mirrors/Pixiv-Nginx">https://git.moezx.cc/mirrors/Pixiv-Nginx</a><br>下载后解压至<strong>没有中文等特殊符号的目录</strong>中</p>
-<h3 id="安装-CA-证书"><a href="#安装-CA-证书" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><p>安装目录中的 ca.cer 证书，以下是常用浏览器的安装方式</p>
-<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-chrome"></i>Chrome</button><button type="button" class="tab"><i class="fa-brands fa-edge"></i>Edge</button><button type="button" class="tab"><i class="fa-brands fa-firefox"></i>FireFox</button></div><div class="tab-contents"><div class="tab-item-content active"><p>打开 Chrome ，依次点击 <strong><code>设置 - 隐私和安全 - 安全</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-17-24.png" alt="打开 Chrome ，依次 点击设置 - 隐私和安全 - 安全"></p>
-<p>下拉，选择 <strong><code>管理证书</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-18-19.png" alt="下拉，选择管理证书"></p>
-<p>在弹出的窗口中，依次选择 <strong><code>受信任的根证书颁发机构 - 导入</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-19-45.png" alt="弹出的窗口中，依次选择 受信任的根证书颁发机构 - 导入"></p>
-<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-04.png" alt="在证书导入向导中，选择 ca.cer 文件路径，点击下一步"></p>
-<p>保持<strong>默认</strong>，点击 <strong><code>下一步</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-24.png" alt="保持默认，点击下一步"></p>
-<p>最后，选择 <strong>是</strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-45.png" alt="最后，选择是"></p>
-<p>安装完成</p></div><div class="tab-item-content"><p>打开 Edge ，依次选择 <strong><code>设置 - 隐私、搜索和服务</code></strong> ，在 <strong><code>安全性</code></strong> 中，选择 <strong><code>管理证书</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-36-02.png" alt="依次选择 设置 - 隐私、搜索和服务， 安全性中选择管理证书"></p>
-<p>在弹出的窗口中，依次选择 <strong><code>受信任的根证书颁发机构 - 导入</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-19-45.png" alt="弹出的窗口中，依次选择 受信任的根证书颁发机构 - 导入"></p>
-<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-04.png" alt="在证书导入向导中，选择 ca.cer 文件路径，点击下一步"></p>
-<p><strong>保持默认</strong>，点击 <strong><code>下一步</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-24.png" alt="保持默认，点击下一步"></p>
-<p>最后，选择 <strong>是</strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-25-45.png" alt="最后，选择是"></p>
-<p>安装完成</p></div><div class="tab-item-content"><p>打开 FireFox 依次选择 <strong><code>设置 - 隐私与安全</code></strong> ，在 <strong>安全</strong> 中，选择 <strong><code>查看证书</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-49-44.png" alt="依次选择 设置 - 隐私与安全 ，在安全中，选择查看证书"></p>
-<p>在弹出的<strong>证书管理器窗口</strong>中，依次选择 <strong><code>证书颁发机构 - 导入</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-50-49.png" alt="选择 证书颁发机构 - 导入"></p>
-<p>在新弹出的窗口中，勾选 <strong><code>信任由此证书颁发机来标识网站</code></strong> ，点击 <strong>确定</strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-51-54.png" alt="勾选信任由此证书颁发机来标识网站，点击确定"></p>
-<p>最后，点击 <strong>确定</strong> ，关闭即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-52-10.png" alt="点击确定"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h3 id="修改-hosts-文件"><a href="#修改-hosts-文件" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><p>用记事本打开目录 <strong><code>C:\Windows\System32\drivers\etc\hosts</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_17-08-11.png" alt="hosts 文件位置"></p>
-<p>在文本的末尾，添加软件目录下的 <strong><code>hosts</code></strong> 文件里的内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure>
-
-<p>添加后是这个效果</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_17-15-21.png" alt="修改后的效果"></p>
-<div class="note info flat"><p>直接替换 hosts 文件也是可以的</p>
-</div>
-
-<h3 id="运行-Nginx"><a href="#运行-Nginx" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><p>直接运行目录下的 <strong><code>4.可视化工具（这个操作简单）</code></strong>  和 <strong><code>5.调试工具（这个功能全）</code></strong> 即可</p>
-<div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">可视化工具</button><button type="button" class="tab">调试工具</button></div><div class="tab-contents"><div class="tab-item-content active"><p>点击第一横 Nginx 旁边的 <strong>Start</strong> 开始运行，Runnng 代表运行状态</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_17-34-42.png" alt="可视化工具"></p></div><div class="tab-item-content"><div class="note warning flat"><p>在使用调试工具时，程序的运行状态需查看调试台输出的程序日志</p>
-</div>
-运行后输入 `1`  开始运行</div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><div class="note success flat"><p>Linux 教程使用 Ubuntu 举例。除安装 Nginx 方式，其他步骤基本一致。</p>
-</div>
-
-<p>Linux 用户需要使用的文件在 <strong><code>配置文件（非Windows用户使用）</code></strong> 中</p>
-<h3 id="安装-Nginx"><a href="#安装-Nginx" class="headerlink" title="安装 Nginx"></a>安装 Nginx</h3><p>打开终端，输入以下命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt install nginx</span><br></pre></td></tr></table></figure>
-<div class="note info flat"><p>其他发行版，可以在 <a href="https://nginx.org/en/linux_packages.html#Debian">Nginx</a> 官网找到安装方法</p>
-</div>
-
-<p>配置文件在 <code>/etc/nginx</code> 目录下<br>复制并替换 配置文件（非Windows用户使用）目录下的 <code>nginx.conf</code> 和 <code>ca文件夹</code> 到 <code>/etc/nginx</code> 目录</p>
-<h3 id="安装-CA-证书-1"><a href="#安装-CA-证书-1" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-chrome"></i>Chrome</button><button type="button" class="tab"><i class="fa-brands fa-firefox"></i>FireFox</button></div><div class="tab-contents"><div class="tab-item-content active"><p>打开 Chrome ，依次点击 <strong><code>设置 - 隐私和安全 - 安全</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_20-44-17.png" alt="依次点击 设置 - 隐私和安全 - 安全"></p>
-<p>下拉，选择 <strong><code>管理证书</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_20-44-37.png" alt="下拉，选择管理证书"></p>
-<p>在管理证书窗口中，依次选择 <strong><code>授权机构 - 导入</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_20-45-34.png" alt="依次选择 授权机构 - 导入"></p>
-<p>在文件选择界面，将文件类型改为 <strong>所有文件</strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_20-47-51.png" alt="将文件类型改为所有文件"></p>
-<p>在新弹出的窗口中，勾选 <strong><code>信任该证书，以标识网站的身份</code></strong> ，点击 <strong>确定</strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_20-52-35.png" alt="勾选信任该证书，以标识网站的身份"></p></div><div class="tab-item-content"><p>打开 FireFox 依次选择 <strong><code>设置 - 隐私与安全</code></strong> ，在 <strong>安全</strong> 中，选择 <strong><code>查看证书</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_21-28-19.png" alt="依次选择 设置 - 隐私与安全，在安全中，选择查看证书"></p>
-<p>在弹出的<strong>证书管理器窗口</strong>中，依次选择 <strong><code>证书颁发机构 - 导入</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-50-49.png" alt="依次选择 证书颁发机构 - 导入"></p>
-<p>在新弹出的窗口中，勾选 <strong><code>信任由此证书颁发机来标识网站</code></strong> ，点击 <strong>确定</strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_21-29-46.png" alt="勾选信任由此证书颁发机来标识网站"></p>
-<p>最后，点击 <strong>确定</strong> ，关闭即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-17_21-52-10.png" alt="点击确定"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h3 id="修改-hosts-文件-1"><a href="#修改-hosts-文件-1" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-solid fa-copy"></i>替换大法</button><button type="button" class="tab"><i class="fa-solid fa-pen-to-square"></i>更新 hosts 文件</button></div><div class="tab-contents"><div class="tab-item-content active"><div class="note warning flat"><p>如果你使用的代理程序是使用端口进行代理，你可能需要查看 <strong>更新 hosts 文件</strong> 中的方法</p>
-</div>
-
-<p>复制 <strong>hosts</strong> 文件，到 <code>/etc/hosts</code></p></div><div class="tab-item-content"><div class="note info flat"><p>直接替换文件的话，可以略过此步骤</p>
-</div>
-
-<p>输入命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/hosts</span><br><span class="line"><span class="comment"># 如果提示没有 nano ，请执行以下命令</span></span><br><span class="line">sudo apt install nano</span><br></pre></td></tr></table></figure>
-<p>完成 hosts 文件编辑</p>
-<p>在 hosts 文件末尾添加以下内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure>
-
-<p>修改后是这个效果</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_19-46-06.png" alt="修改后的效果"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h3 id="运行-Nginx-1"><a href="#运行-Nginx-1" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><p>在终端输入以下命令即可运行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 运行命令</span></span><br><span class="line">nginx start</span><br><span class="line"><span class="comment"># 如果想停止，输入以下命令即可</span></span><br><span class="line">nginx stop</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_19-48-46.png" alt="运行 Nginx"></p>
-<h2 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h2><div class="note success flat"><p>本教程演示的系统版本为 macOS Sonoma 14.6.1</p>
-</div>
-<p>macOS 用户需要使用的文件同样在 <strong><code>配置文件（非Windows用户使用）</code></strong> 中</p>
-<h3 id="安装-brew"><a href="#安装-brew" class="headerlink" title="安装 brew"></a>安装 brew</h3><p>由于 macOS 没有原生的包管理器，所以我们需要安装 brew 来实现包管理功能<br>安装命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>或者使用 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/">清华大学开源软件镜像站</a> 提供的安装脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-install</span><br><span class="line">/bin/bash brew-install/install.sh</span><br><span class="line"><span class="built_in">rm</span> -rf brew-install</span><br></pre></td></tr></table></figure>
-
-<p>此时可能会询问是否下载 <strong>git 命令行开发者工具</strong> ，选择 <strong><code>安装</code></strong> 即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_22-05.png" alt="选择安装即可"></p>
-<p>在某些情况下 brew 无法注册到 <strong>PATH</strong> ，所以我们要运行下面的命令来注册到 <strong>PATH</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 下面的 用户名 为你电脑的用户名</span></span><br><span class="line">(<span class="built_in">echo</span>; <span class="built_in">echo</span> <span class="string">&#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27;</span>) &gt;&gt; /Users/用户名/.zprofile</span><br><span class="line"><span class="built_in">eval</span> <span class="string">&quot;<span class="subst">$(/opt/homebrew/bin/brew shellenv)</span>&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>当然，你也可以在安装日志中找到相关提示</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_22-47.png" alt="程序输出日志"></p>
-<h4 id="brew-更换软件源"><a href="#brew-更换软件源" class="headerlink" title="brew 更换软件源"></a>brew 更换软件源</h4><p>由于众所周知的原因，brew的默认软件源是非常不稳定的，所以我们可以替换为 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/">清华源</a></p>
-<p>4.0及以上版本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>4.0 及以下版本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> HOMEBREW_API_DOMAIN=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BOTTLE_DOMAIN=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BREW_GIT_REMOTE=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_CORE_GIT_REMOTE=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_PIP_INDEX_URL=<span class="string">&quot;https://pypi.tuna.tsinghua.edu.cn/simple&quot;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="安装-Nginx-1"><a href="#安装-Nginx-1" class="headerlink" title="安装 Nginx"></a>安装 Nginx</h3><p>在 <strong>终端 App</strong> 中，输入下面命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install nginx</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_23-30.png" alt="安装 Nginx"></p>
-<div class="note info flat"><p>macOS 显示隐藏文件的快捷键是 ⌘ + ⇧ + .</p>
-</div>
-
-<h4 id="Intel芯片"><a href="#Intel芯片" class="headerlink" title="Intel芯片"></a>Intel芯片</h4><p>使用<strong>Intel芯片</strong>的Mac配置文件存放在 <code>/usr/local/etc/nginx/nginx.conf</code> 中</p>
-<p>复制并替换 配置文件（非Windows用户使用）目录下的 <code>nginx.conf</code> 和 <code>ca文件夹</code> 到  <code>/usr/local/etc/nginx/nginx.conf</code> 目录</p>
-<h4 id="Apple芯片"><a href="#Apple芯片" class="headerlink" title="Apple芯片"></a>Apple芯片</h4><p>使用<strong>Apple芯片</strong>的Mac，配置文件存放在 <code>/opt/homebrew/etc/nginx/nginx.conf</code> 中</p>
-<p>复制并替换 配置文件（非Windows用户使用）目录下的 <code>nginx.conf</code> 和 <code>ca文件夹</code> 到   <code>/opt/homebrew/etc/nginx/nginx.conf</code></p>
-<h3 id="安装-CA-证书-2"><a href="#安装-CA-证书-2" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-safari"></i>钥匙串</button><button type="button" class="tab"><i class="fa-brands fa-chrome"></i>Chrome/Edge</button><button type="button" class="tab"><i class="fa-brands fa-firefox"></i>FireFox</button></div><div class="tab-contents"><div class="tab-item-content active"><div class="note warning flat"><p>由于 macOS 的特殊性，几乎所有的浏览器，CA证书都需要由 <strong>钥匙串</strong> 来导入，所以我们只需要在 <strong>钥匙串</strong> 中导入证书即可</p>
-</div>
-
-<p>双击 <strong><code>ca.cer</code></strong> 证书文件 ，此时会弹出 <strong>添加证书</strong> 窗口，修改保存位置为 <strong>系统</strong> ，单击添加</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-20_19-49.jpeg" alt="保存位置更改为系统，点击添加"></p>
-<p>按照系统要求，输入密码</p>
-<p>打开 <strong><code>钥匙串访问</code></strong> ，在<strong>系统</strong>中找到 <strong><code>Mashiro Internet Fake Authority CA</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-20_20-01.jpeg" alt="找到 Mashiro Internet Fake Authority CA"></p>
-<p>将 <strong>使用系统默认</strong> 改为 <strong>始终信任</strong> ，并按照系统要求输入密码</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-20_20-03.jpeg" alt="改为始终信任"></p></div><div class="tab-item-content"><div class="note warning flat"><p>由于 macOS 的特殊性，不止是 Safari ，几乎所有的浏览器，CA证书都需要由 <strong>钥匙串</strong> 来导入，所以我们只需要在 <strong>钥匙串</strong> 中导入证书即可</p>
-</div>
-
-<div class="note primary flat"><p>查看 Chrome&#x2F;Edge 的教程并无意义，请直接查看 <strong>钥匙串</strong> 的教程</p>
-</div>
-
-<p>如果执意在 Chrome&#x2F;Edge 选择 <strong>管理证书</strong> ，可能会弹出询问是 <strong><code>打开密码还是钥匙串</code></strong> ，选择 <strong><code>钥匙串</code></strong> 即可</p>
-<p>然后按照 <strong>钥匙串</strong> 的步骤添加证书即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-20_19-43.jpeg" alt="打开钥匙串访问"></p></div><div class="tab-item-content"><div class="note warning flat"><p>由于 macOS 的特殊性，不止是 Safari ，几乎所有的浏览器，CA证书都需要由 <strong>钥匙串</strong> 来导入，所以我们只需要在 <strong>钥匙串</strong> 中导入证书即可</p>
-</div>
-
-<div class="note primary flat"><p>查看 FireFox 的教程并无意义，请直接查看 <strong>钥匙串</strong> 的教程</p>
-</div></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h3 id="修改-hosts-文件-2"><a href="#修改-hosts-文件-2" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-solid fa-copy"></i>替换大法</button><button type="button" class="tab"><i class="fa-solid fa-pen-to-square"></i>更新 hosts 文件</button></div><div class="tab-contents"><div class="tab-item-content active"><div class="note warning flat"><p>如果你使用的代理程序是使用端口进行代理，你可能需要查看 <strong>更新 hosts 文件</strong> 中的方法</p>
-</div>
-
-<p>复制 <strong>hosts</strong> 文件，到 <code>/etc/hosts</code></p></div><div class="tab-item-content"><div class="note info flat"><p>直接替换文件的话，可以略过此步骤</p>
-</div>
-
-<p>输入命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/hosts</span><br><span class="line"><span class="comment"># 如果提示没有 nano ，请执行以下命令</span></span><br><span class="line">sudo brew install nano</span><br></pre></td></tr></table></figure>
-<p>完成 hosts 文件编辑</p>
-<p>在 hosts 文件末尾添加以下内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h3 id="运行-Nginx-2"><a href="#运行-Nginx-2" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在终端中输入下面命令开始运行</span></span><br><span class="line">brew services start nginx</span><br><span class="line"><span class="comment"># 关闭命令</span></span><br><span class="line">brew services stop nginx</span><br></pre></td></tr></table></figure>
-
-<h3 id="Safari-出现-此连接非私人连接-怎么办？"><a href="#Safari-出现-此连接非私人连接-怎么办？" class="headerlink" title="Safari 出现 此连接非私人连接 怎么办？"></a>Safari 出现 此连接非私人连接 怎么办？</h3><p>单击 <strong><code>显示详细信息</code></strong></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_23-09.jpeg" alt="单击显示详细信息"></p>
-<p>在下面选择 <strong><code>访问此网站</code></strong> 即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-19_23-10.jpeg" alt="选择访问此网站"></p>
-<h2 id="（可选）将图片链接替换为-i-pixiv-re"><a href="#（可选）将图片链接替换为-i-pixiv-re" class="headerlink" title="（可选）将图片链接替换为 i.pixiv.re"></a>（可选）将图片链接替换为 i.pixiv.re</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active">Windows</button><button type="button" class="tab">Linux</button><button type="button" class="tab">macOS</button></div><div class="tab-contents"><div class="tab-item-content active"><p>修改配置文件，文件在软件目录内 <code>/conf/pixiv.conf</code> 中</p>
-<p>删除第 117 行的注释即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-20_21-39-29.png" alt="删除第 117 行的注释"></p></div><div class="tab-item-content"><p>Linux 用户需要把软件目录内的 <code>/conf/nginx.conf</code> 和 <code>/conf/pixiv.conf</code> 复制到 Nginx 目录内</p>
-<p>配置文件在 <code>/etc/nginx</code> 目录下</p>
-<p>编辑 <code>pixiv.conf</code> 文件</p>
-<p>删除第 117 行的注释即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-20_21-39-29.png" alt="删除第 117 行的注释"></p></div><div class="tab-item-content"><p>macOS 用户需要把软件目录内的 <code>/conf/nginx.conf</code> 和 <code>/conf/pixiv.conf</code> 复制到 Nginx 目录内</p>
-<p>配置文件存放在 <code>/usr/local/etc/nginx/nginx.conf</code> 中</p>
-<blockquote>
-<p>使用Apple芯片的Mac，配置文件存放在 <code>/opt/homebrew/etc/nginx/nginx.conf</code> 中</p>
-</blockquote>
-<p>编辑 <code>pixiv.conf</code> 文件</p>
-<p>删除第 117 行的注释即可</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2024081712/2024-08-20_21-39-29.png" alt="删除第 117 行的注释"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>]]></content>
-      <categories>
-        <category>其他教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>反代</tag>
-        <tag>Pixiv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一下在 LinuxMint 安装 Docker 遇到的坑</title>
-    <url>/2025011912.html</url>
-    <content><![CDATA[<h1 id="正常-Ubuntu-下安装-Docker-步骤"><a href="#正常-Ubuntu-下安装-Docker-步骤" class="headerlink" title="正常 Ubuntu 下安装 Docker 步骤"></a>正常 Ubuntu 下安装 Docker 步骤</h1><p>开始前，我们需要运行以下命令以卸载所有冲突的软件包</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> pkg <span class="keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="keyword">do</span> sudo apt-get remove <span class="variable">$pkg</span>; <span class="keyword">done</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p><code>apt-get</code> 可能会报告您未安装这些软件包。</p>
-</blockquote>
-<h2 id="设置-Docker-的-apt-仓库"><a href="#设置-Docker-的-apt-仓库" class="headerlink" title="设置 Docker 的 apt 仓库"></a>设置 Docker 的 apt 仓库</h2><h3 id="官方源"><a href="#官方源" class="headerlink" title="官方源"></a>官方源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 添加 Docker 的 GPG key:</span></span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ca-certificates curl</span><br><span class="line">sudo install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc</span><br><span class="line">sudo <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.asc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line">  </span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
-<h3 id="阿里源"><a href="#阿里源" class="headerlink" title="阿里源"></a>阿里源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 安装必要的一些系统工具</span></span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install ca-certificates curl gnupg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 信任 Docker 的 GPG 公钥</span></span><br><span class="line">sudo install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg</span><br><span class="line">sudo <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.gpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.gpg] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \</span></span><br><span class="line"><span class="string">  &quot;</span>$(. /etc/os-release &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)<span class="string">&quot; stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line"></span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h2><p>运行以下命令安装最新版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>安装特定版本的 Docker Engine，首先列出存储库中可用的版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 列出存储库中可用的版本:</span></span><br><span class="line">apt-cache madison docker-ce | awk <span class="string">&#x27;&#123; print $3 &#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">5:27.4.1-1~ubuntu.24.04~noble</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-<p>选择所需版本并安装：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">VERSION_STRING=5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">sudo apt-get install docker-ce=<span class="variable">$VERSION_STRING</span> docker-ce-cli=<span class="variable">$VERSION_STRING</span> containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
-<h2 id="使用-hello-world-镜像验证是否成功安装"><a href="#使用-hello-world-镜像验证是否成功安装" class="headerlink" title="使用 hello-world 镜像验证是否成功安装"></a>使用 hello-world 镜像验证是否成功安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo docker run hello-world</span><br></pre></td></tr></table></figure>
-
-<p>此命令下载一个测试镜像并在容器中运行它。当容器运行时，它会输出一条确认消息然后退出。<br>安装结束。</p>
-<h1 id="Linux-Mint-下遇到的坑"><a href="#Linux-Mint-下遇到的坑" class="headerlink" title="Linux Mint 下遇到的坑"></a>Linux Mint 下遇到的坑</h1><p>安装正常的 Ubuntu 步骤，在 Linux Mint 下添加 Docker 软件源后，会在 <code>apt-get update</code> 步骤下报错，报错内容如下</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">忽略:1 https://download.docker.com/linux/ubuntu wilma InRelease</span><br><span class="line">错误:3 https://download.docker.com/linux/ubuntu wilma Release</span><br><span class="line">正在读取软件包列表... 完成</span><br><span class="line">E: 仓库 “https://download.docker.com/linux/ubuntu wilma Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
-
-<p>这是因为部分 Ubuntu 衍生发行版使用的并不是 <code>VERSION_CODENAME</code> 而是 <code>UBUNTU_CODENAME</code>，使用 <code>VERSION_CODENAME</code> 会导致添加<strong>错误的 Ubuntu 发行版代号</strong></p>
-<p>正常在 Ubuntu 下添加软件源的步骤是这么写的</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
-
-<p>这就需要我们在添加软件源时将 <code>VERSION_CODENAME</code> 改成 <code>UBUNTU_CODENAME</code>，上面阿里源同理</p>
-<blockquote>
-<p>阿里源不能直接使用下面的内容</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$UBUNTU_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  sudo <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
-
-<p>最后使用 <code>apt-get update</code> 就不会报错了</p>
-]]></content>
-      <categories>
-        <category>踩坑记录</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Ubuntu</tag>
-        <tag>Docker</tag>
-        <tag>LinuxMint</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>快速在本地搭建 Alist</title>
-    <url>/2025011012.html</url>
-    <content><![CDATA[<div class="note info flat"><p>文章部分内容出自 <a href="https://alist.nn.ci/zh/">AList帮助文档</a></p>
-</div>
-
-<h1 id="一键安装脚本"><a href="#一键安装脚本" class="headerlink" title="一键安装脚本"></a>一键安装脚本</h1><div class="note warning flat"><p>一键安装脚本仅适用于 <strong>Linux amd64&#x2F;arm64</strong> 平台</p>
-</div>
-
-<h2 id="标准安装"><a href="#标准安装" class="headerlink" title="标准安装"></a>标准安装</h2><p>首先是能不能连上全靠脸的一键安装脚本<br>如果安装脚本提示网络错误，请移至下面的 <code>手动安装</code>步骤</p>
-<p><strong>安装</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s install</span><br></pre></td></tr></table></figure>
-
-<p><strong>更新</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s update</span><br></pre></td></tr></table></figure>
-
-<h2 id="自定义路径"><a href="#自定义路径" class="headerlink" title="自定义路径"></a>自定义路径</h2><p>默认安装在 <code>/opt/alist</code> 中。 如果需要安装到指定路径，在末尾加上路径参数即可，如 安装到 <code>/root</code>：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 安装到 /root 目录下</span><br><span class="line">curl -fsSL &quot;https://alist.nn.ci/v3.sh&quot; | bash -s install /root</span><br><span class="line"># 更新 /root 目录下的 Alist</span><br><span class="line">curl -fsSL &quot;https://alist.nn.ci/v3.sh&quot; | bash -s update /root</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>启动: <code>systemctl start alist</code></li>
-<li>关闭: <code>systemctl stop alist</code></li>
-<li>状态: <code>systemctl status alist</code></li>
-<li>重启: <code>systemctl restart alist</code></li>
-</ul>
-<h1 id="手动安装"><a href="#手动安装" class="headerlink" title="手动安装"></a>手动安装</h1><h2 id="获取二进制文件"><a href="#获取二进制文件" class="headerlink" title="获取二进制文件"></a>获取二进制文件</h2><p>打开 <a href="https://github.com/Xhofe/alist/releases">AList Release</a> 下载对应系统的文件。</p>
-<blockquote>
-<p>如 Linux 就下载 <code>alist-linux-xxx.tar.gz</code><br>macOS 为 <code>alist-darwin-xxx.tar.gz</code><br>Windows 为 <code>alist-windows-xxx.zip</code></p>
-</blockquote>
-<blockquote>
-<p>! <code>xxx</code> 指代 CPU 指令集</p>
-</blockquote>
-<h2 id="运行程序"><a href="#运行程序" class="headerlink" title="运行程序"></a>运行程序</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-ubuntu"></i>Linux</button><button type="button" class="tab"><i class="fa-brands fa-apple"></i>macOS</button><button type="button" class="tab"><i class="fa-brands fa-windows"></i>Windows</button></div><div class="tab-contents"><div class="tab-item-content active"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件，得到可执行文件：</span></span><br><span class="line">tar -zxvf alist-linux-amd64.tar.gz</span><br><span class="line"><span class="comment"># 授予程序执行权限：</span></span><br><span class="line"><span class="built_in">chmod</span> +x alist</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">./alist server</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件，得到可执行文件：</span></span><br><span class="line">tar -zxvf alist-darwin-amd64.tar.gz</span><br><span class="line"><span class="comment"># 授予程序执行权限：</span></span><br><span class="line"><span class="built_in">chmod</span> +x alist</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">./alist server</span><br></pre></td></tr></table></figure></div><div class="tab-item-content"><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件</span></span><br><span class="line"><span class="comment"># 也可以执行下面命令，&quot;alist-xxxx.zip&quot; 是你下载的文件名</span></span><br><span class="line">unzip alist<span class="literal">-windows-amd64</span>.zip</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">.\alist.exe server</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h2 id="创建守护进程"><a href="#创建守护进程" class="headerlink" title="创建守护进程"></a>创建守护进程</h2><div class="tabs"><div class="nav-tabs"><button type="button" class="tab active"><i class="fa-brands fa-ubuntu2"></i>Linux</button><button type="button" class="tab"><i class="fa-brands fa-apple"></i>macOS</button><button type="button" class="tab"><i class="fa-brands fa-windows"></i>Windows</button></div><div class="tab-contents"><div class="tab-item-content active"><p>使用下面命令来创建 <code>alist.service</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /usr/lib/systemd/system/alist.service</span><br></pre></td></tr></table></figure>
-
-<p>在文件中添加下列内容，其中 <code>{path_alist}</code> 为程序路径</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=alist</span><br><span class="line">After=network.target</span><br><span class="line"> </span><br><span class="line">[Service]</span><br><span class="line">Type=simple</span><br><span class="line">WorkingDirectory=&#123;path_alist&#125;</span><br><span class="line">ExecStart=&#123;path_alist&#125;/alist server</span><br><span class="line">Restart=on-failure</span><br><span class="line"> </span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
-<p>执行 <code>systemctl daemon-reload</code> 来重载配置</p>
-<p>然后就可以用 <code>systemctl</code> 命令来管理 Alist</p>
-<ul>
-<li>启动: <code>systemctl start alist</code></li>
-<li>关闭: <code>systemctl stop alist</code></li>
-<li>状态: <code>systemctl status alist</code></li>
-<li>重启: <code>systemctl restart alist</code></li>
-</ul></div><div class="tab-item-content"><p>使用下面命令来创建 <code>ci.nn.alist.plist</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano ~/Library/LaunchAgents/ci.nn.alist.plist</span><br></pre></td></tr></table></figure>
-
-<p>在文件中添加下列内容，其中 <code>{path_alist}</code> 可替换为程序路径，<code>path/to/working/dir</code> 为 AList的工作路径</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;UTF-8&quot;</span>?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">plist</span> <span class="keyword">PUBLIC</span> <span class="string">&quot;-//Apple//DTD PLIST 1.0//EN&quot;</span> <span class="string">&quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">plist</span> <span class="attr">version</span>=<span class="string">&quot;1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>Label<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>ci.nn.alist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>KeepAlive<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>ProcessType<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>Background<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>RunAtLoad<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>WorkingDirectory<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>path/to/working/dir<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>ProgramArguments<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">array</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>&#123;path_alist&#125;/alist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>server<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">array</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">plist</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>执行 <code>launchctl load ~/Library/LaunchAgents/ci.nn.alist.plist</code> 加载配置</p>
-<ul>
-<li>开启: <code>launchctl start ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
-<li>关闭: <code>launchctl stop ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
-<li>卸载配置: <code>launchctl unload ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
-</ul></div><div class="tab-item-content"><p>用 <strong><code>.VBS</code></strong> 脚本启动和停止，分别创建两个脚本 分别是 启动.vbs 和 停止.vbs</p>
-<p><strong>启动.vbs</strong></p>
-<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Dim</span> ws</span><br><span class="line"><span class="keyword">Set</span> ws = Wscript.<span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;alist.exe server&quot;</span>,vbhide</span><br><span class="line">Wscript.quit</span><br></pre></td></tr></table></figure>
-
-<p><strong>停止.vbs</strong></p>
-<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Dim</span> ws</span><br><span class="line"><span class="keyword">Set</span> ws = Wscript.<span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;taskkill /f /im alist.exe&quot;</span>,<span class="number">0</span></span><br><span class="line">Wscript.quit</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>
-
-<h1 id="创建管理员密码"><a href="#创建管理员密码" class="headerlink" title="创建管理员密码"></a>创建管理员密码</h1><p>对于 <strong>Linux&#x2F;macOS :</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 随机生成一个密码</span></span><br><span class="line">./alist admin random</span><br><span class="line"><span class="comment"># 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码</span></span><br><span class="line">./alist admin <span class="built_in">set</span> NEW_PASSWORD</span><br></pre></td></tr></table></figure>
-
-<p>对于 <strong>Windows :</strong></p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 随机生成一个密码</span></span><br><span class="line">./alist.exe admin random</span><br><span class="line"><span class="comment"># 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码</span></span><br><span class="line">./alist.exe admin <span class="built_in">set</span> NEW_PASSWORD</span><br></pre></td></tr></table></figure>
-
-<h2 id="获取端口"><a href="#获取端口" class="headerlink" title="获取端口"></a>获取端口</h2><p>使用命令 <code>.\alist.exe server</code> 可运行 Alist，在日志中可以看见端口，默认端口为 <code>5244</code></p>
-<p><img src="https://image.ligaogreat.top/image/blog/2025011012/SCR-20250110-symk.png"></p>
-<p>在浏览器中输入 <code>127.0.0.1:5244</code> 即可访问</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2025011012/SCR-20250110-taej.jpeg"></p>
-]]></content>
-      <categories>
-        <category>其他教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Alist</tag>
       </tags>
   </entry>
 </search>
