@@ -602,7 +602,7 @@
 <p><img src="https://storage.ligaogreat.top/page_img/2022113022/img_2022113022_10.png" alt="进入桌面"></p>
 ]]></content>
       <categories>
-        <category>其他教程</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>Windows</tag>
@@ -724,7 +724,7 @@
 <p><img src="https://storage.ligaogreat.top/page_img/2023030718/009.jpg" alt="磁盘管理界面"></p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>操作系统安装教程</category>
       </categories>
       <tags>
         <tag>Windows</tag>
@@ -1075,7 +1075,7 @@
 <p>删除第 117 行的注释即可</p>
 <p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div>]]></content>
       <categories>
-        <category>其他教程</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>教程</tag>
@@ -1229,7 +1229,7 @@
 </ol>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> reboot</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>其他教程</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>教程</tag>
@@ -1241,7 +1241,11 @@
   <entry>
     <title>快速在本地搭建 Alist</title>
     <url>/2025011012.html</url>
-    <content><![CDATA[<div class="note info flat"><p>文章部分内容出自 <a href="https://alist.nn.ci/zh/">AList帮助文档</a></p>
+    <content><![CDATA[<div class="note warning flat"><p>由于该项目目前存在争议，<strong>目前不推荐部署该项目！！！</strong></p>
+</div>
+
+<hr>
+<div class="note info flat"><p>文章部分内容出自 <a href="https://alist.nn.ci/zh/">AList帮助文档</a></p>
 </div>
 
 <h1 id="一键安装脚本"><a href="#一键安装脚本" class="headerlink" title="一键安装脚本"></a>一键安装脚本</h1><div class="note warning flat"><p>一键安装脚本仅适用于 <strong>Linux amd64&#x2F;arm64</strong> 平台</p>
@@ -1314,7 +1318,7 @@
 <p><img src="https://storage.ligaogreat.top/page_img/2025011012/SCR-20250110-taej.jpg"></p>
 ]]></content>
       <categories>
-        <category>其他教程</category>
+        <category>教程</category>
       </categories>
       <tags>
         <tag>教程</tag>
@@ -1465,14 +1469,15 @@
 <h1 id="接入信息平台-如QQ、微信"><a href="#接入信息平台-如QQ、微信" class="headerlink" title="接入信息平台 (如QQ、微信)"></a>接入信息平台 (如QQ、微信)</h1><div class="note success flat"><p>如果你想接入个人QQ，可以参考这篇文章 <a href="https://www.ligaogreat.top/2025060619">部署 NapCatQQ 并接入 AstrBot 实现 QQ 聊天机器人功能</a></p>
 </div>
 
-<div class="note success flat"><p>如果你想接入个人微信，可以参考这篇文章 <a href="https://www.ligaogreat.top/">部署WeChatPadPro 并接入 AstrBot 实现微信聊天机器人功能</a></p>
+<div class="note success flat"><p>如果你想接入个人微信，可以参考这篇文章 <a href="https://www.ligaogreat.top/2025061519">部署 WeChatPadPro 并接入 AstrBot 实现微信聊天机器人功能</a></p>
 </div>]]></content>
       <categories>
-        <category>其他教程</category>
+        <category>AstrBot</category>
       </categories>
       <tags>
         <tag>教程</tag>
         <tag>Docker</tag>
+        <tag>聊天机器人</tag>
       </tags>
   </entry>
   <entry>
@@ -1545,11 +1550,59 @@
 <p><img src="https://storage.ligaogreat.top/page_img/2025060619/SCR-20250606-jcel.jpg"></p>
 ]]></content>
       <categories>
-        <category>其他教程</category>
+        <category>AstrBot</category>
       </categories>
       <tags>
         <tag>教程</tag>
         <tag>Docker</tag>
+        <tag>聊天机器人</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>部署 WeChatPadPro 并接入 AstrBot 实现微信聊天机器人功能</title>
+    <url>/2025061519.html</url>
+    <content><![CDATA[<div class="note info flat"><p>GitHub项目地址：<a href="https://github.com/WeChatPadPro/WeChatPadPro">WeChatPadPro&#x2F;WeChatPadPro</a></p>
+</div>
+
+<h1 id="部署步骤"><a href="#部署步骤" class="headerlink" title="部署步骤"></a>部署步骤</h1><h2 id="使用-Docker-部署"><a href="#使用-Docker-部署" class="headerlink" title="使用 Docker 部署"></a>使用 Docker 部署</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/bclz-wyz/WeChatPadPro-Docker --depth 1</span><br><span class="line"><span class="built_in">cd</span> WeChatPadPro-Docker</span><br><span class="line"><span class="built_in">mkdir</span> main &amp;&amp; <span class="built_in">mkdir</span> mysql &amp;&amp; <span class="built_in">cd</span> main</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/luolin-ai/WeChatPadPro --depth 1</span><br><span class="line"><span class="built_in">mv</span> WeChatPadPro/* .</span><br><span class="line">unzip 859_service_linux.zip</span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line"><span class="built_in">mv</span> setting.json main/assets/setting.json</span><br></pre></td></tr></table></figure>
+<p>可以根据需求编辑 <code>main/assets/setting.json</code> 文件，不推荐使用配置文件默认的<code>adminKey</code></p>
+<p>使用下面命令来运行容器</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker compose up -d &amp;&amp; docker logs wechatpadpro</span><br></pre></td></tr></table></figure>
+
+<h2 id="不使用-Docker"><a href="#不使用-Docker" class="headerlink" title="不使用 Docker"></a>不使用 Docker</h2><p>打开项目地址 <a href="https://github.com/WeChatPadPro/WeChatPadPro">WeChatPadPro&#x2F;WeChatPadPro</a>，按照文档提供的部署方式部署。<br>你可能需要部署下方三个软件：</p>
+<ul>
+<li>WeChatPadPro</li>
+<li>MySQL</li>
+<li>Redis</li>
+</ul>
+<p>通过 <code>http://127.0.0.1:port</code> (port 是 <code>asset/setting.json</code> 中定义的 <code>port</code> 中的端口号)</p>
+<h1 id="接入-AstrBot"><a href="#接入-AstrBot" class="headerlink" title="接入 AstrBot"></a>接入 AstrBot</h1><ol>
+<li>打开 AstrBot 面板</li>
+<li>在左侧面板中选择 <code>消息平台</code> ，并在右侧点击 <code>新增适配器</code></li>
+<li>选择 wechatpadpro(微信)<br><img src="https://storage.ligaogreat.top/page_img/2025061519/SCR-20250615-lqhg.jpg"></li>
+</ol>
+<ul>
+<li>admin_key: <code>setting.json</code>文件中 <code>adminKey</code> 的值。</li>
+<li>host：取决于你的部署情况。host 填写部署 WeChatPadPro 项目的机器的主机地址。</li>
+<li>port：填写 <code>setting.json</code> 中的 port。如上方 Docker 部署，默认为 38849。<br><img src="https://storage.ligaogreat.top/page_img/2025061519/SCR-20250615-mmsa.jpg"></li>
+</ul>
+<p>查看日志，如果连接成功会<strong>出现登陆相关的二维码链接</strong></p>
+<div class="note warning flat"><p><strong>在第一次掉线之后请务必执行以下工作流程，否则将会严重提高风控风险。</strong></p>
+<ol>
+<li>进入 WechatPadPro 的 API 接口界面，将你刚刚扫码登录的账号的 token 填入 “TOKEN_KEY”，在 ADMIN_KEY 处输入自己设置的密钥。然后点击“连接”。</li>
+<li>然后往下翻找到“登录”——&gt;”唤醒登录（只限扫码登陆）“，点击 ”Try it out“，再点击 ”Execute“。此时，您扫码的那台机器会弹出登录界面。这个时候就能实现老设备登录不会触发风控。</li>
+</ol>
+</div>
+
+<div class="note warning flat"><p>如果二次部署 WeChatPadPro，AstrBot 提示授权码无效，可以进入数据目录 (AstrBot&#x2F;data )，删除 <code>wechatpadpro_credentials.json</code> 或改为有效的授权码</p>
+</div>]]></content>
+      <categories>
+        <category>AstrBot</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Docker</tag>
+        <tag>聊天机器人</tag>
       </tags>
   </entry>
 </search>
