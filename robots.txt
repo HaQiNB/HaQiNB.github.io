@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Allow: /page/
 
 Disallow: /about/
 Disallow: /archives/
@@ -16,26 +17,34 @@ Disallow:/files/
 
 User-agent: Amazonbot
 Allow: /
+Allow: /page/
 
 User-agent: Applebot-Extended
 Allow: /
+Allow: /page/
 
 User-agent: Bytespider
 Allow: /
+Allow: /page/
 
 User-agent: CCBot
 Allow: /
+Allow: /page/
 
 User-agent: ClaudeBot
 Allow: /
+Allow: /page/
 
 User-agent: Google-Extended
 Allow: /
+Allow: /page/
 
 User-agent: GPTBot
 Allow: /
+Allow: /page/
 
 User-agent: meta-externalagent
 Allow: /
+Allow: /page/
 
 Sitemap: https://www.ligaogreat.top/sitemap.txt
