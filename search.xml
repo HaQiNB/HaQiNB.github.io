@@ -1,108 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>随机图片API分享</title>
-    <url>//page/2021011911.html</url>
-    <content><![CDATA[<h1 id="慢速API"><a href="#慢速API" class="headerlink" title="慢速API"></a>慢速API</h1><p>先是几个加载较慢的API（都是国外的api）</p>
-<p><a href="http://lorempixel.com/1600/900">http://lorempixel.com/1600/900</a><br><a href="https://unsplash.it/1600/900?random">https://unsplash.it/1600/900?random</a><br><a href="https://uploadbeta.com/api/pictures/random/">https://uploadbeta.com/api/pictures/random/</a><br><a href="https://unsplash.it/1600/900?random">https://unsplash.it/1600/900?random</a></p>
-<h1 id="Bing每日一图"><a href="#Bing每日一图" class="headerlink" title="Bing每日一图"></a>Bing每日一图</h1><p><a href="https://api.dujin.org/bing/1366.php">https://api.dujin.org/bing/1366.php</a></p>
-<blockquote>
-<p>分辨率为 1366x768</p>
-</blockquote>
-<p><a href="https://api.dujin.org/bing/1920.php">https://api.dujin.org/bing/1920.php</a></p>
-<blockquote>
-<p>分辨率为 1920x1080</p>
-</blockquote>
-<h1 id="高清壁纸"><a href="#高清壁纸" class="headerlink" title="高清壁纸"></a>高清壁纸</h1><p><a href="https://api.ixiaowai.cn/gqapi/gqapi.php">https://api.ixiaowai.cn/gqapi/gqapi.php</a></p>
-<h1 id="二次元动漫"><a href="#二次元动漫" class="headerlink" title="二次元动漫"></a>二次元动漫</h1><p><a href="https://img.xjh.me/random_img.php">https://img.xjh.me/random_img.php</a><br><a href="http://www.dmoe.cc/random.php">http://www.dmoe.cc/random.php</a><br><a href="http://api.mtyqx.cn/api/random.php">http://api.mtyqx.cn/api/random.php</a><br><a href="http://api.mtyqx.cn/tapi/random.php">http://api.mtyqx.cn/tapi/random.php</a><br><a href="https://img.asmdh.com/img.php">https://img.asmdh.com/img.php</a><br><a href="https://api.ixiaowai.cn/api/api.php">https://api.ixiaowai.cn/api/api.php</a><br><a href="https://api.mtyqx.cn/api/random.php">https://api.mtyqx.cn/api/random.php</a><br><a href="https://api.mtyqx.cn/tapi/random.php">https://api.mtyqx.cn/tapi/random.php</a> </p>
-<blockquote>
-<p>不是我偏向，是动漫的api是真滴多</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>API分享</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows 10 安装教程</title>
-    <url>//page/2021051612.html</url>
-    <content><![CDATA[<p>在阅读这篇文章前肯定有不少人问: 啊? Windows 安装?都1202年了谁还不会安装 Windows 啊?没错 1202 年了，其实还有不少人不会安装 Windows。你去电脑城重装还要 30~50 元的费用，电脑师傅还给你安装个带捆绑的 Windows 卡的要死也不好受。所以今天就由我教大家如何安装官方原版的 Windows 10 (以下简称 Win10)</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_01.jpg"></p>
-<p>在开始安装 Windows10 前需要准备一块 <strong>8GB U盘</strong> 尽量使用非缩水盘<br>如果没有U盘请参考下文 <strong>方案二: WinPE + Win10 ISO</strong><br>这里我介绍获取 ISO 文件的两种不同的方法</p>
-<h1 id="下载教学"><a href="#下载教学" class="headerlink" title="下载教学"></a>下载教学</h1><h2 id="方法一-微软官方安装工具获取ISO"><a href="#方法一-微软官方安装工具获取ISO" class="headerlink" title="方法一: 微软官方安装工具获取ISO"></a>方法一: 微软官方安装工具获取ISO</h2><p><strong>注意，这种方法下载的速度比较慢(不止慢一点点),不推荐</strong><br>进入 <a href="https://www.microsoft.com/zh-cn/software-download/windows10"><strong>Windows10下载链接</strong></a><br>下拉找到 <strong><code>立即下载工具</code></strong></p>
-<p>你也可以点击下方按钮 <mark class="hl-label blue">直接下载</mark>   </p>
-<a class="btn-anzhiyu blue larger" href="https://go.microsoft.com/fwlink/?LinkID=799445" 
-  title="立即下载"><i class="fas fa-download"></i><span>立即下载</span></a>
-
-<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_02.png" alt="点击立即下载工具"></p>
-<p>下载完成后运行程序<br>接受许可条款<br>选择<code>为另一条电脑创建安装介质(U盘、DVD或ISO文件)</code></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_05.png" alt="选择 ISO 文件"></p>
-<p>如果你想安装win10专业版的话就取消勾选<code>对这台电脑使用推荐的选项</code>，如果只是想进行重装或升级就勾选<code>对这台电脑使用推荐的选项</code>，下面介绍取消勾选<code>对这台电脑使用推荐的选项</code>后该怎么做</p>
-<blockquote>
-<p><strong>语言</strong> 默认中文(简体)就行<br><strong>版本</strong> 如果想安装专业版就选<code>Windows 10</code>，如果想安装家庭版就安装<code>Windows 10 家庭中文版</code><br><strong>体系结构</strong> 在计算机属性里的系统类型一栏能查看，如果不知道的话就选”两者”</p>
-</blockquote>
-<p>选择好后就下一步。注意，安装介质要选择ISO文件<br><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_04.png" alt="为另一台电脑创建安装介质（U 盘、DVD 或 IS0 文件）"><br>选择路径就随便保存一个地方<br>下载完成后我们就获得了一份微软官方的安装映像</p>
-<h2 id="方法二-MSDN-下载"><a href="#方法二-MSDN-下载" class="headerlink" title="方法二: MSDN 下载"></a>方法二: MSDN 下载</h2><p>打开 <a href="https://next.itellyou.cn/Original/Index"><strong>Next,itellyou</strong></a><br>注册一个账号登录<br>在首页找到Windows 10<br>下拉找到<strong>建议使用</strong>一栏<br><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_03.png" alt="Windows 安装文件类型"></p>
-<blockquote>
-<p>Business editions 和 Consumer editions 的区别<br>consumer editions 为 <strong>零售版</strong>，business editions 为 <strong>VL 版</strong></p>
-</blockquote>
-<blockquote>
-<p>Business editions 包括：<strong>企业版、教育版、专业版</strong><br>(ISO 镜像包括<strong>专业版、企业版、教育版、专业工作站版、专业教育版</strong>)</p>
-</blockquote>
-<blockquote>
-<p>Consumer editions 包括：<strong>家庭版、教育版、专业版</strong><br>(ISO 镜像包括<strong>家庭版、专业版、教育版、家庭单语言版、专业工作站版、专业教育版</strong>)  </p>
-</blockquote>
-<p>这里提供 ED2K 和 BT 两种下载方式<br>这样你就获得了一份官方原版的 ISO 文件  </p>
-<blockquote>
-<p>这时肯定有人问 为什么你不使用 <a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a> 而是使用 <a href="https://next.itellyou.cn/Original/Index">https://next.itellyou.cn/Original/Index</a><br>因为 msdn 老网站已经不再提供最新的 Windows10 系统，要想下载 Windows10 21H1 就要使用新网站</p>
-</blockquote>
-<h1 id="安装教学"><a href="#安装教学" class="headerlink" title="安装教学"></a>安装教学</h1><p>接下来就开始安装教学<br>这里也是，同样提供两种不同方案</p>
-<h2 id="方案一-U盘刻录"><a href="#方案一-U盘刻录" class="headerlink" title="方案一: U盘刻录"></a>方案一: U盘刻录</h2><p>这里推荐使用 <strong>balenaEtcher</strong><br><a href="https://www.balena.io/etcher/"><strong>官网链接</strong></a><br>打开软件 选择左边的<code>Flash from file</code>，找到刚刚下载完成的ISO映像<br><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_06.png" alt="选择 Flash from file"><br>中间的就选择自己的U盘，最后点击 <code>Flash!</code> 开始写入</p>
-<h3 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h3><blockquote>
-<p>开始前先记住自己系统盘的容量大小</p>
-</blockquote>
-<p>插入U盘，电脑开机按 <strong><code>F12</code></strong> ，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>选择U盘后便进入了引导界面，待加载完成后可以开始安装了。</p>
-<p>1.开机后第一个窗口点击 <strong><code>下一步</code></strong> ，别的不用管<br>2.点击屏幕中央的 <strong><code>现在安装</code></strong><br>3.在版本选择中选择Windows 10 <strong>专业版</strong> 或者 <strong>家庭版</strong>，后点击 <code>下一步</code><br>4.接受许可条款<br>5.选择 <code>自定义：仅安装 Windows (高级)</code><br>6.选择要安装的驱动器，选择与你系统盘名称及大小相同的分区即可</p>
-<p>然后便开始自动安装，直到完成为止<br>如遇到错误可以上网自行解决</p>
-<h2 id="方案二-WinPE-Win10-ISO"><a href="#方案二-WinPE-Win10-ISO" class="headerlink" title="方案二: WinPE + Win10 ISO"></a>方案二: WinPE + Win10 ISO</h2><p>先说说我为什么要推荐这一套方案<br>首先U盘刻录的映像不包含任何工具，如果安装时出现问题很难进行排查错误。而目前市面上的WinPE是自带维护工具，方便我们排查错误。不管是哪种方案，安装的效果是相同的。<br>这里我推荐<strong>微PE工具箱</strong>。就一点：干净。自带的工具也足够用。如果你想在PE环境里联网可以选择<strong>优启通</strong> (优启通最新版已经对非VIP版本提供联网支持)</p>
-<blockquote>
-<p><strong>下载地址：</strong> <a href="https://share.weiyun.com/iV7Hy54v"><strong>64位</strong></a>    <a href="https://share.weiyun.com/WqdJX5Mn"><strong>32位</strong></a></p>
-</blockquote>
-<ol>
-<li>打开软件 在下面的<strong>其他安装方式</strong>中点击像U盘一样的图标</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_07.png" alt="选择下面的 U 盘标志"></p>
-<ol start="2">
-<li><p>选择U盘然后点击 <strong><code>立即安装进U盘</code></strong><br><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_08.png" alt="修改待写入 U 盘，点击立即安装进 U 盘"></p>
-</li>
-<li><p>安装完成后找到U盘，将下载好的ISO文件复制到U盘跟目录里</p>
-</li>
-</ol>
-<blockquote>
-<p><strong>注:请将U盘格式化为 NTFS 或 exFAT 格式。(NTFS 格式非常费U盘，如果安装后还想继续使用U盘请格式化成 FAT32 或 exFAT 格式)</strong></p>
-</blockquote>
-<h3 id="安装方法-1"><a href="#安装方法-1" class="headerlink" title="安装方法"></a>安装方法</h3><p>开机后与上面一样<br>插入U盘电脑开机按F12，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>等待加载完成后就是我们熟悉的Windows桌面了</p>
-<p>1.和Windows一样，在<strong>此电脑</strong>中找到U盘根目录下的<strong>ISO文件</strong> (图标是光盘的样子)<br>2.运行ISO文件中的 <strong><code>Setup.exe</code></strong><br>3.<strong>和方案一的安装步骤相同</strong>，为了缩短内容就不重复了</p>
-<p>这样Windows就安装完成了</p>
-<h1 id="安装后恢复U盘"><a href="#安装后恢复U盘" class="headerlink" title="安装后恢复U盘"></a>安装后恢复U盘</h1><p>1.右键 <strong><code>此电脑</code></strong> 选择 <strong><code>管理(G)</code></strong><br>2.在左侧选择 <strong><code>磁盘管理</code></strong><br>3.在<strong>磁盘列表</strong>中找到磁盘，注意磁盘下有<strong>可移动</strong>字样<br>4.右键<strong>蓝色的分区</strong>，选择 <strong><code>删除卷(D)...</code></strong><br>5.到最后他会变成一个大分区，可能是黑色也可能是蓝色</p>
-<blockquote>
-<p>黑色：<br>(1) 右键，选择 <code>新建简单卷(1)...</code><br>(2) 点击两次“下一步”到格式化分区这一步<br>(3) 将文件系统改成 FAT32 或 exFAT<br>(4) 下一步，完成<br>蓝色：<br>(1) 右键，选择 <code>格式化(F)...</code><br>(2) 将文件系统改成 FAT32 或 exFAT<br>(3) 完成</p>
-</blockquote>
-<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_09.png" alt="磁盘管理界面"></p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>系统安装</tag>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>超级傻瓜版安装 Windows 10</title>
     <url>//page/2021080810.html</url>
     <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-code"></i><p>此文章内容可能过时，已无法确定文章内容是否有效</p>
@@ -256,6 +154,82 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows 10 安装教程</title>
+    <url>//page/2021051612.html</url>
+    <content><![CDATA[<p>在阅读这篇文章前肯定有不少人问: 啊? Windows 安装?都1202年了谁还不会安装 Windows 啊?没错 1202 年了，其实还有不少人不会安装 Windows。你去电脑城重装还要 30~50 元的费用，电脑师傅还给你安装个带捆绑的 Windows 卡的要死也不好受。所以今天就由我教大家如何安装官方原版的 Windows 10 (以下简称 Win10)</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_01.jpg"></p>
+<p>在开始安装 Windows10 前需要准备一块 <strong>8GB U盘</strong> 尽量使用非缩水盘<br>如果没有U盘请参考下文 <strong>方案二: WinPE + Win10 ISO</strong><br>这里我介绍获取 ISO 文件的两种不同的方法</p>
+<h1 id="下载教学"><a href="#下载教学" class="headerlink" title="下载教学"></a>下载教学</h1><h2 id="方法一-微软官方安装工具获取ISO"><a href="#方法一-微软官方安装工具获取ISO" class="headerlink" title="方法一: 微软官方安装工具获取ISO"></a>方法一: 微软官方安装工具获取ISO</h2><p><strong>注意，这种方法下载的速度比较慢(不止慢一点点),不推荐</strong><br>进入 <a href="https://www.microsoft.com/zh-cn/software-download/windows10"><strong>Windows10下载链接</strong></a><br>下拉找到 <strong><code>立即下载工具</code></strong></p>
+<p>你也可以点击下方按钮 <mark class="hl-label blue">直接下载</mark>   </p>
+<a class="btn-anzhiyu blue larger" href="https://go.microsoft.com/fwlink/?LinkID=799445" 
+  title="立即下载"><i class="fas fa-download"></i><span>立即下载</span></a>
+
+<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_02.png" alt="点击立即下载工具"></p>
+<p>下载完成后运行程序<br>接受许可条款<br>选择<code>为另一条电脑创建安装介质(U盘、DVD或ISO文件)</code></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_05.png" alt="选择 ISO 文件"></p>
+<p>如果你想安装win10专业版的话就取消勾选<code>对这台电脑使用推荐的选项</code>，如果只是想进行重装或升级就勾选<code>对这台电脑使用推荐的选项</code>，下面介绍取消勾选<code>对这台电脑使用推荐的选项</code>后该怎么做</p>
+<blockquote>
+<p><strong>语言</strong> 默认中文(简体)就行<br><strong>版本</strong> 如果想安装专业版就选<code>Windows 10</code>，如果想安装家庭版就安装<code>Windows 10 家庭中文版</code><br><strong>体系结构</strong> 在计算机属性里的系统类型一栏能查看，如果不知道的话就选”两者”</p>
+</blockquote>
+<p>选择好后就下一步。注意，安装介质要选择ISO文件<br><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_04.png" alt="为另一台电脑创建安装介质（U 盘、DVD 或 IS0 文件）"><br>选择路径就随便保存一个地方<br>下载完成后我们就获得了一份微软官方的安装映像</p>
+<h2 id="方法二-MSDN-下载"><a href="#方法二-MSDN-下载" class="headerlink" title="方法二: MSDN 下载"></a>方法二: MSDN 下载</h2><p>打开 <a href="https://next.itellyou.cn/Original/Index"><strong>Next,itellyou</strong></a><br>注册一个账号登录<br>在首页找到Windows 10<br>下拉找到<strong>建议使用</strong>一栏<br><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_03.png" alt="Windows 安装文件类型"></p>
+<blockquote>
+<p>Business editions 和 Consumer editions 的区别<br>consumer editions 为 <strong>零售版</strong>，business editions 为 <strong>VL 版</strong></p>
+</blockquote>
+<blockquote>
+<p>Business editions 包括：<strong>企业版、教育版、专业版</strong><br>(ISO 镜像包括<strong>专业版、企业版、教育版、专业工作站版、专业教育版</strong>)</p>
+</blockquote>
+<blockquote>
+<p>Consumer editions 包括：<strong>家庭版、教育版、专业版</strong><br>(ISO 镜像包括<strong>家庭版、专业版、教育版、家庭单语言版、专业工作站版、专业教育版</strong>)  </p>
+</blockquote>
+<p>这里提供 ED2K 和 BT 两种下载方式<br>这样你就获得了一份官方原版的 ISO 文件  </p>
+<blockquote>
+<p>这时肯定有人问 为什么你不使用 <a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a> 而是使用 <a href="https://next.itellyou.cn/Original/Index">https://next.itellyou.cn/Original/Index</a><br>因为 msdn 老网站已经不再提供最新的 Windows10 系统，要想下载 Windows10 21H1 就要使用新网站</p>
+</blockquote>
+<h1 id="安装教学"><a href="#安装教学" class="headerlink" title="安装教学"></a>安装教学</h1><p>接下来就开始安装教学<br>这里也是，同样提供两种不同方案</p>
+<h2 id="方案一-U盘刻录"><a href="#方案一-U盘刻录" class="headerlink" title="方案一: U盘刻录"></a>方案一: U盘刻录</h2><p>这里推荐使用 <strong>balenaEtcher</strong><br><a href="https://www.balena.io/etcher/"><strong>官网链接</strong></a><br>打开软件 选择左边的<code>Flash from file</code>，找到刚刚下载完成的ISO映像<br><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_06.png" alt="选择 Flash from file"><br>中间的就选择自己的U盘，最后点击 <code>Flash!</code> 开始写入</p>
+<h3 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h3><blockquote>
+<p>开始前先记住自己系统盘的容量大小</p>
+</blockquote>
+<p>插入U盘，电脑开机按 <strong><code>F12</code></strong> ，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>选择U盘后便进入了引导界面，待加载完成后可以开始安装了。</p>
+<p>1.开机后第一个窗口点击 <strong><code>下一步</code></strong> ，别的不用管<br>2.点击屏幕中央的 <strong><code>现在安装</code></strong><br>3.在版本选择中选择Windows 10 <strong>专业版</strong> 或者 <strong>家庭版</strong>，后点击 <code>下一步</code><br>4.接受许可条款<br>5.选择 <code>自定义：仅安装 Windows (高级)</code><br>6.选择要安装的驱动器，选择与你系统盘名称及大小相同的分区即可</p>
+<p>然后便开始自动安装，直到完成为止<br>如遇到错误可以上网自行解决</p>
+<h2 id="方案二-WinPE-Win10-ISO"><a href="#方案二-WinPE-Win10-ISO" class="headerlink" title="方案二: WinPE + Win10 ISO"></a>方案二: WinPE + Win10 ISO</h2><p>先说说我为什么要推荐这一套方案<br>首先U盘刻录的映像不包含任何工具，如果安装时出现问题很难进行排查错误。而目前市面上的WinPE是自带维护工具，方便我们排查错误。不管是哪种方案，安装的效果是相同的。<br>这里我推荐<strong>微PE工具箱</strong>。就一点：干净。自带的工具也足够用。如果你想在PE环境里联网可以选择<strong>优启通</strong> (优启通最新版已经对非VIP版本提供联网支持)</p>
+<blockquote>
+<p><strong>下载地址：</strong> <a href="https://share.weiyun.com/iV7Hy54v"><strong>64位</strong></a>    <a href="https://share.weiyun.com/WqdJX5Mn"><strong>32位</strong></a></p>
+</blockquote>
+<ol>
+<li>打开软件 在下面的<strong>其他安装方式</strong>中点击像U盘一样的图标</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_07.png" alt="选择下面的 U 盘标志"></p>
+<ol start="2">
+<li><p>选择U盘然后点击 <strong><code>立即安装进U盘</code></strong><br><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_08.png" alt="修改待写入 U 盘，点击立即安装进 U 盘"></p>
+</li>
+<li><p>安装完成后找到U盘，将下载好的ISO文件复制到U盘跟目录里</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>注:请将U盘格式化为 NTFS 或 exFAT 格式。(NTFS 格式非常费U盘，如果安装后还想继续使用U盘请格式化成 FAT32 或 exFAT 格式)</strong></p>
+</blockquote>
+<h3 id="安装方法-1"><a href="#安装方法-1" class="headerlink" title="安装方法"></a>安装方法</h3><p>开机后与上面一样<br>插入U盘电脑开机按F12，选择你的U盘，由于每个主板的显示方式不同，有的可能显示的是U盘的具体型号，有的可能是USB+具体型号。这里就不展示图片了。不会的可以上网搜索自己的 主板品牌或型号 + 开机引导U盘。<br>等待加载完成后就是我们熟悉的Windows桌面了</p>
+<p>1.和Windows一样，在<strong>此电脑</strong>中找到U盘根目录下的<strong>ISO文件</strong> (图标是光盘的样子)<br>2.运行ISO文件中的 <strong><code>Setup.exe</code></strong><br>3.<strong>和方案一的安装步骤相同</strong>，为了缩短内容就不重复了</p>
+<p>这样Windows就安装完成了</p>
+<h1 id="安装后恢复U盘"><a href="#安装后恢复U盘" class="headerlink" title="安装后恢复U盘"></a>安装后恢复U盘</h1><p>1.右键 <strong><code>此电脑</code></strong> 选择 <strong><code>管理(G)</code></strong><br>2.在左侧选择 <strong><code>磁盘管理</code></strong><br>3.在<strong>磁盘列表</strong>中找到磁盘，注意磁盘下有<strong>可移动</strong>字样<br>4.右键<strong>蓝色的分区</strong>，选择 <strong><code>删除卷(D)...</code></strong><br>5.到最后他会变成一个大分区，可能是黑色也可能是蓝色</p>
+<blockquote>
+<p>黑色：<br>(1) 右键，选择 <code>新建简单卷(1)...</code><br>(2) 点击两次“下一步”到格式化分区这一步<br>(3) 将文件系统改成 FAT32 或 exFAT<br>(4) 下一步，完成<br>蓝色：<br>(1) 右键，选择 <code>格式化(F)...</code><br>(2) 将文件系统改成 FAT32 或 exFAT<br>(3) 完成</p>
+</blockquote>
+<p><img src="https://storage.ligaogreat.top/page_img/2021051612/img_2021051612_09.png" alt="磁盘管理界面"></p>
+]]></content>
+      <categories>
+        <category>操作系统安装教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>系统安装</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>超简单升级 Win10 方法</title>
     <url>//page/2022051221.html</url>
     <content><![CDATA[<h1 id="升级教程"><a href="#升级教程" class="headerlink" title="升级教程"></a>升级教程</h1><p>升级win10还是比较简单的，但是有个通病，磁盘占用要比全新安装大，还可能存在莫名其妙的BUG。如果电脑里没有重要资料，我推荐你还是选择全新安装比较好，教程可以参考 <a href="https://www.ligaogreat.top/2021051612">这篇文章</a> 和上面的安装教程<br>下面就是升级教程，首先打开 <a href="https://www.microsoft.com/zh-cn/software-download/windows10">Windows10下载页</a><br>点击 <strong><code>立即更新</code></strong></p>
@@ -295,6 +269,32 @@
         <tag>教程</tag>
         <tag>Windows</tag>
         <tag>系统升级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随机图片API分享</title>
+    <url>//page/2021011911.html</url>
+    <content><![CDATA[<h1 id="慢速API"><a href="#慢速API" class="headerlink" title="慢速API"></a>慢速API</h1><p>先是几个加载较慢的API（都是国外的api）</p>
+<p><a href="http://lorempixel.com/1600/900">http://lorempixel.com/1600/900</a><br><a href="https://unsplash.it/1600/900?random">https://unsplash.it/1600/900?random</a><br><a href="https://uploadbeta.com/api/pictures/random/">https://uploadbeta.com/api/pictures/random/</a><br><a href="https://unsplash.it/1600/900?random">https://unsplash.it/1600/900?random</a></p>
+<h1 id="Bing每日一图"><a href="#Bing每日一图" class="headerlink" title="Bing每日一图"></a>Bing每日一图</h1><p><a href="https://api.dujin.org/bing/1366.php">https://api.dujin.org/bing/1366.php</a></p>
+<blockquote>
+<p>分辨率为 1366x768</p>
+</blockquote>
+<p><a href="https://api.dujin.org/bing/1920.php">https://api.dujin.org/bing/1920.php</a></p>
+<blockquote>
+<p>分辨率为 1920x1080</p>
+</blockquote>
+<h1 id="高清壁纸"><a href="#高清壁纸" class="headerlink" title="高清壁纸"></a>高清壁纸</h1><p><a href="https://api.ixiaowai.cn/gqapi/gqapi.php">https://api.ixiaowai.cn/gqapi/gqapi.php</a></p>
+<h1 id="二次元动漫"><a href="#二次元动漫" class="headerlink" title="二次元动漫"></a>二次元动漫</h1><p><a href="https://img.xjh.me/random_img.php">https://img.xjh.me/random_img.php</a><br><a href="http://www.dmoe.cc/random.php">http://www.dmoe.cc/random.php</a><br><a href="http://api.mtyqx.cn/api/random.php">http://api.mtyqx.cn/api/random.php</a><br><a href="http://api.mtyqx.cn/tapi/random.php">http://api.mtyqx.cn/tapi/random.php</a><br><a href="https://img.asmdh.com/img.php">https://img.asmdh.com/img.php</a><br><a href="https://api.ixiaowai.cn/api/api.php">https://api.ixiaowai.cn/api/api.php</a><br><a href="https://api.mtyqx.cn/api/random.php">https://api.mtyqx.cn/api/random.php</a><br><a href="https://api.mtyqx.cn/tapi/random.php">https://api.mtyqx.cn/tapi/random.php</a> </p>
+<blockquote>
+<p>不是我偏向，是动漫的api是真滴多</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>API分享</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
       </tags>
   </entry>
   <entry>
@@ -613,146 +613,6 @@
       </tags>
   </entry>
   <entry>
-    <title>安装 MS-DOS 6.22</title>
-    <url>//page/2023042111.html</url>
-    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章使用的虚拟机软件为 VMware Workstation Pro 15.5.7</p>
-</div>
-
-<h1 id="如何安装-MS-DOS-6-22"><a href="#如何安装-MS-DOS-6-22" class="headerlink" title="如何安装 MS-DOS 6.22"></a>如何安装 MS-DOS 6.22</h1><h2 id="资源下载"><a href="#资源下载" class="headerlink" title="资源下载"></a>资源下载</h2><p><a href="https://msdn.itellyou.cn/">MS-DOS 6.22</a> 下方为 MSDN 的 ed2k 链接</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SC_MSDOS622sc.exe|10020288|0B2B0878B8BBD2233D23022EE5339637|/</span><br></pre></td></tr></table></figure>
-
-<h2 id="制作软盘映像"><a href="#制作软盘映像" class="headerlink" title="制作软盘映像"></a>制作软盘映像</h2><p>由于我们在 MSDN 下载的是一堆文件，无法用于系统引导，所以我们要把文件做成可供引导的软盘映像</p>
-<blockquote>
-<p><strong>已经制作完的镜像</strong><br> <a href="https://pan.baidu.com/s/1LneJf0fj2rFcShGuyzHtjg?pwd=lj4h">百度网盘</a>   提取码：lj4h<br> <a href="https://ligao.lanzouy.com/iSpwU0tksqwb">蓝奏云</a></p>
-</blockquote>
-<h3 id="DISK1映像制作-重点"><a href="#DISK1映像制作-重点" class="headerlink" title="DISK1映像制作 (重点)"></a>DISK1映像制作 (重点)</h3><p>DISK1 的镜像最为讲究，一定要严格按下面教程来<br>首先我们要在 DISK1 文件夹里找到三个文件 <strong><code>IO.SYS</code></strong>、<strong><code>MSDOS.SYS</code></strong> 和 <strong><code>COMMAND.COM</code></strong></p>
-<p>这里使用的软件是 <strong>UltraISO</strong></p>
-<ol>
-<li><p>首先打开 UltraISO，选择 <strong>文件 - 新建 -  软盘映像</strong> ，在引导扇区中选择 **<code>MSDOS 6.22</code>*</p>
-</li>
-<li><p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_01.jpg" alt="选择 MSDOS 6.22"></p>
-</li>
-<li><p>在左侧给磁盘命名。注意，必须是 <strong><code>DISK 1</code></strong> 中间有 6 个空格 (网页只显示一个空格)，否则系统不识别</p>
-</li>
-<li><p>先将 <strong><code>IO.SYS</code></strong> 添加进映像，并右键 <strong><code>IO.SYS</code></strong> 选择 <code>设置为引导文件</code></p>
-</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_02.jpg" alt="选择设置为引导文件"></p>
-<ol start="4">
-<li>然后将 <strong><code>MSDOS.SYS</code></strong> 放入映像，最后再放入 <strong><code>COMMAND.COM</code></strong> ，<strong>保存文件</strong>，一定要按这个顺序添加<blockquote>
-<p>保存时要将后缀更改为 <strong>IMG</strong></p>
-</blockquote>
-</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_03.jpg" alt="保存文件"></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_04.jpg" alt="保存为 DISK1.IMG"></p>
-<p>5.然后将 <code>DISK1</code> 文件夹内剩余的文件放进映像内，保存即可</p>
-<h3 id="DISK2-4-映像制作"><a href="#DISK2-4-映像制作" class="headerlink" title="DISK2~4 映像制作"></a>DISK2~4 映像制作</h3><p>剩下的就简单多了，只需要把文件放进映像里即可，并且映像格式里的<strong>引导扇区</strong>为 <code>无系统</code></p>
-<blockquote>
-<p><strong>注意：<strong>左侧映像名字同样需要</strong>中间加 6 个空格</strong>，如DISK2就命名为 <strong><code>DISK 2</code></strong> (网页只显示一个) ，依此类推</p>
-</blockquote>
-<h3 id="制作-Uninstall-1-映像"><a href="#制作-Uninstall-1-映像" class="headerlink" title="制作 Uninstall  #1 映像"></a>制作 Uninstall  #1 映像</h3><p>安装过程中系统需要名为 Uninstall #1 的软盘，我们直接新建一个名为 <code>Uninstall 1</code> 的空白软盘即可</p>
-<blockquote>
-<p><strong>注意：<strong>左侧映像名字同样需要</strong>中间加6个空格</strong>，命名为 <strong><code>Uninstall 1</code></strong>  (网页只显示一个)</p>
-</blockquote>
-<h3 id="制作中文映像-PDOS"><a href="#制作中文映像-PDOS" class="headerlink" title="制作中文映像 (PDOS)"></a>制作中文映像 (PDOS)</h3><p>简体中文映像位于 PDOS 文件夹中，由于中文需要在 MSDOS 系统中引导，所以只需要将对应的文件夹制成相应映像即可</p>
-<blockquote>
-<p><strong>注意：<strong>左侧映像名字同样需要</strong>中间加 6 个空格</strong>，如PDOS1就命名为 <strong><code>PDOS 1</code></strong>  (网页只显示一个)，依此类推</p>
-</blockquote>
-<h2 id="安装系统"><a href="#安装系统" class="headerlink" title="安装系统"></a>安装系统</h2><h3 id="系统分区"><a href="#系统分区" class="headerlink" title="系统分区"></a>系统分区</h3><p>由于磁盘默认没有分区，系统无法正常安装，所以我们要对系统进行分区操作</p>
-<ol>
-<li>按两下 <code>F3</code> 进入命令界面，输入 <strong><code>fidisk</code></strong> 进入磁盘工具</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_05.jpg" alt="磁盘工具界面"></p>
-<ol start="2">
-<li><p>选择 <strong><code>[1]</code></strong> 后一直按回车，直到系统重启</p>
-</li>
-<li><p>同样按两下 <code>F3</code> 进入命令界面，输入 <strong><code>format C:</code></strong> 格式化硬盘</p>
-</li>
-<li><p>按 <strong><code>[Y]</code></strong> 后回车</p>
-</li>
-</ol>
-<h3 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h3><p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_06.jpg" alt="输入 setup 安装"></p>
-<ol>
-<li>输入 <strong><code>setup</code></strong> 进入系统安装程序后一路按回车，直到出现下面界面后按 <strong><code>[Y]</code></strong> 进行安装</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_07.jpg" alt="安装程序界面"></p>
-<ol start="2">
-<li>此时按照系统提示放入 <strong><code>Uninstall #1</code></strong> 即可<blockquote>
-<p>系统会要求你切换 <strong>DISK #1</strong> 和 <strong>Uninstall #1</strong> 数次，是正常现象</p>
-</blockquote>
-</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_08.jpg" alt="按照提示，放入 Uninstall #1"></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_09.jpg" alt="按照提示，放入 Setup Disk #1"></p>
-<ol start="3">
-<li>此后系统会要求你切换 <code>DISK #2</code> <code>DISK #3</code> <code>DISK #4</code> 按要求来即可</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_10.jpg" alt="按照提示，放入 Setup Disk #2"></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_11.jpg" alt="按照提示，放入 Setup Disk #3"></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_12.jpg" alt="按照提示，放入 Setup Disk #4"></p>
-<ol start="4">
-<li>按两下回车结束安装向导</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_13.jpg" alt="按 Enter 结束安装"></p>
-<h2 id="安装中文组件"><a href="#安装中文组件" class="headerlink" title="安装中文组件"></a>安装中文组件</h2><ol>
-<li>插入 <strong><code>PDOS 1</code></strong> 后执行下面部分</li>
-</ol>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">A:</span></span><br><span class="line"><span class="function"><span class="title">csetup</span></span></span><br></pre></td></tr></table></figure>
-
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_14.jpg" alt="输入 csetup"></p>
-<ol start="2">
-<li>按回车后按照相应操作继续</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_15.jpg" alt="按 Enter"></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_16.jpg" alt="插入 disk 2"></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_17.jpg" alt="选择 Setup 方式"></p>
-<ol start="3">
-<li>按回车结束安装向导，也可按 <code>Ctrl + Alt + Del</code> 重启系统</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_18.jpg" alt="按 Enter 结束安装"></p>
-<p>4， 重启后输入 <strong><code>pdos</code></strong> 进入中文界面</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_19.jpg" alt="输入 pdos 进入中文界面"></p>
-<p>至此 MS-DOS 6.22 安装结束</p>
-]]></content>
-      <categories>
-        <category>操作系统安装教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>系统安装</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>███：时尚黑骑士的 Gucci 夹克魅力 (AI创作)</title>
-    <url>//page/2023120611.html</url>
-    <content><![CDATA[<div class="note danger flat"><p>为保护个人隐私，本文章禁止转载！！！</p>
-</div>
-<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>为保护个人隐私，部分内容已脱敏处理</p>
-</div>
-
-<h1 id="███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）"><a href="#███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）" class="headerlink" title="███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）"></a>███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）</h1><p>在时尚的世界中，Gucci一直以其独特的设计理念和精湛的工艺而备受瞩目。而在众多的时尚单品中，Gucci的夹克无疑是这个品牌的一大亮点。今天，我们将借助███这一形象，来深入探讨Gucci夹克的时尚价值以及███如何通过搭配技巧，将这一单品展现得淋漓尽致。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/01.jpeg"></p>
-<p>首先，让我们先来欣赏一下███的形象。他身着一件Gucci的夹克，简洁的设计风格和黑灰的色调使得这件夹克充满了神秘感。而最令人印象深刻的莫过于他搭配的黑色墨镜，完美地遮挡住了他的眼神，让人无法窥视他内心的世界。这样的搭配，无疑为他的形象增添了几分神秘和冷峻。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/02.jpeg"></p>
-<p>Gucci夹克的魅力在于其独特的设计和精湛的工艺。这款夹克采用了高品质的面料，手感柔软，穿起来舒适不束缚。同时，其经典的设计元素和精美的细节处理，使得这款夹克无论是在日常生活中还是出行旅游时，都能成为一道亮丽的风景线。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/03.jpeg"></p>
-<p>而███是如何将这款Gucci夹克发挥到极致的呢？首先，他选择了与夹克色调相呼应的黑色墨镜，这样的搭配使得整体形象更加和谐统一。此外，他还选择了一款简约的项链作为装饰，不仅增添了几分时尚感，还为整体形象增添了几分华丽的元素。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/05.jpeg"></p>
-<p>███的形象完美地诠释了Gucci夹克的时尚价值。他通过精心的搭配技巧，将这款夹克展现得淋漓尽致。而Gucci夹克的独特魅力和时尚价值，也在他的搭配下得到了充分的体现。无论是在日常生活中还是出行旅游时，我们都可以从███的形象中得到一些搭配灵感。</p>
-<hr>
-<a class="btn-anzhiyu outline blue larger" href="https://ligao.lanzouj.com/iyJyx1s147vi" 
-  title="下载 PDF"><i class="fas fa-file-pdf"></i><span>下载 PDF</span></a>
-<a class="btn-anzhiyu outline larger" href="https://ligao.lanzouj.com/idTJE1s147tg" 
-  title="下载 DOC"><i class="fas fa-file-word"></i><span>下载 DOC</span></a>]]></content>
-      <categories>
-        <category>人工智障</category>
-      </categories>
-      <tags>
-        <tag>AI创作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何安装 Windows 11</title>
     <url>//page/2023030718.html</url>
     <content><![CDATA[<p>Win10 和 Win11 的安装方式其实大差不差，本篇文章只是额外补充一下如何跳过 TPM 检查和联网认证</p>
@@ -876,91 +736,143 @@
       </tags>
   </entry>
   <entry>
-    <title>快速在本地搭建 Alist</title>
-    <url>//page/2025011012.html</url>
-    <content><![CDATA[<div class="note warning flat"><p>由于该项目目前存在争议，<strong>目前不推荐部署该项目！！！</strong></p>
+    <title>███：时尚黑骑士的 Gucci 夹克魅力 (AI创作)</title>
+    <url>//page/2023120611.html</url>
+    <content><![CDATA[<div class="note danger flat"><p>为保护个人隐私，本文章禁止转载！！！</p>
+</div>
+<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>为保护个人隐私，部分内容已脱敏处理</p>
 </div>
 
+<h1 id="███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）"><a href="#███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）" class="headerlink" title="███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）"></a>███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）</h1><p>在时尚的世界中，Gucci一直以其独特的设计理念和精湛的工艺而备受瞩目。而在众多的时尚单品中，Gucci的夹克无疑是这个品牌的一大亮点。今天，我们将借助███这一形象，来深入探讨Gucci夹克的时尚价值以及███如何通过搭配技巧，将这一单品展现得淋漓尽致。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/01.jpeg"></p>
+<p>首先，让我们先来欣赏一下███的形象。他身着一件Gucci的夹克，简洁的设计风格和黑灰的色调使得这件夹克充满了神秘感。而最令人印象深刻的莫过于他搭配的黑色墨镜，完美地遮挡住了他的眼神，让人无法窥视他内心的世界。这样的搭配，无疑为他的形象增添了几分神秘和冷峻。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/02.jpeg"></p>
+<p>Gucci夹克的魅力在于其独特的设计和精湛的工艺。这款夹克采用了高品质的面料，手感柔软，穿起来舒适不束缚。同时，其经典的设计元素和精美的细节处理，使得这款夹克无论是在日常生活中还是出行旅游时，都能成为一道亮丽的风景线。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/03.jpeg"></p>
+<p>而███是如何将这款Gucci夹克发挥到极致的呢？首先，他选择了与夹克色调相呼应的黑色墨镜，这样的搭配使得整体形象更加和谐统一。此外，他还选择了一款简约的项链作为装饰，不仅增添了几分时尚感，还为整体形象增添了几分华丽的元素。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/05.jpeg"></p>
+<p>███的形象完美地诠释了Gucci夹克的时尚价值。他通过精心的搭配技巧，将这款夹克展现得淋漓尽致。而Gucci夹克的独特魅力和时尚价值，也在他的搭配下得到了充分的体现。无论是在日常生活中还是出行旅游时，我们都可以从███的形象中得到一些搭配灵感。</p>
 <hr>
-<div class="note info flat"><p>文章部分内容出自 <a href="https://alist.nn.ci/zh/">AList帮助文档</a></p>
+<a class="btn-anzhiyu outline blue larger" href="https://ligao.lanzouj.com/iyJyx1s147vi" 
+  title="下载 PDF"><i class="fas fa-file-pdf"></i><span>下载 PDF</span></a>
+<a class="btn-anzhiyu outline larger" href="https://ligao.lanzouj.com/idTJE1s147tg" 
+  title="下载 DOC"><i class="fas fa-file-word"></i><span>下载 DOC</span></a>]]></content>
+      <categories>
+        <category>人工智障</category>
+      </categories>
+      <tags>
+        <tag>AI创作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装 MS-DOS 6.22</title>
+    <url>//page/2023042111.html</url>
+    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章使用的虚拟机软件为 VMware Workstation Pro 15.5.7</p>
 </div>
 
-<h1 id="一键安装脚本"><a href="#一键安装脚本" class="headerlink" title="一键安装脚本"></a>一键安装脚本</h1><div class="note info flat"><p>一键安装脚本仅适用于 <strong>Linux amd64&#x2F;arm64</strong> 平台</p>
-</div>
+<h1 id="如何安装-MS-DOS-6-22"><a href="#如何安装-MS-DOS-6-22" class="headerlink" title="如何安装 MS-DOS 6.22"></a>如何安装 MS-DOS 6.22</h1><h2 id="资源下载"><a href="#资源下载" class="headerlink" title="资源下载"></a>资源下载</h2><p><a href="https://msdn.itellyou.cn/">MS-DOS 6.22</a> 下方为 MSDN 的 ed2k 链接</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SC_MSDOS622sc.exe|10020288|0B2B0878B8BBD2233D23022EE5339637|/</span><br></pre></td></tr></table></figure>
 
-<h2 id="标准安装"><a href="#标准安装" class="headerlink" title="标准安装"></a>标准安装</h2><p>首先是能不能连上全靠脸的一键安装脚本<br>如果安装脚本提示网络错误，请移至下面的 <code>手动安装</code>步骤</p>
-<p><strong>安装</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s install</span><br></pre></td></tr></table></figure>
-
-<p><strong>更新</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s update</span><br></pre></td></tr></table></figure>
-
-<h2 id="自定义路径"><a href="#自定义路径" class="headerlink" title="自定义路径"></a>自定义路径</h2><p>默认安装在 <code>/opt/alist</code> 中。 如果需要安装到指定路径，在末尾加上路径参数即可，如 安装到 <code>/root</code>：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 安装到 /root 目录下</span><br><span class="line">curl -fsSL &quot;https://alist.nn.ci/v3.sh&quot; | bash -s install /root</span><br><span class="line"># 更新 /root 目录下的 Alist</span><br><span class="line">curl -fsSL &quot;https://alist.nn.ci/v3.sh&quot; | bash -s update /root</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>启动: <code>systemctl start alist</code></li>
-<li>关闭: <code>systemctl stop alist</code></li>
-<li>状态: <code>systemctl status alist</code></li>
-<li>重启: <code>systemctl restart alist</code></li>
-</ul>
-<h1 id="手动安装"><a href="#手动安装" class="headerlink" title="手动安装"></a>手动安装</h1><h2 id="获取二进制文件"><a href="#获取二进制文件" class="headerlink" title="获取二进制文件"></a>获取二进制文件</h2><p>打开 <a href="https://github.com/Xhofe/alist/releases">AList Release</a> 下载对应系统的文件。</p>
+<h2 id="制作软盘映像"><a href="#制作软盘映像" class="headerlink" title="制作软盘映像"></a>制作软盘映像</h2><p>由于我们在 MSDN 下载的是一堆文件，无法用于系统引导，所以我们要把文件做成可供引导的软盘映像</p>
 <blockquote>
-<p>如 Linux 就下载 <code>alist-linux-xxx.tar.gz</code><br>macOS 为 <code>alist-darwin-xxx.tar.gz</code><br>Windows 为 <code>alist-windows-xxx.zip</code></p>
+<p><strong>已经制作完的镜像</strong><br> <a href="https://pan.baidu.com/s/1LneJf0fj2rFcShGuyzHtjg?pwd=lj4h">百度网盘</a>   提取码：lj4h<br> <a href="https://ligao.lanzouy.com/iSpwU0tksqwb">蓝奏云</a></p>
 </blockquote>
+<h3 id="DISK1映像制作-重点"><a href="#DISK1映像制作-重点" class="headerlink" title="DISK1映像制作 (重点)"></a>DISK1映像制作 (重点)</h3><p>DISK1 的镜像最为讲究，一定要严格按下面教程来<br>首先我们要在 DISK1 文件夹里找到三个文件 <strong><code>IO.SYS</code></strong>、<strong><code>MSDOS.SYS</code></strong> 和 <strong><code>COMMAND.COM</code></strong></p>
+<p>这里使用的软件是 <strong>UltraISO</strong></p>
+<ol>
+<li><p>首先打开 UltraISO，选择 <strong>文件 - 新建 -  软盘映像</strong> ，在引导扇区中选择 **<code>MSDOS 6.22</code>*</p>
+</li>
+<li><p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_01.jpg" alt="选择 MSDOS 6.22"></p>
+</li>
+<li><p>在左侧给磁盘命名。注意，必须是 <strong><code>DISK 1</code></strong> 中间有 6 个空格 (网页只显示一个空格)，否则系统不识别</p>
+</li>
+<li><p>先将 <strong><code>IO.SYS</code></strong> 添加进映像，并右键 <strong><code>IO.SYS</code></strong> 选择 <code>设置为引导文件</code></p>
+</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_02.jpg" alt="选择设置为引导文件"></p>
+<ol start="4">
+<li>然后将 <strong><code>MSDOS.SYS</code></strong> 放入映像，最后再放入 <strong><code>COMMAND.COM</code></strong> ，<strong>保存文件</strong>，一定要按这个顺序添加<blockquote>
+<p>保存时要将后缀更改为 <strong>IMG</strong></p>
+</blockquote>
+</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_03.jpg" alt="保存文件"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_04.jpg" alt="保存为 DISK1.IMG"></p>
+<p>5.然后将 <code>DISK1</code> 文件夹内剩余的文件放进映像内，保存即可</p>
+<h3 id="DISK2-4-映像制作"><a href="#DISK2-4-映像制作" class="headerlink" title="DISK2~4 映像制作"></a>DISK2~4 映像制作</h3><p>剩下的就简单多了，只需要把文件放进映像里即可，并且映像格式里的<strong>引导扇区</strong>为 <code>无系统</code></p>
 <blockquote>
-<p>! <code>xxx</code> 指代 CPU 指令集</p>
+<p><strong>注意：<strong>左侧映像名字同样需要</strong>中间加 6 个空格</strong>，如DISK2就命名为 <strong><code>DISK 2</code></strong> (网页只显示一个) ，依此类推</p>
 </blockquote>
-<h2 id="运行程序"><a href="#运行程序" class="headerlink" title="运行程序"></a>运行程序</h2><div class="tabs" id="run"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="run-1"><i class="fa-brands fa-ubuntu"></i>Linux</button><button type="button" class="tab " data-href="run-2"><i class="fa-brands fa-apple"></i>macOS</button><button type="button" class="tab " data-href="run-3"><i class="fa-brands fa-windows"></i>Windows</button></ul><div class="tab-contents"><div class="tab-item-content active" id="run-1"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件，得到可执行文件：</span></span><br><span class="line">tar -zxvf alist-linux-amd64.tar.gz</span><br><span class="line"><span class="comment"># 授予程序执行权限：</span></span><br><span class="line"><span class="built_in">chmod</span> +x alist</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">./alist server</span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="run-2"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件，得到可执行文件：</span></span><br><span class="line">tar -zxvf alist-darwin-amd64.tar.gz</span><br><span class="line"><span class="comment"># 授予程序执行权限：</span></span><br><span class="line"><span class="built_in">chmod</span> +x alist</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">./alist server</span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="run-3"><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件</span></span><br><span class="line"><span class="comment"># 也可以执行下面命令，&quot;alist-xxxx.zip&quot; 是你下载的文件名</span></span><br><span class="line">unzip alist<span class="literal">-windows-amd64</span>.zip</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">.\alist.exe server</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
+<h3 id="制作-Uninstall-1-映像"><a href="#制作-Uninstall-1-映像" class="headerlink" title="制作 Uninstall  #1 映像"></a>制作 Uninstall  #1 映像</h3><p>安装过程中系统需要名为 Uninstall #1 的软盘，我们直接新建一个名为 <code>Uninstall 1</code> 的空白软盘即可</p>
+<blockquote>
+<p><strong>注意：<strong>左侧映像名字同样需要</strong>中间加6个空格</strong>，命名为 <strong><code>Uninstall 1</code></strong>  (网页只显示一个)</p>
+</blockquote>
+<h3 id="制作中文映像-PDOS"><a href="#制作中文映像-PDOS" class="headerlink" title="制作中文映像 (PDOS)"></a>制作中文映像 (PDOS)</h3><p>简体中文映像位于 PDOS 文件夹中，由于中文需要在 MSDOS 系统中引导，所以只需要将对应的文件夹制成相应映像即可</p>
+<blockquote>
+<p><strong>注意：<strong>左侧映像名字同样需要</strong>中间加 6 个空格</strong>，如PDOS1就命名为 <strong><code>PDOS 1</code></strong>  (网页只显示一个)，依此类推</p>
+</blockquote>
+<h2 id="安装系统"><a href="#安装系统" class="headerlink" title="安装系统"></a>安装系统</h2><h3 id="系统分区"><a href="#系统分区" class="headerlink" title="系统分区"></a>系统分区</h3><p>由于磁盘默认没有分区，系统无法正常安装，所以我们要对系统进行分区操作</p>
+<ol>
+<li>按两下 <code>F3</code> 进入命令界面，输入 <strong><code>fidisk</code></strong> 进入磁盘工具</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_05.jpg" alt="磁盘工具界面"></p>
+<ol start="2">
+<li><p>选择 <strong><code>[1]</code></strong> 后一直按回车，直到系统重启</p>
+</li>
+<li><p>同样按两下 <code>F3</code> 进入命令界面，输入 <strong><code>format C:</code></strong> 格式化硬盘</p>
+</li>
+<li><p>按 <strong><code>[Y]</code></strong> 后回车</p>
+</li>
+</ol>
+<h3 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h3><p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_06.jpg" alt="输入 setup 安装"></p>
+<ol>
+<li>输入 <strong><code>setup</code></strong> 进入系统安装程序后一路按回车，直到出现下面界面后按 <strong><code>[Y]</code></strong> 进行安装</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_07.jpg" alt="安装程序界面"></p>
+<ol start="2">
+<li>此时按照系统提示放入 <strong><code>Uninstall #1</code></strong> 即可<blockquote>
+<p>系统会要求你切换 <strong>DISK #1</strong> 和 <strong>Uninstall #1</strong> 数次，是正常现象</p>
+</blockquote>
+</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_08.jpg" alt="按照提示，放入 Uninstall #1"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_09.jpg" alt="按照提示，放入 Setup Disk #1"></p>
+<ol start="3">
+<li>此后系统会要求你切换 <code>DISK #2</code> <code>DISK #3</code> <code>DISK #4</code> 按要求来即可</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_10.jpg" alt="按照提示，放入 Setup Disk #2"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_11.jpg" alt="按照提示，放入 Setup Disk #3"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_12.jpg" alt="按照提示，放入 Setup Disk #4"></p>
+<ol start="4">
+<li>按两下回车结束安装向导</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_13.jpg" alt="按 Enter 结束安装"></p>
+<h2 id="安装中文组件"><a href="#安装中文组件" class="headerlink" title="安装中文组件"></a>安装中文组件</h2><ol>
+<li>插入 <strong><code>PDOS 1</code></strong> 后执行下面部分</li>
+</ol>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">A:</span></span><br><span class="line"><span class="function"><span class="title">csetup</span></span></span><br></pre></td></tr></table></figure>
 
-<h2 id="创建守护进程"><a href="#创建守护进程" class="headerlink" title="创建守护进程"></a>创建守护进程</h2><div class="tabs" id="run2"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="run2-1"><i class="fa-brands fa-ubuntu2"></i>Linux</button><button type="button" class="tab " data-href="run2-2"><i class="fa-brands fa-apple"></i>macOS</button><button type="button" class="tab " data-href="run2-3"><i class="fa-brands fa-windows"></i>Windows</button></ul><div class="tab-contents"><div class="tab-item-content active" id="run2-1"><p>使用下面命令来创建 <code>alist.service</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /usr/lib/systemd/system/alist.service</span><br></pre></td></tr></table></figure>
-
-<p>在文件中添加下列内容，其中 <code>{path_alist}</code> 为程序路径</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=alist</span><br><span class="line">After=network.target</span><br><span class="line"> </span><br><span class="line">[Service]</span><br><span class="line">Type=simple</span><br><span class="line">WorkingDirectory=&#123;path_alist&#125;</span><br><span class="line">ExecStart=&#123;path_alist&#125;/alist server</span><br><span class="line">Restart=on-failure</span><br><span class="line"> </span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
-<p>执行 <code>systemctl daemon-reload</code> 来重载配置</p>
-<p>然后就可以用 <code>systemctl</code> 命令来管理 Alist</p>
-<ul>
-<li>启动: <code>systemctl start alist</code></li>
-<li>关闭: <code>systemctl stop alist</code></li>
-<li>状态: <code>systemctl status alist</code></li>
-<li>重启: <code>systemctl restart alist</code></li>
-</ul></div><div class="tab-item-content" id="run2-2"><p>使用下面命令来创建 <code>ci.nn.alist.plist</code></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano ~/Library/LaunchAgents/ci.nn.alist.plist</span><br></pre></td></tr></table></figure>
-
-<p>在文件中添加下列内容，其中 <code>{path_alist}</code> 可替换为程序路径，<code>path/to/working/dir</code> 为 AList的工作路径</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;UTF-8&quot;</span>?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">plist</span> <span class="keyword">PUBLIC</span> <span class="string">&quot;-//Apple//DTD PLIST 1.0//EN&quot;</span> <span class="string">&quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">plist</span> <span class="attr">version</span>=<span class="string">&quot;1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>Label<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>ci.nn.alist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>KeepAlive<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>ProcessType<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>Background<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>RunAtLoad<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>WorkingDirectory<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>path/to/working/dir<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>ProgramArguments<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">array</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>&#123;path_alist&#125;/alist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>server<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">array</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">plist</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>执行 <code>launchctl load ~/Library/LaunchAgents/ci.nn.alist.plist</code> 加载配置</p>
-<ul>
-<li>开启: <code>launchctl start ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
-<li>关闭: <code>launchctl stop ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
-<li>卸载配置: <code>launchctl unload ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
-</ul></div><div class="tab-item-content" id="run2-3"><p>用 <strong><code>.VBS</code></strong> 脚本启动和停止，分别创建两个脚本 分别是 启动.vbs 和 停止.vbs</p>
-<p><strong>启动.vbs</strong></p>
-<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Dim</span> ws</span><br><span class="line"><span class="keyword">Set</span> ws = Wscript.<span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;alist.exe server&quot;</span>,vbhide</span><br><span class="line">Wscript.quit</span><br></pre></td></tr></table></figure>
-
-<p><strong>停止.vbs</strong></p>
-<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Dim</span> ws</span><br><span class="line"><span class="keyword">Set</span> ws = Wscript.<span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;taskkill /f /im alist.exe&quot;</span>,<span class="number">0</span></span><br><span class="line">Wscript.quit</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
-
-<h1 id="创建管理员密码"><a href="#创建管理员密码" class="headerlink" title="创建管理员密码"></a>创建管理员密码</h1><p>对于 <strong>Linux&#x2F;macOS :</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 随机生成一个密码</span></span><br><span class="line">./alist admin random</span><br><span class="line"><span class="comment"># 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码</span></span><br><span class="line">./alist admin <span class="built_in">set</span> NEW_PASSWORD</span><br></pre></td></tr></table></figure>
-
-<p>对于 <strong>Windows :</strong></p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 随机生成一个密码</span></span><br><span class="line">./alist.exe admin random</span><br><span class="line"><span class="comment"># 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码</span></span><br><span class="line">./alist.exe admin <span class="built_in">set</span> NEW_PASSWORD</span><br></pre></td></tr></table></figure>
-
-<h2 id="获取端口"><a href="#获取端口" class="headerlink" title="获取端口"></a>获取端口</h2><p>使用命令 <code>.\alist.exe server</code> 可运行 Alist，在日志中可以看见端口，默认端口为 <code>5244</code></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025011012/SCR-20250110-symk.jpg"></p>
-<p>在浏览器中输入 <code>127.0.0.1:5244</code> 即可访问</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025011012/SCR-20250110-taej.jpg"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_14.jpg" alt="输入 csetup"></p>
+<ol start="2">
+<li>按回车后按照相应操作继续</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_15.jpg" alt="按 Enter"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_16.jpg" alt="插入 disk 2"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_17.jpg" alt="选择 Setup 方式"></p>
+<ol start="3">
+<li>按回车结束安装向导，也可按 <code>Ctrl + Alt + Del</code> 重启系统</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_18.jpg" alt="按 Enter 结束安装"></p>
+<p>4， 重启后输入 <strong><code>pdos</code></strong> 进入中文界面</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2023042111/img_2023042111_19.jpg" alt="输入 pdos 进入中文界面"></p>
+<p>至此 MS-DOS 6.22 安装结束</p>
 ]]></content>
       <categories>
-        <category>教程</category>
+        <category>操作系统安装教程</category>
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>Linux</tag>
-        <tag>Alist</tag>
+        <tag>系统安装</tag>
       </tags>
   </entry>
   <entry>
@@ -1335,6 +1247,55 @@
       </tags>
   </entry>
   <entry>
+    <title>记一下在 LinuxMint 安装 Docker 遇到的坑</title>
+    <url>//page/2025011912.html</url>
+    <content><![CDATA[<h1 id="正常-Ubuntu-下安装-Docker-步骤"><a href="#正常-Ubuntu-下安装-Docker-步骤" class="headerlink" title="正常 Ubuntu 下安装 Docker 步骤"></a>正常 Ubuntu 下安装 Docker 步骤</h1><p>开始前，我们需要运行以下命令以卸载所有冲突的软件包</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> pkg <span class="keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="keyword">do</span> <span class="built_in">sudo</span> apt-get remove <span class="variable">$pkg</span>; <span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+
+<div class="note info flat"><p><strong>apt-get</strong> 可能会报告您未安装这些软件包。</p>
+</div>  
+
+<h2 id="设置-Docker-的-apt-仓库"><a href="#设置-Docker-的-apt-仓库" class="headerlink" title="设置 Docker 的 apt 仓库"></a>设置 Docker 的 apt 仓库</h2><h3 id="官方源"><a href="#官方源" class="headerlink" title="官方源"></a>官方源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 添加 Docker 的 GPG key:</span></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get install ca-certificates curl</span><br><span class="line"><span class="built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings</span><br><span class="line"><span class="built_in">sudo</span> curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.asc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line">  </span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br></pre></td></tr></table></figure>
+<h3 id="阿里源"><a href="#阿里源" class="headerlink" title="阿里源"></a>阿里源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 安装必要的一些系统工具</span></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get install ca-certificates curl gnupg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 信任 Docker 的 GPG 公钥</span></span><br><span class="line"><span class="built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | <span class="built_in">sudo</span> gpg --dearmor -o /etc/apt/keyrings/docker.gpg</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.gpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.gpg] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \</span></span><br><span class="line"><span class="string">  &quot;</span>$(. /etc/os-release &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)<span class="string">&quot; stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h2><p>运行以下命令安装最新版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>安装特定版本的 Docker Engine，首先列出存储库中可用的版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 列出存储库中可用的版本:</span></span><br><span class="line">apt-cache madison docker-ce | awk <span class="string">&#x27;&#123; print $3 &#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">5:27.4.1-1~ubuntu.24.04~noble</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>选择所需版本并安装：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">VERSION_STRING=5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line"><span class="built_in">sudo</span> apt-get install docker-ce=<span class="variable">$VERSION_STRING</span> docker-ce-cli=<span class="variable">$VERSION_STRING</span> containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
+<h2 id="使用-hello-world-镜像验证是否成功安装"><a href="#使用-hello-world-镜像验证是否成功安装" class="headerlink" title="使用 hello-world 镜像验证是否成功安装"></a>使用 hello-world 镜像验证是否成功安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker run hello-world</span><br></pre></td></tr></table></figure>
+
+<p>此命令下载一个测试镜像并在容器中运行它。当容器运行时，它会输出一条确认消息然后退出。<br>安装结束。</p>
+<h1 id="Linux-Mint-下遇到的坑"><a href="#Linux-Mint-下遇到的坑" class="headerlink" title="Linux Mint 下遇到的坑"></a>Linux Mint 下遇到的坑</h1><p>安装正常的 Ubuntu 步骤，在 Linux Mint 下添加 Docker 软件源后，会在 <code>apt-get update</code> 步骤下报错，报错内容如下</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">忽略:1 https://download.docker.com/linux/ubuntu wilma InRelease</span><br><span class="line">错误:3 https://download.docker.com/linux/ubuntu wilma Release</span><br><span class="line">正在读取软件包列表... 完成</span><br><span class="line">E: 仓库 “https://download.docker.com/linux/ubuntu wilma Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
+
+<p>这是因为部分 Ubuntu 衍生发行版使用的并不是 <code>VERSION_CODENAME</code> 而是 <code>UBUNTU_CODENAME</code>，使用 <code>VERSION_CODENAME</code> 会导致添加<strong>错误的 Ubuntu 发行版代号</strong></p>
+<p>正常在 Ubuntu 下添加软件源的步骤是这么写的</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+
+<p>这就需要我们在添加软件源时将 <code>VERSION_CODENAME</code> 改成 <code>UBUNTU_CODENAME</code>，上面阿里源同理</p>
+<div class="note info flat"><p>阿里源不能直接使用下面的内容</p>
+</div>  
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$UBUNTU_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+
+<p>最后使用 <code>apt-get update</code> 就不会报错了</p>
+]]></content>
+      <categories>
+        <category>踩坑记录</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu</tag>
+        <tag>随手记</tag>
+        <tag>Docker</tag>
+        <tag>LinuxMint</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>部署 AstrBot 实现多平台聊天机器人功能</title>
     <url>//page/2025060609.html</url>
     <content><![CDATA[<div class="note success flat"><p>GitHub项目地址：<a href="https://github.com/AstrBotDevs/AstrBot">AstrBotDevs&#x2F;AstrBot</a></p>
@@ -1440,57 +1401,162 @@
       <tags>
         <tag>教程</tag>
         <tag>Linux</tag>
-        <tag>聊天机器人</tag>
         <tag>Docker</tag>
+        <tag>聊天机器人</tag>
       </tags>
   </entry>
   <entry>
-    <title>记一下在 LinuxMint 安装 Docker 遇到的坑</title>
-    <url>//page/2025011912.html</url>
-    <content><![CDATA[<h1 id="正常-Ubuntu-下安装-Docker-步骤"><a href="#正常-Ubuntu-下安装-Docker-步骤" class="headerlink" title="正常 Ubuntu 下安装 Docker 步骤"></a>正常 Ubuntu 下安装 Docker 步骤</h1><p>开始前，我们需要运行以下命令以卸载所有冲突的软件包</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> pkg <span class="keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="keyword">do</span> <span class="built_in">sudo</span> apt-get remove <span class="variable">$pkg</span>; <span class="keyword">done</span></span><br></pre></td></tr></table></figure>
-
-<div class="note info flat"><p><strong>apt-get</strong> 可能会报告您未安装这些软件包。</p>
-</div>  
-
-<h2 id="设置-Docker-的-apt-仓库"><a href="#设置-Docker-的-apt-仓库" class="headerlink" title="设置 Docker 的 apt 仓库"></a>设置 Docker 的 apt 仓库</h2><h3 id="官方源"><a href="#官方源" class="headerlink" title="官方源"></a>官方源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 添加 Docker 的 GPG key:</span></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get install ca-certificates curl</span><br><span class="line"><span class="built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings</span><br><span class="line"><span class="built_in">sudo</span> curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.asc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line">  </span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br></pre></td></tr></table></figure>
-<h3 id="阿里源"><a href="#阿里源" class="headerlink" title="阿里源"></a>阿里源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 安装必要的一些系统工具</span></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get install ca-certificates curl gnupg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 信任 Docker 的 GPG 公钥</span></span><br><span class="line"><span class="built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | <span class="built_in">sudo</span> gpg --dearmor -o /etc/apt/keyrings/docker.gpg</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.gpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.gpg] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \</span></span><br><span class="line"><span class="string">  &quot;</span>$(. /etc/os-release &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)<span class="string">&quot; stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h2><p>运行以下命令安装最新版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`</span><br></pre></td></tr></table></figure>
+    <title>快速在本地搭建 Alist</title>
+    <url>//page/2025011012.html</url>
+    <content><![CDATA[<div class="note warning flat"><p>由于该项目目前存在争议，<strong>目前不推荐部署该项目！！！</strong></p>
+</div>
 
 <hr>
-<p>安装特定版本的 Docker Engine，首先列出存储库中可用的版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 列出存储库中可用的版本:</span></span><br><span class="line">apt-cache madison docker-ce | awk <span class="string">&#x27;&#123; print $3 &#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">5:27.4.1-1~ubuntu.24.04~noble</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<div class="note info flat"><p>文章部分内容出自 <a href="https://alist.nn.ci/zh/">AList帮助文档</a></p>
+</div>
 
-<p>选择所需版本并安装：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">VERSION_STRING=5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line"><span class="built_in">sudo</span> apt-get install docker-ce=<span class="variable">$VERSION_STRING</span> docker-ce-cli=<span class="variable">$VERSION_STRING</span> containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
-<h2 id="使用-hello-world-镜像验证是否成功安装"><a href="#使用-hello-world-镜像验证是否成功安装" class="headerlink" title="使用 hello-world 镜像验证是否成功安装"></a>使用 hello-world 镜像验证是否成功安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker run hello-world</span><br></pre></td></tr></table></figure>
+<h1 id="一键安装脚本"><a href="#一键安装脚本" class="headerlink" title="一键安装脚本"></a>一键安装脚本</h1><div class="note info flat"><p>一键安装脚本仅适用于 <strong>Linux amd64&#x2F;arm64</strong> 平台</p>
+</div>
 
-<p>此命令下载一个测试镜像并在容器中运行它。当容器运行时，它会输出一条确认消息然后退出。<br>安装结束。</p>
-<h1 id="Linux-Mint-下遇到的坑"><a href="#Linux-Mint-下遇到的坑" class="headerlink" title="Linux Mint 下遇到的坑"></a>Linux Mint 下遇到的坑</h1><p>安装正常的 Ubuntu 步骤，在 Linux Mint 下添加 Docker 软件源后，会在 <code>apt-get update</code> 步骤下报错，报错内容如下</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">忽略:1 https://download.docker.com/linux/ubuntu wilma InRelease</span><br><span class="line">错误:3 https://download.docker.com/linux/ubuntu wilma Release</span><br><span class="line">正在读取软件包列表... 完成</span><br><span class="line">E: 仓库 “https://download.docker.com/linux/ubuntu wilma Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
+<h2 id="标准安装"><a href="#标准安装" class="headerlink" title="标准安装"></a>标准安装</h2><p>首先是能不能连上全靠脸的一键安装脚本<br>如果安装脚本提示网络错误，请移至下面的 <code>手动安装</code>步骤</p>
+<p><strong>安装</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s install</span><br></pre></td></tr></table></figure>
 
-<p>这是因为部分 Ubuntu 衍生发行版使用的并不是 <code>VERSION_CODENAME</code> 而是 <code>UBUNTU_CODENAME</code>，使用 <code>VERSION_CODENAME</code> 会导致添加<strong>错误的 Ubuntu 发行版代号</strong></p>
-<p>正常在 Ubuntu 下添加软件源的步骤是这么写的</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+<p><strong>更新</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -fsSL <span class="string">&quot;https://alist.nn.ci/v3.sh&quot;</span> | bash -s update</span><br></pre></td></tr></table></figure>
 
-<p>这就需要我们在添加软件源时将 <code>VERSION_CODENAME</code> 改成 <code>UBUNTU_CODENAME</code>，上面阿里源同理</p>
-<div class="note info flat"><p>阿里源不能直接使用下面的内容</p>
-</div>  
+<h2 id="自定义路径"><a href="#自定义路径" class="headerlink" title="自定义路径"></a>自定义路径</h2><p>默认安装在 <code>/opt/alist</code> 中。 如果需要安装到指定路径，在末尾加上路径参数即可，如 安装到 <code>/root</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 安装到 /root 目录下</span><br><span class="line">curl -fsSL &quot;https://alist.nn.ci/v3.sh&quot; | bash -s install /root</span><br><span class="line"># 更新 /root 目录下的 Alist</span><br><span class="line">curl -fsSL &quot;https://alist.nn.ci/v3.sh&quot; | bash -s update /root</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$UBUNTU_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+<ul>
+<li>启动: <code>systemctl start alist</code></li>
+<li>关闭: <code>systemctl stop alist</code></li>
+<li>状态: <code>systemctl status alist</code></li>
+<li>重启: <code>systemctl restart alist</code></li>
+</ul>
+<h1 id="手动安装"><a href="#手动安装" class="headerlink" title="手动安装"></a>手动安装</h1><h2 id="获取二进制文件"><a href="#获取二进制文件" class="headerlink" title="获取二进制文件"></a>获取二进制文件</h2><p>打开 <a href="https://github.com/Xhofe/alist/releases">AList Release</a> 下载对应系统的文件。</p>
+<blockquote>
+<p>如 Linux 就下载 <code>alist-linux-xxx.tar.gz</code><br>macOS 为 <code>alist-darwin-xxx.tar.gz</code><br>Windows 为 <code>alist-windows-xxx.zip</code></p>
+</blockquote>
+<blockquote>
+<p>! <code>xxx</code> 指代 CPU 指令集</p>
+</blockquote>
+<h2 id="运行程序"><a href="#运行程序" class="headerlink" title="运行程序"></a>运行程序</h2><div class="tabs" id="run"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="run-1"><i class="fa-brands fa-ubuntu"></i>Linux</button><button type="button" class="tab " data-href="run-2"><i class="fa-brands fa-apple"></i>macOS</button><button type="button" class="tab " data-href="run-3"><i class="fa-brands fa-windows"></i>Windows</button></ul><div class="tab-contents"><div class="tab-item-content active" id="run-1"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件，得到可执行文件：</span></span><br><span class="line">tar -zxvf alist-linux-amd64.tar.gz</span><br><span class="line"><span class="comment"># 授予程序执行权限：</span></span><br><span class="line"><span class="built_in">chmod</span> +x alist</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">./alist server</span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="run-2"><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件，得到可执行文件：</span></span><br><span class="line">tar -zxvf alist-darwin-amd64.tar.gz</span><br><span class="line"><span class="comment"># 授予程序执行权限：</span></span><br><span class="line"><span class="built_in">chmod</span> +x alist</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">./alist server</span><br></pre></td></tr></table></figure></div><div class="tab-item-content" id="run-3"><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 解压下载的文件</span></span><br><span class="line"><span class="comment"># 也可以执行下面命令，&quot;alist-xxxx.zip&quot; 是你下载的文件名</span></span><br><span class="line">unzip alist<span class="literal">-windows-amd64</span>.zip</span><br><span class="line"><span class="comment"># 运行程序</span></span><br><span class="line">.\alist.exe server</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
 
-<p>最后使用 <code>apt-get update</code> 就不会报错了</p>
+<h2 id="创建守护进程"><a href="#创建守护进程" class="headerlink" title="创建守护进程"></a>创建守护进程</h2><div class="tabs" id="run2"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="run2-1"><i class="fa-brands fa-ubuntu2"></i>Linux</button><button type="button" class="tab " data-href="run2-2"><i class="fa-brands fa-apple"></i>macOS</button><button type="button" class="tab " data-href="run2-3"><i class="fa-brands fa-windows"></i>Windows</button></ul><div class="tab-contents"><div class="tab-item-content active" id="run2-1"><p>使用下面命令来创建 <code>alist.service</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /usr/lib/systemd/system/alist.service</span><br></pre></td></tr></table></figure>
+
+<p>在文件中添加下列内容，其中 <code>{path_alist}</code> 为程序路径</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=alist</span><br><span class="line">After=network.target</span><br><span class="line"> </span><br><span class="line">[Service]</span><br><span class="line">Type=simple</span><br><span class="line">WorkingDirectory=&#123;path_alist&#125;</span><br><span class="line">ExecStart=&#123;path_alist&#125;/alist server</span><br><span class="line">Restart=on-failure</span><br><span class="line"> </span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
+<p>执行 <code>systemctl daemon-reload</code> 来重载配置</p>
+<p>然后就可以用 <code>systemctl</code> 命令来管理 Alist</p>
+<ul>
+<li>启动: <code>systemctl start alist</code></li>
+<li>关闭: <code>systemctl stop alist</code></li>
+<li>状态: <code>systemctl status alist</code></li>
+<li>重启: <code>systemctl restart alist</code></li>
+</ul></div><div class="tab-item-content" id="run2-2"><p>使用下面命令来创建 <code>ci.nn.alist.plist</code></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano ~/Library/LaunchAgents/ci.nn.alist.plist</span><br></pre></td></tr></table></figure>
+
+<p>在文件中添加下列内容，其中 <code>{path_alist}</code> 可替换为程序路径，<code>path/to/working/dir</code> 为 AList的工作路径</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?xml version=<span class="string">&quot;1.0&quot;</span> encoding=<span class="string">&quot;UTF-8&quot;</span>?&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">plist</span> <span class="keyword">PUBLIC</span> <span class="string">&quot;-//Apple//DTD PLIST 1.0//EN&quot;</span> <span class="string">&quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">plist</span> <span class="attr">version</span>=<span class="string">&quot;1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dict</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>Label<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>ci.nn.alist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>KeepAlive<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>ProcessType<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>Background<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>RunAtLoad<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">true</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>WorkingDirectory<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">string</span>&gt;</span>path/to/working/dir<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">key</span>&gt;</span>ProgramArguments<span class="tag">&lt;/<span class="name">key</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">array</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>&#123;path_alist&#125;/alist<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">string</span>&gt;</span>server<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">array</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">dict</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">plist</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>执行 <code>launchctl load ~/Library/LaunchAgents/ci.nn.alist.plist</code> 加载配置</p>
+<ul>
+<li>开启: <code>launchctl start ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
+<li>关闭: <code>launchctl stop ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
+<li>卸载配置: <code>launchctl unload ~/Library/LaunchAgents/ci.nn.alist.plist</code></li>
+</ul></div><div class="tab-item-content" id="run2-3"><p>用 <strong><code>.VBS</code></strong> 脚本启动和停止，分别创建两个脚本 分别是 启动.vbs 和 停止.vbs</p>
+<p><strong>启动.vbs</strong></p>
+<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Dim</span> ws</span><br><span class="line"><span class="keyword">Set</span> ws = Wscript.<span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;alist.exe server&quot;</span>,vbhide</span><br><span class="line">Wscript.quit</span><br></pre></td></tr></table></figure>
+
+<p><strong>停止.vbs</strong></p>
+<figure class="highlight vbscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Dim</span> ws</span><br><span class="line"><span class="keyword">Set</span> ws = Wscript.<span class="built_in">CreateObject</span>(<span class="string">&quot;Wscript.Shell&quot;</span>)</span><br><span class="line">ws.run <span class="string">&quot;taskkill /f /im alist.exe&quot;</span>,<span class="number">0</span></span><br><span class="line">Wscript.quit</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
+
+<h1 id="创建管理员密码"><a href="#创建管理员密码" class="headerlink" title="创建管理员密码"></a>创建管理员密码</h1><p>对于 <strong>Linux&#x2F;macOS :</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 随机生成一个密码</span></span><br><span class="line">./alist admin random</span><br><span class="line"><span class="comment"># 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码</span></span><br><span class="line">./alist admin <span class="built_in">set</span> NEW_PASSWORD</span><br></pre></td></tr></table></figure>
+
+<p>对于 <strong>Windows :</strong></p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 随机生成一个密码</span></span><br><span class="line">./alist.exe admin random</span><br><span class="line"><span class="comment"># 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码</span></span><br><span class="line">./alist.exe admin <span class="built_in">set</span> NEW_PASSWORD</span><br></pre></td></tr></table></figure>
+
+<h2 id="获取端口"><a href="#获取端口" class="headerlink" title="获取端口"></a>获取端口</h2><p>使用命令 <code>.\alist.exe server</code> 可运行 Alist，在日志中可以看见端口，默认端口为 <code>5244</code></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025011012/SCR-20250110-symk.jpg"></p>
+<p>在浏览器中输入 <code>127.0.0.1:5244</code> 即可访问</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025011012/SCR-20250110-taej.jpg"></p>
 ]]></content>
       <categories>
-        <category>踩坑记录</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>Ubuntu</tag>
-        <tag>Docker</tag>
-        <tag>随手记</tag>
-        <tag>LinuxMint</tag>
+        <tag>教程</tag>
+        <tag>Linux</tag>
+        <tag>Alist</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SSH 生成密钥及指定私钥文件连接</title>
+    <url>//page/2025062320.html</url>
+    <content><![CDATA[<h1 id="密钥生成"><a href="#密钥生成" class="headerlink" title="密钥生成"></a>密钥生成</h1><h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p>使用 <code>-t</code> 选项指定生成的<strong>密钥类型</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
+
+<p>使用 <code>-b</code> 选项指定生成的<strong>密钥位数</strong>，如生成 4096 位的 RSA 密钥</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096</span><br></pre></td></tr></table></figure>
+
+<h2 id="生成适用于-GitHub-的密钥"><a href="#生成适用于-GitHub-的密钥" class="headerlink" title="生成适用于 GitHub 的密钥"></a>生成适用于 GitHub 的密钥</h2><p>使用 <code>-C</code> 选项设置注释文字，如邮箱地址</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -C <span class="string">&quot;Github 邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="将公钥添加到远程服务器"><a href="#将公钥添加到远程服务器" class="headerlink" title="将公钥添加到远程服务器"></a>将公钥添加到远程服务器</h1><h2 id="添加到远程服务器"><a href="#添加到远程服务器" class="headerlink" title="添加到远程服务器"></a>添加到远程服务器</h2><ol>
+<li>查看公钥</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>登录到远程服务器</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh username@example.com</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>编辑 <code>authorized_keys</code> 文件</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li><p>将公钥粘贴到 <code>authorized_keys</code>，确保一个公钥占用一行</p>
+</li>
+<li><p>设置 <code>authorized_keys</code> 的权限</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 600 ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
+
+<h2 id="添加到-GitHub"><a href="#添加到-GitHub" class="headerlink" title="添加到 GitHub"></a>添加到 GitHub</h2><ol>
+<li><p>打开 Github，选择 Setting</p>
+</li>
+<li><p>选择 <strong><code>SSH and GTPG keys</code></strong></p>
+</li>
+<li><p>点击 New SSH key</p>
+</li>
+<li><p>在 <strong><code>key</code></strong> 中输入刚才获取的公钥即可</p>
+</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2022101222/2024-08-31_11-42-25.png" alt="配置 SSH key"></p>
+<h1 id="在-SSH-中指定私钥文件"><a href="#在-SSH-中指定私钥文件" class="headerlink" title="在 SSH 中指定私钥文件"></a>在 SSH 中指定私钥文件</h1><p>从命令行指定 SSH 中的私钥文件，只需在 <code>ssh</code> 命令中使用 <code>-i</code> 选项即可。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -i ~/.ssh/id_rsa username@example.com</span><br></pre></td></tr></table></figure>
+
+<p>如果本地存储了多个密钥时，每次使用 <code>ssh -i</code> 会变得相当麻烦，我们可以在 SSH 配置文件中声明每个 SSH 服务器使用哪个私钥。配置文件储存在 <strong><code>~/.ssh/config</code></strong> 中。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.ssh/config</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Host example.com</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa_01</span><br><span class="line"> </span><br><span class="line">Host 192.168.1.1</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa_02</span><br></pre></td></tr></table></figure>
+
+<p>配置后我们就可以直接使用 <code>ssh</code> 命令访问目标服务器了</p>
+]]></content>
+      <categories>
+        <category>随手记</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Windows</tag>
+        <tag>Linux</tag>
+        <tag>SSH</tag>
       </tags>
   </entry>
   <entry>
@@ -1568,8 +1634,8 @@
       <tags>
         <tag>教程</tag>
         <tag>Linux</tag>
-        <tag>聊天机器人</tag>
         <tag>Docker</tag>
+        <tag>聊天机器人</tag>
       </tags>
   </entry>
   <entry>
@@ -1616,126 +1682,8 @@
       <tags>
         <tag>教程</tag>
         <tag>Linux</tag>
-        <tag>聊天机器人</tag>
         <tag>Docker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SSH 生成密钥及指定私钥文件连接</title>
-    <url>//page/2025062320.html</url>
-    <content><![CDATA[<h1 id="密钥生成"><a href="#密钥生成" class="headerlink" title="密钥生成"></a>密钥生成</h1><h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p>使用 <code>-t</code> 选项指定生成的<strong>密钥类型</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
-
-<p>使用 <code>-b</code> 选项指定生成的<strong>密钥位数</strong>，如生成 4096 位的 RSA 密钥</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096</span><br></pre></td></tr></table></figure>
-
-<h2 id="生成适用于-GitHub-的密钥"><a href="#生成适用于-GitHub-的密钥" class="headerlink" title="生成适用于 GitHub 的密钥"></a>生成适用于 GitHub 的密钥</h2><p>使用 <code>-C</code> 选项设置注释文字，如邮箱地址</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -C <span class="string">&quot;Github 邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="将公钥添加到远程服务器"><a href="#将公钥添加到远程服务器" class="headerlink" title="将公钥添加到远程服务器"></a>将公钥添加到远程服务器</h1><h2 id="添加到远程服务器"><a href="#添加到远程服务器" class="headerlink" title="添加到远程服务器"></a>添加到远程服务器</h2><ol>
-<li>查看公钥</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>登录到远程服务器</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh username@example.com</span><br></pre></td></tr></table></figure>
-
-<ol start="3">
-<li>编辑 <code>authorized_keys</code> 文件</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
-
-<ol start="4">
-<li><p>将公钥粘贴到 <code>authorized_keys</code>，确保一个公钥占用一行</p>
-</li>
-<li><p>设置 <code>authorized_keys</code> 的权限</p>
-</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 600 ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
-
-<h2 id="添加到-GitHub"><a href="#添加到-GitHub" class="headerlink" title="添加到 GitHub"></a>添加到 GitHub</h2><ol>
-<li><p>打开 Github，选择 Setting</p>
-</li>
-<li><p>选择 <strong><code>SSH and GTPG keys</code></strong></p>
-</li>
-<li><p>点击 New SSH key</p>
-</li>
-<li><p>在 <strong><code>key</code></strong> 中输入刚才获取的公钥即可</p>
-</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2022101222/2024-08-31_11-42-25.png" alt="配置 SSH key"></p>
-<h1 id="在-SSH-中指定私钥文件"><a href="#在-SSH-中指定私钥文件" class="headerlink" title="在 SSH 中指定私钥文件"></a>在 SSH 中指定私钥文件</h1><p>从命令行指定 SSH 中的私钥文件，只需在 <code>ssh</code> 命令中使用 <code>-i</code> 选项即可。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -i ~/.ssh/id_rsa username@example.com</span><br></pre></td></tr></table></figure>
-
-<p>如果本地存储了多个密钥时，每次使用 <code>ssh -i</code> 会变得相当麻烦，我们可以在 SSH 配置文件中声明每个 SSH 服务器使用哪个私钥。配置文件储存在 <strong><code>~/.ssh/config</code></strong> 中。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.ssh/config</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Host example.com</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa_01</span><br><span class="line"> </span><br><span class="line">Host 192.168.1.1</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa_02</span><br></pre></td></tr></table></figure>
-
-<p>配置后我们就可以直接使用 <code>ssh</code> 命令访问目标服务器了</p>
-]]></content>
-      <categories>
-        <category>随手记</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Windows</tag>
-        <tag>Linux</tag>
-        <tag>SSH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决因现代CPU安装Win9x而出现的非法操作错误</title>
-    <url>//page/2025111519.html</url>
-    <content><![CDATA[<h1 id="事情起因"><a href="#事情起因" class="headerlink" title="事情起因"></a>事情起因</h1><p>闲来无事，本想着在虚拟机上安装Win98玩玩，但是在安装时遇到报错了。虽然可以无视错误继续安装，但在安装后无法正常进入系统桌面，系统提示的错误和安装时的报错一模一样。</p>
-<p>报错内容如下</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-42-18.png"></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-42-38.png"></p>
-<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><p>在网上寻找解决方案时发现了一个有趣的项目 <a href="https://github.com/JHRobotics/patcher9x">Patch9x</a> ，该项目可以修复包括 <code>Windows 3.11</code>、<code>Windows 95</code>、<code>Windows 98</code>、<code>Windows 98 SE</code>、<code>Windows Me</code> 在内的一系列虚拟化运行问题。</p>
-<p>这里以 Windows 98 为例</p>
-<ol>
-<li><p>首先重新安装 Windows 98</p>
-</li>
-<li><p>等待安装程序 <strong>第一次提示重启时，立即关闭虚拟机</strong></p>
-</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-37-01.png"></p>
-<ol start="3">
-<li>前往 Release 下载最新的修复补丁，推荐下载 <strong>软盘镜像文件</strong></li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-15_19-51.png"></p>
-<ol start="4">
-<li>将软盘挂载到虚拟机，并将软盘设为 <strong>第一启动项</strong></li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-44-32.png"></p>
-<ol start="5">
-<li>开机选择第一个项目</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-46-59.png"></p>
-<ol start="6">
-<li>等待进入终端界面，输入 <strong><code>patch9x</code></strong></li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-47-30.png"></p>
-<ol start="7">
-<li>按回车几次后，我们输入 <code>1</code> ，随后按回车若干次即可完成修补</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-48-05.png"></p>
-<ol start="8">
-<li><p>卸载软盘，从硬盘引导进入系统，等待完成后续安装 </p>
-</li>
-<li><p>成功进入 系统桌面</p>
-</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_12-00-43.png"></p>
-]]></content>
-      <categories>
-        <category>解决方案</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Win9x</tag>
+        <tag>聊天机器人</tag>
       </tags>
   </entry>
   <entry>
@@ -1835,6 +1783,58 @@
         <tag>Windows</tag>
         <tag>Linux</tag>
         <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决因现代CPU安装Win9x而出现的非法操作错误</title>
+    <url>//page/2025111519.html</url>
+    <content><![CDATA[<h1 id="事情起因"><a href="#事情起因" class="headerlink" title="事情起因"></a>事情起因</h1><p>闲来无事，本想着在虚拟机上安装Win98玩玩，但是在安装时遇到报错了。虽然可以无视错误继续安装，但在安装后无法正常进入系统桌面，系统提示的错误和安装时的报错一模一样。</p>
+<p>报错内容如下</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-42-18.png"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-42-38.png"></p>
+<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><p>在网上寻找解决方案时发现了一个有趣的项目 <a href="https://github.com/JHRobotics/patcher9x">Patch9x</a> ，该项目可以修复包括 <code>Windows 3.11</code>、<code>Windows 95</code>、<code>Windows 98</code>、<code>Windows 98 SE</code>、<code>Windows Me</code> 在内的一系列虚拟化运行问题。</p>
+<p>这里以 Windows 98 为例</p>
+<ol>
+<li><p>首先重新安装 Windows 98</p>
+</li>
+<li><p>等待安装程序 <strong>第一次提示重启时，立即关闭虚拟机</strong></p>
+</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-37-01.png"></p>
+<ol start="3">
+<li>前往 Release 下载最新的修复补丁，推荐下载 <strong>软盘镜像文件</strong></li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-15_19-51.png"></p>
+<ol start="4">
+<li>将软盘挂载到虚拟机，并将软盘设为 <strong>第一启动项</strong></li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-44-32.png"></p>
+<ol start="5">
+<li>开机选择第一个项目</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-46-59.png"></p>
+<ol start="6">
+<li>等待进入终端界面，输入 <strong><code>patch9x</code></strong></li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-47-30.png"></p>
+<ol start="7">
+<li>按回车几次后，我们输入 <code>1</code> ，随后按回车若干次即可完成修补</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_11-48-05.png"></p>
+<ol start="8">
+<li><p>卸载软盘，从硬盘引导进入系统，等待完成后续安装 </p>
+</li>
+<li><p>成功进入 系统桌面</p>
+</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025111519/2025-11-13_12-00-43.png"></p>
+]]></content>
+      <categories>
+        <category>解决方案</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Win9x</tag>
       </tags>
   </entry>
 </search>
