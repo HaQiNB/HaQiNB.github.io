@@ -154,6 +154,32 @@
       </tags>
   </entry>
   <entry>
+    <title>随机图片API分享</title>
+    <url>//page/2021011911.html</url>
+    <content><![CDATA[<h1 id="慢速API"><a href="#慢速API" class="headerlink" title="慢速API"></a>慢速API</h1><p>先是几个加载较慢的API（都是国外的api）</p>
+<p><a href="http://lorempixel.com/1600/900">http://lorempixel.com/1600/900</a><br><a href="https://unsplash.it/1600/900?random">https://unsplash.it/1600/900?random</a><br><a href="https://uploadbeta.com/api/pictures/random/">https://uploadbeta.com/api/pictures/random/</a><br><a href="https://unsplash.it/1600/900?random">https://unsplash.it/1600/900?random</a></p>
+<h1 id="Bing每日一图"><a href="#Bing每日一图" class="headerlink" title="Bing每日一图"></a>Bing每日一图</h1><p><a href="https://api.dujin.org/bing/1366.php">https://api.dujin.org/bing/1366.php</a></p>
+<blockquote>
+<p>分辨率为 1366x768</p>
+</blockquote>
+<p><a href="https://api.dujin.org/bing/1920.php">https://api.dujin.org/bing/1920.php</a></p>
+<blockquote>
+<p>分辨率为 1920x1080</p>
+</blockquote>
+<h1 id="高清壁纸"><a href="#高清壁纸" class="headerlink" title="高清壁纸"></a>高清壁纸</h1><p><a href="https://api.ixiaowai.cn/gqapi/gqapi.php">https://api.ixiaowai.cn/gqapi/gqapi.php</a></p>
+<h1 id="二次元动漫"><a href="#二次元动漫" class="headerlink" title="二次元动漫"></a>二次元动漫</h1><p><a href="https://img.xjh.me/random_img.php">https://img.xjh.me/random_img.php</a><br><a href="http://www.dmoe.cc/random.php">http://www.dmoe.cc/random.php</a><br><a href="http://api.mtyqx.cn/api/random.php">http://api.mtyqx.cn/api/random.php</a><br><a href="http://api.mtyqx.cn/tapi/random.php">http://api.mtyqx.cn/tapi/random.php</a><br><a href="https://img.asmdh.com/img.php">https://img.asmdh.com/img.php</a><br><a href="https://api.ixiaowai.cn/api/api.php">https://api.ixiaowai.cn/api/api.php</a><br><a href="https://api.mtyqx.cn/api/random.php">https://api.mtyqx.cn/api/random.php</a><br><a href="https://api.mtyqx.cn/tapi/random.php">https://api.mtyqx.cn/tapi/random.php</a> </p>
+<blockquote>
+<p>不是我偏向，是动漫的api是真滴多</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>API分享</category>
+      </categories>
+      <tags>
+        <tag>图片</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows 10 安装教程</title>
     <url>//page/2021051612.html</url>
     <content><![CDATA[<p>在阅读这篇文章前肯定有不少人问: 啊? Windows 安装?都1202年了谁还不会安装 Windows 啊?没错 1202 年了，其实还有不少人不会安装 Windows。你去电脑城重装还要 30~50 元的费用，电脑师傅还给你安装个带捆绑的 Windows 卡的要死也不好受。所以今天就由我教大家如何安装官方原版的 Windows 10 (以下简称 Win10)</p>
@@ -269,32 +295,6 @@
         <tag>教程</tag>
         <tag>Windows</tag>
         <tag>系统升级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>随机图片API分享</title>
-    <url>//page/2021011911.html</url>
-    <content><![CDATA[<h1 id="慢速API"><a href="#慢速API" class="headerlink" title="慢速API"></a>慢速API</h1><p>先是几个加载较慢的API（都是国外的api）</p>
-<p><a href="http://lorempixel.com/1600/900">http://lorempixel.com/1600/900</a><br><a href="https://unsplash.it/1600/900?random">https://unsplash.it/1600/900?random</a><br><a href="https://uploadbeta.com/api/pictures/random/">https://uploadbeta.com/api/pictures/random/</a><br><a href="https://unsplash.it/1600/900?random">https://unsplash.it/1600/900?random</a></p>
-<h1 id="Bing每日一图"><a href="#Bing每日一图" class="headerlink" title="Bing每日一图"></a>Bing每日一图</h1><p><a href="https://api.dujin.org/bing/1366.php">https://api.dujin.org/bing/1366.php</a></p>
-<blockquote>
-<p>分辨率为 1366x768</p>
-</blockquote>
-<p><a href="https://api.dujin.org/bing/1920.php">https://api.dujin.org/bing/1920.php</a></p>
-<blockquote>
-<p>分辨率为 1920x1080</p>
-</blockquote>
-<h1 id="高清壁纸"><a href="#高清壁纸" class="headerlink" title="高清壁纸"></a>高清壁纸</h1><p><a href="https://api.ixiaowai.cn/gqapi/gqapi.php">https://api.ixiaowai.cn/gqapi/gqapi.php</a></p>
-<h1 id="二次元动漫"><a href="#二次元动漫" class="headerlink" title="二次元动漫"></a>二次元动漫</h1><p><a href="https://img.xjh.me/random_img.php">https://img.xjh.me/random_img.php</a><br><a href="http://www.dmoe.cc/random.php">http://www.dmoe.cc/random.php</a><br><a href="http://api.mtyqx.cn/api/random.php">http://api.mtyqx.cn/api/random.php</a><br><a href="http://api.mtyqx.cn/tapi/random.php">http://api.mtyqx.cn/tapi/random.php</a><br><a href="https://img.asmdh.com/img.php">https://img.asmdh.com/img.php</a><br><a href="https://api.ixiaowai.cn/api/api.php">https://api.ixiaowai.cn/api/api.php</a><br><a href="https://api.mtyqx.cn/api/random.php">https://api.mtyqx.cn/api/random.php</a><br><a href="https://api.mtyqx.cn/tapi/random.php">https://api.mtyqx.cn/tapi/random.php</a> </p>
-<blockquote>
-<p>不是我偏向，是动漫的api是真滴多</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>API分享</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
       </tags>
   </entry>
   <entry>
@@ -505,23 +505,6 @@
         <tag>Windows</tag>
         <tag>hexo</tag>
         <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>汐月和杨希的激情夜晚 (AI创作)</title>
-    <url>//page/2022101019.html</url>
-    <content><![CDATA[<div class="note danger flat"><p>本文章禁止转载！！！</p>
-</div>
-<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章内容由 <a href="https://if.caiyunai.com/">彩云小梦</a> 生成。如有雷同，纯属巧合。</p>
-</div>
-
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>  我的名字叫汐月。就在昨日，我和我的道友老八成功连成了“铁山腚”，这个技能可以用屁崩死敌人。在此之前，我一直都在寻找一种叫做”水银炮”的物品，我一直都在寻找，终于在我寻觅到这种物品的时候，我和道友老八成功连上，并且使用了这个技能，现在我们的实力已经达到了金丹中期。<br>   但是我一直都在寻求更高等级的物品，那就是”水元气炮”，只有将水元素和草元素提升到一定程度才能够发挥它应该具备的力量。而这个技能，也只是其中一样物品而已。<br>   在我和道友老八的帮助下，我的修炼速度快到了极致，这次我们成功连通成功，我们已经是金丹后期的修士。但是由于我们的修行速度太快，使得我们的身体已经承受不住这样的力量，如果继续增长下去的话，就会使我们的身体爆炸而亡。我们决定停止修炼，我们知道我们还需要更强大的力量，所以我们离开了这里。我们回到了我们的洞府。<br>  我的道侣名叫杨希。她是一位火属性的修行者。修炼火元素法术。杨希是一位很美丽的女子，她的脸庞很白皙，很好看，我曾经看过杨希洗澡，她洗澡的时候我突然冲了进去，把她按在地上。我看着她白净的皮肤，和火辣的身材，下面的小兄弟开始按耐不住了。我的手在杨希身上游走，我的嘴巴亲吻着杨希。杨希的眼睛紧闭着，我的心中一阵狂躁。我忍不住了，我要占据她的全身，我要让她成为我的女人。我的身体在这个时候已经控制不住自己了，我的小兄弟开始攻击杨希的身体。杨希感觉到了疼痛，她睁开眼睛看着我。我看到了杨希那迷茫的目光，还有她眼角滑落的泪水。她是一位非常温柔的女子。<br>  这是我第一次和一个女人做，我的身体已经完全失控了。我的小兄弟在疯狂的冲撞着杨希的下身。<br>  “啊！”<br>  杨希娇羞的喊道，她的双腿已经被我分开。我在杨希的双腿间进进出出，杨希的身体不断的扭曲着，发出诱人的声音。<br>  我的欲望越来越强烈，我的身体在不断的颤抖着。杨希已经完全沉醉在了我的进攻之中，她不断的迎合着我。<br>  “杨希，我爱你，我要你成为我的女人。”<br>  “恩……啊。”<br>  随即，我们一起共赴巫山云雨。<br>  这个夜晚，注定是难熬的。我们不停的运动着，杨希在不停的喊着我的名字，在我身下发出令人陶醉的呻吟声。我在她身体里疯狂的冲刺着，杨希的身体不断的颤栗着，随后便是剧烈的颤抖，她的头发散乱开来，脸色潮红，嘴唇微张，她不断的喘息着，她感到了一股强烈的快感袭击着她。<br>  我的身体也在不停的冲击着。她不停的尖叫着。<br>  我的小兄弟在杨希的体内肆意横扫着，杨希的双腿夹住了我的腰身，她的手紧紧抱住了我的肩膀，她的身体不停的扭动着，嘴里发出阵阵低吟，她的呻吟声在空旷的房屋中不断的徘徊。她的表情非常享受，我的动作也越来越激烈，我的双手紧紧的搂住她的身体。我和杨希互相索取着，不停的发生着肉体的碰撞。<br>  我的动作非常快，几乎每秒钟就要进攻几百下，杨希的嘴里发出阵阵娇媚的呻吟。<br>  我的欲望越来越膨胀。我的身体越来越快。我们互相纠缠着，我们在彼此的身体上不断冲击着，发出阵阵令人血脉喷张的声响。<br>  终于，我们的身体达到了最高点。我们的身体一同颤抖着。杨希的身体软绵绵的躺倒在浴室的地上，一副无比满足的样子。<br>  我看着她的样子，心中非常的兴奋。我轻抚着她的身躯，杨希闭上眼睛，嘴角微微翘起，显示出她此刻的幸福。我和她躺在床上，我把头枕在杨希的胸口。我的双手环绕着杨希的小蛮腰，我在她的身边不停的蹭着。杨希的身体微微动了动。她的身体又动了动，我能感觉到杨希在我怀里轻轻扭动着，她的呼吸变得急促起来。 杨希的身体在不停的摩擦着，我感觉到了，她在不停的向我挑逗着。 我的手指在她的肌肤上划过。她的身体又颤抖了一下，我知道杨希是想要了，但是我还没有完全满足她，我不想这么早要了她，我想再多陪陪她，我还想再尝试一次，我要把自己的精华释放出来。我把自己的小兄弟送进杨希的身体中，杨希的身体顿时僵硬起来。我在杨希身体里慢慢的蠕动着，我的双腿在杨希的身体里面不停的抽搐着。我的小兄弟在她的体内进进出出，不停的进退着，杨希发出一声惊天动地的呻吟声，我的身体更加剧烈的动作起来。<br>我在杨希体内冲锋陷阵。杨希的身体不停的颤抖，她的小手紧紧抓住我的后背，我的额头不停的流汗，身体里面的精华不停的释放着。杨希的身体在不断的痉挛着，她的嘴里发出阵阵娇喘声，她的脸颊通红，浑身上下都泛着粉嫩的光泽。<br>我的动作越来越快，我在她的身体里面进进出出，不停的释放着我的精华，不停的进攻着，我的身体越来越强壮，我的小兄弟已经进入到了杨希的体内。<br>杨希的呻吟声越来越大，她的身体已经开始颤抖了。杨希的嘴里开始发出阵阵娇喘声，她的小腹部已经湿润了。我知道，杨希已经准备好了。我再次冲进了杨希的身体，不断的进出，我们在彼此的身体上不停的运动着，不停的进攻着。我们的身体在不停的颤抖着。<br>我们的战斗越来越激烈。我的小兄弟越来越粗壮，越来越坚挺。我们的战斗越来越猛烈，我们不停的发出阵阵呻吟，不断的释放着精华。终于，杨希的身体颤抖着，她的双腿在不停的收缩着，我的小兄弟进出的更加迅速，越来越用力。我和杨希的战斗已经到了最激烈的阶段，我的小兄弟不停的撞击着她的小腹，杨希的身体在不停的收缩，她的身体已经到了崩溃的边缘。我的小兄弟在不停的深入、深入……。<br>我和杨希的战斗越来越激烈。我们的战斗越来越凶猛，我们的呻吟声越来越大，不停的在彼此的身体里面撞击着。杨希的身体不停的收缩着。<br>我们的战斗越来越激烈。我和杨希的战斗越来越频繁，杨希的呻吟声越来越大，我们的动作越来越快。我的小兄弟不停的进出，不停的释放出精华。杨希的身体在不停的颤抖着，我们的呻吟声越来越大。终于，我的小兄弟冲破了阻碍，进入到了杨希的身体里面。<br>我们两个人不停的喘息着，身体依然紧密的结合着。我感觉到杨希的身体已经到了极限。她已经到了极限，我也快到了极限，我们的身体都在颤抖。<br>我和杨希的身体依然紧密结合着。<br>“希儿，我真的快要死了。”我的声音里充满了浓郁的疲倦。<br>“嗯，你快点儿出去吧，不要压坏我的肚子。”<br>“嗯，希儿，我先洗澡，一会儿就来找你。”我说。<br>我走进了浴室，打开淋浴，任由热水从头顶冲刷下来。<br>我坐在浴缸里，我闭上眼睛。<br>热气弥漫了整个浴室，我的思绪飘飞着。<br>我想起了杨希刚才的那番话，她在告诉我：”我喜欢上你了，我喜欢上你了。”<br>我的心里涌上一阵甜蜜，我的脑海里出现杨希的模样。杨希的模样是那么的美丽，那么的迷人。<br>我站起身，打算穿衣服出去。<br>这时候，我听见外面传来一阵敲门声。<br>“谁啊？”我问道。<br>“是我，你睡了吗？”门外传来杨希的声音。<br>我连忙跑了出去。<br>我打开了门，杨希穿着睡裙，她正站在外面。<br>杨希穿着睡裙的时候看起来像个小女孩一般可爱。<br>我的心跳得很厉害。<br>我的身体在微微颤抖着。<br>“我想找你谈谈。”<br>我把杨希拉到了卧室里，杨希的脸色有些潮红。<br>“你怎么穿成这样就出来啦。”我说。<br>“我不舒服。”杨希低下了头。<br>“我……我……我好像有了。”杨希小声地说到。<br>“什么！”我的脑袋轰的一声炸裂了，我的小兄弟居然在这个时候射出了。<br>我的眼前出现了杨希穿着睡裙的身影。<br>我和杨希之间的距离是那么近，那么近，我的鼻尖几乎要触摸到她的鼻尖了。<br>我的心跳得很厉害，我的呼吸也开始变得急促。<br>“怎么办？”我问杨希。<br>杨希低着头。<br>“我们先做措施。”我说。<br>“我……我不行……”杨希摇摇头，我看见她的身体不停的颤抖着。<br>我的身体也开始颤抖。<br>“我不是说让你吃药吗？你怎么还乱吃啊。”<br>“我……我没有吃……”<br>“那你为什么会怀孕呢？”我问她。<br>“我也不知道。”杨希抬起头，脸上写满了疑惑。<br>我看见她眼眶里含满了泪水，一副委屈的表情。<br>我伸手抚摸着她的脸蛋儿，我的心里一片柔软。<br>“希儿，对不起。”<br>杨希的眼泪扑簌簌的掉落了下来。<br>“我不是故意的……我……”我慌张的说。<br>“你别哭了……”我说。<br>“我……我不是故意的，你原谅我好不好。”我说。<br>杨希摇着头，不说话。<br>我伸手抱住她，轻声安慰着她。<br>杨希哭了一会儿之后，她擦干眼角的泪水。<br>“你别哭了，你看你都哭花了。”我笑着对她说。<br>“你欺负我。”杨希嘟囔着。<br>我把杨希搂在怀里，我不知道该说什么了。<br>我和杨希的身体还紧紧的结合在一起，我们都能够感受到对方的体温。<br>“我们不能这样，你会难过的。”我说。<br>“可是我真的好难受。”杨希说。<br>“我给你揉揉。”我说着就要脱下自己的裤衩。<br>杨希连忙躲开，我愣住了。<br>“我不能这样，我不能这样，你别碰我。”杨希捂住胸口，一副很痛苦的样子。<br>“可是你……”我看着杨希，我不知所措。<br>“我想一个人静一静，求求你，让我一个人呆一会儿，你不要管我。”杨希说着挣扎着从我的怀里站起身，向房门口走去。<br>“希儿，我……”我想叫住她。<br>但杨希并不理睬我，只顾向房间门口走去。<br>她刚刚走到门口，我就追了上去。<br>她转身看着我，脸上带着哀怨的神情。<br>我的心被狠狠的刺伤了。<br>我的手握住了杨希的肩膀。<br>“你别这样。”<br>“你放手啊！”杨希大喊着，”你别碰我！你是个混蛋！”<br>“我是混蛋，是我混蛋，你不要哭了好不好？”我看着杨希，我真的不知道该如何是好。<br>“你走！你走啊！你不要管我！”杨希吼着。<br>“你别生气嘛，好不好？我错了还不行吗？”我说。<br>“我讨厌你，我讨厌你，你走！走啊！”杨希哭着说。<br>“你别这样好不好？”我说。<br>“你走，我不想看到你，我一看到你我就会想起你对我做过的那些事。”杨希大声的哭喊着，声音里全是悲愤。<br>“对不起，我错了，我错了还不行吗？你原谅我好不好？”我说。<br>“滚！我再也不想看见你，你滚！”杨希用力的推了我一下。<br>我被她推倒在地上，我的膝盖撞在地板上，疼得我眼泪直流。<br>杨希转身向房间里面走去。<br>我连忙爬起来，却只是傻傻的站在那看杨希离开。<br>我的心里很痛苦。<br>这种滋味儿让我无法忍受，我真恨自己为什么要来招惹杨希。<br>我真的是混蛋。<br>我真的是罪该万死。<br>我不应该这样做的。<br>我真的不应该这样对待杨希。<br>我的心里充满了愧疚。<br>我想跟杨希解释清楚，我不能失去她，更不能失去她腹中的孩子。<br>我不能让这个孩子出生在我的错误的家庭中。<br>我必须和杨希说清楚。<br>我想立马上去跟杨希道歉，但是我的双腿发软，根本站不起来，直到我看到杨希从阳台跳了下去。<br>“希儿！”我惊恐的叫了起来。<br>“希儿！”我大喊着，但杨希已经从阳台上跳了下去。<br>杨希的身体摔落在地面上，我的心里像针扎一般，我觉得我的心脏被抽空了似的。<br>我冲到窗边，看到杨希躺在楼底下。<br>楼层虽高，但也不至于让她受伤吧？<br>我赶紧跑下楼，来到杨希身边，她的脸色苍白。<br>我扶起她，她的身体冰冷，就像死尸一般。<br>“希儿……希儿……”我使劲儿摇晃着她，希望她能醒过来。<br>她依旧昏迷着。<br>我抱起她，冲到了医院。<br>她被送进了手术室。<br>我坐在走廊上，双手捂着脸，心里十分难受。<br>我知道这次的事情，我真的错了，而且还错得非常严重。<br>我的心里很内疚。<br>“希儿……你别怪我，你原谅我好不好？你一定不会有事的，你一定不会有事的。”我喃喃着，眼睛里含满了泪水。<br>手术进行了整整两个多小时，终于在凌晨四点钟的时候结束了。<br>医生从病房里走了出来。<br>“医生……医生……”我拉住了医生的衣袖，焦急的问：”她怎么样了？”<br>医生摘下口罩，叹了口气：”病人的身体太虚弱了，又受到了强烈的刺激，加上长期的压抑，精神处于崩溃的边缘。我们已经尽最大努力了。”<br>医生的这句话像是一记闷棍打在我的头上，我的身体顿时瘫坐在地上。<br>“她怎么会这样？她不应该这样啊……”我哭着说。<br>“这位先生，您请节哀顺变。”医生拍拍我的肩膀说。<br>我的眼前顿时一黑，身体一软，晕了过去。<br>医生说的没错，这个女人确实不适合怀孕。<br>我不应该这么做的，这样做会害死她的。<br>我怎么可以让她受到这么大的刺激呢？<br>“对不起，对不起……我……我不应该这么做的……”我哭着说。<br>我的心里充满了悔恨与后悔，我真的不能再继续错下去了。<br>我真的不能失去杨希……<br>“对不起……对不起……”我喃喃着，眼睛里全是眼泪。<br>不知过了多久，我萌生了一个念头，既然上天没法给我一个完美的结局，那么我只好亲手毁掉这个结局。<br>我决定，亲手杀死自己的骨肉，亲手结束自己的性命。<br>我不想再活下去了，我宁愿去死。<br>我不会再爱任何人，因为我爱的人已经离开人世。<br>我要陪着杨希，永远的陪着她。<br>我想到了这里，我立马跑上楼顶，准备与世长辞。<br>于是我紧闭双眼，向下跳去。<br>当我睁开眼的时候，我的双脚悬挂在半空中，我的身体已经坠入了万丈深渊之中。<br>我的眼前一片漆黑。<br>我的脑海里忽然想到了杨希。<br>她的模样在我的眼前越来越清晰。<br>我感觉自己好像快死了一样，我感觉不到疼，但我能感觉到身体正在一点一点的变凉。<br>我不敢去看自己的身体，我害怕看到我身体的变化。<br>我感觉我正在一点一点的消失。<br>我感觉到了一丝不舍。<br>我想，我的身体已经快不属于我了，我要去找杨希。<br>我的灵魂离体了，但我能感觉得到我的肉体还留在我的身体内。<br>我的灵魂离开身体，飘到了杨希身旁。<br>“希儿。”我轻轻唤她，她的眉头微皱。<br>我伸出手，轻抚着她的脸颊，她的眼皮动了一下，缓慢的睁开了眼睛。<br>我看到她眼睛里含满了泪花。<br>“对不起……对不起……希儿，都是我的错。”我低声说。<br>“你是谁？”杨希疑惑的看着我。<br>“我……是你老公。”我说。<br>我愣住了，杨希好像把我忘了。<br>“老婆……你……你忘了我吗？”我试探着说。<br>“你……你是我的老公吗？”杨希问我。<br>“是啊。”我点点头。<br>“那……那你怎么叫我老婆……你……你是谁？”杨希疑惑的问。<br>我听到杨希的话，心里有一阵失落。<br>“我是你老公，你不认识我了吗？”我问。<br>杨希摇摇头：”我……我……”<br>她一时想不起来我是谁了。<br>我看到她的眼里全是疑惑。</p>
-]]></content>
-      <categories>
-        <category>人工智障</category>
-      </categories>
-      <tags>
-        <tag>AI创作</tag>
       </tags>
   </entry>
   <entry>
@@ -736,35 +719,6 @@
       </tags>
   </entry>
   <entry>
-    <title>███：时尚黑骑士的 Gucci 夹克魅力 (AI创作)</title>
-    <url>//page/2023120611.html</url>
-    <content><![CDATA[<div class="note danger flat"><p>为保护个人隐私，本文章禁止转载！！！</p>
-</div>
-<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>为保护个人隐私，部分内容已脱敏处理</p>
-</div>
-
-<h1 id="███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）"><a href="#███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）" class="headerlink" title="███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）"></a>███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）</h1><p>在时尚的世界中，Gucci一直以其独特的设计理念和精湛的工艺而备受瞩目。而在众多的时尚单品中，Gucci的夹克无疑是这个品牌的一大亮点。今天，我们将借助███这一形象，来深入探讨Gucci夹克的时尚价值以及███如何通过搭配技巧，将这一单品展现得淋漓尽致。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/01.jpeg"></p>
-<p>首先，让我们先来欣赏一下███的形象。他身着一件Gucci的夹克，简洁的设计风格和黑灰的色调使得这件夹克充满了神秘感。而最令人印象深刻的莫过于他搭配的黑色墨镜，完美地遮挡住了他的眼神，让人无法窥视他内心的世界。这样的搭配，无疑为他的形象增添了几分神秘和冷峻。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/02.jpeg"></p>
-<p>Gucci夹克的魅力在于其独特的设计和精湛的工艺。这款夹克采用了高品质的面料，手感柔软，穿起来舒适不束缚。同时，其经典的设计元素和精美的细节处理，使得这款夹克无论是在日常生活中还是出行旅游时，都能成为一道亮丽的风景线。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/03.jpeg"></p>
-<p>而███是如何将这款Gucci夹克发挥到极致的呢？首先，他选择了与夹克色调相呼应的黑色墨镜，这样的搭配使得整体形象更加和谐统一。此外，他还选择了一款简约的项链作为装饰，不仅增添了几分时尚感，还为整体形象增添了几分华丽的元素。</p>
-<p><img src="https://image.ligaogreat.top/image/blog/2023120611/05.jpeg"></p>
-<p>███的形象完美地诠释了Gucci夹克的时尚价值。他通过精心的搭配技巧，将这款夹克展现得淋漓尽致。而Gucci夹克的独特魅力和时尚价值，也在他的搭配下得到了充分的体现。无论是在日常生活中还是出行旅游时，我们都可以从███的形象中得到一些搭配灵感。</p>
-<hr>
-<a class="btn-anzhiyu outline blue larger" href="https://ligao.lanzouj.com/iyJyx1s147vi" 
-  title="下载 PDF"><i class="fas fa-file-pdf"></i><span>下载 PDF</span></a>
-<a class="btn-anzhiyu outline larger" href="https://ligao.lanzouj.com/idTJE1s147tg" 
-  title="下载 DOC"><i class="fas fa-file-word"></i><span>下载 DOC</span></a>]]></content>
-      <categories>
-        <category>人工智障</category>
-      </categories>
-      <tags>
-        <tag>AI创作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>安装 MS-DOS 6.22</title>
     <url>//page/2023042111.html</url>
     <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章使用的虚拟机软件为 VMware Workstation Pro 15.5.7</p>
@@ -873,6 +827,235 @@
       <tags>
         <tag>教程</tag>
         <tag>系统安装</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>通过本地反代，直连 Pixix（含 Linux/macOS）</title>
+    <url>//page/2024081712.html</url>
+    <content><![CDATA[<p>Pixiv 目前已经被大陆封禁好几年了，最开始只是 DNS 污染，通过更换 hosts 文件即可解决。后期因为使用 SNI 阻断，更换 hosts 文件的方法已经不管用了。</p>
+<h1 id="第三方客户端"><a href="#第三方客户端" class="headerlink" title="第三方客户端"></a>第三方客户端</h1><p>如果有账号的话，可以用下面推荐的第三方客户端，基本不需要折腾。</p>
+<div class="tabs" id="apps"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="apps-1"><i class="fa-solid fa-mobile"></i>Android/iOS</button><button type="button" class="tab " data-href="apps-2"><i class="fa-brands fa-windows"></i>Windows</button></ul><div class="tab-contents"><div class="tab-item-content active" id="apps-1"><p><a href="https://github.com/Notsfsssf/pixez-flutter/releases/tag/0.9.45">PixEz Flutter </a></p>
+<blockquote>
+<p>iOS版需要登陆美区账号</p>
+</blockquote></div><div class="tab-item-content" id="apps-2"><p><a href="https://github.com/Pixeval/Pixeval/releases">Pixeval</a></p>
+<blockquote>
+<p>目前仅支持 Windows10&#x2F;11</p>
+</blockquote></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
+
+<p>大部分第三方客户端都支持直连 Pixiv，但是大部分都无法提供账号注册。这时，我们就需要自建反代直连了。</p>
+<h1 id="通过-Nginx-直连-Pixiv"><a href="#通过-Nginx-直连-Pixiv" class="headerlink" title="通过 Nginx 直连 Pixiv"></a>通过 Nginx 直连 Pixiv</h1><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><p>开始前，我们需要下载 <a href="https://github.com/mashirozx/Pixiv-Nginx">Pixiv-Nginx</a> 这个项目<br>国内镜像：<a href="https://git.moezx.cc/mirrors/Pixiv-Nginx">https://git.moezx.cc/mirrors/Pixiv-Nginx</a><br>下载后解压至<strong>没有中文等特殊符号的目录</strong>中</p>
+<h3 id="安装-CA-证书"><a href="#安装-CA-证书" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><p>安装目录中的 ca.cer 证书，以下是常用浏览器的安装方式</p>
+<div class="tabs" id="ca1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="ca1-1"><i class="fa-brands fa-chrome"></i>Chrome</button><button type="button" class="tab " data-href="ca1-2"><i class="fa-brands fa-edge"></i>Edge</button><button type="button" class="tab " data-href="ca1-3"><i class="fa-brands fa-firefox"></i>FireFox</button></ul><div class="tab-contents"><div class="tab-item-content active" id="ca1-1"><p>打开 Chrome ，依次点击 <strong>设置 - 隐私和安全 - 安全</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-17-24.jpg" alt="打开 Chrome ，依次 点击设置 - 隐私和安全 - 安全"></p>
+<p>下拉，选择 <strong>管理证书</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-18-19.jpg" alt="下拉，选择管理证书"></p>
+<p>在弹出的窗口中，依次选择 <strong>受信任的根证书颁发机构 - 导入</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-19-45.jpg" alt="弹出的窗口中，依次选择 受信任的根证书颁发机构 - 导入"></p>
+<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-04.jpg" alt="在证书导入向导中，选择 ca.cer 文件路径，点击下一步"></p>
+<p>保持<strong>默认</strong>，点击 <strong>下一步</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-24.jpg" alt="保持默认，点击下一步"></p>
+<p>最后，选择 <strong>是</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-45.jpg" alt="最后，选择是"></p>
+<p>安装完成</p></div><div class="tab-item-content" id="ca1-2"><p>打开 Edge ，依次选择 <strong>设置 - 隐私、搜索和服务</strong> ，在 <strong>安全性</strong> 中，选择 <strong>管理证书</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-36-02.jpg" alt="依次选择 设置 - 隐私、搜索和服务， 安全性中选择管理证书"></p>
+<p>在弹出的窗口中，依次选择 <strong>受信任的根证书颁发机构 - 导入</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-19-45.jpg" alt="弹出的窗口中，依次选择 受信任的根证书颁发机构 - 导入"></p>
+<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-04.jpg" alt="在证书导入向导中，选择 ca.cer 文件路径，点击下一步"></p>
+<p><strong>保持默认</strong>，点击 <strong>下一步</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-24.jpg" alt="保持默认，点击下一步"></p>
+<p>最后，选择 <strong>是</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-45.jpg" alt="最后，选择是"></p>
+<p>安装完成</p></div><div class="tab-item-content" id="ca1-3"><p>打开 FireFox 依次选择 <strong>设置 - 隐私与安全</strong> ，在 <strong>安全</strong> 中，选择 <strong>查看证书</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-49-44.jpg" alt="依次选择 设置 - 隐私与安全 ，在安全中，选择查看证书"></p>
+<p>在弹出的<strong>证书管理器窗口</strong>中，依次选择 <strong>证书颁发机构 - 导入</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-50-49.jpg" alt="选择 证书颁发机构 - 导入"></p>
+<p>在新弹出的窗口中，勾选 <strong>信任由此证书颁发机来标识网站</strong> ，点击 <strong>确定</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-51-54.jpg" alt="勾选信任由此证书颁发机来标识网站，点击确定"></p>
+<p>最后，点击 <strong>确定</strong> ，关闭即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-52-10.jpg" alt="点击确定"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
+
+<h3 id="修改-hosts-文件"><a href="#修改-hosts-文件" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><p>用记事本打开目录 <strong><code>C:\Windows\System32\drivers\etc\hosts</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_17-08-11.jpg" alt="hosts 文件位置"></p>
+<p>在文本的末尾，添加软件目录下的 <strong><code>hosts</code></strong> 文件里的内容</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure>
+
+<p>添加后是这个效果</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_17-15-21.jpg" alt="修改后的效果"></p>
+<div class="note info flat"><p>直接替换 hosts 文件也是可以的</p>
+</div>
+
+<h3 id="运行-Nginx"><a href="#运行-Nginx" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><p>直接运行目录下的 <strong>4.可视化工具（这个操作简单）</strong>  和 <strong>5.调试工具（这个功能全）</strong> 即可</p>
+<div class="tabs" id="start"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="start-1"><i class="fa-solid fa-window-maximize"></i>可视化工具</button><button type="button" class="tab " data-href="start-2"><i class="fa-solid fa-code"></i>调试工具</button></ul><div class="tab-contents"><div class="tab-item-content active" id="start-1"><p>点击第一横 Nginx 旁边的 <strong>Start</strong> 开始运行，Runnng 代表运行状态</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_17-34-42.jpg" alt="可视化工具"></p></div><div class="tab-item-content" id="start-2"><div class="note warning flat"><p>在使用调试工具时，程序的运行状态需查看调试台输出的程序日志</p>
+</div>
+
+<p>运行后输入 <code>1</code>  开始运行</p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
+
+<h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><div class="note success flat"><p>Linux 教程使用 Ubuntu 举例。除安装 Nginx 方式，其他步骤基本一致。</p>
+</div>
+
+<p>Linux 用户需要使用的文件在 <strong>配置文件（非Windows用户使用）</strong> 中</p>
+<h3 id="安装-Nginx"><a href="#安装-Nginx" class="headerlink" title="安装 Nginx"></a>安装 Nginx</h3><p>打开终端，输入以下命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install nginx</span><br></pre></td></tr></table></figure>
+<div class="note info flat"><p>其他发行版，可以在 <a href="https://nginx.org/en/linux_packages.html#Debian">Nginx</a> 官网找到安装方法</p>
+</div>
+
+<p>配置文件在 <code>/etc/nginx</code> 目录下<br>复制并替换 配置文件（非Windows用户使用）目录下的 <strong>nginx.conf</strong> 和 <strong>ca文件夹</strong> 到 <code>/etc/nginx</code> 目录</p>
+<h3 id="安装-CA-证书-1"><a href="#安装-CA-证书-1" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><div class="tabs" id="ca2"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="ca2-1"><i class="fa-brands fa-chrome"></i>Chrome</button><button type="button" class="tab " data-href="ca2-2"><i class="fa-brands fa-firefox"></i>FireFox</button></ul><div class="tab-contents"><div class="tab-item-content active" id="ca2-1"><p>打开 Chrome ，依次点击 <strong>设置 - 隐私和安全 - 安全</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-44-17.jpg" alt="依次点击 设置 - 隐私和安全 - 安全"></p>
+<p>下拉，选择 <strong>管理证书</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-44-37.jpg" alt="下拉，选择管理证书"></p>
+<p>在管理证书窗口中，依次选择 <strong>授权机构 - 导入</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-45-34.jpg" alt="依次选择 授权机构 - 导入"></p>
+<p>在文件选择界面，将文件类型改为 <strong>所有文件</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-47-51.jpg" alt="将文件类型改为所有文件"></p>
+<p>在新弹出的窗口中，勾选 <strong>信任该证书，以标识网站的身份</strong> ，点击 <strong>确定</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-52-35.jpg" alt="勾选信任该证书，以标识网站的身份"></p></div><div class="tab-item-content" id="ca2-2"><p>打开 FireFox 依次选择 <strong>设置 - 隐私与安全</strong> ，在 <strong>安全</strong> 中，选择 <strong>查看证书</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_21-28-19.jpg" alt="依次选择 设置 - 隐私与安全，在安全中，选择查看证书"></p>
+<p>在弹出的<strong>证书管理器窗口</strong>中，依次选择 <strong>证书颁发机构 - 导入</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-50-49.jpg" alt="依次选择 证书颁发机构 - 导入"></p>
+<p>在新弹出的窗口中，勾选 <strong>信任由此证书颁发机来标识网站</strong> ，点击 <strong>确定</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_21-29-46.jpg" alt="勾选信任由此证书颁发机来标识网站"></p>
+<p>最后，点击 <strong>确定</strong> ，关闭即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-52-10.jpg" alt="点击确定"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
+
+<h3 id="修改-hosts-文件-1"><a href="#修改-hosts-文件-1" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><div class="tabs" id="hosts1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="hosts1-1"><i class="fa-solid fa-copy"></i>替换大法</button><button type="button" class="tab " data-href="hosts1-2"><i class="fa-solid fa-pen-to-square"></i>更新 hosts 文件</button></ul><div class="tab-contents"><div class="tab-item-content active" id="hosts1-1"><div class="note warning flat"><p>如果你使用的代理程序是使用端口进行代理，你可能需要查看 <strong>更新 hosts 文件</strong> 中的方法</p>
+</div>
+
+<p>复制 <strong>hosts</strong> 文件，到 <code>/etc/hosts</code></p></div><div class="tab-item-content" id="hosts1-2"><div class="note info flat"><p>直接替换文件的话，可以略过此步骤</p>
+</div>
+
+<p>输入命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/hosts</span><br><span class="line"><span class="comment"># 如果提示没有 nano ，请执行以下命令</span></span><br><span class="line"><span class="built_in">sudo</span> apt install nano</span><br></pre></td></tr></table></figure>
+<p>完成 hosts 文件编辑</p>
+<p>在 hosts 文件末尾添加以下内容</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure>
+
+<p>修改后是这个效果</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_19-46-06.jpg" alt="修改后的效果"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
+
+<h3 id="运行-Nginx-1"><a href="#运行-Nginx-1" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><p>在终端输入以下命令即可运行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 运行命令</span></span><br><span class="line">nginx start</span><br><span class="line"><span class="comment"># 如果想停止，输入以下命令即可</span></span><br><span class="line">nginx stop</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_19-48-46.jpg" alt="运行 Nginx"></p>
+<h2 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h2><div class="note success flat"><p>本教程演示的系统版本为 macOS Sonoma 14.6</p>
+</div>
+<p>macOS 用户需要使用的文件同样在 <strong>配置文件（非Windows用户使用）</strong> 中</p>
+<h3 id="安装-brew"><a href="#安装-brew" class="headerlink" title="安装 brew"></a>安装 brew</h3><p>由于 macOS 没有原生的包管理器，所以我们需要安装 brew 来实现包管理功能<br>安装命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>或者使用 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/">清华大学开源软件镜像站</a> 提供的安装脚本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-install</span><br><span class="line">/bin/bash brew-install/install.sh</span><br><span class="line"><span class="built_in">rm</span> -rf brew-install</span><br></pre></td></tr></table></figure>
+
+<p>此时可能会询问是否下载 <strong>git 命令行开发者工具</strong> ，选择 <strong><code>安装</code></strong> 即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_22-05.jpg" alt="选择安装即可"></p>
+<p>在某些情况下 brew 无法注册到 <strong>PATH</strong> ，所以我们要运行下面的命令来注册到 <strong>PATH</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 下面的 用户名 为你电脑的用户名</span></span><br><span class="line">(<span class="built_in">echo</span>; <span class="built_in">echo</span> <span class="string">&#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27;</span>) &gt;&gt; /Users/用户名/.zprofile</span><br><span class="line"><span class="built_in">eval</span> <span class="string">&quot;<span class="subst">$(/opt/homebrew/bin/brew shellenv)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>当然，你也可以在安装日志中找到相关提示</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_22-47.jpg" alt="程序输出日志"></p>
+<h4 id="brew-更换软件源"><a href="#brew-更换软件源" class="headerlink" title="brew 更换软件源"></a>brew 更换软件源</h4><p>由于众所周知的原因，brew的默认软件源是非常不稳定的，所以我们可以替换为 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/">清华源</a></p>
+<p>安装脚本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>4.0及以上版本 (替换为阿里源)</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 临时替换</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_INSTALL_FROM_API=1</span><br><span class="line"><span class="built_in">export</span> HOMEBREW_API_DOMAIN=<span class="string">&quot;https://mirrors.aliyun.com/homebrew-bottles/api&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BREW_GIT_REMOTE=<span class="string">&quot;https://mirrors.aliyun.com/homebrew/brew.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_CORE_GIT_REMOTE=<span class="string">&quot;https://mirrors.aliyun.com/homebrew/homebrew-core.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BOTTLE_DOMAIN=<span class="string">&quot;https://mirrors.aliyun.com/homebrew/homebrew-bottles&quot;</span></span><br><span class="line">brew update</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 永久替换</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># bash 用户</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_API_DOMAIN=&quot;https://mirrors.aliyun.com/homebrew-bottles/api&quot;&#x27;</span> &gt;&gt; ~/.bash_profile</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_BREW_GIT_REMOTE=&quot;https://mirrors.aliyun.com/homebrew/brew.git&quot;&#x27;</span> &gt;&gt; ~/.bash_profile</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_CORE_GIT_REMOTE=&quot;https://mirrors.aliyun.com/homebrew/homebrew-core.git&quot;&#x27;</span> &gt;&gt; ~/.bash_profile</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_BOTTLE_DOMAIN=&quot;https://mirrors.aliyun.com/homebrew/homebrew-bottles&quot;&#x27;</span> &gt;&gt; ~/.bash_profile</span><br><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br><span class="line">brew update</span><br><span class="line"></span><br><span class="line"><span class="comment"># zsh 用户</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_API_DOMAIN=&quot;https://mirrors.aliyun.com/homebrew-bottles/api&quot;&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_BREW_GIT_REMOTE=&quot;https://mirrors.aliyun.com/homebrew/brew.git&quot;&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_CORE_GIT_REMOTE=&quot;https://mirrors.aliyun.com/homebrew/homebrew-core.git&quot;&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_BOTTLE_DOMAIN=&quot;https://mirrors.aliyun.com/homebrew/homebrew-bottles&quot;&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br><span class="line">brew update</span><br></pre></td></tr></table></figure>
+
+<p>4.0 及以下版本  (替换为清华源)</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> HOMEBREW_API_DOMAIN=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BOTTLE_DOMAIN=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BREW_GIT_REMOTE=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_CORE_GIT_REMOTE=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_PIP_INDEX_URL=<span class="string">&quot;https://pypi.tuna.tsinghua.edu.cn/simple&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="安装-Nginx-1"><a href="#安装-Nginx-1" class="headerlink" title="安装 Nginx"></a>安装 Nginx</h3><p>在 <strong>终端 App</strong> 中，输入下面命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install nginx</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_23-30.jpg" alt="安装 Nginx"></p>
+<div class="note info flat"><p>macOS 显示隐藏文件的快捷键是 ⌘ + ⇧ + .</p>
+</div>
+
+<div class="tabs" id="macnginx"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="macnginx-1"><i class="fa-solid fa-microchip"></i>Intel 芯片</button><button type="button" class="tab " data-href="macnginx-2"><i class="fa-brands fa-apple"></i>Apple 芯片</button></ul><div class="tab-contents"><div class="tab-item-content active" id="macnginx-1"><p>使用 <strong>Intel 芯片</strong> 的Mac配置文件存放在 <code>/usr/local/etc/nginx/nginx.conf</code> 中</p>
+<p>复制并替换 配置文件（非Windows用户使用）目录下的 <strong>nginx.conf</strong> 和 <strong>ca文件夹</strong> 到  <code>/usr/local/etc/nginx/nginx.conf</code> 目录</p></div><div class="tab-item-content" id="macnginx-2"><p>使用 <strong>Apple 芯片</strong> 的Mac，配置文件存放在 <code>/opt/homebrew/etc/nginx/nginx.conf</code> 中</p>
+<p>复制并替换 配置文件（非Windows用户使用）目录下的 <strong>nginx.conf</strong> 和 <strong>ca文件夹</strong> 到   <code>/opt/homebrew/etc/nginx/nginx.conf</code></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
+
+<h3 id="安装-CA-证书-2"><a href="#安装-CA-证书-2" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><p>双击 <strong><code>ca.cer</code></strong> 证书文件 ，此时会弹出 <strong>添加证书</strong> 窗口，修改保存位置为 <strong>系统</strong> ，单击添加</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_19-49.jpg" alt="保存位置更改为系统，点击添加"></p>
+<p>按照系统要求，输入密码</p>
+<p>打开 <strong><code>钥匙串访问</code></strong> ，在<strong>系统</strong>中找到 <strong><code>Mashiro Internet Fake Authority CA</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_20-01.jpg" alt="找到 Mashiro Internet Fake Authority CA"></p>
+<p>将 <strong>使用系统默认</strong> 改为 <strong>始终信任</strong> ，并按照系统要求输入密码</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_20-03.jpg" alt="改为始终信任"></p>
+<h3 id="修改-hosts-文件-2"><a href="#修改-hosts-文件-2" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><div class="tabs" id="hosts2"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="hosts2-1"><i class="fa-solid fa-copy"></i>替换大法</button><button type="button" class="tab " data-href="hosts2-2"><i class="fa-solid fa-pen-to-square"></i>更新 hosts 文件</button></ul><div class="tab-contents"><div class="tab-item-content active" id="hosts2-1"><div class="note warning flat"><p>如果你使用的代理程序是使用端口进行代理，你可能需要查看 <strong>更新 hosts 文件</strong> 中的方法</p>
+</div>
+
+<p>复制 <strong>hosts</strong> 文件，到 <code>/etc/hosts</code></p></div><div class="tab-item-content" id="hosts2-2"><div class="note info flat"><p>直接替换文件的话，可以略过此步骤</p>
+</div>
+
+<p>输入命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/hosts</span><br><span class="line"><span class="comment"># 如果提示没有 nano ，请执行以下命令</span></span><br><span class="line"><span class="built_in">sudo</span> brew install nano</span><br></pre></td></tr></table></figure>
+<p>完成 hosts 文件编辑</p>
+<p>在 hosts 文件末尾添加以下内容</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
+
+<h3 id="运行-Nginx-2"><a href="#运行-Nginx-2" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在终端中输入下面命令开始运行</span></span><br><span class="line">brew services start nginx</span><br><span class="line"><span class="comment"># 关闭命令</span></span><br><span class="line">brew services stop nginx</span><br></pre></td></tr></table></figure>
+
+<h3 id="Safari-出现-此连接非私人连接-怎么办？"><a href="#Safari-出现-此连接非私人连接-怎么办？" class="headerlink" title="Safari 出现 此连接非私人连接 怎么办？"></a>Safari 出现 此连接非私人连接 怎么办？</h3><p>单击 <strong><code>显示详细信息</code></strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_23-09.jpg" alt="单击显示详细信息"></p>
+<p>在下面选择 <strong><code>访问此网站</code></strong> 即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_23-10.jpg" alt="选择访问此网站"></p>
+<h2 id="（可选）将图片链接替换为-i-pixiv-re"><a href="#（可选）将图片链接替换为-i-pixiv-re" class="headerlink" title="（可选）将图片链接替换为 i.pixiv.re"></a>（可选）将图片链接替换为 i.pixiv.re</h2><div class="tabs" id="image"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="image-1"><i class="fa-brands fa-windows"></i>Windows</button><button type="button" class="tab " data-href="image-2"><i class="fa-brands fa-linux"></i>Linux</button><button type="button" class="tab " data-href="image-3">fa-brands fa-apple</button></ul><div class="tab-contents"><div class="tab-item-content active" id="image-1"><p>修改配置文件，文件在软件目录内 <code>/conf/pixiv.conf</code> 中</p>
+<p>删除第 117 行的注释即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div><div class="tab-item-content" id="image-2"><p>Linux 用户需要把软件目录内的 <code>/conf/nginx.conf</code> 和 <code>/conf/pixiv.conf</code> 复制到 Nginx 目录内</p>
+<p>配置文件在 <code>/etc/nginx</code> 目录下</p>
+<p>编辑 <code>pixiv.conf</code> 文件</p>
+<p>删除第 117 行的注释即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div><div class="tab-item-content" id="image-3"><p>macOS 用户需要把软件目录内的 <code>/conf/nginx.conf</code> 和 <code>/conf/pixiv.conf</code> 复制到 Nginx 目录内</p>
+<p>配置文件存放在 <code>/usr/local/etc/nginx/nginx.conf</code> 中</p>
+<blockquote>
+<p>使用 Apple 芯片的 Mac，配置文件存放在 <code>/opt/homebrew/etc/nginx/nginx.conf</code> 中</p>
+</blockquote>
+<p>编辑 <code>pixiv.conf</code> 文件</p>
+<p>删除第 117 行的注释即可</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>]]></content>
+      <categories>
+        <category>GitHub 开源项目部署</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Windows</tag>
+        <tag>Linux</tag>
+        <tag>Nginx</tag>
+        <tag>Pixiv</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>███：时尚黑骑士的 Gucci 夹克魅力 (AI创作)</title>
+    <url>//page/2023120611.html</url>
+    <content><![CDATA[<div class="note danger flat"><p>为保护个人隐私，本文章禁止转载！！！</p>
+</div>
+<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>为保护个人隐私，部分内容已脱敏处理</p>
+</div>
+
+<h1 id="███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）"><a href="#███：时尚黑骑士的-Gucci-夹克魅力（AI-创作）" class="headerlink" title="███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）"></a>███：时尚黑骑士的 Gucci 夹克魅力（AI 创作）</h1><p>在时尚的世界中，Gucci一直以其独特的设计理念和精湛的工艺而备受瞩目。而在众多的时尚单品中，Gucci的夹克无疑是这个品牌的一大亮点。今天，我们将借助███这一形象，来深入探讨Gucci夹克的时尚价值以及███如何通过搭配技巧，将这一单品展现得淋漓尽致。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/01.jpeg"></p>
+<p>首先，让我们先来欣赏一下███的形象。他身着一件Gucci的夹克，简洁的设计风格和黑灰的色调使得这件夹克充满了神秘感。而最令人印象深刻的莫过于他搭配的黑色墨镜，完美地遮挡住了他的眼神，让人无法窥视他内心的世界。这样的搭配，无疑为他的形象增添了几分神秘和冷峻。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/02.jpeg"></p>
+<p>Gucci夹克的魅力在于其独特的设计和精湛的工艺。这款夹克采用了高品质的面料，手感柔软，穿起来舒适不束缚。同时，其经典的设计元素和精美的细节处理，使得这款夹克无论是在日常生活中还是出行旅游时，都能成为一道亮丽的风景线。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/03.jpeg"></p>
+<p>而███是如何将这款Gucci夹克发挥到极致的呢？首先，他选择了与夹克色调相呼应的黑色墨镜，这样的搭配使得整体形象更加和谐统一。此外，他还选择了一款简约的项链作为装饰，不仅增添了几分时尚感，还为整体形象增添了几分华丽的元素。</p>
+<p><img src="https://image.ligaogreat.top/image/blog/2023120611/05.jpeg"></p>
+<p>███的形象完美地诠释了Gucci夹克的时尚价值。他通过精心的搭配技巧，将这款夹克展现得淋漓尽致。而Gucci夹克的独特魅力和时尚价值，也在他的搭配下得到了充分的体现。无论是在日常生活中还是出行旅游时，我们都可以从███的形象中得到一些搭配灵感。</p>
+<hr>
+<a class="btn-anzhiyu outline blue larger" href="https://ligao.lanzouj.com/iyJyx1s147vi" 
+  title="下载 PDF"><i class="fas fa-file-pdf"></i><span>下载 PDF</span></a>
+<a class="btn-anzhiyu outline larger" href="https://ligao.lanzouj.com/idTJE1s147tg" 
+  title="下载 DOC"><i class="fas fa-file-word"></i><span>下载 DOC</span></a>]]></content>
+      <categories>
+        <category>人工智障</category>
+      </categories>
+      <tags>
+        <tag>AI创作</tag>
       </tags>
   </entry>
   <entry>
@@ -1031,369 +1214,127 @@
       </tags>
   </entry>
   <entry>
-    <title>通过本地反代，直连 Pixix（含 Linux/macOS）</title>
-    <url>//page/2024081712.html</url>
-    <content><![CDATA[<p>Pixiv 目前已经被大陆封禁好几年了，最开始只是 DNS 污染，通过更换 hosts 文件即可解决。后期因为使用 SNI 阻断，更换 hosts 文件的方法已经不管用了。</p>
-<h1 id="第三方客户端"><a href="#第三方客户端" class="headerlink" title="第三方客户端"></a>第三方客户端</h1><p>如果有账号的话，可以用下面推荐的第三方客户端，基本不需要折腾。</p>
-<div class="tabs" id="apps"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="apps-1"><i class="fa-solid fa-mobile"></i>Android/iOS</button><button type="button" class="tab " data-href="apps-2"><i class="fa-brands fa-windows"></i>Windows</button></ul><div class="tab-contents"><div class="tab-item-content active" id="apps-1"><p><a href="https://github.com/Notsfsssf/pixez-flutter/releases/tag/0.9.45">PixEz Flutter </a></p>
-<blockquote>
-<p>iOS版需要登陆美区账号</p>
-</blockquote></div><div class="tab-item-content" id="apps-2"><p><a href="https://github.com/Pixeval/Pixeval/releases">Pixeval</a></p>
-<blockquote>
-<p>目前仅支持 Windows10&#x2F;11</p>
-</blockquote></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
-
-<p>大部分第三方客户端都支持直连Pixiv，但是大部分都无法提供账号注册。这时，我们就需要自建反代直连了。</p>
-<h1 id="通过-Nginx-直连-Pixiv"><a href="#通过-Nginx-直连-Pixiv" class="headerlink" title="通过 Nginx 直连 Pixiv"></a>通过 Nginx 直连 Pixiv</h1><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><p>开始前，我们需要下载 <a href="https://github.com/mashirozx/Pixiv-Nginx">Pixiv-Nginx</a> 这个项目<br>国内镜像：<a href="https://git.moezx.cc/mirrors/Pixiv-Nginx">https://git.moezx.cc/mirrors/Pixiv-Nginx</a><br>下载后解压至<strong>没有中文等特殊符号的目录</strong>中</p>
-<h3 id="安装-CA-证书"><a href="#安装-CA-证书" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><p>安装目录中的 ca.cer 证书，以下是常用浏览器的安装方式</p>
-<div class="tabs" id="ca1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="ca1-1"><i class="fa-brands fa-chrome"></i>Chrome</button><button type="button" class="tab " data-href="ca1-2"><i class="fa-brands fa-edge"></i>Edge</button><button type="button" class="tab " data-href="ca1-3"><i class="fa-brands fa-firefox"></i>FireFox</button></ul><div class="tab-contents"><div class="tab-item-content active" id="ca1-1"><p>打开 Chrome ，依次点击 <strong><code>设置 - 隐私和安全 - 安全</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-17-24.jpg" alt="打开 Chrome ，依次 点击设置 - 隐私和安全 - 安全"></p>
-<p>下拉，选择 <strong><code>管理证书</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-18-19.jpg" alt="下拉，选择管理证书"></p>
-<p>在弹出的窗口中，依次选择 <strong><code>受信任的根证书颁发机构 - 导入</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-19-45.jpg" alt="弹出的窗口中，依次选择 受信任的根证书颁发机构 - 导入"></p>
-<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-04.jpg" alt="在证书导入向导中，选择 ca.cer 文件路径，点击下一步"></p>
-<p>保持<strong>默认</strong>，点击 <strong><code>下一步</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-24.jpg" alt="保持默认，点击下一步"></p>
-<p>最后，选择 <strong>是</strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-45.jpg" alt="最后，选择是"></p>
-<p>安装完成</p></div><div class="tab-item-content" id="ca1-2"><p>打开 Edge ，依次选择 <strong><code>设置 - 隐私、搜索和服务</code></strong> ，在 <strong><code>安全性</code></strong> 中，选择 <strong><code>管理证书</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-36-02.jpg" alt="依次选择 设置 - 隐私、搜索和服务， 安全性中选择管理证书"></p>
-<p>在弹出的窗口中，依次选择 <strong><code>受信任的根证书颁发机构 - 导入</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-19-45.jpg" alt="弹出的窗口中，依次选择 受信任的根证书颁发机构 - 导入"></p>
-<p>在证书导入向导中，选择 <strong>ca.cer 文件路径</strong>，点击下一步</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-04.jpg" alt="在证书导入向导中，选择 ca.cer 文件路径，点击下一步"></p>
-<p><strong>保持默认</strong>，点击 <strong><code>下一步</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-24.jpg" alt="保持默认，点击下一步"></p>
-<p>最后，选择 <strong>是</strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-25-45.jpg" alt="最后，选择是"></p>
-<p>安装完成</p></div><div class="tab-item-content" id="ca1-3"><p>打开 FireFox 依次选择 <strong><code>设置 - 隐私与安全</code></strong> ，在 <strong>安全</strong> 中，选择 <strong><code>查看证书</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-49-44.jpg" alt="依次选择 设置 - 隐私与安全 ，在安全中，选择查看证书"></p>
-<p>在弹出的<strong>证书管理器窗口</strong>中，依次选择 <strong><code>证书颁发机构 - 导入</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-50-49.jpg" alt="选择 证书颁发机构 - 导入"></p>
-<p>在新弹出的窗口中，勾选 <strong><code>信任由此证书颁发机来标识网站</code></strong> ，点击 <strong>确定</strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-51-54.jpg" alt="勾选信任由此证书颁发机来标识网站，点击确定"></p>
-<p>最后，点击 <strong>确定</strong> ，关闭即可</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-52-10.jpg" alt="点击确定"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
-
-<h3 id="修改-hosts-文件"><a href="#修改-hosts-文件" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><p>用记事本打开目录 <strong><code>C:\Windows\System32\drivers\etc\hosts</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_17-08-11.jpg" alt="hosts 文件位置"></p>
-<p>在文本的末尾，添加软件目录下的 <strong><code>hosts</code></strong> 文件里的内容</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure>
-
-<p>添加后是这个效果</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_17-15-21.jpg" alt="修改后的效果"></p>
-<div class="note info flat"><p>直接替换 hosts 文件也是可以的</p>
+    <title>部署 NapCatQQ 并接入 AstrBot 实现 QQ 聊天机器人功能</title>
+    <url>//page/2025060619.html</url>
+    <content><![CDATA[<div class="note warning flat"><p>该教程可能会导致账号风控，推荐使用 <a href="https://docs.astrbot.app/platform/qqofficial/websockets.html">通过 QQ官方机器人 接入 QQ</a></p>
 </div>
 
-<h3 id="运行-Nginx"><a href="#运行-Nginx" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><p>直接运行目录下的 <strong><code>4.可视化工具（这个操作简单）</code></strong>  和 <strong><code>5.调试工具（这个功能全）</code></strong> 即可</p>
-<div class="tabs" id="start"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="start-1"><i class="fa-solid fa-window-maximize"></i>可视化工具</button><button type="button" class="tab " data-href="start-2"><i class="fa-solid fa-code"></i>调试工具</button></ul><div class="tab-contents"><div class="tab-item-content active" id="start-1"><p>点击第一横 Nginx 旁边的 <strong>Start</strong> 开始运行，Runnng 代表运行状态</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_17-34-42.jpg" alt="可视化工具"></p></div><div class="tab-item-content" id="start-2"><div class="note warning flat"><p>在使用调试工具时，程序的运行状态需查看调试台输出的程序日志</p>
+<div class="note info flat"><p>GitHub项目地址：<a href="https://github.com/NapNeko/NapCatQQ">NapNeko&#x2F;NapCatQQ</a><br>文章部分内容出自<a href="https://napneko.github.io/guide/boot/Shell#napcat-shell-win%E6%89%8B%E5%8A%A8%E5%90%AF%E5%8A%A8%E6%95%99%E7%A8%8B">NapCatQQ 帮助文档</a>, <a href="https://astrbot.app/deploy/platform/aiocqhttp/napcat.html">AsrtBot 帮助文档</a></p>
 </div>
 
-<p>运行后输入 <code>1</code>  开始运行</p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
-
-<h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><div class="note success flat"><p>Linux 教程使用 Ubuntu 举例。除安装 Nginx 方式，其他步骤基本一致。</p>
+<div class="note info flat"><p>由于官方文档不推荐使用 Framerwork，所以本篇只讲述 Shell 版本的部署方式</p>
 </div>
 
-<p>Linux 用户需要使用的文件在 <strong><code>配置文件（非Windows用户使用）</code></strong> 中</p>
-<h3 id="安装-Nginx"><a href="#安装-Nginx" class="headerlink" title="安装 Nginx"></a>安装 Nginx</h3><p>打开终端，输入以下命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install nginx</span><br></pre></td></tr></table></figure>
-<div class="note info flat"><p>其他发行版，可以在 <a href="https://nginx.org/en/linux_packages.html#Debian">Nginx</a> 官网找到安装方法</p>
-</div>
-
-<p>配置文件在 <code>/etc/nginx</code> 目录下<br>复制并替换 配置文件（非Windows用户使用）目录下的 <code>nginx.conf</code> 和 <code>ca文件夹</code> 到 <code>/etc/nginx</code> 目录</p>
-<h3 id="安装-CA-证书-1"><a href="#安装-CA-证书-1" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><div class="tabs" id="ca2"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="ca2-1"><i class="fa-brands fa-chrome"></i>Chrome</button><button type="button" class="tab " data-href="ca2-2"><i class="fa-brands fa-firefox"></i>FireFox</button></ul><div class="tab-contents"><div class="tab-item-content active" id="ca2-1"><p>打开 Chrome ，依次点击 <strong><code>设置 - 隐私和安全 - 安全</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-44-17.jpg" alt="依次点击 设置 - 隐私和安全 - 安全"></p>
-<p>下拉，选择 <strong><code>管理证书</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-44-37.jpg" alt="下拉，选择管理证书"></p>
-<p>在管理证书窗口中，依次选择 <strong><code>授权机构 - 导入</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-45-34.jpg" alt="依次选择 授权机构 - 导入"></p>
-<p>在文件选择界面，将文件类型改为 <strong>所有文件</strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-47-51.jpg" alt="将文件类型改为所有文件"></p>
-<p>在新弹出的窗口中，勾选 <strong><code>信任该证书，以标识网站的身份</code></strong> ，点击 <strong>确定</strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_20-52-35.jpg" alt="勾选信任该证书，以标识网站的身份"></p></div><div class="tab-item-content" id="ca2-2"><p>打开 FireFox 依次选择 <strong><code>设置 - 隐私与安全</code></strong> ，在 <strong>安全</strong> 中，选择 <strong><code>查看证书</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_21-28-19.jpg" alt="依次选择 设置 - 隐私与安全，在安全中，选择查看证书"></p>
-<p>在弹出的<strong>证书管理器窗口</strong>中，依次选择 <strong><code>证书颁发机构 - 导入</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-50-49.jpg" alt="依次选择 证书颁发机构 - 导入"></p>
-<p>在新弹出的窗口中，勾选 <strong><code>信任由此证书颁发机来标识网站</code></strong> ，点击 <strong>确定</strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_21-29-46.jpg" alt="勾选信任由此证书颁发机来标识网站"></p>
-<p>最后，点击 <strong>确定</strong> ，关闭即可</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-17_21-52-10.jpg" alt="点击确定"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
-
-<h3 id="修改-hosts-文件-1"><a href="#修改-hosts-文件-1" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><div class="tabs" id="hosts1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="hosts1-1"><i class="fa-solid fa-copy"></i>替换大法</button><button type="button" class="tab " data-href="hosts1-2"><i class="fa-solid fa-pen-to-square"></i>更新 hosts 文件</button></ul><div class="tab-contents"><div class="tab-item-content active" id="hosts1-1"><div class="note warning flat"><p>如果你使用的代理程序是使用端口进行代理，你可能需要查看 <strong>更新 hosts 文件</strong> 中的方法</p>
-</div>
-
-<p>复制 <strong>hosts</strong> 文件，到 <code>/etc/hosts</code></p></div><div class="tab-item-content" id="hosts1-2"><div class="note info flat"><p>直接替换文件的话，可以略过此步骤</p>
-</div>
-
-<p>输入命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/hosts</span><br><span class="line"><span class="comment"># 如果提示没有 nano ，请执行以下命令</span></span><br><span class="line"><span class="built_in">sudo</span> apt install nano</span><br></pre></td></tr></table></figure>
-<p>完成 hosts 文件编辑</p>
-<p>在 hosts 文件末尾添加以下内容</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure>
-
-<p>修改后是这个效果</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_19-46-06.jpg" alt="修改后的效果"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
-
-<h3 id="运行-Nginx-1"><a href="#运行-Nginx-1" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><p>在终端输入以下命令即可运行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 运行命令</span></span><br><span class="line">nginx start</span><br><span class="line"><span class="comment"># 如果想停止，输入以下命令即可</span></span><br><span class="line">nginx stop</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_19-48-46.jpg" alt="运行 Nginx"></p>
-<h2 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h2><div class="note success flat"><p>本教程演示的系统版本为 macOS Sonoma 14.6</p>
-</div>
-<p>macOS 用户需要使用的文件同样在 <strong><code>配置文件（非Windows用户使用）</code></strong> 中</p>
-<h3 id="安装-brew"><a href="#安装-brew" class="headerlink" title="安装 brew"></a>安装 brew</h3><p>由于 macOS 没有原生的包管理器，所以我们需要安装 brew 来实现包管理功能<br>安装命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>或者使用 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/">清华大学开源软件镜像站</a> 提供的安装脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-install</span><br><span class="line">/bin/bash brew-install/install.sh</span><br><span class="line"><span class="built_in">rm</span> -rf brew-install</span><br></pre></td></tr></table></figure>
-
-<p>此时可能会询问是否下载 <strong>git 命令行开发者工具</strong> ，选择 <strong><code>安装</code></strong> 即可</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_22-05.jpg" alt="选择安装即可"></p>
-<p>在某些情况下 brew 无法注册到 <strong>PATH</strong> ，所以我们要运行下面的命令来注册到 <strong>PATH</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 下面的 用户名 为你电脑的用户名</span></span><br><span class="line">(<span class="built_in">echo</span>; <span class="built_in">echo</span> <span class="string">&#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27;</span>) &gt;&gt; /Users/用户名/.zprofile</span><br><span class="line"><span class="built_in">eval</span> <span class="string">&quot;<span class="subst">$(/opt/homebrew/bin/brew shellenv)</span>&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>当然，你也可以在安装日志中找到相关提示</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_22-47.jpg" alt="程序输出日志"></p>
-<h4 id="brew-更换软件源"><a href="#brew-更换软件源" class="headerlink" title="brew 更换软件源"></a>brew 更换软件源</h4><p>由于众所周知的原因，brew的默认软件源是非常不稳定的，所以我们可以替换为 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/">清华源</a></p>
-<p>安装脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>4.0及以上版本 (替换为阿里源)</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 临时替换</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_INSTALL_FROM_API=1</span><br><span class="line"><span class="built_in">export</span> HOMEBREW_API_DOMAIN=<span class="string">&quot;https://mirrors.aliyun.com/homebrew-bottles/api&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BREW_GIT_REMOTE=<span class="string">&quot;https://mirrors.aliyun.com/homebrew/brew.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_CORE_GIT_REMOTE=<span class="string">&quot;https://mirrors.aliyun.com/homebrew/homebrew-core.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BOTTLE_DOMAIN=<span class="string">&quot;https://mirrors.aliyun.com/homebrew/homebrew-bottles&quot;</span></span><br><span class="line">brew update</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 永久替换</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># bash 用户</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_API_DOMAIN=&quot;https://mirrors.aliyun.com/homebrew-bottles/api&quot;&#x27;</span> &gt;&gt; ~/.bash_profile</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_BREW_GIT_REMOTE=&quot;https://mirrors.aliyun.com/homebrew/brew.git&quot;&#x27;</span> &gt;&gt; ~/.bash_profile</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_CORE_GIT_REMOTE=&quot;https://mirrors.aliyun.com/homebrew/homebrew-core.git&quot;&#x27;</span> &gt;&gt; ~/.bash_profile</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_BOTTLE_DOMAIN=&quot;https://mirrors.aliyun.com/homebrew/homebrew-bottles&quot;&#x27;</span> &gt;&gt; ~/.bash_profile</span><br><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br><span class="line">brew update</span><br><span class="line"></span><br><span class="line"><span class="comment"># zsh 用户</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_API_DOMAIN=&quot;https://mirrors.aliyun.com/homebrew-bottles/api&quot;&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_BREW_GIT_REMOTE=&quot;https://mirrors.aliyun.com/homebrew/brew.git&quot;&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_CORE_GIT_REMOTE=&quot;https://mirrors.aliyun.com/homebrew/homebrew-core.git&quot;&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export HOMEBREW_BOTTLE_DOMAIN=&quot;https://mirrors.aliyun.com/homebrew/homebrew-bottles&quot;&#x27;</span> &gt;&gt; ~/.zshrc</span><br><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br><span class="line">brew update</span><br></pre></td></tr></table></figure>
-
-<p>4.0 及以下版本  (替换为清华源)</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> HOMEBREW_API_DOMAIN=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BOTTLE_DOMAIN=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_BREW_GIT_REMOTE=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_CORE_GIT_REMOTE=<span class="string">&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git&quot;</span></span><br><span class="line"><span class="built_in">export</span> HOMEBREW_PIP_INDEX_URL=<span class="string">&quot;https://pypi.tuna.tsinghua.edu.cn/simple&quot;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="安装-Nginx-1"><a href="#安装-Nginx-1" class="headerlink" title="安装 Nginx"></a>安装 Nginx</h3><p>在 <strong>终端 App</strong> 中，输入下面命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">brew install nginx</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_23-30.jpg" alt="安装 Nginx"></p>
-<div class="note info flat"><p>macOS 显示隐藏文件的快捷键是 ⌘ + ⇧ + .</p>
-</div>
-
-<div class="tabs" id="macnginx"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="macnginx-1"><i class="fa-solid fa-microchip"></i>Intel 芯片</button><button type="button" class="tab " data-href="macnginx-2"><i class="fa-brands fa-apple"></i>Apple 芯片</button></ul><div class="tab-contents"><div class="tab-item-content active" id="macnginx-1"><p>使用<strong>Intel芯片</strong>的Mac配置文件存放在 <code>/usr/local/etc/nginx/nginx.conf</code> 中</p>
-<p>复制并替换 配置文件（非Windows用户使用）目录下的 <code>nginx.conf</code> 和 <code>ca文件夹</code> 到  <code>/usr/local/etc/nginx/nginx.conf</code> 目录</p></div><div class="tab-item-content" id="macnginx-2"><p>使用<strong>Apple芯片</strong>的Mac，配置文件存放在 <code>/opt/homebrew/etc/nginx/nginx.conf</code> 中</p>
-<p>复制并替换 配置文件（非Windows用户使用）目录下的 <code>nginx.conf</code> 和 <code>ca文件夹</code> 到   <code>/opt/homebrew/etc/nginx/nginx.conf</code></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
-
-<h3 id="安装-CA-证书-2"><a href="#安装-CA-证书-2" class="headerlink" title="安装 CA 证书"></a>安装 CA 证书</h3><div class="tabs" id="ca3"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="ca3-1"><i class="fa-brands fa-safari"></i>钥匙串</button><button type="button" class="tab " data-href="ca3-2"><i class="fa-brands fa-chrome"></i>Chrome/Edge</button><button type="button" class="tab " data-href="ca3-3"><i class="fa-brands fa-firefox"></i>FireFox</button></ul><div class="tab-contents"><div class="tab-item-content active" id="ca3-1"><div class="note warning flat"><p>由于 macOS 的特殊性，几乎所有的浏览器，CA证书都需要由 <strong>钥匙串</strong> 来导入，所以我们只需要在 <strong>钥匙串</strong> 中导入证书即可</p>
-</div>
-
-<p>双击 <strong><code>ca.cer</code></strong> 证书文件 ，此时会弹出 <strong>添加证书</strong> 窗口，修改保存位置为 <strong>系统</strong> ，单击添加</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_19-49.jpg" alt="保存位置更改为系统，点击添加"></p>
-<p>按照系统要求，输入密码</p>
-<p>打开 <strong><code>钥匙串访问</code></strong> ，在<strong>系统</strong>中找到 <strong><code>Mashiro Internet Fake Authority CA</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_20-01.jpg" alt="找到 Mashiro Internet Fake Authority CA"></p>
-<p>将 <strong>使用系统默认</strong> 改为 <strong>始终信任</strong> ，并按照系统要求输入密码</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_20-03.jpg" alt="改为始终信任"></p></div><div class="tab-item-content" id="ca3-2"><div class="note warning flat"><p>由于 macOS 的特殊性，不止是 Safari ，几乎所有的浏览器，CA证书都需要由 <strong>钥匙串</strong> 来导入，所以我们只需要在 <strong>钥匙串</strong> 中导入证书即可</p>
-</div>
-
-<div class="note primary flat"><p>查看 Chrome&#x2F;Edge 的教程并无意义，请直接查看 <strong>钥匙串</strong> 的教程</p>
-</div>
-
-<p>如果执意在 Chrome&#x2F;Edge 选择 <strong>管理证书</strong> ，可能会弹出询问是 <strong><code>打开密码还是钥匙串</code></strong> ，选择 <strong><code>钥匙串</code></strong> 即可</p>
-<p>然后按照 <strong>钥匙串</strong> 的步骤添加证书即可</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_19-43.jpg" alt="打开钥匙串访问"></p></div><div class="tab-item-content" id="ca3-3"><div class="note warning flat"><p>由于 macOS 的特殊性，不止是 Safari ，几乎所有的浏览器，CA证书都需要由 <strong>钥匙串</strong> 来导入，所以我们只需要在 <strong>钥匙串</strong> 中导入证书即可</p>
-</div>
-
-<div class="note primary flat"><p>查看 FireFox 的教程并无意义，请直接查看 <strong>钥匙串</strong> 的教程</p>
-</div></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
-
-<h3 id="修改-hosts-文件-2"><a href="#修改-hosts-文件-2" class="headerlink" title="修改 hosts 文件"></a>修改 hosts 文件</h3><div class="tabs" id="hosts2"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="hosts2-1"><i class="fa-solid fa-copy"></i>替换大法</button><button type="button" class="tab " data-href="hosts2-2"><i class="fa-solid fa-pen-to-square"></i>更新 hosts 文件</button></ul><div class="tab-contents"><div class="tab-item-content active" id="hosts2-1"><div class="note warning flat"><p>如果你使用的代理程序是使用端口进行代理，你可能需要查看 <strong>更新 hosts 文件</strong> 中的方法</p>
-</div>
-
-<p>复制 <strong>hosts</strong> 文件，到 <code>/etc/hosts</code></p></div><div class="tab-item-content" id="hosts2-2"><div class="note info flat"><p>直接替换文件的话，可以略过此步骤</p>
-</div>
-
-<p>输入命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/hosts</span><br><span class="line"><span class="comment"># 如果提示没有 nano ，请执行以下命令</span></span><br><span class="line"><span class="built_in">sudo</span> brew install nano</span><br></pre></td></tr></table></figure>
-<p>完成 hosts 文件编辑</p>
-<p>在 hosts 文件末尾添加以下内容</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">#UTF-8 encoded </span><br><span class="line">#www.google.com域名仅用于登陆验证</span><br><span class="line">#如果你不需要这个功能，请把下一行删掉</span><br><span class="line">127.0.0.1 www.google.com</span><br><span class="line"></span><br><span class="line"># Pixiv Start</span><br><span class="line">127.0.0.1 pixiv.net </span><br><span class="line">127.0.0.1 www.pixiv.net </span><br><span class="line">127.0.0.1 ssl.pixiv.net</span><br><span class="line">127.0.0.1 accounts.pixiv.net </span><br><span class="line">127.0.0.1 touch.pixiv.net</span><br><span class="line">127.0.0.1 oauth.secure.pixiv.net</span><br><span class="line">127.0.0.1 dic.pixiv.net</span><br><span class="line">127.0.0.1 en-dic.pixiv.net </span><br><span class="line">127.0.0.1 sketch.pixiv.net</span><br><span class="line">127.0.0.1 payment.pixiv.net</span><br><span class="line">127.0.0.1 factory.pixiv.net </span><br><span class="line">127.0.0.1 comic.pixiv.net  </span><br><span class="line">127.0.0.1 novel.pixiv.net </span><br><span class="line">127.0.0.1 imgaz.pixiv.net </span><br><span class="line">127.0.0.1 sensei.pixiv.net</span><br><span class="line">127.0.0.1 fanbox.pixiv.net</span><br><span class="line">127.0.0.1 source.pixiv.net</span><br><span class="line">127.0.0.1 i1.pixiv.net </span><br><span class="line">127.0.0.1 i2.pixiv.net </span><br><span class="line">127.0.0.1 i3.pixiv.net </span><br><span class="line">127.0.0.1 i4.pixiv.net</span><br><span class="line">127.0.0.1 hls1.pixivsketch.net</span><br><span class="line">127.0.0.1 hls2.pixivsketch.net</span><br><span class="line">127.0.0.1 hls3.pixivsketch.net</span><br><span class="line">127.0.0.1 hls4.pixivsketch.net</span><br><span class="line">127.0.0.1 hls5.pixivsketch.net</span><br><span class="line">127.0.0.1 hls6.pixivsketch.net</span><br><span class="line">127.0.0.1 hls7.pixivsketch.net</span><br><span class="line">127.0.0.1 hls8.pixivsketch.net</span><br><span class="line">127.0.0.1 hls9.pixivsketch.net</span><br><span class="line">127.0.0.1 hls10.pixivsketch.net</span><br><span class="line">127.0.0.1 hls11.pixivsketch.net</span><br><span class="line">127.0.0.1 hls12.pixivsketch.net</span><br><span class="line">127.0.0.1 hls13.pixivsketch.net</span><br><span class="line">127.0.0.1 hls14.pixivsketch.net</span><br><span class="line">127.0.0.1 hls15.pixivsketch.net</span><br><span class="line">127.0.0.1 hls16.pixivsketch.net</span><br><span class="line">127.0.0.1 hls17.pixivsketch.net</span><br><span class="line">127.0.0.1 hls18.pixivsketch.net</span><br><span class="line">127.0.0.1 hls19.pixivsketch.net</span><br><span class="line">127.0.0.1 hls20.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa10.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa11.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa12.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa13.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa14.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa15.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa16.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa17.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa18.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsa19.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlsc6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse1.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse2.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse3.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse4.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse5.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse6.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse7.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse8.pixivsketch.net</span><br><span class="line">127.0.0.1 hlse9.pixivsketch.net</span><br><span class="line">127.0.0.1 hlst1.pixivsketch.net</span><br><span class="line">127.0.0.1 i.pximg.net</span><br><span class="line">127.0.0.1 app-api.pixiv.net  </span><br><span class="line">13.226.113.16 g-client-proxy.pixiv.net </span><br><span class="line">210.140.131.157 d.pixiv.org </span><br><span class="line">210.140.92.141 pixiv.pximg.net  </span><br><span class="line">210.140.92.142 s.pximg.net</span><br><span class="line">210.140.131.246 api.booth.pm</span><br><span class="line">210.140.131.220 myaccount.pixiv.net</span><br><span class="line"># Pixiv End</span><br></pre></td></tr></table></figure></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>
-
-<h3 id="运行-Nginx-2"><a href="#运行-Nginx-2" class="headerlink" title="运行 Nginx"></a>运行 Nginx</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 在终端中输入下面命令开始运行</span></span><br><span class="line">brew services start nginx</span><br><span class="line"><span class="comment"># 关闭命令</span></span><br><span class="line">brew services stop nginx</span><br></pre></td></tr></table></figure>
-
-<h3 id="Safari-出现-此连接非私人连接-怎么办？"><a href="#Safari-出现-此连接非私人连接-怎么办？" class="headerlink" title="Safari 出现 此连接非私人连接 怎么办？"></a>Safari 出现 此连接非私人连接 怎么办？</h3><p>单击 <strong><code>显示详细信息</code></strong></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_23-09.jpg" alt="单击显示详细信息"></p>
-<p>在下面选择 <strong><code>访问此网站</code></strong> 即可</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-19_23-10.jpg" alt="选择访问此网站"></p>
-<h2 id="（可选）将图片链接替换为-i-pixiv-re"><a href="#（可选）将图片链接替换为-i-pixiv-re" class="headerlink" title="（可选）将图片链接替换为 i.pixiv.re"></a>（可选）将图片链接替换为 i.pixiv.re</h2><div class="tabs" id="image"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="image-1"><i class="fa-brands fa-windows"></i>Windows</button><button type="button" class="tab " data-href="image-2"><i class="fa-brands fa-linux"></i>Linux</button><button type="button" class="tab " data-href="image-3">fa-brands fa-apple</button></ul><div class="tab-contents"><div class="tab-item-content active" id="image-1"><p>修改配置文件，文件在软件目录内 <code>/conf/pixiv.conf</code> 中</p>
-<p>删除第 117 行的注释即可</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div><div class="tab-item-content" id="image-2"><p>Linux 用户需要把软件目录内的 <code>/conf/nginx.conf</code> 和 <code>/conf/pixiv.conf</code> 复制到 Nginx 目录内</p>
-<p>配置文件在 <code>/etc/nginx</code> 目录下</p>
-<p>编辑 <code>pixiv.conf</code> 文件</p>
-<p>删除第 117 行的注释即可</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div><div class="tab-item-content" id="image-3"><p>macOS 用户需要把软件目录内的 <code>/conf/nginx.conf</code> 和 <code>/conf/pixiv.conf</code> 复制到 Nginx 目录内</p>
-<p>配置文件存放在 <code>/usr/local/etc/nginx/nginx.conf</code> 中</p>
-<blockquote>
-<p>使用Apple芯片的Mac，配置文件存放在 <code>/opt/homebrew/etc/nginx/nginx.conf</code> 中</p>
+<h1 id="安装-NapCatQQ"><a href="#安装-NapCatQQ" class="headerlink" title="安装 NapCatQQ"></a>安装 NapCatQQ</h1><h2 id="Windows-一键安装"><a href="#Windows-一键安装" class="headerlink" title="Windows 一键安装"></a>Windows 一键安装</h2><h3 id="Windows-一键安装-1"><a href="#Windows-一键安装-1" class="headerlink" title="Windows 一键安装"></a>Windows 一键安装</h3><ol>
+<li>打开 Github Releases: <a href="https://github.com/NapNeko/NapCatQQ/releases">NapNeko&#x2F;NapCatQQ</a></li>
+<li>下载 <code>NapCat.Shell.Windows.OneKey.zip</code> </li>
+<li>解压全部文件并运行 <code>NapCatInstaller.exe</code></li>
+<li>等待安装完成后进入 <strong>NapCat.XXXX.Shell</strong> 目录，运行 <code>napcat.bat</code><blockquote>
+<p>XXXX 为版本号，一般由数字组成</p>
 </blockquote>
-<p>编辑 <code>pixiv.conf</code> 文件</p>
-<p>删除第 117 行的注释即可</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2024081712/2024-08-20_21-39-29.jpg" alt="删除第 117 行的注释"></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div>]]></content>
+</li>
+</ol>
+<p>可在终端打印日志中找到登陆二维码</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-26-45.png"></p>
+<h3 id="Windows-可视化管理工具"><a href="#Windows-可视化管理工具" class="headerlink" title="Windows 可视化管理工具"></a>Windows 可视化管理工具</h3><ol>
+<li>打开 Github Releases: <a href="https://github.com/NapNeko/NapCatQQ-Desktop/releases">NapNeko&#x2F;NapCatQQ-Desktop</a></li>
+<li>下载 <code>NapCatQQ-Desktop.exe</code></li>
+<li>按照指引安装程序</li>
+<li>在左侧面板中选择 <strong>组件 - QQ</strong> ，按照提示安装 QQ</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-30-52.png"></p>
+<ol start="5">
+<li>在左侧面板中选择 <strong>添加</strong> ，在 Bot QQ 中输入机器人 QQ 号</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-39-04.png"></p>
+<ol start="6">
+<li>在左侧面板中选择 <strong>列表</strong> ，选择要启用的机器人，进入后点击启动</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-41-53.png"></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-42-19.png"></p>
+<h2 id="Linux-一键安装"><a href="#Linux-一键安装" class="headerlink" title="Linux 一键安装"></a>Linux 一键安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -o \</span><br><span class="line">napcat.sh \</span><br><span class="line">https://nclatest.znin.net/NapNeko/NapCat-Installer/main/script/install.sh \</span><br><span class="line">&amp;&amp; <span class="built_in">sudo</span> bash napcat.sh</span><br></pre></td></tr></table></figure>
+
+<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><h3 id="通过-Docker-Compose-和-AstrBot-一同部署"><a href="#通过-Docker-Compose-和-AstrBot-一同部署" class="headerlink" title="通过 Docker Compose 和 AstrBot 一同部署"></a>通过 Docker Compose 和 AstrBot 一同部署</h3><p>创建名为 <code>docker-compose.yml</code> 的文件，并填写以下内容</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># docker-compose.yml</span></span><br><span class="line"><span class="comment"># NAPCAT_UID=$(id -u) NAPCAT_GID=$(id -g) docker-compose -f ./compose/astrbot.yml up -d</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">napcat:</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">NAPCAT_UID=$&#123;NAPCAT_UID:-1000&#125;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">NAPCAT_GID=$&#123;NAPCAT_GID:-1000&#125;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">MODE=astrbot</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">6099</span><span class="string">:6099</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">NapCat</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mlikiowa/napcat-docker:latest</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./data:/AstrBot/data</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./ntqq:/app/.config/QQ</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">astrbot_network</span></span><br><span class="line">    <span class="attr">mac_address:</span> <span class="string">&quot;02:42:ac:11:00:02&quot;</span></span><br><span class="line">  <span class="attr">astrbot:</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">TZ=Asia/Shanghai</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">soulter/astrbot:latest</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">AstrBot</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;6185:6185&quot;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;6195:6195&quot;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;6199:6199&quot;</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./data:/AstrBot/data</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./napcat/config:/app/napcat/config</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./ntqq:/app/.config/QQ</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">astrbot_network</span></span><br><span class="line"><span class="attr">networks:</span></span><br><span class="line">  <span class="attr">astrbot_network:</span></span><br><span class="line">    <span class="attr">driver:</span> <span class="string">bridge</span></span><br></pre></td></tr></table></figure>
+
+<p>在文件所在目录执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">NAPCAT_UID=$(<span class="built_in">id</span> -u) NAPCAT_GID=$(<span class="built_in">id</span> -g) docker-compose -f ./docker-compose.yml up -d</span><br></pre></td></tr></table></figure>
+
+<h3 id="通过-Docker-部署"><a href="#通过-Docker-部署" class="headerlink" title="通过 Docker 部署"></a>通过 Docker 部署</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">-e NAPCAT_GID=$(<span class="built_in">id</span> -g) \</span><br><span class="line">-e NAPCAT_UID=$(<span class="built_in">id</span> -u) \</span><br><span class="line">-p 3000:3000 \</span><br><span class="line">-p 3001:3001 \</span><br><span class="line">-p 6099:6099 \</span><br><span class="line">--name napcat \</span><br><span class="line">--restart=always \</span><br><span class="line">mlikiowa/napcat-docker:latest</span><br></pre></td></tr></table></figure>
+
+<p>部署后查看日志就可以获取登陆二维码了</p>
+<h1 id="接入-AstrBot"><a href="#接入-AstrBot" class="headerlink" title="接入 AstrBot"></a>接入 AstrBot</h1><h2 id="AstrBot-配置"><a href="#AstrBot-配置" class="headerlink" title="AstrBot 配置"></a>AstrBot 配置</h2><ol>
+<li>打开 AstrBot 面板</li>
+<li>在左侧面板中选择 <code>消息平台</code> ，并在右侧点击 <code>新增适配器</code></li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060619/SCR-20260501-01.jpg"></p>
+<p>在配置项中填写：</p>
+<ul>
+<li>消息平台类别选择 <strong>OneBotv11</strong></li>
+<li>反向 WebSocket 主机地址：请填主机的 IP 地址，也可以填写 <code>0.0.0.0</code></li>
+<li>反向 WebSocket 端口：填写一个端口（如8848），并且记住这个端口</li>
+</ul>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060619/SCR-20260501-02.jpg"></p>
+<h3 id="NapCatQQ-配置"><a href="#NapCatQQ-配置" class="headerlink" title="NapCatQQ 配置"></a>NapCatQQ 配置</h3><p>打开 <strong>NapCatQQ 的管理面板</strong>，依次找到 <strong>网络配置-&gt;新建-&gt;WebSockets客户端</strong></p>
+<p>在配置项中填写：</p>
+<ul>
+<li>URL：刚刚配置的主机的 IP 地址+端口，例如 <code>ws://127.0.0.1:8848/ws</code></li>
+<li><strong>心跳间隔</strong>和<strong>重连间隔</strong>：5000</li>
+</ul>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060619/SCR-20250608-njqq.jpg"></p>
+<p>检查日志可确认连接状态</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060619/SCR-20250606-jcel.jpg"></p>
+]]></content>
       <categories>
         <category>GitHub 开源项目部署</category>
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>Windows</tag>
         <tag>Linux</tag>
-        <tag>Nginx</tag>
-        <tag>Pixiv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一下在 LinuxMint 安装 Docker 遇到的坑</title>
-    <url>//page/2025011912.html</url>
-    <content><![CDATA[<h1 id="正常-Ubuntu-下安装-Docker-步骤"><a href="#正常-Ubuntu-下安装-Docker-步骤" class="headerlink" title="正常 Ubuntu 下安装 Docker 步骤"></a>正常 Ubuntu 下安装 Docker 步骤</h1><p>开始前，我们需要运行以下命令以卸载所有冲突的软件包</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> pkg <span class="keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="keyword">do</span> <span class="built_in">sudo</span> apt-get remove <span class="variable">$pkg</span>; <span class="keyword">done</span></span><br></pre></td></tr></table></figure>
-
-<div class="note info flat"><p><strong>apt-get</strong> 可能会报告您未安装这些软件包。</p>
-</div>  
-
-<h2 id="设置-Docker-的-apt-仓库"><a href="#设置-Docker-的-apt-仓库" class="headerlink" title="设置 Docker 的 apt 仓库"></a>设置 Docker 的 apt 仓库</h2><h3 id="官方源"><a href="#官方源" class="headerlink" title="官方源"></a>官方源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 添加 Docker 的 GPG key:</span></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get install ca-certificates curl</span><br><span class="line"><span class="built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings</span><br><span class="line"><span class="built_in">sudo</span> curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.asc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line">  </span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br></pre></td></tr></table></figure>
-<h3 id="阿里源"><a href="#阿里源" class="headerlink" title="阿里源"></a>阿里源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 安装必要的一些系统工具</span></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get install ca-certificates curl gnupg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 信任 Docker 的 GPG 公钥</span></span><br><span class="line"><span class="built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | <span class="built_in">sudo</span> gpg --dearmor -o /etc/apt/keyrings/docker.gpg</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.gpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.gpg] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \</span></span><br><span class="line"><span class="string">  &quot;</span>$(. /etc/os-release &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)<span class="string">&quot; stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h2><p>运行以下命令安装最新版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`</span><br></pre></td></tr></table></figure>
-
-<hr>
-<p>安装特定版本的 Docker Engine，首先列出存储库中可用的版本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 列出存储库中可用的版本:</span></span><br><span class="line">apt-cache madison docker-ce | awk <span class="string">&#x27;&#123; print $3 &#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">5:27.4.1-1~ubuntu.24.04~noble</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-<p>选择所需版本并安装：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">VERSION_STRING=5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line"><span class="built_in">sudo</span> apt-get install docker-ce=<span class="variable">$VERSION_STRING</span> docker-ce-cli=<span class="variable">$VERSION_STRING</span> containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
-<h2 id="使用-hello-world-镜像验证是否成功安装"><a href="#使用-hello-world-镜像验证是否成功安装" class="headerlink" title="使用 hello-world 镜像验证是否成功安装"></a>使用 hello-world 镜像验证是否成功安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker run hello-world</span><br></pre></td></tr></table></figure>
-
-<p>此命令下载一个测试镜像并在容器中运行它。当容器运行时，它会输出一条确认消息然后退出。<br>安装结束。</p>
-<h1 id="Linux-Mint-下遇到的坑"><a href="#Linux-Mint-下遇到的坑" class="headerlink" title="Linux Mint 下遇到的坑"></a>Linux Mint 下遇到的坑</h1><p>安装正常的 Ubuntu 步骤，在 Linux Mint 下添加 Docker 软件源后，会在 <code>apt-get update</code> 步骤下报错，报错内容如下</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">忽略:1 https://download.docker.com/linux/ubuntu wilma InRelease</span><br><span class="line">错误:3 https://download.docker.com/linux/ubuntu wilma Release</span><br><span class="line">正在读取软件包列表... 完成</span><br><span class="line">E: 仓库 “https://download.docker.com/linux/ubuntu wilma Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
-
-<p>这是因为部分 Ubuntu 衍生发行版使用的并不是 <code>VERSION_CODENAME</code> 而是 <code>UBUNTU_CODENAME</code>，使用 <code>VERSION_CODENAME</code> 会导致添加<strong>错误的 Ubuntu 发行版代号</strong></p>
-<p>正常在 Ubuntu 下添加软件源的步骤是这么写的</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
-
-<p>这就需要我们在添加软件源时将 <code>VERSION_CODENAME</code> 改成 <code>UBUNTU_CODENAME</code>，上面阿里源同理</p>
-<div class="note info flat"><p>阿里源不能直接使用下面的内容</p>
-</div>  
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$UBUNTU_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
-
-<p>最后使用 <code>apt-get update</code> 就不会报错了</p>
-]]></content>
-      <categories>
-        <category>踩坑记录</category>
-      </categories>
-      <tags>
-        <tag>Ubuntu</tag>
-        <tag>随手记</tag>
+        <tag>聊天机器人</tag>
         <tag>Docker</tag>
-        <tag>LinuxMint</tag>
       </tags>
   </entry>
   <entry>
-    <title>部署 AstrBot 实现多平台聊天机器人功能</title>
-    <url>//page/2025060609.html</url>
-    <content><![CDATA[<div class="note success flat"><p>GitHub项目地址：<a href="https://github.com/AstrBotDevs/AstrBot">AstrBotDevs&#x2F;AstrBot</a></p>
+    <title>部署 WeChatPadPro 并接入 AstrBot 实现微信聊天机器人功能</title>
+    <url>//page/2025061519.html</url>
+    <content><![CDATA[<div class="note danger flat"><p>本教程已不再可用，如需接入个人微信，请查看 <a href="https://docs.astrbot.app/platform/weixin_oc.html">AstrBot 帮助文档</a>) </p>
 </div>
 
-<div class="note info flat"><p>文章部分内容出自 <a href="https://astrbot.app/what-is-astrbot.html">AsrtBot 帮助文档</a>  ，<a href="https://github.com/Soulter/AstrBot">Github 项目地址</a></p>
+<div class="note info flat"><p>GitHub项目地址：<a href="https://github.com/WeChatPadPro/WeChatPadPro">WeChatPadPro&#x2F;WeChatPadPro</a></p>
 </div>
 
-<h1 id="Windows-一键安装器部署-AstrBot"><a href="#Windows-一键安装器部署-AstrBot" class="headerlink" title="Windows 一键安装器部署 AstrBot"></a>Windows 一键安装器部署 AstrBot</h1><h2 id="下载必要文件"><a href="#下载必要文件" class="headerlink" title="下载必要文件"></a>下载必要文件</h2><p>打开 Github Releases：<a href="https://github.com/AstrBotDevs/AstrBotLauncher/releases/latest">AstrBotDevs&#x2F;AstrBotLauncher</a><br>下载 <code>Source code (zip)</code> 并解压</p>
-<h2 id="运行安装器"><a href="#运行安装器" class="headerlink" title="运行安装器"></a>运行安装器</h2><p>打开刚刚解压好的目录，双击运行 <code>launcher_astrbot_en.bat</code>，程序会自动下载所需文件</p>
-<p>如果提示 <code>[ERROR] Python is not installed. Please install Python 3.10 or higher</code>，请下载 Python 3.10 或更高版本</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_10-10-09.png" alt="提示没有安装Python"></p>
-<p><a href="https://www.python.org/downloads/release/python-31011/">Python 3.10.11</a> 下载地址<br>进入后下拉，选择 <code>Windows Installer (64-bit)</code></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_10-16.png" alt="选择 Windows Installer (64-bit)"></p>
-<p>安装时请选中<code>Add python.exe to PATH</code></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_10-23-45.png" alt="勾选 添加Python到环境变量"></p>
-<h2 id="完成部署"><a href="#完成部署" class="headerlink" title="完成部署"></a>完成部署</h2><p>如果一切顺利的话，你可以在终端日志中找到端口名以及默认用户密码</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_10-39-58.png" alt="查看端口及密码"></p>
-<p>进入控制台，完成后续的配置，如接入大语言模型，部署消息平台等</p>
-<div class="note success flat"><p>默认用户名和密码是 <code>astrbot</code> 和 <code>astrbot</code>。</p>
-</div>
+<h1 id="部署步骤"><a href="#部署步骤" class="headerlink" title="部署步骤"></a>部署步骤</h1><h2 id="使用-Docker-部署"><a href="#使用-Docker-部署" class="headerlink" title="使用 Docker 部署"></a>使用 Docker 部署</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/bclz-wyz/WeChatPadPro-Docker --depth 1</span><br><span class="line"><span class="built_in">cd</span> WeChatPadPro-Docker</span><br><span class="line"><span class="built_in">mkdir</span> main &amp;&amp; <span class="built_in">mkdir</span> mysql &amp;&amp; <span class="built_in">cd</span> main</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/luolin-ai/WeChatPadPro --depth 1</span><br><span class="line"><span class="built_in">mv</span> WeChatPadPro/* .</span><br><span class="line">unzip 859_service_linux.zip</span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line"><span class="built_in">mv</span> setting.json main/assets/setting.json</span><br></pre></td></tr></table></figure>
+<p>可以根据需求编辑 <code>main/assets/setting.json</code> 文件，不推荐使用配置文件默认的<code>adminKey</code></p>
+<p>使用下面命令来运行容器</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker compose up -d &amp;&amp; docker logs wechatpadpro</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_10-43-39.png" alt="进入仪表盘"></p>
-<hr>
-<h1 id="通过-Docker-部署"><a href="#通过-Docker-部署" class="headerlink" title="通过 Docker 部署"></a>通过 Docker 部署</h1><div class="note info flat"><p>此小章默认认为您已安装 Docker。如未安装，请参考 <a href="https://docs.docker.com/get-started/get-docker/">获取 Docker | Docker 文档</a></p>
-</div>
-
-<div class="note warning flat"><p>如果你想接入个人QQ，请务必参考这篇文章 <a href="https://www.ligaogreat.top/2025060619">部署 NapCatQQ 并接入 AstrBot 实现 QQ 聊天机器人功能</a> 中的 <strong>Docker Compose 方法</strong>，否则会造成<strong>功能缺失或部署重复</strong></p>
-</div>
-
-<h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署"></a>开始部署</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> astrbot</span><br><span class="line"><span class="built_in">sudo</span> docker run -itd -p 6180-6200:6180-6200 -p 11451:11451 -v <span class="variable">$PWD</span>/data:/AstrBot/data -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --name astrbot soulter/astrbot:latest</span><br></pre></td></tr></table></figure>
-
-<p>如果因上网环境问题无法连接，请使用下面命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker run -itd -p 6180-6200:6180-6200 -p 11451:11451 -v <span class="variable">$PWD</span>/data:/AstrBot/data -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --name astrbot m.daocloud.io/docker.io/soulter/astrbot:latest</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>下面内容来自 <a href="https://astrbot.app/deploy/astrbot/docker.html">AsrtBot帮助文档</a>  </p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>Port</th>
-<th>Description</th>
-<th>Type</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>6185</td>
-<td>AstrBot WebUI <code>默认</code> 端口</td>
-<td>需要</td>
-</tr>
-<tr>
-<td>6195</td>
-<td>企业微信 <code>默认</code> 端口</td>
-<td>可选</td>
-</tr>
-<tr>
-<td>6199</td>
-<td>OneBot(aiocqhttp) <code>默认</code> 端口</td>
-<td>可选</td>
-</tr>
-<tr>
-<td>6196</td>
-<td>QQ 官方 API(Webhook) HTTP callback server <code>默认</code> 端口</td>
-<td>可选</td>
-</tr>
-<tr>
-<td>11451</td>
-<td>Gewechat callback HTTP server <code>默认</code> 端口</td>
-<td>可选</td>
-</tr>
-</tbody></table>
-<h2 id="完成部署-1"><a href="#完成部署-1" class="headerlink" title="完成部署"></a>完成部署</h2><p>如果一切顺利的话，你可以在终端日志中找到端口名以及默认用户密码</p>
-<p>进入控制台，完成后续的配置，如接入大语言模型，部署消息平台等</p>
-<div class="note success flat"><p>默认用户名和密码是 <code>astrbot</code> 和 <code>astrbot</code>。</p>
-</div>
-
-<hr>
-<h1 id="接入语言大模型"><a href="#接入语言大模型" class="headerlink" title="接入语言大模型"></a>接入语言大模型</h1><div class="note info flat"><p>请确保服务提供商支持 OpenAI API 格式</p>
-</div>
-
-<p>打开 <code>服务提供商</code> 标签页，选择 <code>新增服务提供商</code></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_18-20.png" alt="选择新增服务商"></p>
-<p>在服务提供商列表中选择 <code>OpenAI</code></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_18-21.png" alt="选择OpenAI"></p>
-<p>在这里面，我们需要填写的项目有：</p>
+<h2 id="不使用-Docker"><a href="#不使用-Docker" class="headerlink" title="不使用 Docker"></a>不使用 Docker</h2><p>打开项目地址 <a href="https://github.com/WeChatPadPro/WeChatPadPro">WeChatPadPro&#x2F;WeChatPadPro</a>，按照文档提供的部署方式部署。<br>你可能需要部署下方三个软件：</p>
 <ul>
-<li><strong>API Key:</strong> 这里输入服务商提供的API Key</li>
-<li><strong>API Base URL:</strong> 这里输入服务商提供的接口</li>
-<li><strong>模型名称:</strong> 这里输入大语言模型，一般在服务商的接入文档中有提供</li>
+<li>WeChatPadPro</li>
+<li>MySQL</li>
+<li>Redis</li>
 </ul>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_18-25.png" alt="填写相关信息"></p>
-<p>最后，打开开关生效</p>
-<hr>
-<h1 id="接入信息平台-如QQ、微信"><a href="#接入信息平台-如QQ、微信" class="headerlink" title="接入信息平台 (如QQ、微信)"></a>接入信息平台 (如QQ、微信)</h1><div class="note success flat"><p>如果你想接入个人QQ，可以参考这篇文章 <a href="https://www.ligaogreat.top/2025060619">部署 NapCatQQ 并接入 AstrBot 实现 QQ 聊天机器人功能</a></p>
+<p>通过 <code>http://127.0.0.1:port</code> (port 是 <code>asset/setting.json</code> 中定义的 <code>port</code> 中的端口号)</p>
+<h1 id="接入-AstrBot"><a href="#接入-AstrBot" class="headerlink" title="接入 AstrBot"></a>接入 AstrBot</h1><ol>
+<li>打开 AstrBot 面板</li>
+<li>在左侧面板中选择 <code>消息平台</code> ，并在右侧点击 <code>新增适配器</code></li>
+<li>选择 wechatpadpro(微信)<br><img src="https://storage.ligaogreat.top/page_img/2025061519/SCR-20250615-lqhg.jpg"></li>
+</ol>
+<ul>
+<li>admin_key: <code>setting.json</code>文件中 <code>adminKey</code> 的值。</li>
+<li>host：取决于你的部署情况。host 填写部署 WeChatPadPro 项目的机器的主机地址。</li>
+<li>port：填写 <code>setting.json</code> 中的 port。如上方 Docker 部署，默认为 38849。<br><img src="https://storage.ligaogreat.top/page_img/2025061519/SCR-20250615-mmsa.jpg"></li>
+</ul>
+<p>查看日志，如果连接成功会<strong>出现登陆相关的二维码链接</strong></p>
+<div class="note warning no-icon flat"><p><strong>在第一次掉线之后请务必执行以下工作流程，否则将会严重提高风控风险。</strong></p>
+<ol>
+<li>进入 WechatPadPro 的 API 接口界面，将你刚刚扫码登录的账号的 token 填入 “TOKEN_KEY”，在 ADMIN_KEY 处输入自己设置的密钥。然后点击“连接”。</li>
+<li>然后往下翻找到“登录”——&gt;”唤醒登录（只限扫码登陆）“，点击 ”Try it out“，再点击 ”Execute“。此时，您扫码的那台机器会弹出登录界面。这个时候就能实现老设备登录不会触发风控。</li>
+</ol>
 </div>
 
-<div class="note success flat"><p>如果你想接入个人微信，可以参考这篇文章 <a href="https://www.ligaogreat.top/2025061519">部署 WeChatPadPro 并接入 AstrBot 实现微信聊天机器人功能</a></p>
+<div class="note warning no-icon flat"><p>如果二次部署 WeChatPadPro，AstrBot 提示授权码无效，可以进入数据目录 (AstrBot&#x2F;data )，删除 <code>wechatpadpro_credentials.json</code> 或改为有效的授权码</p>
 </div>]]></content>
       <categories>
         <category>GitHub 开源项目部署</category>
@@ -1401,8 +1342,8 @@
       <tags>
         <tag>教程</tag>
         <tag>Linux</tag>
-        <tag>Docker</tag>
         <tag>聊天机器人</tag>
+        <tag>Docker</tag>
       </tags>
   </entry>
   <entry>
@@ -1494,187 +1435,107 @@
       </tags>
   </entry>
   <entry>
-    <title>SSH 生成密钥及指定私钥文件连接</title>
-    <url>//page/2025062320.html</url>
-    <content><![CDATA[<h1 id="密钥生成"><a href="#密钥生成" class="headerlink" title="密钥生成"></a>密钥生成</h1><h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p>使用 <code>-t</code> 选项指定生成的<strong>密钥类型</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
-
-<p>使用 <code>-b</code> 选项指定生成的<strong>密钥位数</strong>，如生成 4096 位的 RSA 密钥</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096</span><br></pre></td></tr></table></figure>
-
-<h2 id="生成适用于-GitHub-的密钥"><a href="#生成适用于-GitHub-的密钥" class="headerlink" title="生成适用于 GitHub 的密钥"></a>生成适用于 GitHub 的密钥</h2><p>使用 <code>-C</code> 选项设置注释文字，如邮箱地址</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -C <span class="string">&quot;Github 邮箱&quot;</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="将公钥添加到远程服务器"><a href="#将公钥添加到远程服务器" class="headerlink" title="将公钥添加到远程服务器"></a>将公钥添加到远程服务器</h1><h2 id="添加到远程服务器"><a href="#添加到远程服务器" class="headerlink" title="添加到远程服务器"></a>添加到远程服务器</h2><ol>
-<li>查看公钥</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>登录到远程服务器</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh username@example.com</span><br></pre></td></tr></table></figure>
-
-<ol start="3">
-<li>编辑 <code>authorized_keys</code> 文件</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
-
-<ol start="4">
-<li><p>将公钥粘贴到 <code>authorized_keys</code>，确保一个公钥占用一行</p>
-</li>
-<li><p>设置 <code>authorized_keys</code> 的权限</p>
-</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 600 ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
-
-<h2 id="添加到-GitHub"><a href="#添加到-GitHub" class="headerlink" title="添加到 GitHub"></a>添加到 GitHub</h2><ol>
-<li><p>打开 Github，选择 Setting</p>
-</li>
-<li><p>选择 <strong><code>SSH and GTPG keys</code></strong></p>
-</li>
-<li><p>点击 New SSH key</p>
-</li>
-<li><p>在 <strong><code>key</code></strong> 中输入刚才获取的公钥即可</p>
-</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2022101222/2024-08-31_11-42-25.png" alt="配置 SSH key"></p>
-<h1 id="在-SSH-中指定私钥文件"><a href="#在-SSH-中指定私钥文件" class="headerlink" title="在 SSH 中指定私钥文件"></a>在 SSH 中指定私钥文件</h1><p>从命令行指定 SSH 中的私钥文件，只需在 <code>ssh</code> 命令中使用 <code>-i</code> 选项即可。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -i ~/.ssh/id_rsa username@example.com</span><br></pre></td></tr></table></figure>
-
-<p>如果本地存储了多个密钥时，每次使用 <code>ssh -i</code> 会变得相当麻烦，我们可以在 SSH 配置文件中声明每个 SSH 服务器使用哪个私钥。配置文件储存在 <strong><code>~/.ssh/config</code></strong> 中。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.ssh/config</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Host example.com</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa_01</span><br><span class="line"> </span><br><span class="line">Host 192.168.1.1</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa_02</span><br></pre></td></tr></table></figure>
-
-<p>配置后我们就可以直接使用 <code>ssh</code> 命令访问目标服务器了</p>
-]]></content>
-      <categories>
-        <category>随手记</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Windows</tag>
-        <tag>Linux</tag>
-        <tag>SSH</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>部署 NapCatQQ 并接入 AstrBot 实现 QQ 聊天机器人功能</title>
-    <url>//page/2025060619.html</url>
-    <content><![CDATA[<div class="note info flat"><p>GitHub项目地址：<a href="https://github.com/NapNeko/NapCatQQ">NapNeko&#x2F;NapCatQQ</a><br>文章部分内容出自<a href="https://napneko.github.io/guide/boot/Shell#napcat-shell-win%E6%89%8B%E5%8A%A8%E5%90%AF%E5%8A%A8%E6%95%99%E7%A8%8B">NapCatQQ 帮助文档</a>, <a href="https://astrbot.app/deploy/platform/aiocqhttp/napcat.html">AsrtBot 帮助文档</a></p>
+    <title>部署 AstrBot 实现多平台聊天机器人功能</title>
+    <url>//page/2025060609.html</url>
+    <content><![CDATA[<div class="note success flat"><p>GitHub项目地址：<a href="https://github.com/AstrBotDevs/AstrBot">AstrBotDevs&#x2F;AstrBot</a></p>
 </div>
 
-<div class="note info flat"><p>由于官方文档不推荐使用 Framerwork，所以本篇只讲述 Shell 版本的部署方式</p>
+<div class="note info flat"><p>文章部分内容出自 <a href="https://astrbot.app/what-is-astrbot.html">AsrtBot 帮助文档</a>  ，<a href="https://github.com/Soulter/AstrBot">Github 项目地址</a></p>
 </div>
 
-<h1 id="安装-NapCatQQ"><a href="#安装-NapCatQQ" class="headerlink" title="安装 NapCatQQ"></a>安装 NapCatQQ</h1><h2 id="Windows-一键安装"><a href="#Windows-一键安装" class="headerlink" title="Windows 一键安装"></a>Windows 一键安装</h2><h3 id="Windows-一键安装-1"><a href="#Windows-一键安装-1" class="headerlink" title="Windows 一键安装"></a>Windows 一键安装</h3><ol>
-<li>打开 Github Releases: <a href="https://github.com/NapNeko/NapCatQQ/releases">NapNeko&#x2F;NapCatQQ</a></li>
-<li>下载 <code>NapCat.Shell.Windows.OneKey.zip</code> </li>
-<li>解压全部文件并运行 <code>NapCatInstaller.exe</code></li>
-<li>等待安装完成后进入 <strong>NapCat.XXXX.Shell</strong> 目录，运行 <code>napcat.bat</code><blockquote>
-<p>XXXX 为版本号，一般由数字组成</p>
+<h1 id="Windows-一键安装器部署-AstrBot"><a href="#Windows-一键安装器部署-AstrBot" class="headerlink" title="Windows 一键安装器部署 AstrBot"></a>Windows 一键安装器部署 AstrBot</h1><h2 id="下载必要文件"><a href="#下载必要文件" class="headerlink" title="下载必要文件"></a>下载必要文件</h2><p>打开 Github Releases：<a href="https://github.com/AstrBotDevs/AstrBotLauncher/releases/latest">AstrBotDevs&#x2F;AstrBotLauncher</a><br>下载 <strong>Source code (zip)</strong> 并解压</p>
+<h2 id="运行安装器"><a href="#运行安装器" class="headerlink" title="运行安装器"></a>运行安装器</h2><p>打开刚刚解压好的目录，双击运行 <code>launcher_astrbot_en.bat</code>，程序会自动下载所需文件</p>
+<p>如果提示 <code>[ERROR] Python is not installed. Please install Python 3.10 or higher</code>，请下载 Python 3.10 或更高版本</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_10-10-09.png" alt="提示没有安装Python"></p>
+<p><a href="https://www.python.org/downloads/release/python-31011/">Python 3.10.11</a> 下载地址<br>进入后下拉，选择 <strong>Windows Installer (64-bit)</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_10-16.png" alt="选择 Windows Installer (64-bit)"></p>
+<p>安装时请选中 <strong>Add python.exe to PATH</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_10-23-45.png" alt="勾选 添加Python到环境变量"></p>
+<h2 id="完成部署"><a href="#完成部署" class="headerlink" title="完成部署"></a>完成部署</h2><p>如果一切顺利的话，你可以在终端日志中找到端口名以及默认用户密码</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060609/2025-06-06_10-39-58.png" alt="查看端口及密码"></p>
+<p>进入控制台，完成后续的配置，如接入大语言模型，部署消息平台等</p>
+<div class="note success flat"><p>默认用户名和密码是 <code>astrbot</code> 和 <code>astrbot</code>。</p>
+</div>
+
+<p><img src="https://storage.ligaogreat.top/page_img/2025060609/SCR-20260501-04.jpg" alt="进入仪表盘"></p>
+<hr>
+<h1 id="通过-Docker-部署"><a href="#通过-Docker-部署" class="headerlink" title="通过 Docker 部署"></a>通过 Docker 部署</h1><div class="note info flat"><p>此小章默认认为您已安装 Docker。如未安装，请参考 <a href="https://docs.docker.com/get-started/get-docker/">获取 Docker | Docker 文档</a></p>
+</div>
+
+<div class="note warning flat"><p>如果你想通过 OneBotv11 的方式接入个人QQ，请务必参考这篇文章 <a href="https://www.ligaogreat.top/2025060619">部署 NapCatQQ 并接入 AstrBot 实现 QQ 聊天机器人功能</a> 中的 <strong>Docker Compose 方法</strong>，否则会造成<strong>功能缺失或部署重复</strong></p>
+</div>
+
+<h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署"></a>开始部署</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> astrbot</span><br><span class="line"><span class="built_in">sudo</span> docker run -itd -p 6180-6200:6180-6200 -p 11451:11451 -v <span class="variable">$PWD</span>/data:/AstrBot/data -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --name astrbot soulter/astrbot:latest</span><br></pre></td></tr></table></figure>
+
+<p>如果因上网环境问题无法连接，请使用下面命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker run -itd -p 6180-6200:6180-6200 -p 11451:11451 -v <span class="variable">$PWD</span>/data:/AstrBot/data -v /etc/localtime:/etc/localtime:ro -v /etc/timezone:/etc/timezone:ro --name astrbot m.daocloud.io/docker.io/soulter/astrbot:latest</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>下面内容来自 <a href="https://astrbot.app/deploy/astrbot/docker.html">AsrtBot帮助文档</a>  </p>
 </blockquote>
-</li>
-</ol>
-<p>可在终端打印日志中找到登陆二维码</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-26-45.png"></p>
-<h3 id="Windows-可视化管理工具"><a href="#Windows-可视化管理工具" class="headerlink" title="Windows 可视化管理工具"></a>Windows 可视化管理工具</h3><ol>
-<li>打开 Github Releases: <a href="https://github.com/NapNeko/NapCatQQ-Desktop/releases">NapNeko&#x2F;NapCatQQ-Desktop</a></li>
-<li>下载 <code>NapCatQQ-Desktop.exe</code></li>
-<li>按照指引安装程序</li>
-<li>在左侧面板中选择 <code>组件 - QQ</code> ，按照提示安装 QQ</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-30-52.png"></p>
-<ol start="5">
-<li>在左侧面板中选择 <code>添加</code> ，在 Bot QQ 中输入机器人 QQ 号</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-39-04.png"></p>
-<ol start="6">
-<li>在左侧面板中选择 <code>列表</code> ，选择要启用的机器人，进入后点击启动</li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-41-53.png"></p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060619/2025-06-08_11-42-19.png"></p>
-<h2 id="Linux-一键安装"><a href="#Linux-一键安装" class="headerlink" title="Linux 一键安装"></a>Linux 一键安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">curl -o \</span><br><span class="line">napcat.sh \</span><br><span class="line">https://nclatest.znin.net/NapNeko/NapCat-Installer/main/script/install.sh \</span><br><span class="line">&amp;&amp; <span class="built_in">sudo</span> bash napcat.sh</span><br></pre></td></tr></table></figure>
-
-<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><h3 id="通过-Docker-Compose-和-AstrBot-一同部署"><a href="#通过-Docker-Compose-和-AstrBot-一同部署" class="headerlink" title="通过 Docker Compose 和 AstrBot 一同部署"></a>通过 Docker Compose 和 AstrBot 一同部署</h3><p>创建名为 <code>docker-compose.yml</code> 的文件，并填写以下内容</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># docker-compose.yml</span></span><br><span class="line"><span class="comment"># NAPCAT_UID=$(id -u) NAPCAT_GID=$(id -g) docker-compose -f ./compose/astrbot.yml up -d</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">napcat:</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">NAPCAT_UID=$&#123;NAPCAT_UID:-1000&#125;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">NAPCAT_GID=$&#123;NAPCAT_GID:-1000&#125;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">MODE=astrbot</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">6099</span><span class="string">:6099</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">NapCat</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mlikiowa/napcat-docker:latest</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./data:/AstrBot/data</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./ntqq:/app/.config/QQ</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">astrbot_network</span></span><br><span class="line">    <span class="attr">mac_address:</span> <span class="string">&quot;02:42:ac:11:00:02&quot;</span></span><br><span class="line">  <span class="attr">astrbot:</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">TZ=Asia/Shanghai</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">soulter/astrbot:latest</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">AstrBot</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;6185:6185&quot;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;6195:6195&quot;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;6199:6199&quot;</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./data:/AstrBot/data</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./napcat/config:/app/napcat/config</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./ntqq:/app/.config/QQ</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">astrbot_network</span></span><br><span class="line"><span class="attr">networks:</span></span><br><span class="line">  <span class="attr">astrbot_network:</span></span><br><span class="line">    <span class="attr">driver:</span> <span class="string">bridge</span></span><br></pre></td></tr></table></figure>
-
-<p>在文件所在目录执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">NAPCAT_UID=$(<span class="built_in">id</span> -u) NAPCAT_GID=$(<span class="built_in">id</span> -g) docker-compose -f ./docker-compose.yml up -d</span><br></pre></td></tr></table></figure>
-
-<h3 id="通过-Docker-部署"><a href="#通过-Docker-部署" class="headerlink" title="通过 Docker 部署"></a>通过 Docker 部署</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">-e NAPCAT_GID=$(<span class="built_in">id</span> -g) \</span><br><span class="line">-e NAPCAT_UID=$(<span class="built_in">id</span> -u) \</span><br><span class="line">-p 3000:3000 \</span><br><span class="line">-p 3001:3001 \</span><br><span class="line">-p 6099:6099 \</span><br><span class="line">--name napcat \</span><br><span class="line">--restart=always \</span><br><span class="line">mlikiowa/napcat-docker:latest</span><br></pre></td></tr></table></figure>
-
-<p>部署后查看日志就可以获取登陆二维码了</p>
-<h1 id="接入-AstrBot"><a href="#接入-AstrBot" class="headerlink" title="接入 AstrBot"></a>接入 AstrBot</h1><h2 id="AstrBot-配置"><a href="#AstrBot-配置" class="headerlink" title="AstrBot 配置"></a>AstrBot 配置</h2><ol>
-<li>打开 AstrBot 面板</li>
-<li>在左侧面板中选择 <code>消息平台</code> ，并在右侧点击 <code>新增适配器</code></li>
-<li>选择 <code>aiocqhttp(OneBotv11)</code></li>
-</ol>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060619/SCR-20250608-ndwa-2.jpg"></p>
-<p>在配置项中填写：</p>
-<ul>
-<li>反向 WebSocket 主机地址：请填主机的 IP 地址，也可以填写 <code>0.0.0.0</code></li>
-<li>反向 WebSocket 端口：填写一个端口（如8848），并且记住这个端口</li>
-</ul>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060619/SCR-20250608-ngtf.jpg"></p>
-<h3 id="NapCatQQ-配置"><a href="#NapCatQQ-配置" class="headerlink" title="NapCatQQ 配置"></a>NapCatQQ 配置</h3><p>打开 <strong>NapCatQQ 的管理面板</strong>，依次找到 <code>网络配置-&gt;新建-&gt;WebSockets客户端</code></p>
-<p>在配置项中填写：</p>
-<ul>
-<li>URL：刚刚配置的主机的 IP 地址+端口，例如 <code>ws://127.0.0.1:8848/ws</code></li>
-<li><code>心跳间隔</code>和<code>重连间隔</code>：5000</li>
-</ul>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060619/SCR-20250608-njqq.jpg"></p>
-<p>检查日志可确认连接状态</p>
-<p><img src="https://storage.ligaogreat.top/page_img/2025060619/SCR-20250606-jcel.jpg"></p>
-]]></content>
-      <categories>
-        <category>GitHub 开源项目部署</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Linux</tag>
-        <tag>Docker</tag>
-        <tag>聊天机器人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>部署 WeChatPadPro 并接入 AstrBot 实现微信聊天机器人功能</title>
-    <url>//page/2025061519.html</url>
-    <content><![CDATA[<div class="note info flat"><p>GitHub项目地址：<a href="https://github.com/WeChatPadPro/WeChatPadPro">WeChatPadPro&#x2F;WeChatPadPro</a></p>
+<table>
+<thead>
+<tr>
+<th>Port</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>6185</td>
+<td>AstrBot WebUI <code>默认</code> 端口</td>
+<td>需要</td>
+</tr>
+<tr>
+<td>6195</td>
+<td>企业微信 <code>默认</code> 端口</td>
+<td>可选</td>
+</tr>
+<tr>
+<td>6199</td>
+<td>OneBot(aiocqhttp) <code>默认</code> 端口</td>
+<td>可选</td>
+</tr>
+<tr>
+<td>6196</td>
+<td>QQ 官方 API(Webhook) HTTP callback server <code>默认</code> 端口</td>
+<td>可选</td>
+</tr>
+<tr>
+<td>11451</td>
+<td>Gewechat callback HTTP server <code>默认</code> 端口</td>
+<td>可选</td>
+</tr>
+</tbody></table>
+<h2 id="完成部署-1"><a href="#完成部署-1" class="headerlink" title="完成部署"></a>完成部署</h2><p>如果一切顺利的话，你可以在终端日志中找到端口名以及默认用户密码</p>
+<p>进入控制台，完成后续的配置，如接入大语言模型，部署消息平台等</p>
+<div class="note success flat"><p>默认用户名和密码是 <code>astrbot</code> 和 <code>astrbot</code>。</p>
 </div>
 
-<h1 id="部署步骤"><a href="#部署步骤" class="headerlink" title="部署步骤"></a>部署步骤</h1><h2 id="使用-Docker-部署"><a href="#使用-Docker-部署" class="headerlink" title="使用 Docker 部署"></a>使用 Docker 部署</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/bclz-wyz/WeChatPadPro-Docker --depth 1</span><br><span class="line"><span class="built_in">cd</span> WeChatPadPro-Docker</span><br><span class="line"><span class="built_in">mkdir</span> main &amp;&amp; <span class="built_in">mkdir</span> mysql &amp;&amp; <span class="built_in">cd</span> main</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/luolin-ai/WeChatPadPro --depth 1</span><br><span class="line"><span class="built_in">mv</span> WeChatPadPro/* .</span><br><span class="line">unzip 859_service_linux.zip</span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line"><span class="built_in">mv</span> setting.json main/assets/setting.json</span><br></pre></td></tr></table></figure>
-<p>可以根据需求编辑 <code>main/assets/setting.json</code> 文件，不推荐使用配置文件默认的<code>adminKey</code></p>
-<p>使用下面命令来运行容器</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker compose up -d &amp;&amp; docker logs wechatpadpro</span><br></pre></td></tr></table></figure>
-
-<h2 id="不使用-Docker"><a href="#不使用-Docker" class="headerlink" title="不使用 Docker"></a>不使用 Docker</h2><p>打开项目地址 <a href="https://github.com/WeChatPadPro/WeChatPadPro">WeChatPadPro&#x2F;WeChatPadPro</a>，按照文档提供的部署方式部署。<br>你可能需要部署下方三个软件：</p>
-<ul>
-<li>WeChatPadPro</li>
-<li>MySQL</li>
-<li>Redis</li>
-</ul>
-<p>通过 <code>http://127.0.0.1:port</code> (port 是 <code>asset/setting.json</code> 中定义的 <code>port</code> 中的端口号)</p>
-<h1 id="接入-AstrBot"><a href="#接入-AstrBot" class="headerlink" title="接入 AstrBot"></a>接入 AstrBot</h1><ol>
-<li>打开 AstrBot 面板</li>
-<li>在左侧面板中选择 <code>消息平台</code> ，并在右侧点击 <code>新增适配器</code></li>
-<li>选择 wechatpadpro(微信)<br><img src="https://storage.ligaogreat.top/page_img/2025061519/SCR-20250615-lqhg.jpg"></li>
-</ol>
-<ul>
-<li>admin_key: <code>setting.json</code>文件中 <code>adminKey</code> 的值。</li>
-<li>host：取决于你的部署情况。host 填写部署 WeChatPadPro 项目的机器的主机地址。</li>
-<li>port：填写 <code>setting.json</code> 中的 port。如上方 Docker 部署，默认为 38849。<br><img src="https://storage.ligaogreat.top/page_img/2025061519/SCR-20250615-mmsa.jpg"></li>
-</ul>
-<p>查看日志，如果连接成功会<strong>出现登陆相关的二维码链接</strong></p>
-<div class="note warning no-icon flat"><p><strong>在第一次掉线之后请务必执行以下工作流程，否则将会严重提高风控风险。</strong></p>
-<ol>
-<li>进入 WechatPadPro 的 API 接口界面，将你刚刚扫码登录的账号的 token 填入 “TOKEN_KEY”，在 ADMIN_KEY 处输入自己设置的密钥。然后点击“连接”。</li>
-<li>然后往下翻找到“登录”——&gt;”唤醒登录（只限扫码登陆）“，点击 ”Try it out“，再点击 ”Execute“。此时，您扫码的那台机器会弹出登录界面。这个时候就能实现老设备登录不会触发风控。</li>
-</ol>
+<hr>
+<h1 id="接入语言大模型"><a href="#接入语言大模型" class="headerlink" title="接入语言大模型"></a>接入语言大模型</h1><div class="note info flat"><p>请确保服务提供商支持 OpenAI API 格式</p>
 </div>
 
-<div class="note warning no-icon flat"><p>如果二次部署 WeChatPadPro，AstrBot 提示授权码无效，可以进入数据目录 (AstrBot&#x2F;data )，删除 <code>wechatpadpro_credentials.json</code> 或改为有效的授权码</p>
+<p>打开 <strong>模型提供商</strong> 标签页，在提供商源处选择 <strong>新增</strong></p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060609/SCR-20260501-01.jpg" alt="选择新增服务商"></p>
+<p>在表中选择一项提供商，这里以 <strong>OpenAI Compatible</strong> 为例</p>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060609/SCR-20260501-02.jpg" alt="选择OpenAI"></p>
+<p>在这里面，我们需要填写的项目有：</p>
+<ul>
+<li><strong>API Key:</strong> 这里输入服务商提供的API Key</li>
+<li><strong>API Base URL:</strong> 这里输入服务商提供的接口</li>
+<li><strong>自定义模型:</strong> 这里输入大语言模型，一般在服务商的接入文档中有提供</li>
+</ul>
+<p><img src="https://storage.ligaogreat.top/page_img/2025060609/SCR-20260501-03.jpg" alt="填写相关信息"></p>
+<p>最后，点击右上角的 <strong>保存配置</strong> 生效</p>
+<hr>
+<h1 id="接入信息平台-如QQ、微信"><a href="#接入信息平台-如QQ、微信" class="headerlink" title="接入信息平台 (如QQ、微信)"></a>接入信息平台 (如QQ、微信)</h1><div class="note success flat"><p>如果你想接入个人QQ，可以参考这篇文章 <a href="https://www.ligaogreat.top/2025060619">部署 NapCatQQ 并接入 AstrBot 实现 QQ 聊天机器人功能</a></p>
+</div>
+
+<div class="note success flat"><p>如果你想接入个人微信，可以参考这篇文章 <a href="https://docs.astrbot.app/platform/weixin_oc.html">AstrBot 帮助文档</a> </p>
+</div>
+
+<div class="note danger flat"><p><del>如果你想接入个人微信，可以参考这篇文章 <a href="https://www.ligaogreat.top/2025061519">部署 WeChatPadPro 并接入 AstrBot 实现微信聊天机器人功能</a></del></p>
 </div>]]></content>
       <categories>
         <category>GitHub 开源项目部署</category>
@@ -1682,8 +1543,8 @@
       <tags>
         <tag>教程</tag>
         <tag>Linux</tag>
-        <tag>Docker</tag>
         <tag>聊天机器人</tag>
+        <tag>Docker</tag>
       </tags>
   </entry>
   <entry>
@@ -1835,6 +1696,138 @@
       <tags>
         <tag>教程</tag>
         <tag>Win9x</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一下在 LinuxMint 安装 Docker 遇到的坑</title>
+    <url>//page/2025011912.html</url>
+    <content><![CDATA[<h1 id="正常-Ubuntu-下安装-Docker-步骤"><a href="#正常-Ubuntu-下安装-Docker-步骤" class="headerlink" title="正常 Ubuntu 下安装 Docker 步骤"></a>正常 Ubuntu 下安装 Docker 步骤</h1><p>开始前，我们需要运行以下命令以卸载所有冲突的软件包</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> pkg <span class="keyword">in</span> docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; <span class="keyword">do</span> <span class="built_in">sudo</span> apt-get remove <span class="variable">$pkg</span>; <span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+
+<div class="note info flat"><p><strong>apt-get</strong> 可能会报告您未安装这些软件包。</p>
+</div>  
+
+<h2 id="设置-Docker-的-apt-仓库"><a href="#设置-Docker-的-apt-仓库" class="headerlink" title="设置 Docker 的 apt 仓库"></a>设置 Docker 的 apt 仓库</h2><h3 id="官方源"><a href="#官方源" class="headerlink" title="官方源"></a>官方源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 添加 Docker 的 GPG key:</span></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get install ca-certificates curl</span><br><span class="line"><span class="built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings</span><br><span class="line"><span class="built_in">sudo</span> curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.asc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line">  </span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br></pre></td></tr></table></figure>
+<h3 id="阿里源"><a href="#阿里源" class="headerlink" title="阿里源"></a>阿里源</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 安装必要的一些系统工具</span></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br><span class="line"><span class="built_in">sudo</span> apt-get install ca-certificates curl gnupg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 信任 Docker 的 GPG 公钥</span></span><br><span class="line"><span class="built_in">sudo</span> install -m 0755 -d /etc/apt/keyrings</span><br><span class="line">curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | <span class="built_in">sudo</span> gpg --dearmor -o /etc/apt/keyrings/docker.gpg</span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> a+r /etc/apt/keyrings/docker.gpg</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入软件源信息</span></span><br><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.gpg] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \</span></span><br><span class="line"><span class="string">  &quot;</span>$(. /etc/os-release &amp;&amp; <span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)<span class="string">&quot; stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br><span class="line"></span><br><span class="line"><span class="built_in">sudo</span> apt-get update</span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h2><p>运行以下命令安装最新版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>安装特定版本的 Docker Engine，首先列出存储库中可用的版本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 列出存储库中可用的版本:</span></span><br><span class="line">apt-cache madison docker-ce | awk <span class="string">&#x27;&#123; print $3 &#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line">5:27.4.1-1~ubuntu.24.04~noble</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>选择所需版本并安装：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">VERSION_STRING=5:27.5.0-1~ubuntu.24.04~noble</span><br><span class="line"><span class="built_in">sudo</span> apt-get install docker-ce=<span class="variable">$VERSION_STRING</span> docker-ce-cli=<span class="variable">$VERSION_STRING</span> containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
+<h2 id="使用-hello-world-镜像验证是否成功安装"><a href="#使用-hello-world-镜像验证是否成功安装" class="headerlink" title="使用 hello-world 镜像验证是否成功安装"></a>使用 hello-world 镜像验证是否成功安装</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker run hello-world</span><br></pre></td></tr></table></figure>
+
+<p>此命令下载一个测试镜像并在容器中运行它。当容器运行时，它会输出一条确认消息然后退出。<br>安装结束。</p>
+<h1 id="Linux-Mint-下遇到的坑"><a href="#Linux-Mint-下遇到的坑" class="headerlink" title="Linux Mint 下遇到的坑"></a>Linux Mint 下遇到的坑</h1><p>安装正常的 Ubuntu 步骤，在 Linux Mint 下添加 Docker 软件源后，会在 <code>apt-get update</code> 步骤下报错，报错内容如下</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">忽略:1 https://download.docker.com/linux/ubuntu wilma InRelease</span><br><span class="line">错误:3 https://download.docker.com/linux/ubuntu wilma Release</span><br><span class="line">正在读取软件包列表... 完成</span><br><span class="line">E: 仓库 “https://download.docker.com/linux/ubuntu wilma Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
+
+<p>这是因为部分 Ubuntu 衍生发行版使用的并不是 <code>VERSION_CODENAME</code> 而是 <code>UBUNTU_CODENAME</code>，使用 <code>VERSION_CODENAME</code> 会导致添加<strong>错误的 Ubuntu 发行版代号</strong></p>
+<p>正常在 Ubuntu 下添加软件源的步骤是这么写的</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$VERSION_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+
+<p>这就需要我们在添加软件源时将 <code>VERSION_CODENAME</code> 改成 <code>UBUNTU_CODENAME</code>，上面阿里源同理</p>
+<div class="note info flat"><p>阿里源不能直接使用下面的内容</p>
+</div>  
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> \</span><br><span class="line">  <span class="string">&quot;deb [arch=<span class="subst">$(dpkg --print-architecture)</span> signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \</span></span><br><span class="line"><span class="string">  <span class="subst">$(. /etc/os-release &amp;&amp; echo <span class="string">&quot;<span class="variable">$UBUNTU_CODENAME</span>&quot;</span>)</span> stable&quot;</span> | \</span><br><span class="line">  <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+
+<p>最后使用 <code>apt-get update</code> 就不会报错了</p>
+]]></content>
+      <categories>
+        <category>踩坑记录</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu</tag>
+        <tag>Docker</tag>
+        <tag>随手记</tag>
+        <tag>LinuxMint</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SSH 生成密钥及指定私钥文件连接</title>
+    <url>//page/2025062320.html</url>
+    <content><![CDATA[<h1 id="密钥生成"><a href="#密钥生成" class="headerlink" title="密钥生成"></a>密钥生成</h1><h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p>使用 <code>-t</code> 选项指定生成的<strong>密钥类型</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
+
+<p>使用 <code>-b</code> 选项指定生成的<strong>密钥位数</strong>，如生成 4096 位的 RSA 密钥</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096</span><br></pre></td></tr></table></figure>
+
+<h2 id="生成适用于-GitHub-的密钥"><a href="#生成适用于-GitHub-的密钥" class="headerlink" title="生成适用于 GitHub 的密钥"></a>生成适用于 GitHub 的密钥</h2><p>使用 <code>-C</code> 选项设置注释文字，如邮箱地址</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -C <span class="string">&quot;Github 邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="将公钥添加到远程服务器"><a href="#将公钥添加到远程服务器" class="headerlink" title="将公钥添加到远程服务器"></a>将公钥添加到远程服务器</h1><h2 id="添加到远程服务器"><a href="#添加到远程服务器" class="headerlink" title="添加到远程服务器"></a>添加到远程服务器</h2><ol>
+<li>查看公钥</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>登录到远程服务器</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh username@example.com</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>编辑 <code>authorized_keys</code> 文件</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li><p>将公钥粘贴到 <code>authorized_keys</code>，确保一个公钥占用一行</p>
+</li>
+<li><p>设置 <code>authorized_keys</code> 的权限</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 600 ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
+
+<h2 id="添加到-GitHub"><a href="#添加到-GitHub" class="headerlink" title="添加到 GitHub"></a>添加到 GitHub</h2><ol>
+<li><p>打开 Github，选择 Setting</p>
+</li>
+<li><p>选择 <strong><code>SSH and GTPG keys</code></strong></p>
+</li>
+<li><p>点击 New SSH key</p>
+</li>
+<li><p>在 <strong><code>key</code></strong> 中输入刚才获取的公钥即可</p>
+</li>
+</ol>
+<p><img src="https://storage.ligaogreat.top/page_img/2022101222/2024-08-31_11-42-25.png" alt="配置 SSH key"></p>
+<h1 id="在-SSH-中指定私钥文件"><a href="#在-SSH-中指定私钥文件" class="headerlink" title="在 SSH 中指定私钥文件"></a>在 SSH 中指定私钥文件</h1><p>从命令行指定 SSH 中的私钥文件，只需在 <code>ssh</code> 命令中使用 <code>-i</code> 选项即可。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -i ~/.ssh/id_rsa username@example.com</span><br></pre></td></tr></table></figure>
+
+<p>如果本地存储了多个密钥时，每次使用 <code>ssh -i</code> 会变得相当麻烦，我们可以在 SSH 配置文件中声明每个 SSH 服务器使用哪个私钥。配置文件储存在 <strong><code>~/.ssh/config</code></strong> 中。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nano ~/.ssh/config</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Host example.com</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa_01</span><br><span class="line"> </span><br><span class="line">Host 192.168.1.1</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa_02</span><br></pre></td></tr></table></figure>
+
+<p>配置后我们就可以直接使用 <code>ssh</code> 命令访问目标服务器了</p>
+]]></content>
+      <categories>
+        <category>随手记</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Windows</tag>
+        <tag>Linux</tag>
+        <tag>SSH</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>汐月和杨希的激情夜晚 (AI创作)</title>
+    <url>//page/2022101019.html</url>
+    <content><![CDATA[<div class="note danger flat"><p>本文章禁止转载！！！</p>
+</div>
+<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-circle-exclamation"></i><p>文章内容由 <a href="https://if.caiyunai.com/">彩云小梦</a> 生成。如有雷同，纯属巧合。</p>
+</div>
+
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>  我的名字叫汐月。就在昨日，我和我的道友老八成功连成了“铁山腚”，这个技能可以用屁崩死敌人。在此之前，我一直都在寻找一种叫做”水银炮”的物品，我一直都在寻找，终于在我寻觅到这种物品的时候，我和道友老八成功连上，并且使用了这个技能，现在我们的实力已经达到了金丹中期。<br>   但是我一直都在寻求更高等级的物品，那就是”水元气炮”，只有将水元素和草元素提升到一定程度才能够发挥它应该具备的力量。而这个技能，也只是其中一样物品而已。<br>   在我和道友老八的帮助下，我的修炼速度快到了极致，这次我们成功连通成功，我们已经是金丹后期的修士。但是由于我们的修行速度太快，使得我们的身体已经承受不住这样的力量，如果继续增长下去的话，就会使我们的身体爆炸而亡。我们决定停止修炼，我们知道我们还需要更强大的力量，所以我们离开了这里。我们回到了我们的洞府。<br>  我的道侣名叫杨希。她是一位火属性的修行者。修炼火元素法术。杨希是一位很美丽的女子，她的脸庞很白皙，很好看，我曾经看过杨希洗澡，她洗澡的时候我突然冲了进去，把她按在地上。我看着她白净的皮肤，和火辣的身材，下面的小兄弟开始按耐不住了。我的手在杨希身上游走，我的嘴巴亲吻着杨希。杨希的眼睛紧闭着，我的心中一阵狂躁。我忍不住了，我要占据她的全身，我要让她成为我的女人。我的身体在这个时候已经控制不住自己了，我的小兄弟开始攻击杨希的身体。杨希感觉到了疼痛，她睁开眼睛看着我。我看到了杨希那迷茫的目光，还有她眼角滑落的泪水。她是一位非常温柔的女子。<br>  这是我第一次和一个女人做，我的身体已经完全失控了。我的小兄弟在疯狂的冲撞着杨希的下身。<br>  “啊！”<br>  杨希娇羞的喊道，她的双腿已经被我分开。我在杨希的双腿间进进出出，杨希的身体不断的扭曲着，发出诱人的声音。<br>  我的欲望越来越强烈，我的身体在不断的颤抖着。杨希已经完全沉醉在了我的进攻之中，她不断的迎合着我。<br>  “杨希，我爱你，我要你成为我的女人。”<br>  “恩……啊。”<br>  随即，我们一起共赴巫山云雨。<br>  这个夜晚，注定是难熬的。我们不停的运动着，杨希在不停的喊着我的名字，在我身下发出令人陶醉的呻吟声。我在她身体里疯狂的冲刺着，杨希的身体不断的颤栗着，随后便是剧烈的颤抖，她的头发散乱开来，脸色潮红，嘴唇微张，她不断的喘息着，她感到了一股强烈的快感袭击着她。<br>  我的身体也在不停的冲击着。她不停的尖叫着。<br>  我的小兄弟在杨希的体内肆意横扫着，杨希的双腿夹住了我的腰身，她的手紧紧抱住了我的肩膀，她的身体不停的扭动着，嘴里发出阵阵低吟，她的呻吟声在空旷的房屋中不断的徘徊。她的表情非常享受，我的动作也越来越激烈，我的双手紧紧的搂住她的身体。我和杨希互相索取着，不停的发生着肉体的碰撞。<br>  我的动作非常快，几乎每秒钟就要进攻几百下，杨希的嘴里发出阵阵娇媚的呻吟。<br>  我的欲望越来越膨胀。我的身体越来越快。我们互相纠缠着，我们在彼此的身体上不断冲击着，发出阵阵令人血脉喷张的声响。<br>  终于，我们的身体达到了最高点。我们的身体一同颤抖着。杨希的身体软绵绵的躺倒在浴室的地上，一副无比满足的样子。<br>  我看着她的样子，心中非常的兴奋。我轻抚着她的身躯，杨希闭上眼睛，嘴角微微翘起，显示出她此刻的幸福。我和她躺在床上，我把头枕在杨希的胸口。我的双手环绕着杨希的小蛮腰，我在她的身边不停的蹭着。杨希的身体微微动了动。她的身体又动了动，我能感觉到杨希在我怀里轻轻扭动着，她的呼吸变得急促起来。 杨希的身体在不停的摩擦着，我感觉到了，她在不停的向我挑逗着。 我的手指在她的肌肤上划过。她的身体又颤抖了一下，我知道杨希是想要了，但是我还没有完全满足她，我不想这么早要了她，我想再多陪陪她，我还想再尝试一次，我要把自己的精华释放出来。我把自己的小兄弟送进杨希的身体中，杨希的身体顿时僵硬起来。我在杨希身体里慢慢的蠕动着，我的双腿在杨希的身体里面不停的抽搐着。我的小兄弟在她的体内进进出出，不停的进退着，杨希发出一声惊天动地的呻吟声，我的身体更加剧烈的动作起来。<br>我在杨希体内冲锋陷阵。杨希的身体不停的颤抖，她的小手紧紧抓住我的后背，我的额头不停的流汗，身体里面的精华不停的释放着。杨希的身体在不断的痉挛着，她的嘴里发出阵阵娇喘声，她的脸颊通红，浑身上下都泛着粉嫩的光泽。<br>我的动作越来越快，我在她的身体里面进进出出，不停的释放着我的精华，不停的进攻着，我的身体越来越强壮，我的小兄弟已经进入到了杨希的体内。<br>杨希的呻吟声越来越大，她的身体已经开始颤抖了。杨希的嘴里开始发出阵阵娇喘声，她的小腹部已经湿润了。我知道，杨希已经准备好了。我再次冲进了杨希的身体，不断的进出，我们在彼此的身体上不停的运动着，不停的进攻着。我们的身体在不停的颤抖着。<br>我们的战斗越来越激烈。我的小兄弟越来越粗壮，越来越坚挺。我们的战斗越来越猛烈，我们不停的发出阵阵呻吟，不断的释放着精华。终于，杨希的身体颤抖着，她的双腿在不停的收缩着，我的小兄弟进出的更加迅速，越来越用力。我和杨希的战斗已经到了最激烈的阶段，我的小兄弟不停的撞击着她的小腹，杨希的身体在不停的收缩，她的身体已经到了崩溃的边缘。我的小兄弟在不停的深入、深入……。<br>我和杨希的战斗越来越激烈。我们的战斗越来越凶猛，我们的呻吟声越来越大，不停的在彼此的身体里面撞击着。杨希的身体不停的收缩着。<br>我们的战斗越来越激烈。我和杨希的战斗越来越频繁，杨希的呻吟声越来越大，我们的动作越来越快。我的小兄弟不停的进出，不停的释放出精华。杨希的身体在不停的颤抖着，我们的呻吟声越来越大。终于，我的小兄弟冲破了阻碍，进入到了杨希的身体里面。<br>我们两个人不停的喘息着，身体依然紧密的结合着。我感觉到杨希的身体已经到了极限。她已经到了极限，我也快到了极限，我们的身体都在颤抖。<br>我和杨希的身体依然紧密结合着。<br>“希儿，我真的快要死了。”我的声音里充满了浓郁的疲倦。<br>“嗯，你快点儿出去吧，不要压坏我的肚子。”<br>“嗯，希儿，我先洗澡，一会儿就来找你。”我说。<br>我走进了浴室，打开淋浴，任由热水从头顶冲刷下来。<br>我坐在浴缸里，我闭上眼睛。<br>热气弥漫了整个浴室，我的思绪飘飞着。<br>我想起了杨希刚才的那番话，她在告诉我：”我喜欢上你了，我喜欢上你了。”<br>我的心里涌上一阵甜蜜，我的脑海里出现杨希的模样。杨希的模样是那么的美丽，那么的迷人。<br>我站起身，打算穿衣服出去。<br>这时候，我听见外面传来一阵敲门声。<br>“谁啊？”我问道。<br>“是我，你睡了吗？”门外传来杨希的声音。<br>我连忙跑了出去。<br>我打开了门，杨希穿着睡裙，她正站在外面。<br>杨希穿着睡裙的时候看起来像个小女孩一般可爱。<br>我的心跳得很厉害。<br>我的身体在微微颤抖着。<br>“我想找你谈谈。”<br>我把杨希拉到了卧室里，杨希的脸色有些潮红。<br>“你怎么穿成这样就出来啦。”我说。<br>“我不舒服。”杨希低下了头。<br>“我……我……我好像有了。”杨希小声地说到。<br>“什么！”我的脑袋轰的一声炸裂了，我的小兄弟居然在这个时候射出了。<br>我的眼前出现了杨希穿着睡裙的身影。<br>我和杨希之间的距离是那么近，那么近，我的鼻尖几乎要触摸到她的鼻尖了。<br>我的心跳得很厉害，我的呼吸也开始变得急促。<br>“怎么办？”我问杨希。<br>杨希低着头。<br>“我们先做措施。”我说。<br>“我……我不行……”杨希摇摇头，我看见她的身体不停的颤抖着。<br>我的身体也开始颤抖。<br>“我不是说让你吃药吗？你怎么还乱吃啊。”<br>“我……我没有吃……”<br>“那你为什么会怀孕呢？”我问她。<br>“我也不知道。”杨希抬起头，脸上写满了疑惑。<br>我看见她眼眶里含满了泪水，一副委屈的表情。<br>我伸手抚摸着她的脸蛋儿，我的心里一片柔软。<br>“希儿，对不起。”<br>杨希的眼泪扑簌簌的掉落了下来。<br>“我不是故意的……我……”我慌张的说。<br>“你别哭了……”我说。<br>“我……我不是故意的，你原谅我好不好。”我说。<br>杨希摇着头，不说话。<br>我伸手抱住她，轻声安慰着她。<br>杨希哭了一会儿之后，她擦干眼角的泪水。<br>“你别哭了，你看你都哭花了。”我笑着对她说。<br>“你欺负我。”杨希嘟囔着。<br>我把杨希搂在怀里，我不知道该说什么了。<br>我和杨希的身体还紧紧的结合在一起，我们都能够感受到对方的体温。<br>“我们不能这样，你会难过的。”我说。<br>“可是我真的好难受。”杨希说。<br>“我给你揉揉。”我说着就要脱下自己的裤衩。<br>杨希连忙躲开，我愣住了。<br>“我不能这样，我不能这样，你别碰我。”杨希捂住胸口，一副很痛苦的样子。<br>“可是你……”我看着杨希，我不知所措。<br>“我想一个人静一静，求求你，让我一个人呆一会儿，你不要管我。”杨希说着挣扎着从我的怀里站起身，向房门口走去。<br>“希儿，我……”我想叫住她。<br>但杨希并不理睬我，只顾向房间门口走去。<br>她刚刚走到门口，我就追了上去。<br>她转身看着我，脸上带着哀怨的神情。<br>我的心被狠狠的刺伤了。<br>我的手握住了杨希的肩膀。<br>“你别这样。”<br>“你放手啊！”杨希大喊着，”你别碰我！你是个混蛋！”<br>“我是混蛋，是我混蛋，你不要哭了好不好？”我看着杨希，我真的不知道该如何是好。<br>“你走！你走啊！你不要管我！”杨希吼着。<br>“你别生气嘛，好不好？我错了还不行吗？”我说。<br>“我讨厌你，我讨厌你，你走！走啊！”杨希哭着说。<br>“你别这样好不好？”我说。<br>“你走，我不想看到你，我一看到你我就会想起你对我做过的那些事。”杨希大声的哭喊着，声音里全是悲愤。<br>“对不起，我错了，我错了还不行吗？你原谅我好不好？”我说。<br>“滚！我再也不想看见你，你滚！”杨希用力的推了我一下。<br>我被她推倒在地上，我的膝盖撞在地板上，疼得我眼泪直流。<br>杨希转身向房间里面走去。<br>我连忙爬起来，却只是傻傻的站在那看杨希离开。<br>我的心里很痛苦。<br>这种滋味儿让我无法忍受，我真恨自己为什么要来招惹杨希。<br>我真的是混蛋。<br>我真的是罪该万死。<br>我不应该这样做的。<br>我真的不应该这样对待杨希。<br>我的心里充满了愧疚。<br>我想跟杨希解释清楚，我不能失去她，更不能失去她腹中的孩子。<br>我不能让这个孩子出生在我的错误的家庭中。<br>我必须和杨希说清楚。<br>我想立马上去跟杨希道歉，但是我的双腿发软，根本站不起来，直到我看到杨希从阳台跳了下去。<br>“希儿！”我惊恐的叫了起来。<br>“希儿！”我大喊着，但杨希已经从阳台上跳了下去。<br>杨希的身体摔落在地面上，我的心里像针扎一般，我觉得我的心脏被抽空了似的。<br>我冲到窗边，看到杨希躺在楼底下。<br>楼层虽高，但也不至于让她受伤吧？<br>我赶紧跑下楼，来到杨希身边，她的脸色苍白。<br>我扶起她，她的身体冰冷，就像死尸一般。<br>“希儿……希儿……”我使劲儿摇晃着她，希望她能醒过来。<br>她依旧昏迷着。<br>我抱起她，冲到了医院。<br>她被送进了手术室。<br>我坐在走廊上，双手捂着脸，心里十分难受。<br>我知道这次的事情，我真的错了，而且还错得非常严重。<br>我的心里很内疚。<br>“希儿……你别怪我，你原谅我好不好？你一定不会有事的，你一定不会有事的。”我喃喃着，眼睛里含满了泪水。<br>手术进行了整整两个多小时，终于在凌晨四点钟的时候结束了。<br>医生从病房里走了出来。<br>“医生……医生……”我拉住了医生的衣袖，焦急的问：”她怎么样了？”<br>医生摘下口罩，叹了口气：”病人的身体太虚弱了，又受到了强烈的刺激，加上长期的压抑，精神处于崩溃的边缘。我们已经尽最大努力了。”<br>医生的这句话像是一记闷棍打在我的头上，我的身体顿时瘫坐在地上。<br>“她怎么会这样？她不应该这样啊……”我哭着说。<br>“这位先生，您请节哀顺变。”医生拍拍我的肩膀说。<br>我的眼前顿时一黑，身体一软，晕了过去。<br>医生说的没错，这个女人确实不适合怀孕。<br>我不应该这么做的，这样做会害死她的。<br>我怎么可以让她受到这么大的刺激呢？<br>“对不起，对不起……我……我不应该这么做的……”我哭着说。<br>我的心里充满了悔恨与后悔，我真的不能再继续错下去了。<br>我真的不能失去杨希……<br>“对不起……对不起……”我喃喃着，眼睛里全是眼泪。<br>不知过了多久，我萌生了一个念头，既然上天没法给我一个完美的结局，那么我只好亲手毁掉这个结局。<br>我决定，亲手杀死自己的骨肉，亲手结束自己的性命。<br>我不想再活下去了，我宁愿去死。<br>我不会再爱任何人，因为我爱的人已经离开人世。<br>我要陪着杨希，永远的陪着她。<br>我想到了这里，我立马跑上楼顶，准备与世长辞。<br>于是我紧闭双眼，向下跳去。<br>当我睁开眼的时候，我的双脚悬挂在半空中，我的身体已经坠入了万丈深渊之中。<br>我的眼前一片漆黑。<br>我的脑海里忽然想到了杨希。<br>她的模样在我的眼前越来越清晰。<br>我感觉自己好像快死了一样，我感觉不到疼，但我能感觉到身体正在一点一点的变凉。<br>我不敢去看自己的身体，我害怕看到我身体的变化。<br>我感觉我正在一点一点的消失。<br>我感觉到了一丝不舍。<br>我想，我的身体已经快不属于我了，我要去找杨希。<br>我的灵魂离体了，但我能感觉得到我的肉体还留在我的身体内。<br>我的灵魂离开身体，飘到了杨希身旁。<br>“希儿。”我轻轻唤她，她的眉头微皱。<br>我伸出手，轻抚着她的脸颊，她的眼皮动了一下，缓慢的睁开了眼睛。<br>我看到她眼睛里含满了泪花。<br>“对不起……对不起……希儿，都是我的错。”我低声说。<br>“你是谁？”杨希疑惑的看着我。<br>“我……是你老公。”我说。<br>我愣住了，杨希好像把我忘了。<br>“老婆……你……你忘了我吗？”我试探着说。<br>“你……你是我的老公吗？”杨希问我。<br>“是啊。”我点点头。<br>“那……那你怎么叫我老婆……你……你是谁？”杨希疑惑的问。<br>我听到杨希的话，心里有一阵失落。<br>“我是你老公，你不认识我了吗？”我问。<br>杨希摇摇头：”我……我……”<br>她一时想不起来我是谁了。<br>我看到她的眼里全是疑惑。</p>
+]]></content>
+      <categories>
+        <category>人工智障</category>
+      </categories>
+      <tags>
+        <tag>AI创作</tag>
       </tags>
   </entry>
 </search>
